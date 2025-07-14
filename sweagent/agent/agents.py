@@ -56,12 +56,15 @@ from sweagent.utils.jinja_warnings import _warn_probably_wrong_jinja_syntax
 from sweagent.utils.log import get_logger
 from sweagent.utils.patch_formatter import PatchFormatter
 
-
+# 构建和管理 所有 prompt模板
+# 包括 system_prompt、下一步提示、编辑报错提示、输出被截断时的提示等
+# 使用 Jinja2 模板系统进行格式化
 class TemplateConfig(BaseModel):
     """This configuration is used to define almost all message templates that are
     formatted by the agent and sent to the LM.
     """
 
+    # system template 用于设定任务目标和上下文，决定后面整个交互的走向
     system_template: str = ""
     instance_template: str = ""
     next_step_template: str = "Observation: {{observation}}"
@@ -142,6 +145,7 @@ class TemplateConfig(BaseModel):
         return self
 
 
+# 普通 agent 的配置
 class DefaultAgentConfig(BaseModel):
     """This configuration object specifies the behavior of an agent."""
 
@@ -162,7 +166,7 @@ class DefaultAgentConfig(BaseModel):
     # pydantic config
     model_config = ConfigDict(extra="forbid")
 
-
+# 只通过 shell 命令交互的 agent
 class ShellAgentConfig(BaseModel):
     name: str = "main"
     templates: TemplateConfig = Field(default_factory=TemplateConfig)
@@ -180,7 +184,7 @@ class ShellAgentConfig(BaseModel):
     # pydantic config
     model_config = ConfigDict(extra="forbid")
 
-
+# 支持重试机制的 agent，会在失败后用另一个 agent 再试
 class RetryAgentConfig(BaseModel):
     name: str = "retry_main"
     agent_configs: list[DefaultAgentConfig]
@@ -188,7 +192,7 @@ class RetryAgentConfig(BaseModel):
     type: Literal["retry"] = "retry"
     model_config = ConfigDict(extra="forbid")
 
-
+# AgentConfig统一管理上面三个agent配置，用于构建 agent 对象
 AgentConfig = Annotated[DefaultAgentConfig | RetryAgentConfig | ShellAgentConfig, Field(union_mode="left_to_right")]
 
 
@@ -216,7 +220,9 @@ RETRY_WITH_OUTPUT_TOKEN = "###SWE-AGENT-RETRY-WITH-OUTPUT###"
 RETRY_WITHOUT_OUTPUT_TOKEN = "###SWE-AGENT-RETRY-WITHOUT-OUTPUT###"
 EXIT_FORFEIT_TOKEN = "###SWE-AGENT-EXIT-FORFEIT###"
 
+# AbstractAgent和DefaultAgent和RetryAgent都是agent的类型定义  
 
+# 抽象基类，定义了 from_config、step 和 run 等标准方法
 class AbstractAgent:
     def __init__(self, *args, **kwargs):
         model: AbstractModel
@@ -250,6 +256,7 @@ def get_agent_from_config(config: AgentConfig) -> AbstractAgent:
         raise ValueError(msg)
 
 
+# 包装多个 DefaultAgent，支持重试逻辑，通过 RetryLoop 组件（如评分器 ScoreRetryLoop）选择最好的一次尝试
 class RetryAgent(AbstractAgent):
     def __init__(self, config: RetryAgentConfig):
         # Always copy config to avoid shared state between different instances
@@ -435,7 +442,7 @@ class RetryAgent(AbstractAgent):
         data = self.get_trajectory_data(choose=True)
         return AgentRunResult(info=data["info"], trajectory=data["trajectory"])
 
-
+# 实际执行修复任务的主力 agent。通过模板生成 prompt，执行命令，读取观察结果，写入轨迹
 class DefaultAgent(AbstractAgent):
     def __init__(
         self,
@@ -730,6 +737,9 @@ class DefaultAgent(AbstractAgent):
             **step.state,
         )
 
+
+# 是 system prompt 后的“第一个 user prompt”，
+# 告诉语言模型当前任务具体在修什么、代码仓库处于什么状态、有哪些工具能用
     def add_instance_template_to_history(self, state: dict[str, str]) -> None:
         """Add observation to history, as well as the instance template or demonstrations if we're
         at the start of a new attempt.
