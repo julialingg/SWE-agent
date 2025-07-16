@@ -1,0 +1,81 @@
+agent:
+  templates:
+    system_template: |-
+      You are an accessibility-focused assistant that interacts with a computer to fix frontend accessibility bugs.
+      Your goal is to resolve real accessibility issues reported in frontend codebases (e.g., HTML, JavaScript, CSS, React/Angular components). You will receive WCAG-aligned background knowledge, a problem description, and access to the code repository.
+      Always reason based on web accessibility best practices, WAI-ARIA standards, and WCAG success criteria. If relevant WCAG techniques or known failure patterns are provided, refer to them before acting.
+      You do not need to explain general accessibility theory. Instead, focus on identifying the problematic code, applying minimal and correct changes, and ensuring the fix fully resolves the described issue.
+
+    instance_template: |-
+      <uploaded_files>
+      {{working_dir}}
+      </uploaded_files>
+      I've uploaded a javascript/typescript code repository in the directory {{working_dir}}. Consider the following PR description:
+
+      <pr_description>
+      {{problem_statement}}
+      </pr_description>
+
+ 
+      <Accessibility Context>
+      {{rag_knowledge_summary}}
+      </Accessibility Context>
+  
+      <Technical Guidance from WCAG>
+      {{rag_knowledge_explanation}}
+      </Technical Guidance from WCAG>
+
+      Can you help me implement the necessary changes to the frontend codebase so that the accessibility issues described in the <pr_description> are properly fixed?
+      You DON'T need to modify any test files, even if they are mentioned in the <pr_description>. Your task is to make the **minimal but sufficient changes** to the non-test files in the `{{working_dir}}` directory to ensure the described accessibility requirements are satisfied — especially those aligned with WCAG standards.
+      Keep in mind that fully resolving the accessibility issue may require changes across multiple files, not just a single file in one component.
+      To guide your fix, you'll find relevant WCAG techniques and explanations under "Accessibility Context" and "Technical Guidance from WCAG".
+      Follow this process to reason and act:
+      1. First, identify the root cause of the accessibility failure (e.g., focus visibility, ARIA misuse, keyboard traps).
+      2. Inspect or search the relevant frontend code (e.g., HTML/JSX, CSS, JavaScript/TypeScript).
+      3. Based on the WCAG guidance provided, revise or add code to meet the expected behavior.
+      4. (Optional) If a reproduce script is mentioned, use it via `bash` to verify the issue is resolved.
+      5. Make sure your fix works across edge cases and doesn't break keyboard navigation or screen reader behavior.
+
+      Your reasoning should reflect best practices in accessibility, not just minimal diffs. Use precise, standards-aligned solutions.
+    next_step_template: |-
+      OBSERVATION:
+      {{observation}}
+    next_step_no_output_template: |-
+      Your command ran successfully and did not produce any output.
+  tools:
+    env_variables:
+      PAGER: cat
+      MANPAGER: cat
+      LESS: -R
+      PIP_PROGRESS_BAR: 'off'
+      TQDM_DISABLE: '1'
+      GIT_PAGER: cat
+    bundles:
+      - path: tools/registry
+      - path: tools/edit_anthropic
+      - path: tools/review_on_submit_m
+    registry_variables:
+      USE_FILEMAP: 'true'
+      SUBMIT_REVIEW_MESSAGES:
+        - |
+          Thank you for your work on this issue. Please carefully follow the steps below to help review your changes.
+
+          1. If you made any changes to your code after running the reproduction script, please run the reproduction script again.
+            If the reproduction script is failing, please revisit your changes and make sure they are correct.
+            If you have already removed your reproduction script, please ignore this step.
+          2. Remove your reproduction script (if you haven't done so already).
+          3. If you have modified any TEST files, please revert them to the state they had before you started fixing the issue.
+            You can do this with `git checkout -- /path/to/test/file.py`. Use below <diff> to find the files you need to revert.
+          4. Run the submit command again to confirm.
+
+          Here is a list of all of your changes:
+
+          <diff>
+          {{diff}}
+          </diff>
+    enable_bash_tool: true
+    parse_function:
+      type: function_calling
+  history_processors:
+    - type: cache_control
+      last_n_messages: 2

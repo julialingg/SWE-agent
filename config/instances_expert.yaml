@@ -1,0 +1,321 @@
+# 正确的镜像名称（如 a11y/angular-26673:latest 等）
+# problem_statement 和 issue_statement 合并显示
+# 显式指定了 repo_name: app 作为预挂载目录
+- env:
+    deployment:
+      type: docker
+      image: a11y/angular-29793:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: 'Resolves a couple of issues with how focus is managed in the chips. Includes:
+      _x000D_
+
+      _x000D_
+
+      ### fix(material/chips): chip grid not re-focusing first item_x000D_
+
+      There was some logic that assumed that if a chip is the active item in the key
+      manager, it must have focus. That''s incorrect since the active item isn''t
+      reset on blur. This prevented the chip grid from re-focusing the first chip
+      when the user tabs into it a second time._x000D_
+
+      _x000D_
+
+      These changes add a `focus` call whenever the grid receives focus._x000D_
+
+      _x000D_
+
+      Fixes #29785._x000D_
+
+      _x000D_
+
+      ### fix(material/chips): focus escape not working consistently_x000D_
+
+      Fixes that the chip grid was using change detection to allow focus to escape
+      on tab presses. That''s unreliable, because change detection might not be executed
+      immediately. These changes fix the issue by changing the DOM node directly.
+
+
+      ---
+
+
+      ### Is this a regression?
+
+
+      - [ ] Yes, this behavior used to work in the previous version
+
+
+      ### The previous version in which this bug was not present was
+
+
+      _No response_
+
+
+      ### Description
+
+
+      The focus indicator is not displayed for the chip grid when navigating through
+      a MatChipGrid component the second and subsequent time.
+
+
+      ### Reproduction
+
+
+      StackBlitz link: https://stackblitz.com/run?file=package.json_x000D_
+
+      Steps to reproduce:_x000D_
+
+      1. Go to https://material.angular.io/components/chips/overview#chips-input_x000D_
+
+      2. Tab through this MatChipGrid example_x000D_
+
+      3. Click anywhere on the page to reset the focus_x000D_
+
+      4. Tab through the example again_x000D_
+
+      5. Notice that the focus indicator is not rendered around the chip grid the
+      second time_x000D_
+
+
+
+      ### Expected Behavior
+
+
+      The focus indicator should always be displayed around the chip grid when navigating
+      through.
+
+
+      ### Actual Behavior
+
+
+      The focus indicator is not rendered around the chip grid the second (and subsequent)
+      time.
+
+
+      ### Environment
+
+
+      - Angular:_x000D_
+
+      - CDK/Material: 18.2.5_x000D_
+
+      - Browser(s): Chrome_x000D_
+
+      - Operating System (e.g. Windows, macOS, Ubuntu): macOS_x000D_
+
+      '
+    id: angular_components_29793
+- env:
+    deployment:
+      type: docker
+      image: a11y/angular-27742:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: 'Make accessibility fix for Tabs component. Add `aria-hidden="true"` to
+      inactive tab panels. Fix issue where chromevox would read the names of inactive
+      tab panels when navigating past the active tab panel (#27741). Fix this by adding
+      `aria-hidden="true"` to inactive tab panels to exclude them from the a11y tree._x000D_
+
+      _x000D_
+
+      I believe what was happening is that the inactive tab panels had an aria-labelled
+      by references that pointed to the tab header. Existing behavior seems to be
+      that Chromevox was following the aria-labelledby references and announcing the
+      labels of the inactive tabs. With this commit applied, Chromevox no longer reads
+      panels of inactive tabs._x000D_
+
+      _x000D_
+
+      Fix #27741
+
+
+      ---
+
+
+      ### Is this a regression?
+
+
+      - [ ] Yes, this behavior used to work in the previous version
+
+
+      ### The previous version in which this bug was not present was
+
+
+      _No response_
+
+
+      ### Description
+
+
+      ChromeOS Screenreader will announces the names of inactive tabs when navigating
+      through the tab panel._x000D_
+
+      _x000D_
+
+      Originaly reported internally ([internal issue report](b/264920043)).
+
+
+      ### Reproduction
+
+
+      Steps to reproduce:_x000D_
+
+      1. With screen reader enabled, navigate to "Basic use of the tab group" demo
+      on material/angular.io_x000D_
+
+      2. Linear navigate forward to "Content 1"_x000D_
+
+      3. (Announces "Content 1")_x000D_
+
+      4. Continue to linear navigate forward until on "Events"_x000D_
+
+
+
+      ### Expected Behavior
+
+
+      Announces events
+
+
+      ### Actual Behavior
+
+
+      Announces names of inactive tabs before announcing events
+
+
+      ### Environment
+
+
+      N/A'
+    id: angular_components_27742
+- env:
+    deployment:
+      type: docker
+      image: a11y/angular-27317:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[fix(material/chips): remove button role from editable chips](https://github.com/angular/components/pull/27317/commits/b056fc25b8bccce941b861cc774ad9185aa9a303)\
+      \ _x000D_\n_x000D_\nRemoves the button role from editable input chips. Fix accessibility_x000D_\n\
+      issue in ChipRow where the chip action element is mislabeled as a_x000D_\nbutton\
+      \ (https://github.com/angular/components/issues/27106). Remove butotn role by\
+      \ remove DOM node thtat used to_x000D_\nhave button role and using the gridcell\
+      \ role element for the primary_x000D_\nchip action instead._x000D_\n_x000D_\n\
+      Tested cross-browser with supported screen readers on MacOS and Windows._x000D_\n\
+      Tested on \"Chips with input\" example by verifying that a chip could be_x000D_\n\
+      added then edited after adding. Also verifying that AT read the chip's_x000D_\n\
+      aria description._x000D_\n_x000D_\nTesting Environment_x000D_\n - macOS 13.4\
+      \ (22F66) / VoiceOver_x000D_\n   - Chrome Version 114.0.5735.133 (Official Build)\
+      \ (arm64)_x000D_\n   - Firefox 114.0.1 (64-bit)_x000D_\n - windows 10 Enteprise\
+      \ Version 22H2_x000D_\n   - JAWS VERSION 2020.2006.12 ILM_x000D_\n   - NVDA\
+      \ version 2022.3_x000D_\n   - Chrome Version 114.0.5735.134 (Official Build)\
+      \ (64-bit)_x000D_\n   - Firefox 114.0.2 (64-bit)_x000D_\n_x000D_\nFix https://github.com/angular/components/issues/27106\n\
+      \n---\n\n### Is this a regression?\n\n- [ ] Yes, this behavior used to work\
+      \ in the previous version\n\n### The previous version in which this bug was\
+      \ not present was\n\n_No response_\n\n### Description\n\nFor editable chips,\
+      \ clicking on the chip and pressing enter do not have the same effect. Click\
+      \ on the chip focuses it and doesn't have any other side effects. To begin editing\
+      \ the chip, the user can either press enter or double click on it. Since htis\
+      \ is a butotn interaciton, I would expect enter and click to perform the action\
+      \ of the button. Since click and enter are not consistent, that means that the\
+      \ editable chip doesn't conform to the ARIA button interaciton pattern._x000D_\n\
+      _x000D_\nDouble click is generally not available to Screen Readers and Assistive\
+      \ Technology.\n\n### Reproduction\n\nSteps to reproduce:_x000D_\n1. Navigate\
+      \ to \"Chips with input\" example on https://material.angular.io/components/chips/examples#chips-input_x000D_\n\
+      2. (Demo appears with favorite fruits)_x000D_\n3. Click on \"Lemon\"_x000D_\n\
+      _x000D_\n\n\n### Expected Behavior\n\nA cursor appears after \"Lemon\" to indicate\
+      \ that it is in the editing state._x000D_\n_x000D_\nThis is expected because\
+      \ that's what pressing enter does.\n\n### Actual Behavior\n\nThe background\
+      \ of \"Lemon\" darkens to indicated that it is focused\n\n### Environment\n\n\
+      - Angular:_x000D_\n- CDK/Material:_x000D_\n- Browser(s):_x000D_\n- Operating\
+      \ System (e.g. Windows, macOS, Ubuntu):_x000D_\n"
+    id: angular_components_27317
+- env:
+    deployment:
+      type: docker
+      image: a11y/angular-27025:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: 'The badge current applies `aria-describedby` to surface the developer-provided
+      description. However, assistive technology generally doesn''t read these description
+      on non-interactive elements. So, we can take advantage of our handy `InteractivityChecker`
+      and do something different if the host is not focusable; we add the description
+      inline as the next sibling with `.cdk-visually-hidden`._x000D_
+
+      _x000D_
+
+      Fixes #26190
+
+
+      ---
+
+
+      ### Feature Description_x000D_
+
+      _x000D_
+
+      ### For accessibility purposes,_x000D_
+
+      _x000D_
+
+      When you have a badge which communicates some meaningful information such as
+      a number or something else, it should not have the aria-hidden=true attribute_x000D_
+
+      _x000D_
+
+      So is it possible to create in the API a new "matBadgeAriaHidden" directive
+      to set it manually according to the relevance of the badge content?_x000D_
+
+      _x000D_
+
+      ### Use Case_x000D_
+
+      _x000D_
+
+      _No response_'
+    id: angular_components_27025
+- env:
+    deployment:
+      type: docker
+      image: a11y/angular-26673:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: 'For mat-option, set `aria-selected="false"` on deselected options. Confirms
+      with [WAI ARIA Listbox authoring practices guide](https://www.w3.org/WAI/ARIA/apg/patterns/listbox/),
+      which says to always include aria-selected attribute on listbox options that
+      can be selected. Fix issue where VoiceOver reads every option as "selected"
+      (21491)._x000D_
+
+      _x000D_
+
+      Fix #21491
+
+
+      ---
+
+
+      I noticed this after updating to Big Sur and trying out `mat-select` with VoiceOver.
+      While navigating through the list of options, VoiceOver reads out something
+      like "Coffee, selected (5 of 10)" for every single option. My first thought
+      was that it might be due to the fact that we remove `aria-selected` from unselected
+      options in order to reduce noise, but the behavior got even weirder once I got
+      it to set `aria-selected="false"`. Now VoiceOver started reading out both "not
+      selected" and "selected" for each option, e.g. "Coffee not selected, selected
+      (5 of 10)". We''ll have to investigate this, because I don''t see anything obvious
+      that could be causing it. My best bet is that there''s a random "selected" string
+      somewhere in the DOM that is being picked up by VoiceOver.'
+    id: angular_components_26673

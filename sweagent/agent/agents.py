@@ -55,6 +55,7 @@ from sweagent.utils.config import _convert_paths_to_abspath, _strip_abspath_from
 from sweagent.utils.jinja_warnings import _warn_probably_wrong_jinja_syntax
 from sweagent.utils.log import get_logger
 from sweagent.utils.patch_formatter import PatchFormatter
+from sweagent.utils.rag_utils import retrieve_wcag_knowledge
 
 # 构建和管理 所有 prompt模板
 # 包括 system_prompt、下一步提示、编辑报错提示、输出被截断时的提示等
@@ -656,11 +657,14 @@ class DefaultAgent(AbstractAgent):
         """
         assert self._problem_statement is not None
         assert self._env is not None
+        summary_text, explanation_text = retrieve_wcag_knowledge(self._problem_statement.get_problem_statement())
         return dict(
             command_docs=self.tools.config.command_docs,
             **self.tools.config.env_variables,
             **kwargs,
             problem_statement=self._problem_statement.get_problem_statement(),
+            rag_knowledge_summary = summary_text,
+            rag_knowledge_explanation = explanation_text,
             repo=self._env.repo.repo_name if self._env.repo is not None else "",
             **self._problem_statement.get_extra_fields(),
         )
