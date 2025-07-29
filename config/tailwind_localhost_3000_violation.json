@@ -1,0 +1,2946 @@
+{
+    "results": [
+        {
+            "ruleId": "svg_graphics_labelled",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/svg[1]",
+                "aria": "/document[1]/link[1]/graphics-document[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "fail_acc_name",
+            "message": "The SVG element has no accessible name",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 24,
+                "top": 18,
+                "height": 20,
+                "width": 160
+            },
+            "snippet": "<svg class=\"h-5 text-black dark:text-white\" fill=\"none\" viewBox=\"0 0 167 21\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/svg_graphics_labelled.html#%7B%22message%22%3A%22The%20SVG%20element%20has%20no%20accessible%20name%22%2C%22snippet%22%3A%22%3Csvg%20class%3D%5C%22h-5%20text-black%20dark%3Atext-white%5C%22%20fill%3D%5C%22none%5C%22%20viewBox%3D%5C%220%200%20167%2021%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_acc_name%22%2C%22ruleId%22%3A%22svg_graphics_labelled%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]",
+                "aria": "/document[1]/button[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 200,
+                "top": 16,
+                "height": 24,
+                "width": 60
+            },
+            "snippet": "<button data-headlessui-state=\"\" aria-expanded=\"false\" aria-haspopup=\"menu\" type=\"button\" id=\"headlessui-menu-button-«Rf5fal7»\" aria-label=\"Select version of library\" class=\"flex items-center gap-0.5 rounded-2xl bg-gray-950/5 py-0.5 pr-1.5 pl-2.5 text-xs/5 font-medium text-gray-950 tabular-nums hover:bg-gray-950/7.5 data-active:bg-gray-950/7.5 dark:bg-white/10 dark:text-white dark:hover:bg-white/12.5 dark:data-active:bg-white/12.5\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Cbutton%20data-headlessui-state%3D%5C%22%5C%22%20aria-expanded%3D%5C%22false%5C%22%20aria-haspopup%3D%5C%22menu%5C%22%20type%3D%5C%22button%5C%22%20id%3D%5C%22headlessui-menu-button-%C2%ABRf5fal7%C2%BB%5C%22%20aria-label%3D%5C%22Select%20version%20of%20library%5C%22%20class%3D%5C%22flex%20items-center%20gap-0.5%20rounded-2xl%20bg-gray-950%2F5%20py-0.5%20pr-1.5%20pl-2.5%20text-xs%2F5%20font-medium%20text-gray-950%20tabular-nums%20hover%3Abg-gray-950%2F7.5%20data-active%3Abg-gray-950%2F7.5%20dark%3Abg-white%2F10%20dark%3Atext-white%20dark%3Ahover%3Abg-white%2F12.5%20dark%3Adata-active%3Abg-white%2F12.5%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "label_name_visible",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]",
+                "aria": "/document[1]/button[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Accessible name does not match or contain the visible label text",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 200,
+                "top": 16,
+                "height": 24,
+                "width": 60
+            },
+            "snippet": "<button data-headlessui-state=\"\" aria-expanded=\"false\" aria-haspopup=\"menu\" type=\"button\" id=\"headlessui-menu-button-«Rf5fal7»\" aria-label=\"Select version of library\" class=\"flex items-center gap-0.5 rounded-2xl bg-gray-950/5 py-0.5 pr-1.5 pl-2.5 text-xs/5 font-medium text-gray-950 tabular-nums hover:bg-gray-950/7.5 data-active:bg-gray-950/7.5 dark:bg-white/10 dark:text-white dark:hover:bg-white/12.5 dark:data-active:bg-white/12.5\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/label_name_visible.html#%7B%22message%22%3A%22Accessible%20name%20does%20not%20match%20or%20contain%20the%20visible%20label%20text%22%2C%22snippet%22%3A%22%3Cbutton%20data-headlessui-state%3D%5C%22%5C%22%20aria-expanded%3D%5C%22false%5C%22%20aria-haspopup%3D%5C%22menu%5C%22%20type%3D%5C%22button%5C%22%20id%3D%5C%22headlessui-menu-button-%C2%ABRf5fal7%C2%BB%5C%22%20aria-label%3D%5C%22Select%20version%20of%20library%5C%22%20class%3D%5C%22flex%20items-center%20gap-0.5%20rounded-2xl%20bg-gray-950%2F5%20py-0.5%20pr-1.5%20pl-2.5%20text-xs%2F5%20font-medium%20text-gray-950%20tabular-nums%20hover%3Abg-gray-950%2F7.5%20data-active%3Abg-gray-950%2F7.5%20dark%3Abg-white%2F10%20dark%3Atext-white%20dark%3Ahover%3Abg-white%2F12.5%20dark%3Adata-active%3Abg-white%2F12.5%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22label_name_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/button[1]",
+                "aria": "/document[1]/button[2]"
+            },
+            "ruleTime": 1,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 1438,
+                "top": 16,
+                "height": 24,
+                "width": 65
+            },
+            "snippet": "<button class=\"inline-flex items-center gap-1 rounded-full bg-gray-950/2 px-2 py-1 inset-ring inset-ring-gray-950/8 dark:bg-white/5 dark:inset-ring-white/2\" type=\"button\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Cbutton%20class%3D%5C%22inline-flex%20items-center%20gap-1%20rounded-full%20bg-gray-950%2F2%20px-2%20py-1%20inset-ring%20inset-ring-gray-950%2F8%20dark%3Abg-white%2F5%20dark%3Ainset-ring-white%2F2%5C%22%20type%3D%5C%22button%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "svg_graphics_labelled",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/button[1]/svg[1]",
+                "aria": "/document[1]/button[2]"
+            },
+            "ruleTime": 0,
+            "reasonId": "fail_acc_name",
+            "message": "The SVG element has no accessible name",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 1444,
+                "top": 20,
+                "height": 16,
+                "width": 16
+            },
+            "snippet": "<svg class=\"-ml-0.5 size-4 fill-gray-600 dark:fill-gray-500\" viewBox=\"0 0 16 16\" xmlns=\"http://www.w3.org/2000/svg\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/svg_graphics_labelled.html#%7B%22message%22%3A%22The%20SVG%20element%20has%20no%20accessible%20name%22%2C%22snippet%22%3A%22%3Csvg%20class%3D%5C%22-ml-0.5%20size-4%20fill-gray-600%20dark%3Afill-gray-500%5C%22%20viewBox%3D%5C%220%200%2016%2016%5C%22%20xmlns%3D%5C%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_acc_name%22%2C%22ruleId%22%3A%22svg_graphics_labelled%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "svg_graphics_labelled",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/a[5]/svg[1]",
+                "aria": "/document[1]/link[6]/graphics-document[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "fail_acc_name",
+            "message": "The SVG element has no accessible name",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 1811,
+                "top": 14,
+                "height": 5,
+                "width": 5
+            },
+            "snippet": "<svg class=\"absolute top-[-2px] left-[-2px] fill-sky-300 dark:fill-sky-300/50\" viewBox=\"0 0 5 5\" height=\"5\" width=\"5\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/svg_graphics_labelled.html#%7B%22message%22%3A%22The%20SVG%20element%20has%20no%20accessible%20name%22%2C%22snippet%22%3A%22%3Csvg%20class%3D%5C%22absolute%20top-%5B-2px%5D%20left-%5B-2px%5D%20fill-sky-300%20dark%3Afill-sky-300%2F50%5C%22%20viewBox%3D%5C%220%200%205%205%5C%22%20height%3D%5C%225%5C%22%20width%3D%5C%225%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_acc_name%22%2C%22ruleId%22%3A%22svg_graphics_labelled%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "svg_graphics_labelled",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/a[5]/svg[2]",
+                "aria": "/document[1]/link[6]/graphics-document[2]"
+            },
+            "ruleTime": 0,
+            "reasonId": "fail_acc_name",
+            "message": "The SVG element has no accessible name",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 1849,
+                "top": 14,
+                "height": 5,
+                "width": 5
+            },
+            "snippet": "<svg class=\"absolute top-[-2px] right-[-2px] fill-sky-300 dark:fill-sky-300/50\" viewBox=\"0 0 5 5\" height=\"5\" width=\"5\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/svg_graphics_labelled.html#%7B%22message%22%3A%22The%20SVG%20element%20has%20no%20accessible%20name%22%2C%22snippet%22%3A%22%3Csvg%20class%3D%5C%22absolute%20top-%5B-2px%5D%20right-%5B-2px%5D%20fill-sky-300%20dark%3Afill-sky-300%2F50%5C%22%20viewBox%3D%5C%220%200%205%205%5C%22%20height%3D%5C%225%5C%22%20width%3D%5C%225%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_acc_name%22%2C%22ruleId%22%3A%22svg_graphics_labelled%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "svg_graphics_labelled",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/a[5]/svg[3]",
+                "aria": "/document[1]/link[6]/graphics-document[3]"
+            },
+            "ruleTime": 0,
+            "reasonId": "fail_acc_name",
+            "message": "The SVG element has no accessible name",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 1811,
+                "top": 37,
+                "height": 5,
+                "width": 5
+            },
+            "snippet": "<svg class=\"absolute bottom-[-2px] left-[-2px] fill-sky-300 dark:fill-sky-300/50\" viewBox=\"0 0 5 5\" height=\"5\" width=\"5\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/svg_graphics_labelled.html#%7B%22message%22%3A%22The%20SVG%20element%20has%20no%20accessible%20name%22%2C%22snippet%22%3A%22%3Csvg%20class%3D%5C%22absolute%20bottom-%5B-2px%5D%20left-%5B-2px%5D%20fill-sky-300%20dark%3Afill-sky-300%2F50%5C%22%20viewBox%3D%5C%220%200%205%205%5C%22%20height%3D%5C%225%5C%22%20width%3D%5C%225%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_acc_name%22%2C%22ruleId%22%3A%22svg_graphics_labelled%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "svg_graphics_labelled",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/a[5]/svg[4]",
+                "aria": "/document[1]/link[6]/graphics-document[4]"
+            },
+            "ruleTime": 0,
+            "reasonId": "fail_acc_name",
+            "message": "The SVG element has no accessible name",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 1849,
+                "top": 37,
+                "height": 5,
+                "width": 5
+            },
+            "snippet": "<svg class=\"absolute right-[-2px] bottom-[-2px] fill-sky-300 dark:fill-sky-300/50\" viewBox=\"0 0 5 5\" height=\"5\" width=\"5\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/svg_graphics_labelled.html#%7B%22message%22%3A%22The%20SVG%20element%20has%20no%20accessible%20name%22%2C%22snippet%22%3A%22%3Csvg%20class%3D%5C%22absolute%20right-%5B-2px%5D%20bottom-%5B-2px%5D%20fill-sky-300%20dark%3Afill-sky-300%2F50%5C%22%20viewBox%3D%5C%220%200%205%205%5C%22%20height%3D%5C%225%5C%22%20width%3D%5C%225%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_acc_name%22%2C%22ruleId%22%3A%22svg_graphics_labelled%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "svg_graphics_labelled",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/a[6]/svg[1]",
+                "aria": "/document[1]/link[7]/graphics-document[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "fail_acc_name",
+            "message": "The SVG element has no accessible name",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 1876,
+                "top": 18,
+                "height": 20,
+                "width": 20
+            },
+            "snippet": "<svg class=\"size-5 fill-black/40 dark:fill-gray-400\" viewBox=\"0 0 20 20\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/svg_graphics_labelled.html#%7B%22message%22%3A%22The%20SVG%20element%20has%20no%20accessible%20name%22%2C%22snippet%22%3A%22%3Csvg%20class%3D%5C%22size-5%20fill-black%2F40%20dark%3Afill-gray-400%5C%22%20viewBox%3D%5C%220%200%2020%2020%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_acc_name%22%2C%22ruleId%22%3A%22svg_graphics_labelled%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[1]/div[2]/h1[1]",
+                "aria": "/document[1]/heading[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 192,
+                "top": 153,
+                "height": 192,
+                "width": 1536
+            },
+            "snippet": "<h1 class=\"px-2 text-4xl tracking-tighter text-balance max-lg:font-medium max-sm:px-4 sm:text-5xl lg:text-6xl xl:text-8xl\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Ch1%20class%3D%5C%22px-2%20text-4xl%20tracking-tighter%20text-balance%20max-lg%3Afont-medium%20max-sm%3Apx-4%20sm%3Atext-5xl%20lg%3Atext-6xl%20xl%3Atext-8xl%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[1]/div[4]/p[1]",
+                "aria": "/document[1]/paragraph[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 192,
+                "top": 385,
+                "height": 56,
+                "width": 768
+            },
+            "snippet": "<p class=\"max-w-(--breakpoint-md) px-2 text-lg/7 font-medium text-gray-600 max-sm:px-4 dark:text-gray-400\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Cp%20class%3D%5C%22max-w-(--breakpoint-md)%20px-2%20text-lg%2F7%20font-medium%20text-gray-600%20max-sm%3Apx-4%20dark%3Atext-gray-400%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[1]/div[6]/div[1]/a[1]",
+                "aria": "/document[1]/link[9]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 200,
+                "top": 481,
+                "height": 40,
+                "width": 112
+            },
+            "snippet": "<a href=\"docs/installation\" class=\"z-1 max-sm:hidden inline-block rounded-4xl bg-black px-4 py-2 text-sm/6 font-semibold text-white hover:bg-gray-800 dark:bg-gray-700 dark:hover:bg-gray-600\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22docs%2Finstallation%5C%22%20class%3D%5C%22z-1%20max-sm%3Ahidden%20inline-block%20rounded-4xl%20bg-black%20px-4%20py-2%20text-sm%2F6%20font-semibold%20text-white%20hover%3Abg-gray-800%20dark%3Abg-gray-700%20dark%3Ahover%3Abg-gray-600%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "svg_graphics_labelled",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[1]/div[6]/div[1]/button[1]/svg[1]",
+                "aria": "/document[1]/button[5]"
+            },
+            "ruleTime": 0,
+            "reasonId": "fail_acc_name",
+            "message": "The SVG element has no accessible name",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 342,
+                "top": 493,
+                "height": 16,
+                "width": 16
+            },
+            "snippet": "<svg class=\"-ml-0.5 size-4 fill-gray-600 dark:fill-gray-500\" viewBox=\"0 0 16 16\" xmlns=\"http://www.w3.org/2000/svg\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/svg_graphics_labelled.html#%7B%22message%22%3A%22The%20SVG%20element%20has%20no%20accessible%20name%22%2C%22snippet%22%3A%22%3Csvg%20class%3D%5C%22-ml-0.5%20size-4%20fill-gray-600%20dark%3Afill-gray-500%5C%22%20viewBox%3D%5C%220%200%2016%2016%5C%22%20xmlns%3D%5C%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_acc_name%22%2C%22ruleId%22%3A%22svg_graphics_labelled%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "element_tabbable_role_valid",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[1]/div[7]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/pre[1]",
+                "aria": "/document[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "fail_no_valid_role",
+            "message": "The tabbable element does not have a valid widget role",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 203,
+                "top": 657,
+                "height": 360,
+                "width": 1002
+            },
+            "snippet": "<pre tabindex=\"0\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/element_tabbable_role_valid.html#%7B%22message%22%3A%22The%20tabbable%20element%20does%20not%20have%20a%20valid%20widget%20role%22%2C%22snippet%22%3A%22%3Cpre%20tabindex%3D%5C%220%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_no_valid_role%22%2C%22ruleId%22%3A%22element_tabbable_role_valid%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[2]/div[2]/p[1]",
+                "aria": "/document[1]/paragraph[2]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 136,
+                "top": 1205,
+                "height": 66,
+                "width": 16
+            },
+            "snippet": "<p class=\"text-sky-500 dark:text-sky-400 top-0 -left-[var(--gutter-width)] origin-bottom-right text-left font-mono text-sm font-semibold tracking-widest uppercase max-2xl:mb-4 max-2xl:px-2 max-sm:px-4 sm:text-xs 2xl:absolute 2xl:-translate-x-full 2xl:-translate-y-full 2xl:-rotate-90 2xl:text-right\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Cp%20class%3D%5C%22text-sky-500%20dark%3Atext-sky-400%20top-0%20-left-%5Bvar(--gutter-width)%5D%20origin-bottom-right%20text-left%20font-mono%20text-sm%20font-semibold%20tracking-widest%20uppercase%20max-2xl%3Amb-4%20max-2xl%3Apx-2%20max-sm%3Apx-4%20sm%3Atext-xs%202xl%3Aabsolute%202xl%3A-translate-x-full%202xl%3A-translate-y-full%202xl%3A-rotate-90%202xl%3Atext-right%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[2]/div[3]/h2[1]",
+                "aria": "/document[1]/heading[2]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 192,
+                "top": 1205,
+                "height": 40,
+                "width": 512
+            },
+            "snippet": "<h2 class=\"max-w-lg px-2 text-[2.5rem]/10 font-medium tracking-tighter text-balance max-sm:px-4 2xl:mt-0\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Ch2%20class%3D%5C%22max-w-lg%20px-2%20text-%5B2.5rem%5D%2F10%20font-medium%20tracking-tighter%20text-balance%20max-sm%3Apx-4%202xl%3Amt-0%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[2]/div[5]/p[1]",
+                "aria": "/document[1]/paragraph[3]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 192,
+                "top": 1285,
+                "height": 56,
+                "width": 768
+            },
+            "snippet": "<p class=\"max-w-(--breakpoint-md) px-2 text-base/7 text-gray-600 max-sm:px-4 dark:text-gray-400\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Cp%20class%3D%5C%22max-w-(--breakpoint-md)%20px-2%20text-base%2F7%20text-gray-600%20max-sm%3Apx-4%20dark%3Atext-gray-400%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[2]/div[6]/div[1]/a[1]",
+                "aria": "/document[1]/link[10]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 200,
+                "top": 1381,
+                "height": 40,
+                "width": 180
+            },
+            "snippet": "<a href=\"/sponsors\" class=\"inline-flex items-center justify-center gap-2 rounded-4xl bg-black px-4 py-2 text-sm/6 font-semibold text-white hover:bg-gray-800 dark:bg-gray-700 dark:hover:bg-gray-600\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22%2Fsponsors%5C%22%20class%3D%5C%22inline-flex%20items-center%20justify-center%20gap-2%20rounded-4xl%20bg-black%20px-4%20py-2%20text-sm%2F6%20font-semibold%20text-white%20hover%3Abg-gray-800%20dark%3Abg-gray-700%20dark%3Ahover%3Abg-gray-600%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[2]/section[1]/div[1]/ul[1]",
+                "aria": "/document[1]/list[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 192,
+                "top": 1485,
+                "height": 446,
+                "width": 1536
+            },
+            "snippet": "<ul class=\"grid grid-cols-2 gap-5 md:gap-10 lg:grid-cols-3 xl:grid-cols-4\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Cul%20class%3D%5C%22grid%20grid-cols-2%20gap-5%20md%3Agap-10%20lg%3Agrid-cols-3%20xl%3Agrid-cols-4%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[3]/div[2]/p[1]",
+                "aria": "/document[1]/paragraph[4]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 136,
+                "top": 2107,
+                "height": 140,
+                "width": 16
+            },
+            "snippet": "<p class=\"text-pink-500 dark:text-pink-400 top-0 -left-[var(--gutter-width)] origin-bottom-right text-left font-mono text-sm font-semibold tracking-widest uppercase max-2xl:mb-4 max-2xl:px-2 max-sm:px-4 sm:text-xs 2xl:absolute 2xl:-translate-x-full 2xl:-translate-y-full 2xl:-rotate-90 2xl:text-right\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Cp%20class%3D%5C%22text-pink-500%20dark%3Atext-pink-400%20top-0%20-left-%5Bvar(--gutter-width)%5D%20origin-bottom-right%20text-left%20font-mono%20text-sm%20font-semibold%20tracking-widest%20uppercase%20max-2xl%3Amb-4%20max-2xl%3Apx-2%20max-sm%3Apx-4%20sm%3Atext-xs%202xl%3Aabsolute%202xl%3A-translate-x-full%202xl%3A-translate-y-full%202xl%3A-rotate-90%202xl%3Atext-right%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[3]/div[3]/h2[1]",
+                "aria": "/document[1]/heading[3]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 192,
+                "top": 2107,
+                "height": 40,
+                "width": 512
+            },
+            "snippet": "<h2 class=\"max-w-lg px-2 text-[2.5rem]/10 font-medium tracking-tighter text-balance max-sm:px-4 2xl:mt-0\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Ch2%20class%3D%5C%22max-w-lg%20px-2%20text-%5B2.5rem%5D%2F10%20font-medium%20tracking-tighter%20text-balance%20max-sm%3Apx-4%202xl%3Amt-0%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[3]/div[5]/p[1]",
+                "aria": "/document[1]/paragraph[5]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 192,
+                "top": 2187,
+                "height": 56,
+                "width": 768
+            },
+            "snippet": "<p class=\"max-w-(--breakpoint-md) px-2 text-base/7 text-gray-600 max-sm:px-4 dark:text-gray-400\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Cp%20class%3D%5C%22max-w-(--breakpoint-md)%20px-2%20text-base%2F7%20text-gray-600%20max-sm%3Apx-4%20dark%3Atext-gray-400%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "svg_graphics_labelled",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[3]/div[6]/div[1]/div[1]/div[1]/div[1]/svg[1]",
+                "aria": "/document[1]/graphics-document[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "fail_acc_name",
+            "message": "The SVG element has no accessible name",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 240,
+                "top": 2355,
+                "height": 72,
+                "width": 112
+            },
+            "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 112 72\" height=\"72\" width=\"112\" class=\"text-gray-950 [--site-background:var(--color-white)] dark:text-white dark:[--site-background:var(--color-gray-950)]\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/svg_graphics_labelled.html#%7B%22message%22%3A%22The%20SVG%20element%20has%20no%20accessible%20name%22%2C%22snippet%22%3A%22%3Csvg%20xmlns%3D%5C%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%5C%22%20fill%3D%5C%22none%5C%22%20viewBox%3D%5C%220%200%20112%2072%5C%22%20height%3D%5C%2272%5C%22%20width%3D%5C%22112%5C%22%20class%3D%5C%22text-gray-950%20%5B--site-background%3Avar(--color-white)%5D%20dark%3Atext-white%20dark%3A%5B--site-background%3Avar(--color-gray-950)%5D%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_acc_name%22%2C%22ruleId%22%3A%22svg_graphics_labelled%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[3]/div[6]/div[1]/div[1]/div[1]/div[2]/p[1]",
+                "aria": "/document[1]/paragraph[6]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 384,
+                "top": 2395,
+                "height": 56,
+                "width": 576
+            },
+            "snippet": "<p class=\"max-w-xl text-sm/7 text-gray-600 dark:text-gray-400\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Cp%20class%3D%5C%22max-w-xl%20text-sm%2F7%20text-gray-600%20dark%3Atext-gray-400%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[3]/div[6]/div[1]/div[1]/div[3]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[2]/button[1]",
+                "aria": "/document[1]/button[6]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 833,
+                "top": 2779,
+                "height": 40,
+                "width": 151
+            },
+            "snippet": "<button class=\"w-full rounded-lg bg-pink-500 px-3 py-2 text-sm/6 font-bold text-white @min-[theme(--breakpoint-sm)]:w-auto\" type=\"button\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Cbutton%20class%3D%5C%22w-full%20rounded-lg%20bg-pink-500%20px-3%20py-2%20text-sm%2F6%20font-bold%20text-white%20%40min-%5Btheme(--breakpoint-sm)%5D%3Aw-auto%5C%22%20type%3D%5C%22button%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[3]/div[6]/div[1]/div[1]/div[3]/div[1]/div[2]/div[1]/div[1]/div[1]/div[3]/p[1]",
+                "aria": "/document[1]/paragraph[7]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 264,
+                "top": 2863,
+                "height": 48,
+                "width": 720
+            },
+            "snippet": "<p class=\"mt-4 line-clamp-2 text-sm/6 text-gray-600 @min-[theme(--breakpoint-xl)]:max-w-md dark:text-gray-400\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Cp%20class%3D%5C%22mt-4%20line-clamp-2%20text-sm%2F6%20text-gray-600%20%40min-%5Btheme(--breakpoint-xl)%5D%3Amax-w-md%20dark%3Atext-gray-400%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "svg_graphics_labelled",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[3]/div[6]/div[1]/div[2]/div[1]/div[1]/svg[1]",
+                "aria": "/document[1]/graphics-document[3]"
+            },
+            "ruleTime": 0,
+            "reasonId": "fail_acc_name",
+            "message": "The SVG element has no accessible name",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 240,
+                "top": 3003,
+                "height": 72,
+                "width": 112
+            },
+            "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 112 72\" height=\"72\" width=\"112\" class=\"text-gray-950 [--site-background:var(--color-white)] dark:text-white dark:[--site-background:var(--color-gray-950)]\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/svg_graphics_labelled.html#%7B%22message%22%3A%22The%20SVG%20element%20has%20no%20accessible%20name%22%2C%22snippet%22%3A%22%3Csvg%20xmlns%3D%5C%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%5C%22%20fill%3D%5C%22none%5C%22%20viewBox%3D%5C%220%200%20112%2072%5C%22%20height%3D%5C%2272%5C%22%20width%3D%5C%22112%5C%22%20class%3D%5C%22text-gray-950%20%5B--site-background%3Avar(--color-white)%5D%20dark%3Atext-white%20dark%3A%5B--site-background%3Avar(--color-gray-950)%5D%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_acc_name%22%2C%22ruleId%22%3A%22svg_graphics_labelled%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[3]/div[6]/div[1]/div[2]/div[1]/div[2]/p[1]",
+                "aria": "/document[1]/paragraph[8]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 384,
+                "top": 3043,
+                "height": 56,
+                "width": 532
+            },
+            "snippet": "<p class=\"max-w-xl text-sm/7 text-gray-600 dark:text-gray-400\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Cp%20class%3D%5C%22max-w-xl%20text-sm%2F7%20text-gray-600%20dark%3Atext-gray-400%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "svg_graphics_labelled",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[3]/div[6]/div[1]/div[3]/div[1]/div[1]/svg[1]",
+                "aria": "/document[1]/graphics-document[4]"
+            },
+            "ruleTime": 0,
+            "reasonId": "fail_acc_name",
+            "message": "The SVG element has no accessible name",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 1004,
+                "top": 3003,
+                "height": 72,
+                "width": 112
+            },
+            "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 112 72\" height=\"72\" width=\"112\" class=\"text-gray-950 [--site-background:var(--color-white)] dark:text-white dark:[--site-background:var(--color-gray-950)]\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/svg_graphics_labelled.html#%7B%22message%22%3A%22The%20SVG%20element%20has%20no%20accessible%20name%22%2C%22snippet%22%3A%22%3Csvg%20xmlns%3D%5C%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%5C%22%20fill%3D%5C%22none%5C%22%20viewBox%3D%5C%220%200%20112%2072%5C%22%20height%3D%5C%2272%5C%22%20width%3D%5C%22112%5C%22%20class%3D%5C%22text-gray-950%20%5B--site-background%3Avar(--color-white)%5D%20dark%3Atext-white%20dark%3A%5B--site-background%3Avar(--color-gray-950)%5D%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_acc_name%22%2C%22ruleId%22%3A%22svg_graphics_labelled%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[3]/div[6]/div[1]/div[3]/div[1]/div[2]/p[1]",
+                "aria": "/document[1]/paragraph[9]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 1148,
+                "top": 3043,
+                "height": 56,
+                "width": 532
+            },
+            "snippet": "<p class=\"max-w-xl text-sm/7 text-gray-600 dark:text-gray-400\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Cp%20class%3D%5C%22max-w-xl%20text-sm%2F7%20text-gray-600%20dark%3Atext-gray-400%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "svg_graphics_labelled",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[3]/div[6]/div[1]/div[3]/div[3]/div[1]/div[1]/div[2]/div[1]/svg[1]",
+                "aria": "/document[1]/graphics-document[5]"
+            },
+            "ruleTime": 0,
+            "reasonId": "fail_acc_name",
+            "message": "The SVG element has no accessible name",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 1335,
+                "top": 3367,
+                "height": 8,
+                "width": 15
+            },
+            "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" height=\"8\" width=\"15\" class=\"relative z-10\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/svg_graphics_labelled.html#%7B%22message%22%3A%22The%20SVG%20element%20has%20no%20accessible%20name%22%2C%22snippet%22%3A%22%3Csvg%20xmlns%3D%5C%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%5C%22%20fill%3D%5C%22none%5C%22%20height%3D%5C%228%5C%22%20width%3D%5C%2215%5C%22%20class%3D%5C%22relative%20z-10%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_acc_name%22%2C%22ruleId%22%3A%22svg_graphics_labelled%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "img_alt_valid",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[3]/div[6]/div[1]/div[3]/div[3]/div[1]/div[1]/div[3]/div[1]/div[1]/img[1]",
+                "aria": "/document[1]/img[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "fail_no_alt",
+            "message": "The image has neither an accessible name nor is marked as decorative or redundant",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 1155,
+                "top": 3179,
+                "height": 621,
+                "width": 375
+            },
+            "snippet": "<img style=\"--offset: 0px; --midpoint: calc(375px / 2);\" src=\"/_next/static/media/dark-mode.light.c6e76787.png\" class=\"absolute inset-0 [clip:rect(0px,calc(var(--midpoint)-var(--offset)),621px,0px)]\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/img_alt_valid.html#%7B%22message%22%3A%22The%20image%20has%20neither%20an%20accessible%20name%20nor%20is%20marked%20as%20decorative%20or%20redundant%22%2C%22snippet%22%3A%22%3Cimg%20style%3D%5C%22--offset%3A%200px%3B%20--midpoint%3A%20calc(375px%20%2F%202)%3B%5C%22%20src%3D%5C%22%2F_next%2Fstatic%2Fmedia%2Fdark-mode.light.c6e76787.png%5C%22%20class%3D%5C%22absolute%20inset-0%20%5Bclip%3Arect(0px%2Ccalc(var(--midpoint)-var(--offset))%2C621px%2C0px)%5D%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_no_alt%22%2C%22ruleId%22%3A%22img_alt_valid%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "img_alt_valid",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[3]/div[6]/div[1]/div[3]/div[3]/div[1]/div[1]/div[3]/div[1]/div[2]/img[1]",
+                "aria": "/document[1]/img[2]"
+            },
+            "ruleTime": 0,
+            "reasonId": "fail_no_alt",
+            "message": "The image has neither an accessible name nor is marked as decorative or redundant",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 1155,
+                "top": 3179,
+                "height": 621,
+                "width": 375
+            },
+            "snippet": "<img src=\"/_next/static/media/dark-mode.dark.22b5739e.png\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/img_alt_valid.html#%7B%22message%22%3A%22The%20image%20has%20neither%20an%20accessible%20name%20nor%20is%20marked%20as%20decorative%20or%20redundant%22%2C%22snippet%22%3A%22%3Cimg%20src%3D%5C%22%2F_next%2Fstatic%2Fmedia%2Fdark-mode.dark.22b5739e.png%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_no_alt%22%2C%22ruleId%22%3A%22img_alt_valid%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "svg_graphics_labelled",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[3]/div[6]/div[1]/div[4]/div[1]/div[1]/svg[1]",
+                "aria": "/document[1]/graphics-document[6]"
+            },
+            "ruleTime": 0,
+            "reasonId": "fail_acc_name",
+            "message": "The SVG element has no accessible name",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 240,
+                "top": 3651,
+                "height": 72,
+                "width": 112
+            },
+            "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 112 72\" height=\"72\" width=\"112\" class=\"text-gray-950 [--site-background:var(--color-white)] dark:text-white dark:[--site-background:var(--color-gray-950)]\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/svg_graphics_labelled.html#%7B%22message%22%3A%22The%20SVG%20element%20has%20no%20accessible%20name%22%2C%22snippet%22%3A%22%3Csvg%20xmlns%3D%5C%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%5C%22%20fill%3D%5C%22none%5C%22%20viewBox%3D%5C%220%200%20112%2072%5C%22%20height%3D%5C%2272%5C%22%20width%3D%5C%22112%5C%22%20class%3D%5C%22text-gray-950%20%5B--site-background%3Avar(--color-white)%5D%20dark%3Atext-white%20dark%3A%5B--site-background%3Avar(--color-gray-950)%5D%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_acc_name%22%2C%22ruleId%22%3A%22svg_graphics_labelled%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[3]/div[6]/div[1]/div[4]/div[1]/div[2]/p[1]",
+                "aria": "/document[1]/paragraph[10]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 384,
+                "top": 3691,
+                "height": 56,
+                "width": 380
+            },
+            "snippet": "<p class=\"max-w-xl text-sm/7 text-gray-600 dark:text-gray-400\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Cp%20class%3D%5C%22max-w-xl%20text-sm%2F7%20text-gray-600%20dark%3Atext-gray-400%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "element_tabbable_role_valid",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[3]/div[6]/div[1]/div[4]/div[3]/div[1]/div[1]/div[1]/div[2]/div[1]/pre[1]",
+                "aria": "/document[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "fail_no_valid_role",
+            "message": "The tabbable element does not have a valid widget role",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 244,
+                "top": 3859,
+                "height": 456,
+                "width": 580
+            },
+            "snippet": "<pre tabindex=\"0\" style=\"background-color:transparent;color:var(--color-slate-50)\" class=\"shiki tailwindcss-theme\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/element_tabbable_role_valid.html#%7B%22message%22%3A%22The%20tabbable%20element%20does%20not%20have%20a%20valid%20widget%20role%22%2C%22snippet%22%3A%22%3Cpre%20tabindex%3D%5C%220%5C%22%20style%3D%5C%22background-color%3Atransparent%3Bcolor%3Avar(--color-slate-50)%5C%22%20class%3D%5C%22shiki%20tailwindcss-theme%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_no_valid_role%22%2C%22ruleId%22%3A%22element_tabbable_role_valid%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "svg_graphics_labelled",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[3]/div[6]/div[1]/div[5]/div[1]/div[1]/svg[1]",
+                "aria": "/document[1]/graphics-document[7]"
+            },
+            "ruleTime": 0,
+            "reasonId": "fail_acc_name",
+            "message": "The SVG element has no accessible name",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 852,
+                "top": 3651,
+                "height": 72,
+                "width": 112
+            },
+            "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 112 72\" height=\"72\" width=\"112\" class=\"text-gray-950 [--site-background:var(--color-white)] dark:text-white dark:[--site-background:var(--color-gray-950)]\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/svg_graphics_labelled.html#%7B%22message%22%3A%22The%20SVG%20element%20has%20no%20accessible%20name%22%2C%22snippet%22%3A%22%3Csvg%20xmlns%3D%5C%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%5C%22%20fill%3D%5C%22none%5C%22%20viewBox%3D%5C%220%200%20112%2072%5C%22%20height%3D%5C%2272%5C%22%20width%3D%5C%22112%5C%22%20class%3D%5C%22text-gray-950%20%5B--site-background%3Avar(--color-white)%5D%20dark%3Atext-white%20dark%3A%5B--site-background%3Avar(--color-gray-950)%5D%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_acc_name%22%2C%22ruleId%22%3A%22svg_graphics_labelled%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[3]/div[6]/div[1]/div[5]/div[1]/div[2]/p[1]",
+                "aria": "/document[1]/paragraph[11]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 996,
+                "top": 3691,
+                "height": 56,
+                "width": 576
+            },
+            "snippet": "<p class=\"max-w-xl text-sm/7 text-gray-600 dark:text-gray-400\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Cp%20class%3D%5C%22max-w-xl%20text-sm%2F7%20text-gray-600%20dark%3Atext-gray-400%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "svg_graphics_labelled",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[3]/div[6]/div[1]/div[6]/div[1]/div[1]/svg[1]",
+                "aria": "/document[1]/graphics-document[8]"
+            },
+            "ruleTime": 0,
+            "reasonId": "fail_acc_name",
+            "message": "The SVG element has no accessible name",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 240,
+                "top": 4299,
+                "height": 72,
+                "width": 112
+            },
+            "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 112 72\" height=\"72\" width=\"112\" class=\"text-gray-950 [--site-background:var(--color-white)] dark:text-white dark:[--site-background:var(--color-gray-950)]\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/svg_graphics_labelled.html#%7B%22message%22%3A%22The%20SVG%20element%20has%20no%20accessible%20name%22%2C%22snippet%22%3A%22%3Csvg%20xmlns%3D%5C%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%5C%22%20fill%3D%5C%22none%5C%22%20viewBox%3D%5C%220%200%20112%2072%5C%22%20height%3D%5C%2272%5C%22%20width%3D%5C%22112%5C%22%20class%3D%5C%22text-gray-950%20%5B--site-background%3Avar(--color-white)%5D%20dark%3Atext-white%20dark%3A%5B--site-background%3Avar(--color-gray-950)%5D%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_acc_name%22%2C%22ruleId%22%3A%22svg_graphics_labelled%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[3]/div[6]/div[1]/div[6]/div[1]/div[2]/p[1]",
+                "aria": "/document[1]/paragraph[12]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 384,
+                "top": 4339,
+                "height": 56,
+                "width": 532
+            },
+            "snippet": "<p class=\"max-w-xl text-sm/7 text-gray-600 dark:text-gray-400\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Cp%20class%3D%5C%22max-w-xl%20text-sm%2F7%20text-gray-600%20dark%3Atext-gray-400%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[3]/div[6]/div[1]/div[6]/div[3]/div[1]/div[1]/div[1]/h3[1]",
+                "aria": "/document[1]/heading[4]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 304,
+                "top": 4435,
+                "height": 24,
+                "width": 612
+            },
+            "snippet": "<h3 class=\"text-base/6 font-semibold text-gray-950 dark:text-white\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Ch3%20class%3D%5C%22text-base%2F6%20font-semibold%20text-gray-950%20dark%3Atext-white%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "svg_graphics_labelled",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[3]/div[6]/div[1]/div[7]/div[1]/div[1]/svg[1]",
+                "aria": "/document[1]/graphics-document[9]"
+            },
+            "ruleTime": 0,
+            "reasonId": "fail_acc_name",
+            "message": "The SVG element has no accessible name",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 1004,
+                "top": 4299,
+                "height": 72,
+                "width": 112
+            },
+            "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 112 72\" height=\"72\" width=\"112\" class=\"text-gray-950 [--site-background:var(--color-white)] dark:text-white dark:[--site-background:var(--color-gray-950)]\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/svg_graphics_labelled.html#%7B%22message%22%3A%22The%20SVG%20element%20has%20no%20accessible%20name%22%2C%22snippet%22%3A%22%3Csvg%20xmlns%3D%5C%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%5C%22%20fill%3D%5C%22none%5C%22%20viewBox%3D%5C%220%200%20112%2072%5C%22%20height%3D%5C%2272%5C%22%20width%3D%5C%22112%5C%22%20class%3D%5C%22text-gray-950%20%5B--site-background%3Avar(--color-white)%5D%20dark%3Atext-white%20dark%3A%5B--site-background%3Avar(--color-gray-950)%5D%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_acc_name%22%2C%22ruleId%22%3A%22svg_graphics_labelled%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[3]/div[6]/div[1]/div[7]/div[1]/div[2]/p[1]",
+                "aria": "/document[1]/paragraph[13]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 1148,
+                "top": 4339,
+                "height": 56,
+                "width": 532
+            },
+            "snippet": "<p class=\"max-w-xl text-sm/7 text-gray-600 dark:text-gray-400\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Cp%20class%3D%5C%22max-w-xl%20text-sm%2F7%20text-gray-600%20dark%3Atext-gray-400%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "svg_graphics_labelled",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[3]/div[6]/div[1]/div[7]/div[3]/div[1]/div[1]/div[1]/svg[1]",
+                "aria": "/document[1]/graphics-document[10]"
+            },
+            "ruleTime": 0,
+            "reasonId": "fail_acc_name",
+            "message": "The SVG element has no accessible name",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 1012,
+                "top": 4483,
+                "height": 72,
+                "width": 72
+            },
+            "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 65 65\" class=\"size-16 rounded-lg bg-white text-gray-800 shadow-sm sm:size-18 dark:bg-gray-900 dark:text-white dark:inset-ring dark:inset-ring-white/5\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/svg_graphics_labelled.html#%7B%22message%22%3A%22The%20SVG%20element%20has%20no%20accessible%20name%22%2C%22snippet%22%3A%22%3Csvg%20xmlns%3D%5C%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%5C%22%20fill%3D%5C%22none%5C%22%20viewBox%3D%5C%220%200%2065%2065%5C%22%20class%3D%5C%22size-16%20rounded-lg%20bg-white%20text-gray-800%20shadow-sm%20sm%3Asize-18%20dark%3Abg-gray-900%20dark%3Atext-white%20dark%3Ainset-ring%20dark%3Ainset-ring-white%2F5%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_acc_name%22%2C%22ruleId%22%3A%22svg_graphics_labelled%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[3]/div[6]/div[1]/div[7]/div[3]/div[1]/div[1]/div[1]/div[1]/p[1]",
+                "aria": "/document[1]/paragraph[14]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 1128,
+                "top": 4487,
+                "height": 16,
+                "width": 544
+            },
+            "snippet": "<p class=\"flex font-mono text-xs text-nowrap text-clip text-gray-700 dark:text-gray-200\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Cp%20class%3D%5C%22flex%20font-mono%20text-xs%20text-nowrap%20text-clip%20text-gray-700%20dark%3Atext-gray-200%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "svg_graphics_labelled",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[3]/div[6]/div[1]/div[7]/div[3]/div[1]/div[1]/div[2]/svg[1]",
+                "aria": "/document[1]/graphics-document[11]"
+            },
+            "ruleTime": 0,
+            "reasonId": "fail_acc_name",
+            "message": "The SVG element has no accessible name",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 1012,
+                "top": 4582,
+                "height": 72,
+                "width": 72
+            },
+            "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 65 65\" class=\"size-16 rounded-lg bg-white text-gray-800 shadow-sm sm:size-18 dark:bg-gray-900 dark:text-white dark:inset-ring dark:inset-ring-white/5\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/svg_graphics_labelled.html#%7B%22message%22%3A%22The%20SVG%20element%20has%20no%20accessible%20name%22%2C%22snippet%22%3A%22%3Csvg%20xmlns%3D%5C%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%5C%22%20fill%3D%5C%22none%5C%22%20viewBox%3D%5C%220%200%2065%2065%5C%22%20class%3D%5C%22size-16%20rounded-lg%20bg-white%20text-gray-800%20shadow-sm%20sm%3Asize-18%20dark%3Abg-gray-900%20dark%3Atext-white%20dark%3Ainset-ring%20dark%3Ainset-ring-white%2F5%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_acc_name%22%2C%22ruleId%22%3A%22svg_graphics_labelled%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[3]/div[6]/div[1]/div[7]/div[3]/div[1]/div[1]/div[2]/div[1]/p[1]",
+                "aria": "/document[1]/paragraph[15]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 1128,
+                "top": 4586,
+                "height": 16,
+                "width": 544
+            },
+            "snippet": "<p class=\"flex font-mono text-xs text-nowrap text-clip text-gray-700 dark:text-gray-200\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Cp%20class%3D%5C%22flex%20font-mono%20text-xs%20text-nowrap%20text-clip%20text-gray-700%20dark%3Atext-gray-200%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "svg_graphics_labelled",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[3]/div[6]/div[1]/div[7]/div[3]/div[1]/div[1]/div[3]/svg[1]",
+                "aria": "/document[1]/graphics-document[12]"
+            },
+            "ruleTime": 0,
+            "reasonId": "fail_acc_name",
+            "message": "The SVG element has no accessible name",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 1012,
+                "top": 4681,
+                "height": 72,
+                "width": 72
+            },
+            "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 65 65\" class=\"size-16 rounded-lg bg-white text-gray-800 shadow-sm sm:size-18 dark:bg-gray-900 dark:text-white dark:inset-ring dark:inset-ring-white/5\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/svg_graphics_labelled.html#%7B%22message%22%3A%22The%20SVG%20element%20has%20no%20accessible%20name%22%2C%22snippet%22%3A%22%3Csvg%20xmlns%3D%5C%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%5C%22%20fill%3D%5C%22none%5C%22%20viewBox%3D%5C%220%200%2065%2065%5C%22%20class%3D%5C%22size-16%20rounded-lg%20bg-white%20text-gray-800%20shadow-sm%20sm%3Asize-18%20dark%3Abg-gray-900%20dark%3Atext-white%20dark%3Ainset-ring%20dark%3Ainset-ring-white%2F5%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_acc_name%22%2C%22ruleId%22%3A%22svg_graphics_labelled%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[3]/div[6]/div[1]/div[7]/div[3]/div[1]/div[1]/div[3]/div[1]/p[1]",
+                "aria": "/document[1]/paragraph[16]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 1128,
+                "top": 4685,
+                "height": 44,
+                "width": 544
+            },
+            "snippet": "<p class=\"flex-1 font-mono text-xs text-nowrap text-clip text-gray-700 dark:text-gray-200\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Cp%20class%3D%5C%22flex-1%20font-mono%20text-xs%20text-nowrap%20text-clip%20text-gray-700%20dark%3Atext-gray-200%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "svg_graphics_labelled",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[3]/div[6]/div[1]/div[7]/div[3]/div[1]/div[1]/div[4]/svg[1]",
+                "aria": "/document[1]/graphics-document[13]"
+            },
+            "ruleTime": 0,
+            "reasonId": "fail_acc_name",
+            "message": "The SVG element has no accessible name",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 1012,
+                "top": 4779,
+                "height": 72,
+                "width": 72
+            },
+            "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 65 65\" class=\"size-16 rounded-lg bg-white text-gray-800 shadow-sm sm:size-18 dark:bg-gray-900 dark:text-white dark:inset-ring dark:inset-ring-white/5\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/svg_graphics_labelled.html#%7B%22message%22%3A%22The%20SVG%20element%20has%20no%20accessible%20name%22%2C%22snippet%22%3A%22%3Csvg%20xmlns%3D%5C%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%5C%22%20fill%3D%5C%22none%5C%22%20viewBox%3D%5C%220%200%2065%2065%5C%22%20class%3D%5C%22size-16%20rounded-lg%20bg-white%20text-gray-800%20shadow-sm%20sm%3Asize-18%20dark%3Abg-gray-900%20dark%3Atext-white%20dark%3Ainset-ring%20dark%3Ainset-ring-white%2F5%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_acc_name%22%2C%22ruleId%22%3A%22svg_graphics_labelled%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[3]/div[6]/div[1]/div[7]/div[3]/div[1]/div[1]/div[4]/div[1]/p[1]",
+                "aria": "/document[1]/paragraph[17]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 1128,
+                "top": 4783,
+                "height": 16,
+                "width": 544
+            },
+            "snippet": "<p class=\"flex font-mono text-xs text-nowrap text-clip text-gray-700 dark:text-gray-200\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Cp%20class%3D%5C%22flex%20font-mono%20text-xs%20text-nowrap%20text-clip%20text-gray-700%20dark%3Atext-gray-200%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "svg_graphics_labelled",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[3]/div[6]/div[1]/div[8]/div[1]/div[1]/svg[1]",
+                "aria": "/document[1]/graphics-document[14]"
+            },
+            "ruleTime": 0,
+            "reasonId": "fail_acc_name",
+            "message": "The SVG element has no accessible name",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 240,
+                "top": 4947,
+                "height": 72,
+                "width": 112
+            },
+            "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 112 72\" height=\"72\" width=\"112\" class=\"text-gray-950 [--site-background:var(--color-white)] dark:text-white dark:[--site-background:var(--color-gray-950)]\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/svg_graphics_labelled.html#%7B%22message%22%3A%22The%20SVG%20element%20has%20no%20accessible%20name%22%2C%22snippet%22%3A%22%3Csvg%20xmlns%3D%5C%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%5C%22%20fill%3D%5C%22none%5C%22%20viewBox%3D%5C%220%200%20112%2072%5C%22%20height%3D%5C%2272%5C%22%20width%3D%5C%22112%5C%22%20class%3D%5C%22text-gray-950%20%5B--site-background%3Avar(--color-white)%5D%20dark%3Atext-white%20dark%3A%5B--site-background%3Avar(--color-gray-950)%5D%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_acc_name%22%2C%22ruleId%22%3A%22svg_graphics_labelled%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[3]/div[6]/div[1]/div[8]/div[1]/div[2]/p[1]",
+                "aria": "/document[1]/paragraph[18]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 384,
+                "top": 4987,
+                "height": 56,
+                "width": 278
+            },
+            "snippet": "<p class=\"max-w-xl text-sm/7 text-gray-600 dark:text-gray-400\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Cp%20class%3D%5C%22max-w-xl%20text-sm%2F7%20text-gray-600%20dark%3Atext-gray-400%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "element_tabbable_role_valid",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[3]/div[6]/div[1]/div[8]/div[3]/div[1]/div[1]/div[1]/div[2]/div[1]/pre[1]",
+                "aria": "/document[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "fail_no_valid_role",
+            "message": "The tabbable element does not have a valid widget role",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 244,
+                "top": 5155,
+                "height": 480,
+                "width": 478
+            },
+            "snippet": "<pre tabindex=\"0\" style=\"background-color:transparent;color:var(--color-slate-50)\" class=\"shiki tailwindcss-theme\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/element_tabbable_role_valid.html#%7B%22message%22%3A%22The%20tabbable%20element%20does%20not%20have%20a%20valid%20widget%20role%22%2C%22snippet%22%3A%22%3Cpre%20tabindex%3D%5C%220%5C%22%20style%3D%5C%22background-color%3Atransparent%3Bcolor%3Avar(--color-slate-50)%5C%22%20class%3D%5C%22shiki%20tailwindcss-theme%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_no_valid_role%22%2C%22ruleId%22%3A%22element_tabbable_role_valid%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "svg_graphics_labelled",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[3]/div[6]/div[1]/div[9]/div[1]/div[1]/svg[1]",
+                "aria": "/document[1]/graphics-document[15]"
+            },
+            "ruleTime": 0,
+            "reasonId": "fail_acc_name",
+            "message": "The SVG element has no accessible name",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 750,
+                "top": 4947,
+                "height": 72,
+                "width": 112
+            },
+            "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 112 72\" height=\"72\" width=\"112\" class=\"text-gray-950 [--site-background:var(--color-white)] dark:text-white dark:[--site-background:var(--color-gray-950)]\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/svg_graphics_labelled.html#%7B%22message%22%3A%22The%20SVG%20element%20has%20no%20accessible%20name%22%2C%22snippet%22%3A%22%3Csvg%20xmlns%3D%5C%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%5C%22%20fill%3D%5C%22none%5C%22%20viewBox%3D%5C%220%200%20112%2072%5C%22%20height%3D%5C%2272%5C%22%20width%3D%5C%22112%5C%22%20class%3D%5C%22text-gray-950%20%5B--site-background%3Avar(--color-white)%5D%20dark%3Atext-white%20dark%3A%5B--site-background%3Avar(--color-gray-950)%5D%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_acc_name%22%2C%22ruleId%22%3A%22svg_graphics_labelled%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[3]/div[6]/div[1]/div[9]/div[1]/div[2]/p[1]",
+                "aria": "/document[1]/paragraph[19]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 894,
+                "top": 4987,
+                "height": 56,
+                "width": 278
+            },
+            "snippet": "<p class=\"max-w-xl text-sm/7 text-gray-600 dark:text-gray-400\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Cp%20class%3D%5C%22max-w-xl%20text-sm%2F7%20text-gray-600%20dark%3Atext-gray-400%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "svg_graphics_labelled",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[3]/div[6]/div[1]/div[10]/div[1]/div[1]/svg[1]",
+                "aria": "/document[1]/graphics-document[16]"
+            },
+            "ruleTime": 0,
+            "reasonId": "fail_acc_name",
+            "message": "The SVG element has no accessible name",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 1259,
+                "top": 4947,
+                "height": 72,
+                "width": 112
+            },
+            "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 112 72\" height=\"72\" width=\"112\" class=\"text-gray-950 [--site-background:var(--color-white)] dark:text-white dark:[--site-background:var(--color-gray-950)]\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/svg_graphics_labelled.html#%7B%22message%22%3A%22The%20SVG%20element%20has%20no%20accessible%20name%22%2C%22snippet%22%3A%22%3Csvg%20xmlns%3D%5C%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%5C%22%20fill%3D%5C%22none%5C%22%20viewBox%3D%5C%220%200%20112%2072%5C%22%20height%3D%5C%2272%5C%22%20width%3D%5C%22112%5C%22%20class%3D%5C%22text-gray-950%20%5B--site-background%3Avar(--color-white)%5D%20dark%3Atext-white%20dark%3A%5B--site-background%3Avar(--color-gray-950)%5D%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_acc_name%22%2C%22ruleId%22%3A%22svg_graphics_labelled%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[3]/div[6]/div[1]/div[10]/div[1]/div[2]/p[1]",
+                "aria": "/document[1]/paragraph[20]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 1403,
+                "top": 4987,
+                "height": 56,
+                "width": 278
+            },
+            "snippet": "<p class=\"max-w-xl text-sm/7 text-gray-600 dark:text-gray-400\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Cp%20class%3D%5C%22max-w-xl%20text-sm%2F7%20text-gray-600%20dark%3Atext-gray-400%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "element_tabbable_role_valid",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[3]/div[6]/div[1]/div[10]/div[3]/div[1]/div[1]/div[1]/div[2]/div[1]/pre[1]",
+                "aria": "/document[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "fail_no_valid_role",
+            "message": "The tabbable element does not have a valid widget role",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 1263,
+                "top": 5155,
+                "height": 504,
+                "width": 478
+            },
+            "snippet": "<pre tabindex=\"0\" style=\"background-color:transparent;color:var(--color-slate-50)\" class=\"shiki tailwindcss-theme\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/element_tabbable_role_valid.html#%7B%22message%22%3A%22The%20tabbable%20element%20does%20not%20have%20a%20valid%20widget%20role%22%2C%22snippet%22%3A%22%3Cpre%20tabindex%3D%5C%220%5C%22%20style%3D%5C%22background-color%3Atransparent%3Bcolor%3Avar(--color-slate-50)%5C%22%20class%3D%5C%22shiki%20tailwindcss-theme%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_no_valid_role%22%2C%22ruleId%22%3A%22element_tabbable_role_valid%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "svg_graphics_labelled",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[3]/div[6]/div[1]/div[11]/div[1]/div[1]/svg[1]",
+                "aria": "/document[1]/graphics-document[17]"
+            },
+            "ruleTime": 0,
+            "reasonId": "fail_acc_name",
+            "message": "The SVG element has no accessible name",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 240,
+                "top": 5595,
+                "height": 72,
+                "width": 112
+            },
+            "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 112 72\" height=\"72\" width=\"112\" class=\"text-gray-950 [--site-background:var(--color-white)] dark:text-white dark:[--site-background:var(--color-gray-950)]\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/svg_graphics_labelled.html#%7B%22message%22%3A%22The%20SVG%20element%20has%20no%20accessible%20name%22%2C%22snippet%22%3A%22%3Csvg%20xmlns%3D%5C%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%5C%22%20fill%3D%5C%22none%5C%22%20viewBox%3D%5C%220%200%20112%2072%5C%22%20height%3D%5C%2272%5C%22%20width%3D%5C%22112%5C%22%20class%3D%5C%22text-gray-950%20%5B--site-background%3Avar(--color-white)%5D%20dark%3Atext-white%20dark%3A%5B--site-background%3Avar(--color-gray-950)%5D%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_acc_name%22%2C%22ruleId%22%3A%22svg_graphics_labelled%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[3]/div[6]/div[1]/div[11]/div[1]/div[2]/p[1]",
+                "aria": "/document[1]/paragraph[21]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 384,
+                "top": 5635,
+                "height": 56,
+                "width": 532
+            },
+            "snippet": "<p class=\"max-w-xl text-sm/7 text-gray-600 dark:text-gray-400\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Cp%20class%3D%5C%22max-w-xl%20text-sm%2F7%20text-gray-600%20dark%3Atext-gray-400%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[3]/div[6]/div[1]/div[11]/div[3]/div[1]/div[1]/h3[1]",
+                "aria": "/document[1]/heading[5]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 304,
+                "top": 5763,
+                "height": 48,
+                "width": 652
+            },
+            "snippet": "<h3 class=\"text-4xl/12 font-semibold text-gray-950 dark:text-white\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Ch3%20class%3D%5C%22text-4xl%2F12%20font-semibold%20text-gray-950%20dark%3Atext-white%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "svg_graphics_labelled",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[3]/div[6]/div[1]/div[12]/div[1]/div[1]/svg[1]",
+                "aria": "/document[1]/graphics-document[18]"
+            },
+            "ruleTime": 0,
+            "reasonId": "fail_acc_name",
+            "message": "The SVG element has no accessible name",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 1004,
+                "top": 5595,
+                "height": 72,
+                "width": 112
+            },
+            "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 112 72\" height=\"72\" width=\"112\" class=\"text-gray-950 [--site-background:var(--color-white)] dark:text-white dark:[--site-background:var(--color-gray-950)]\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/svg_graphics_labelled.html#%7B%22message%22%3A%22The%20SVG%20element%20has%20no%20accessible%20name%22%2C%22snippet%22%3A%22%3Csvg%20xmlns%3D%5C%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%5C%22%20fill%3D%5C%22none%5C%22%20viewBox%3D%5C%220%200%20112%2072%5C%22%20height%3D%5C%2272%5C%22%20width%3D%5C%22112%5C%22%20class%3D%5C%22text-gray-950%20%5B--site-background%3Avar(--color-white)%5D%20dark%3Atext-white%20dark%3A%5B--site-background%3Avar(--color-gray-950)%5D%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_acc_name%22%2C%22ruleId%22%3A%22svg_graphics_labelled%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[3]/div[6]/div[1]/div[12]/div[1]/div[2]/p[1]",
+                "aria": "/document[1]/paragraph[23]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 1148,
+                "top": 5635,
+                "height": 56,
+                "width": 532
+            },
+            "snippet": "<p class=\"max-w-xl text-sm/7 text-gray-600 dark:text-gray-400\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Cp%20class%3D%5C%22max-w-xl%20text-sm%2F7%20text-gray-600%20dark%3Atext-gray-400%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "element_tabbable_role_valid",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[3]/div[6]/div[1]/div[12]/div[3]/div[1]/div[1]/img[1]",
+                "aria": "/document[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "fail_invalid_role",
+            "message": "The tabbable element's role 'presentation' is not a widget role",
+            "messageArgs": [
+                "presentation"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 1178,
+                "top": 5783,
+                "height": 328,
+                "width": 328
+            },
+            "snippet": "<img style=\"transform:none\" tabindex=\"0\" class=\"absolute inset-0 size-82 rounded-2xl shadow-2xl outline outline-gray-950/5 transition duration-300 transform-3d\" src=\"/_next/static/media/3d-transforms.1c27fe58.jpeg\" alt=\"\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/element_tabbable_role_valid.html#%7B%22message%22%3A%22The%20tabbable%20element's%20role%20'presentation'%20is%20not%20a%20widget%20role%22%2C%22snippet%22%3A%22%3Cimg%20style%3D%5C%22transform%3Anone%5C%22%20tabindex%3D%5C%220%5C%22%20class%3D%5C%22absolute%20inset-0%20size-82%20rounded-2xl%20shadow-2xl%20outline%20outline-gray-950%2F5%20transition%20duration-300%20transform-3d%5C%22%20src%3D%5C%22%2F_next%2Fstatic%2Fmedia%2F3d-transforms.1c27fe58.jpeg%5C%22%20alt%3D%5C%22%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_invalid_role%22%2C%22ruleId%22%3A%22element_tabbable_role_valid%22%2C%22msgArgs%22%3A%5B%22presentation%22%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[4]/div[2]/p[1]",
+                "aria": "/document[1]/paragraph[24]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 136,
+                "top": 6379,
+                "height": 99,
+                "width": 16
+            },
+            "snippet": "<p class=\"text-sky-500 dark:text-sky-400 top-0 -left-[var(--gutter-width)] origin-bottom-right text-left font-mono text-sm font-semibold tracking-widest uppercase max-2xl:mb-4 max-2xl:px-2 max-sm:px-4 sm:text-xs 2xl:absolute 2xl:-translate-x-full 2xl:-translate-y-full 2xl:-rotate-90 2xl:text-right\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Cp%20class%3D%5C%22text-sky-500%20dark%3Atext-sky-400%20top-0%20-left-%5Bvar(--gutter-width)%5D%20origin-bottom-right%20text-left%20font-mono%20text-sm%20font-semibold%20tracking-widest%20uppercase%20max-2xl%3Amb-4%20max-2xl%3Apx-2%20max-sm%3Apx-4%20sm%3Atext-xs%202xl%3Aabsolute%202xl%3A-translate-x-full%202xl%3A-translate-y-full%202xl%3A-rotate-90%202xl%3Atext-right%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[4]/div[3]/h2[1]",
+                "aria": "/document[1]/heading[6]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 192,
+                "top": 6379,
+                "height": 40,
+                "width": 1536
+            },
+            "snippet": "<h2 class=\"mt-4 px-2 text-[2.5rem]/10 font-medium tracking-tighter max-sm:px-4 2xl:mt-0\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Ch2%20class%3D%5C%22mt-4%20px-2%20text-%5B2.5rem%5D%2F10%20font-medium%20tracking-tighter%20max-sm%3Apx-4%202xl%3Amt-0%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[4]/div[5]/p[1]",
+                "aria": "/document[1]/paragraph[25]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 192,
+                "top": 6459,
+                "height": 84,
+                "width": 768
+            },
+            "snippet": "<p class=\"max-w-(--breakpoint-md) px-2 text-base/7 text-gray-600 max-sm:px-4 dark:text-gray-400\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Cp%20class%3D%5C%22max-w-(--breakpoint-md)%20px-2%20text-base%2F7%20text-gray-600%20max-sm%3Apx-4%20dark%3Atext-gray-400%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_attribute_valid",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[4]/div[6]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]",
+                "aria": "/document[1]/generic[8]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_invalid_implicit_role_attr",
+            "message": "The ARIA attributes \"aria-label\" are not valid for the element <div> with implicit ARIA role \"generic\"",
+            "messageArgs": [
+                "aria-label",
+                "div",
+                "generic"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 204,
+                "top": 6643,
+                "height": 342,
+                "width": 943
+            },
+            "snippet": "<div data-scroll-anchor=\"true\" class=\"isolate flex flex-col overflow-hidden rounded-lg bg-white/10 dark:bg-white/5 inset-ring inset-ring-white/5 min-h-0 flex-1 max-lg:max-h-76\" aria-label=\"panel, HTML editor, animated\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_attribute_valid.html#%7B%22message%22%3A%22The%20ARIA%20attributes%20%5C%22aria-label%5C%22%20are%20not%20valid%20for%20the%20element%20%3Cdiv%3E%20with%20implicit%20ARIA%20role%20%5C%22generic%5C%22%22%2C%22snippet%22%3A%22%3Cdiv%20data-scroll-anchor%3D%5C%22true%5C%22%20class%3D%5C%22isolate%20flex%20flex-col%20overflow-hidden%20rounded-lg%20bg-white%2F10%20dark%3Abg-white%2F5%20inset-ring%20inset-ring-white%2F5%20min-h-0%20flex-1%20max-lg%3Amax-h-76%5C%22%20aria-label%3D%5C%22panel%2C%20HTML%20editor%2C%20animated%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_invalid_implicit_role_attr%22%2C%22ruleId%22%3A%22aria_attribute_valid%22%2C%22msgArgs%22%3A%5B%22aria-label%22%2C%22div%22%2C%22generic%22%5D%7D"
+        },
+        {
+            "ruleId": "aria_attribute_valid",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[4]/div[6]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]",
+                "aria": "/document[1]/generic[8]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_invalid_role_attr",
+            "message": "The ARIA attributes \"aria-label\" are not valid for the element <div> with ARIA role \"presentation\"",
+            "messageArgs": [
+                "aria-label",
+                "div",
+                "presentation"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 204,
+                "top": 6643,
+                "height": 37,
+                "width": 943
+            },
+            "snippet": "<div aria-label=\"Tab Bar\" role=\"presentation\" class=\"sticky top-0 left-0 z-10 col-start-1 row-start-1 mb-px flex items-center gap-2 border-b border-b-white/5 bg-white/2.5 bg-clip-padding p-1 text-white backdrop-blur-lg\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_attribute_valid.html#%7B%22message%22%3A%22The%20ARIA%20attributes%20%5C%22aria-label%5C%22%20are%20not%20valid%20for%20the%20element%20%3Cdiv%3E%20with%20ARIA%20role%20%5C%22presentation%5C%22%22%2C%22snippet%22%3A%22%3Cdiv%20aria-label%3D%5C%22Tab%20Bar%5C%22%20role%3D%5C%22presentation%5C%22%20class%3D%5C%22sticky%20top-0%20left-0%20z-10%20col-start-1%20row-start-1%20mb-px%20flex%20items-center%20gap-2%20border-b%20border-b-white%2F5%20bg-white%2F2.5%20bg-clip-padding%20p-1%20text-white%20backdrop-blur-lg%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_invalid_role_attr%22%2C%22ruleId%22%3A%22aria_attribute_valid%22%2C%22msgArgs%22%3A%5B%22aria-label%22%2C%22div%22%2C%22presentation%22%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[4]/div[6]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/button[1]",
+                "aria": "/document[1]/generic[8]/button[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 208,
+                "top": 6647,
+                "height": 28,
+                "width": 77
+            },
+            "snippet": "<button aria-selected=\"true\" role=\"presentation\" class=\"isolate rounded-sm px-2 py-1 text-xs/5 text-white inset-ring-white/5 hover:bg-white/10 aria-selected:bg-white/10 aria-selected:inset-ring group-data-modified:italic\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Cbutton%20aria-selected%3D%5C%22true%5C%22%20role%3D%5C%22presentation%5C%22%20class%3D%5C%22isolate%20rounded-sm%20px-2%20py-1%20text-xs%2F5%20text-white%20inset-ring-white%2F5%20hover%3Abg-white%2F10%20aria-selected%3Abg-white%2F10%20aria-selected%3Ainset-ring%20group-data-modified%3Aitalic%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_role_valid",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[4]/div[6]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/button[1]",
+                "aria": "/document[1]/generic[8]/button[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_2",
+            "message": "The ARIA role 'presentation' is not valid for the element <button> and may be ignored by the browser since the element is focusable",
+            "messageArgs": [
+                "presentation",
+                "button"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 208,
+                "top": 6647,
+                "height": 28,
+                "width": 77
+            },
+            "snippet": "<button aria-selected=\"true\" role=\"presentation\" class=\"isolate rounded-sm px-2 py-1 text-xs/5 text-white inset-ring-white/5 hover:bg-white/10 aria-selected:bg-white/10 aria-selected:inset-ring group-data-modified:italic\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_role_valid.html#%7B%22message%22%3A%22The%20ARIA%20role%20'presentation'%20is%20not%20valid%20for%20the%20element%20%3Cbutton%3E%20and%20may%20be%20ignored%20by%20the%20browser%20since%20the%20element%20is%20focusable%22%2C%22snippet%22%3A%22%3Cbutton%20aria-selected%3D%5C%22true%5C%22%20role%3D%5C%22presentation%5C%22%20class%3D%5C%22isolate%20rounded-sm%20px-2%20py-1%20text-xs%2F5%20text-white%20inset-ring-white%2F5%20hover%3Abg-white%2F10%20aria-selected%3Abg-white%2F10%20aria-selected%3Ainset-ring%20group-data-modified%3Aitalic%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_2%22%2C%22ruleId%22%3A%22aria_role_valid%22%2C%22msgArgs%22%3A%5B%22presentation%22%2C%22button%22%5D%7D"
+        },
+        {
+            "ruleId": "aria_role_valid",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[4]/div[6]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/button[2]",
+                "aria": "/document[1]/generic[8]/button[2]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_2",
+            "message": "The ARIA role 'presentation' is not valid for the element <button> and may be ignored by the browser since the element is focusable",
+            "messageArgs": [
+                "presentation",
+                "button"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 293,
+                "top": 6647,
+                "height": 28,
+                "width": 64
+            },
+            "snippet": "<button role=\"presentation\" class=\"isolate rounded-sm px-2 py-1 text-xs/5 text-white inset-ring-white/5 hover:bg-white/10 aria-selected:bg-white/10 aria-selected:inset-ring\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_role_valid.html#%7B%22message%22%3A%22The%20ARIA%20role%20'presentation'%20is%20not%20valid%20for%20the%20element%20%3Cbutton%3E%20and%20may%20be%20ignored%20by%20the%20browser%20since%20the%20element%20is%20focusable%22%2C%22snippet%22%3A%22%3Cbutton%20role%3D%5C%22presentation%5C%22%20class%3D%5C%22isolate%20rounded-sm%20px-2%20py-1%20text-xs%2F5%20text-white%20inset-ring-white%2F5%20hover%3Abg-white%2F10%20aria-selected%3Abg-white%2F10%20aria-selected%3Ainset-ring%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_2%22%2C%22ruleId%22%3A%22aria_role_valid%22%2C%22msgArgs%22%3A%5B%22presentation%22%2C%22button%22%5D%7D"
+        },
+        {
+            "ruleId": "aria_role_valid",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[4]/div[6]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/button[3]",
+                "aria": "/document[1]/generic[8]/button[3]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_2",
+            "message": "The ARIA role 'presentation' is not valid for the element <button> and may be ignored by the browser since the element is focusable",
+            "messageArgs": [
+                "presentation",
+                "button"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 365,
+                "top": 6647,
+                "height": 28,
+                "width": 91
+            },
+            "snippet": "<button role=\"presentation\" class=\"isolate rounded-sm px-2 py-1 text-xs/5 text-white inset-ring-white/5 hover:bg-white/10 aria-selected:bg-white/10 aria-selected:inset-ring italic\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_role_valid.html#%7B%22message%22%3A%22The%20ARIA%20role%20'presentation'%20is%20not%20valid%20for%20the%20element%20%3Cbutton%3E%20and%20may%20be%20ignored%20by%20the%20browser%20since%20the%20element%20is%20focusable%22%2C%22snippet%22%3A%22%3Cbutton%20role%3D%5C%22presentation%5C%22%20class%3D%5C%22isolate%20rounded-sm%20px-2%20py-1%20text-xs%2F5%20text-white%20inset-ring-white%2F5%20hover%3Abg-white%2F10%20aria-selected%3Abg-white%2F10%20aria-selected%3Ainset-ring%20italic%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_2%22%2C%22ruleId%22%3A%22aria_role_valid%22%2C%22msgArgs%22%3A%5B%22presentation%22%2C%22button%22%5D%7D"
+        },
+        {
+            "ruleId": "aria_attribute_valid",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[4]/div[6]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]",
+                "aria": "/document[1]/generic[8]/generic[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_invalid_implicit_role_attr",
+            "message": "The ARIA attributes \"aria-label\" are not valid for the element <div> with implicit ARIA role \"generic\"",
+            "messageArgs": [
+                "aria-label",
+                "div",
+                "generic"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 204,
+                "top": 6681,
+                "height": 304,
+                "width": 943
+            },
+            "snippet": "<div class=\"*:flex *:*:max-w-none *:*:shrink-0 *:*:grow *:rounded-lg *:px-3 *:py-2 **:[.line]:isolate **:[.line]:block **:[.line]:not-last:min-h-[1lh] **:[code]:pr-4 **:[code]:w-full **:[pre]:w-full **:[pre]:whitespace-pre-wrap text-[0.8125rem]/[1.5rem] with-line-numbers\" aria-label=\"editor, readonly, html file\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_attribute_valid.html#%7B%22message%22%3A%22The%20ARIA%20attributes%20%5C%22aria-label%5C%22%20are%20not%20valid%20for%20the%20element%20%3Cdiv%3E%20with%20implicit%20ARIA%20role%20%5C%22generic%5C%22%22%2C%22snippet%22%3A%22%3Cdiv%20class%3D%5C%22*%3Aflex%20*%3A*%3Amax-w-none%20*%3A*%3Ashrink-0%20*%3A*%3Agrow%20*%3Arounded-lg%20*%3Apx-3%20*%3Apy-2%20**%3A%5B.line%5D%3Aisolate%20**%3A%5B.line%5D%3Ablock%20**%3A%5B.line%5D%3Anot-last%3Amin-h-%5B1lh%5D%20**%3A%5Bcode%5D%3Apr-4%20**%3A%5Bcode%5D%3Aw-full%20**%3A%5Bpre%5D%3Aw-full%20**%3A%5Bpre%5D%3Awhitespace-pre-wrap%20text-%5B0.8125rem%5D%2F%5B1.5rem%5D%20with-line-numbers%5C%22%20aria-label%3D%5C%22editor%2C%20readonly%2C%20html%20file%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_invalid_implicit_role_attr%22%2C%22ruleId%22%3A%22aria_attribute_valid%22%2C%22msgArgs%22%3A%5B%22aria-label%22%2C%22div%22%2C%22generic%22%5D%7D"
+        },
+        {
+            "ruleId": "element_tabbable_role_valid",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[4]/div[6]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/pre[1]",
+                "aria": "/document[1]/generic[8]/generic[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "fail_no_valid_role",
+            "message": "The tabbable element does not have a valid widget role",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 204,
+                "top": 6681,
+                "height": 304,
+                "width": 943
+            },
+            "snippet": "<pre tabindex=\"0\" style=\"background-color:transparent;color:var(--color-slate-50)\" class=\"shiki tailwindcss-theme\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/element_tabbable_role_valid.html#%7B%22message%22%3A%22The%20tabbable%20element%20does%20not%20have%20a%20valid%20widget%20role%22%2C%22snippet%22%3A%22%3Cpre%20tabindex%3D%5C%220%5C%22%20style%3D%5C%22background-color%3Atransparent%3Bcolor%3Avar(--color-slate-50)%5C%22%20class%3D%5C%22shiki%20tailwindcss-theme%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_no_valid_role%22%2C%22ruleId%22%3A%22element_tabbable_role_valid%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_attribute_valid",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[4]/div[6]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]",
+                "aria": "/document[1]/generic[9]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_invalid_implicit_role_attr",
+            "message": "The ARIA attributes \"aria-label\" are not valid for the element <div> with implicit ARIA role \"generic\"",
+            "messageArgs": [
+                "aria-label",
+                "div",
+                "generic"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 204,
+                "top": 6989,
+                "height": 184,
+                "width": 943
+            },
+            "snippet": "<div data-scroll-anchor=\"true\" class=\"isolate flex flex-col overflow-hidden rounded-lg bg-white/10 dark:bg-white/5 inset-ring inset-ring-white/5 h-32 shrink-0 lg:h-46\" aria-label=\"panel, terminal, animated\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_attribute_valid.html#%7B%22message%22%3A%22The%20ARIA%20attributes%20%5C%22aria-label%5C%22%20are%20not%20valid%20for%20the%20element%20%3Cdiv%3E%20with%20implicit%20ARIA%20role%20%5C%22generic%5C%22%22%2C%22snippet%22%3A%22%3Cdiv%20data-scroll-anchor%3D%5C%22true%5C%22%20class%3D%5C%22isolate%20flex%20flex-col%20overflow-hidden%20rounded-lg%20bg-white%2F10%20dark%3Abg-white%2F5%20inset-ring%20inset-ring-white%2F5%20h-32%20shrink-0%20lg%3Ah-46%5C%22%20aria-label%3D%5C%22panel%2C%20terminal%2C%20animated%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_invalid_implicit_role_attr%22%2C%22ruleId%22%3A%22aria_attribute_valid%22%2C%22msgArgs%22%3A%5B%22aria-label%22%2C%22div%22%2C%22generic%22%5D%7D"
+        },
+        {
+            "ruleId": "aria_attribute_valid",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[4]/div[6]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]",
+                "aria": "/document[1]/generic[9]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_invalid_role_attr",
+            "message": "The ARIA attributes \"aria-label\" are not valid for the element <div> with ARIA role \"presentation\"",
+            "messageArgs": [
+                "aria-label",
+                "div",
+                "presentation"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 204,
+                "top": 6989,
+                "height": 37,
+                "width": 943
+            },
+            "snippet": "<div aria-label=\"Tab Bar\" role=\"presentation\" class=\"sticky top-0 left-0 z-10 col-start-1 row-start-1 mb-px flex items-center gap-2 border-b border-b-white/5 bg-white/2.5 bg-clip-padding p-1 text-white backdrop-blur-lg\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_attribute_valid.html#%7B%22message%22%3A%22The%20ARIA%20attributes%20%5C%22aria-label%5C%22%20are%20not%20valid%20for%20the%20element%20%3Cdiv%3E%20with%20ARIA%20role%20%5C%22presentation%5C%22%22%2C%22snippet%22%3A%22%3Cdiv%20aria-label%3D%5C%22Tab%20Bar%5C%22%20role%3D%5C%22presentation%5C%22%20class%3D%5C%22sticky%20top-0%20left-0%20z-10%20col-start-1%20row-start-1%20mb-px%20flex%20items-center%20gap-2%20border-b%20border-b-white%2F5%20bg-white%2F2.5%20bg-clip-padding%20p-1%20text-white%20backdrop-blur-lg%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_invalid_role_attr%22%2C%22ruleId%22%3A%22aria_attribute_valid%22%2C%22msgArgs%22%3A%5B%22aria-label%22%2C%22div%22%2C%22presentation%22%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[4]/div[6]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/button[1]",
+                "aria": "/document[1]/generic[9]/button[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 208,
+                "top": 6993,
+                "height": 28,
+                "width": 68
+            },
+            "snippet": "<button aria-selected=\"true\" role=\"presentation\" class=\"isolate rounded-sm px-2 py-1 text-xs/5 text-white inset-ring-white/5 hover:bg-white/10 aria-selected:bg-white/10 aria-selected:inset-ring\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Cbutton%20aria-selected%3D%5C%22true%5C%22%20role%3D%5C%22presentation%5C%22%20class%3D%5C%22isolate%20rounded-sm%20px-2%20py-1%20text-xs%2F5%20text-white%20inset-ring-white%2F5%20hover%3Abg-white%2F10%20aria-selected%3Abg-white%2F10%20aria-selected%3Ainset-ring%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_role_valid",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[4]/div[6]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/button[1]",
+                "aria": "/document[1]/generic[9]/button[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_2",
+            "message": "The ARIA role 'presentation' is not valid for the element <button> and may be ignored by the browser since the element is focusable",
+            "messageArgs": [
+                "presentation",
+                "button"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 208,
+                "top": 6993,
+                "height": 28,
+                "width": 68
+            },
+            "snippet": "<button aria-selected=\"true\" role=\"presentation\" class=\"isolate rounded-sm px-2 py-1 text-xs/5 text-white inset-ring-white/5 hover:bg-white/10 aria-selected:bg-white/10 aria-selected:inset-ring\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_role_valid.html#%7B%22message%22%3A%22The%20ARIA%20role%20'presentation'%20is%20not%20valid%20for%20the%20element%20%3Cbutton%3E%20and%20may%20be%20ignored%20by%20the%20browser%20since%20the%20element%20is%20focusable%22%2C%22snippet%22%3A%22%3Cbutton%20aria-selected%3D%5C%22true%5C%22%20role%3D%5C%22presentation%5C%22%20class%3D%5C%22isolate%20rounded-sm%20px-2%20py-1%20text-xs%2F5%20text-white%20inset-ring-white%2F5%20hover%3Abg-white%2F10%20aria-selected%3Abg-white%2F10%20aria-selected%3Ainset-ring%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_2%22%2C%22ruleId%22%3A%22aria_role_valid%22%2C%22msgArgs%22%3A%5B%22presentation%22%2C%22button%22%5D%7D"
+        },
+        {
+            "ruleId": "aria_attribute_valid",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[4]/div[6]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]",
+                "aria": "/document[1]/generic[10]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_invalid_implicit_role_attr",
+            "message": "The ARIA attributes \"aria-label\" are not valid for the element <div> with implicit ARIA role \"generic\"",
+            "messageArgs": [
+                "aria-label",
+                "div",
+                "generic"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 1151,
+                "top": 6643,
+                "height": 530,
+                "width": 566
+            },
+            "snippet": "<div data-scroll-anchor=\"true\" class=\"isolate flex flex-col overflow-hidden rounded-lg bg-white/10 dark:bg-white/5 inset-ring inset-ring-white/5 h-full\" aria-label=\"panel, built CSS, animated\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_attribute_valid.html#%7B%22message%22%3A%22The%20ARIA%20attributes%20%5C%22aria-label%5C%22%20are%20not%20valid%20for%20the%20element%20%3Cdiv%3E%20with%20implicit%20ARIA%20role%20%5C%22generic%5C%22%22%2C%22snippet%22%3A%22%3Cdiv%20data-scroll-anchor%3D%5C%22true%5C%22%20class%3D%5C%22isolate%20flex%20flex-col%20overflow-hidden%20rounded-lg%20bg-white%2F10%20dark%3Abg-white%2F5%20inset-ring%20inset-ring-white%2F5%20h-full%5C%22%20aria-label%3D%5C%22panel%2C%20built%20CSS%2C%20animated%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_invalid_implicit_role_attr%22%2C%22ruleId%22%3A%22aria_attribute_valid%22%2C%22msgArgs%22%3A%5B%22aria-label%22%2C%22div%22%2C%22generic%22%5D%7D"
+        },
+        {
+            "ruleId": "aria_attribute_valid",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[4]/div[6]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]",
+                "aria": "/document[1]/generic[10]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_invalid_role_attr",
+            "message": "The ARIA attributes \"aria-label\" are not valid for the element <div> with ARIA role \"presentation\"",
+            "messageArgs": [
+                "aria-label",
+                "div",
+                "presentation"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 1151,
+                "top": 6643,
+                "height": 37,
+                "width": 566
+            },
+            "snippet": "<div aria-label=\"Tab Bar\" role=\"presentation\" class=\"sticky top-0 left-0 z-10 col-start-1 row-start-1 mb-px flex items-center gap-2 border-b border-b-white/5 bg-white/2.5 bg-clip-padding p-1 text-white backdrop-blur-lg\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_attribute_valid.html#%7B%22message%22%3A%22The%20ARIA%20attributes%20%5C%22aria-label%5C%22%20are%20not%20valid%20for%20the%20element%20%3Cdiv%3E%20with%20ARIA%20role%20%5C%22presentation%5C%22%22%2C%22snippet%22%3A%22%3Cdiv%20aria-label%3D%5C%22Tab%20Bar%5C%22%20role%3D%5C%22presentation%5C%22%20class%3D%5C%22sticky%20top-0%20left-0%20z-10%20col-start-1%20row-start-1%20mb-px%20flex%20items-center%20gap-2%20border-b%20border-b-white%2F5%20bg-white%2F2.5%20bg-clip-padding%20p-1%20text-white%20backdrop-blur-lg%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_invalid_role_attr%22%2C%22ruleId%22%3A%22aria_attribute_valid%22%2C%22msgArgs%22%3A%5B%22aria-label%22%2C%22div%22%2C%22presentation%22%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[4]/div[6]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/button[1]",
+                "aria": "/document[1]/generic[10]/button[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 1155,
+                "top": 6647,
+                "height": 28,
+                "width": 69
+            },
+            "snippet": "<button aria-selected=\"true\" role=\"presentation\" class=\"isolate rounded-sm px-2 py-1 text-xs/5 text-white inset-ring-white/5 hover:bg-white/10 aria-selected:bg-white/10 aria-selected:inset-ring\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Cbutton%20aria-selected%3D%5C%22true%5C%22%20role%3D%5C%22presentation%5C%22%20class%3D%5C%22isolate%20rounded-sm%20px-2%20py-1%20text-xs%2F5%20text-white%20inset-ring-white%2F5%20hover%3Abg-white%2F10%20aria-selected%3Abg-white%2F10%20aria-selected%3Ainset-ring%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_role_valid",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[4]/div[6]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/button[1]",
+                "aria": "/document[1]/generic[10]/button[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_2",
+            "message": "The ARIA role 'presentation' is not valid for the element <button> and may be ignored by the browser since the element is focusable",
+            "messageArgs": [
+                "presentation",
+                "button"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 1155,
+                "top": 6647,
+                "height": 28,
+                "width": 69
+            },
+            "snippet": "<button aria-selected=\"true\" role=\"presentation\" class=\"isolate rounded-sm px-2 py-1 text-xs/5 text-white inset-ring-white/5 hover:bg-white/10 aria-selected:bg-white/10 aria-selected:inset-ring\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_role_valid.html#%7B%22message%22%3A%22The%20ARIA%20role%20'presentation'%20is%20not%20valid%20for%20the%20element%20%3Cbutton%3E%20and%20may%20be%20ignored%20by%20the%20browser%20since%20the%20element%20is%20focusable%22%2C%22snippet%22%3A%22%3Cbutton%20aria-selected%3D%5C%22true%5C%22%20role%3D%5C%22presentation%5C%22%20class%3D%5C%22isolate%20rounded-sm%20px-2%20py-1%20text-xs%2F5%20text-white%20inset-ring-white%2F5%20hover%3Abg-white%2F10%20aria-selected%3Abg-white%2F10%20aria-selected%3Ainset-ring%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_2%22%2C%22ruleId%22%3A%22aria_role_valid%22%2C%22msgArgs%22%3A%5B%22presentation%22%2C%22button%22%5D%7D"
+        },
+        {
+            "ruleId": "aria_attribute_valid",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[4]/div[6]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[2]",
+                "aria": "/document[1]/generic[10]/generic[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_invalid_implicit_role_attr",
+            "message": "The ARIA attributes \"aria-label\" are not valid for the element <div> with implicit ARIA role \"generic\"",
+            "messageArgs": [
+                "aria-label",
+                "div",
+                "generic"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 1151,
+                "top": 6681,
+                "height": 64,
+                "width": 566
+            },
+            "snippet": "<div class=\"opacity-0 group-data-finished:opacity-100 group-data-running:opacity-100 *:flex *:*:max-w-none *:*:shrink-0 *:*:grow *:rounded-lg *:px-4 *:py-2 **:[.line]:isolate **:[.line]:block **:[.line]:not-last:min-h-[1lh] **:[code]:pr-4 **:[code]:w-full **:[pre]:w-full **:[pre]:whitespace-pre-wrap text-[0.8125rem]/[1.5rem] with-line-numbers\" aria-label=\"editor, readonly, built CSS\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_attribute_valid.html#%7B%22message%22%3A%22The%20ARIA%20attributes%20%5C%22aria-label%5C%22%20are%20not%20valid%20for%20the%20element%20%3Cdiv%3E%20with%20implicit%20ARIA%20role%20%5C%22generic%5C%22%22%2C%22snippet%22%3A%22%3Cdiv%20class%3D%5C%22opacity-0%20group-data-finished%3Aopacity-100%20group-data-running%3Aopacity-100%20*%3Aflex%20*%3A*%3Amax-w-none%20*%3A*%3Ashrink-0%20*%3A*%3Agrow%20*%3Arounded-lg%20*%3Apx-4%20*%3Apy-2%20**%3A%5B.line%5D%3Aisolate%20**%3A%5B.line%5D%3Ablock%20**%3A%5B.line%5D%3Anot-last%3Amin-h-%5B1lh%5D%20**%3A%5Bcode%5D%3Apr-4%20**%3A%5Bcode%5D%3Aw-full%20**%3A%5Bpre%5D%3Aw-full%20**%3A%5Bpre%5D%3Awhitespace-pre-wrap%20text-%5B0.8125rem%5D%2F%5B1.5rem%5D%20with-line-numbers%5C%22%20aria-label%3D%5C%22editor%2C%20readonly%2C%20built%20CSS%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_invalid_implicit_role_attr%22%2C%22ruleId%22%3A%22aria_attribute_valid%22%2C%22msgArgs%22%3A%5B%22aria-label%22%2C%22div%22%2C%22generic%22%5D%7D"
+        },
+        {
+            "ruleId": "element_tabbable_role_valid",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[4]/div[6]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[2]/pre[1]",
+                "aria": "/document[1]/generic[10]/generic[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "fail_no_valid_role",
+            "message": "The tabbable element does not have a valid widget role",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 1151,
+                "top": 6681,
+                "height": 64,
+                "width": 566
+            },
+            "snippet": "<pre tabindex=\"0\" style=\"background-color:transparent;color:var(--color-slate-50)\" class=\"shiki tailwindcss-theme\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/element_tabbable_role_valid.html#%7B%22message%22%3A%22The%20tabbable%20element%20does%20not%20have%20a%20valid%20widget%20role%22%2C%22snippet%22%3A%22%3Cpre%20tabindex%3D%5C%220%5C%22%20style%3D%5C%22background-color%3Atransparent%3Bcolor%3Avar(--color-slate-50)%5C%22%20class%3D%5C%22shiki%20tailwindcss-theme%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_no_valid_role%22%2C%22ruleId%22%3A%22element_tabbable_role_valid%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[5]/div[2]/p[1]",
+                "aria": "/document[1]/paragraph[26]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 136,
+                "top": 7369,
+                "height": 164,
+                "width": 16
+            },
+            "snippet": "<p class=\"text-fuchsia-500 dark:text-fuchsia-400 top-0 -left-[var(--gutter-width)] origin-bottom-right text-left font-mono text-sm font-semibold tracking-widest uppercase max-2xl:mb-4 max-2xl:px-2 max-sm:px-4 sm:text-xs 2xl:absolute 2xl:-translate-x-full 2xl:-translate-y-full 2xl:-rotate-90 2xl:text-right\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Cp%20class%3D%5C%22text-fuchsia-500%20dark%3Atext-fuchsia-400%20top-0%20-left-%5Bvar(--gutter-width)%5D%20origin-bottom-right%20text-left%20font-mono%20text-sm%20font-semibold%20tracking-widest%20uppercase%20max-2xl%3Amb-4%20max-2xl%3Apx-2%20max-sm%3Apx-4%20sm%3Atext-xs%202xl%3Aabsolute%202xl%3A-translate-x-full%202xl%3A-translate-y-full%202xl%3A-rotate-90%202xl%3Atext-right%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[5]/div[3]/h2[1]",
+                "aria": "/document[1]/heading[7]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 192,
+                "top": 7369,
+                "height": 80,
+                "width": 512
+            },
+            "snippet": "<h2 class=\"max-w-lg px-2 text-[2.5rem]/10 font-medium tracking-tighter text-balance max-sm:px-4\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Ch2%20class%3D%5C%22max-w-lg%20px-2%20text-%5B2.5rem%5D%2F10%20font-medium%20tracking-tighter%20text-balance%20max-sm%3Apx-4%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[5]/div[5]/p[1]",
+                "aria": "/document[1]/paragraph[27]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 192,
+                "top": 7489,
+                "height": 56,
+                "width": 768
+            },
+            "snippet": "<p class=\"max-w-(--breakpoint-md) px-2 text-base/7 text-gray-600 max-sm:px-4 dark:text-gray-400\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Cp%20class%3D%5C%22max-w-(--breakpoint-md)%20px-2%20text-base%2F7%20text-gray-600%20max-sm%3Apx-4%20dark%3Atext-gray-400%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[5]/div[6]/div[1]/div[1]/div[1]/a[1]",
+                "aria": "/document[1]/link[11]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 200,
+                "top": 7625,
+                "height": 256,
+                "width": 302
+            },
+            "snippet": "<a class=\"group relative opacity-75 transition-opacity hover:opacity-100\" target=\"_blank\" rel=\"noreferrer\" href=\"https://openai.com/\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Ca%20class%3D%5C%22group%20relative%20opacity-75%20transition-opacity%20hover%3Aopacity-100%5C%22%20target%3D%5C%22_blank%5C%22%20rel%3D%5C%22noreferrer%5C%22%20href%3D%5C%22https%3A%2F%2Fopenai.com%2F%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[5]/div[6]/div[1]/div[1]/div[2]/a[1]",
+                "aria": "/document[1]/link[14]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 510,
+                "top": 7625,
+                "height": 402,
+                "width": 199
+            },
+            "snippet": "<a class=\"group relative opacity-75 transition-opacity hover:opacity-100\" target=\"_blank\" rel=\"noreferrer\" href=\"https://gumroad.com/\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Ca%20class%3D%5C%22group%20relative%20opacity-75%20transition-opacity%20hover%3Aopacity-100%5C%22%20target%3D%5C%22_blank%5C%22%20rel%3D%5C%22noreferrer%5C%22%20href%3D%5C%22https%3A%2F%2Fgumroad.com%2F%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[5]/div[6]/div[1]/div[1]/div[3]/a[1]",
+                "aria": "/document[1]/link[17]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 717,
+                "top": 7625,
+                "height": 309,
+                "width": 498
+            },
+            "snippet": "<a class=\"group relative opacity-75 transition-opacity hover:opacity-100\" target=\"_blank\" rel=\"noreferrer\" href=\"https://rivian.com/\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Ca%20class%3D%5C%22group%20relative%20opacity-75%20transition-opacity%20hover%3Aopacity-100%5C%22%20target%3D%5C%22_blank%5C%22%20rel%3D%5C%22noreferrer%5C%22%20href%3D%5C%22https%3A%2F%2Frivian.com%2F%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[5]/div[6]/div[1]/div[1]/div[4]/a[1]",
+                "aria": "/document[1]/link[20]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 1222,
+                "top": 7625,
+                "height": 406,
+                "width": 199
+            },
+            "snippet": "<a class=\"group relative opacity-75 transition-opacity hover:opacity-100\" target=\"_blank\" rel=\"noreferrer\" href=\"https://www.theverge.com/\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Ca%20class%3D%5C%22group%20relative%20opacity-75%20transition-opacity%20hover%3Aopacity-100%5C%22%20target%3D%5C%22_blank%5C%22%20rel%3D%5C%22noreferrer%5C%22%20href%3D%5C%22https%3A%2F%2Fwww.theverge.com%2F%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[5]/div[6]/div[1]/div[1]/div[5]/a[1]",
+                "aria": "/document[1]/link[23]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 1429,
+                "top": 7625,
+                "height": 246,
+                "width": 292
+            },
+            "snippet": "<a class=\"group relative opacity-75 transition-opacity hover:opacity-100\" target=\"_blank\" rel=\"noreferrer\" href=\"https://poolside.ai/\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Ca%20class%3D%5C%22group%20relative%20opacity-75%20transition-opacity%20hover%3Aopacity-100%5C%22%20target%3D%5C%22_blank%5C%22%20rel%3D%5C%22noreferrer%5C%22%20href%3D%5C%22https%3A%2F%2Fpoolside.ai%2F%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[6]/div[2]/p[1]",
+                "aria": "/document[1]/paragraph[28]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 136,
+                "top": 8920,
+                "height": 173,
+                "width": 16
+            },
+            "snippet": "<p class=\"text-pink-600 dark:text-pink-500 top-0 -left-[var(--gutter-width)] origin-bottom-right text-left font-mono text-sm font-semibold tracking-widest uppercase max-2xl:mb-4 max-2xl:px-2 max-sm:px-4 sm:text-xs 2xl:absolute 2xl:-translate-x-full 2xl:-translate-y-full 2xl:-rotate-90 2xl:text-right\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Cp%20class%3D%5C%22text-pink-600%20dark%3Atext-pink-500%20top-0%20-left-%5Bvar(--gutter-width)%5D%20origin-bottom-right%20text-left%20font-mono%20text-sm%20font-semibold%20tracking-widest%20uppercase%20max-2xl%3Amb-4%20max-2xl%3Apx-2%20max-sm%3Apx-4%20sm%3Atext-xs%202xl%3Aabsolute%202xl%3A-translate-x-full%202xl%3A-translate-y-full%202xl%3A-rotate-90%202xl%3Atext-right%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[6]/div[3]/h2[1]",
+                "aria": "/document[1]/heading[8]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 192,
+                "top": 8920,
+                "height": 40,
+                "width": 1536
+            },
+            "snippet": "<h2 class=\"px-2 text-[2.5rem]/10 font-medium tracking-tighter max-sm:px-4 2xl:mt-0\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Ch2%20class%3D%5C%22px-2%20text-%5B2.5rem%5D%2F10%20font-medium%20tracking-tighter%20max-sm%3Apx-4%202xl%3Amt-0%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[6]/div[5]/p[1]",
+                "aria": "/document[1]/paragraph[29]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 192,
+                "top": 9000,
+                "height": 84,
+                "width": 768
+            },
+            "snippet": "<p class=\"max-w-(--breakpoint-md) px-2 text-base/7 text-gray-600 max-sm:px-4 dark:text-gray-400\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Cp%20class%3D%5C%22max-w-(--breakpoint-md)%20px-2%20text-base%2F7%20text-gray-600%20max-sm%3Apx-4%20dark%3Atext-gray-400%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[6]/div[6]/div[1]/a[1]",
+                "aria": "/document[1]/link[26]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 200,
+                "top": 9124,
+                "height": 40,
+                "width": 183
+            },
+            "snippet": "<a class=\"inline-block rounded-4xl bg-black px-4 py-2 text-sm/6 font-semibold text-white hover:bg-gray-800 dark:bg-gray-700 dark:hover:bg-gray-600\" href=\"https://tailwindcss.com/plus?ref=home\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Ca%20class%3D%5C%22inline-block%20rounded-4xl%20bg-black%20px-4%20py-2%20text-sm%2F6%20font-semibold%20text-white%20hover%3Abg-gray-800%20dark%3Abg-gray-700%20dark%3Ahover%3Abg-gray-600%5C%22%20href%3D%5C%22https%3A%2F%2Ftailwindcss.com%2Fplus%3Fref%3Dhome%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[6]/div[7]/div[1]/div[1]/div[1]",
+                "aria": "/document[1]/tablist[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 192,
+                "top": 9228,
+                "height": 122,
+                "width": 1536
+            },
+            "snippet": "<div aria-orientation=\"horizontal\" role=\"tablist\" class=\"grid grid-cols-[repeat(3,_minmax(125px,_1fr))] divide-x divide-gray-950/10 overflow-x-auto text-gray-950 dark:divide-white/10 dark:text-white\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Cdiv%20aria-orientation%3D%5C%22horizontal%5C%22%20role%3D%5C%22tablist%5C%22%20class%3D%5C%22grid%20grid-cols-%5Brepeat(3%2C_minmax(125px%2C_1fr))%5D%20divide-x%20divide-gray-950%2F10%20overflow-x-auto%20text-gray-950%20dark%3Adivide-white%2F10%20dark%3Atext-white%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "svg_graphics_labelled",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[6]/div[7]/div[1]/div[1]/div[1]/button[1]/svg[1]",
+                "aria": "/document[1]/tablist[1]/tab[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "fail_acc_name",
+            "message": "The SVG element has no accessible name",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 216,
+                "top": 9252,
+                "height": 74,
+                "width": 120
+            },
+            "snippet": "<svg class=\"transition-transform duration-300 group-hover:-translate-y-0.5 group-data-selected:translate-y-0\" viewBox=\"0 0 120 72\" fill=\"none\" height=\"74\" width=\"120\" xmlns=\"http://www.w3.org/2000/svg\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/svg_graphics_labelled.html#%7B%22message%22%3A%22The%20SVG%20element%20has%20no%20accessible%20name%22%2C%22snippet%22%3A%22%3Csvg%20class%3D%5C%22transition-transform%20duration-300%20group-hover%3A-translate-y-0.5%20group-data-selected%3Atranslate-y-0%5C%22%20viewBox%3D%5C%220%200%20120%2072%5C%22%20fill%3D%5C%22none%5C%22%20height%3D%5C%2274%5C%22%20width%3D%5C%22120%5C%22%20xmlns%3D%5C%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_acc_name%22%2C%22ruleId%22%3A%22svg_graphics_labelled%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "svg_graphics_labelled",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[6]/div[7]/div[1]/div[1]/div[1]/button[2]/svg[1]",
+                "aria": "/document[1]/tablist[1]/tab[2]"
+            },
+            "ruleTime": 0,
+            "reasonId": "fail_acc_name",
+            "message": "The SVG element has no accessible name",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 728,
+                "top": 9252,
+                "height": 74,
+                "width": 120
+            },
+            "snippet": "<svg viewBox=\"0 0 120 72\" fill=\"none\" height=\"74\" width=\"120\" xmlns=\"http://www.w3.org/2000/svg\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/svg_graphics_labelled.html#%7B%22message%22%3A%22The%20SVG%20element%20has%20no%20accessible%20name%22%2C%22snippet%22%3A%22%3Csvg%20viewBox%3D%5C%220%200%20120%2072%5C%22%20fill%3D%5C%22none%5C%22%20height%3D%5C%2274%5C%22%20width%3D%5C%22120%5C%22%20xmlns%3D%5C%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_acc_name%22%2C%22ruleId%22%3A%22svg_graphics_labelled%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "svg_graphics_labelled",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[6]/div[7]/div[1]/div[1]/div[1]/button[3]/svg[1]",
+                "aria": "/document[1]/tablist[1]/tab[3]"
+            },
+            "ruleTime": 0,
+            "reasonId": "fail_acc_name",
+            "message": "The SVG element has no accessible name",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 1240,
+                "top": 9252,
+                "height": 74,
+                "width": 120
+            },
+            "snippet": "<svg viewBox=\"0 0 120 72\" fill=\"none\" height=\"74\" width=\"120\" xmlns=\"http://www.w3.org/2000/svg\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/svg_graphics_labelled.html#%7B%22message%22%3A%22The%20SVG%20element%20has%20no%20accessible%20name%22%2C%22snippet%22%3A%22%3Csvg%20viewBox%3D%5C%220%200%20120%2072%5C%22%20fill%3D%5C%22none%5C%22%20height%3D%5C%2274%5C%22%20width%3D%5C%22120%5C%22%20xmlns%3D%5C%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_acc_name%22%2C%22ruleId%22%3A%22svg_graphics_labelled%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[2]/div[5]/div[1]/div[1]/div[2]/a[1]",
+                "aria": "/document[1]/link[27]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 1554,
+                "top": 10509,
+                "height": 24,
+                "width": 118
+            },
+            "snippet": "<a href=\"/brand\" class=\"hover:underline\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22%2Fbrand%5C%22%20class%3D%5C%22hover%3Aunderline%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/div[2]/div[1]/div[3]/input[1]",
+                "aria": "/document[1]/generic[14]/textbox[1]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 0,
+                "top": 10634,
+                "height": 24,
+                "width": 248
+            },
+            "snippet": "<input tabindex=\"-1\" type=\"text\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Cinput%20tabindex%3D%5C%22-1%5C%22%20type%3D%5C%22text%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_content_in_landmark",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/nextjs-portal[1]/#document-fragment[1]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]",
+                "aria": "/document[1]/button[8]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "Content is not within a landmark element",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 22,
+                "top": 1026,
+                "height": 32,
+                "width": 32
+            },
+            "snippet": "<button data-nextjs-dev-tools-button=\"true\" aria-label=\"Open Next.js Dev Tools\" aria-controls=\"nextjs-dev-tools-menu\" aria-expanded=\"false\" aria-haspopup=\"menu\" data-next-mark-loading=\"false\" data-next-mark=\"true\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Cbutton%20data-nextjs-dev-tools-button%3D%5C%22true%5C%22%20aria-label%3D%5C%22Open%20Next.js%20Dev%20Tools%5C%22%20aria-controls%3D%5C%22nextjs-dev-tools-menu%5C%22%20aria-expanded%3D%5C%22false%5C%22%20aria-haspopup%3D%5C%22menu%5C%22%20data-next-mark-loading%3D%5C%22false%5C%22%20data-next-mark%3D%5C%22true%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        },
+        {
+            "ruleId": "aria_id_unique",
+            "value": [
+                "VIOLATION",
+                "FAIL"
+            ],
+            "path": {
+                "dom": "/html[1]/body[1]/nextjs-portal[1]/#document-fragment[1]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]",
+                "aria": "/document[1]/button[8]"
+            },
+            "ruleTime": 0,
+            "reasonId": "Fail_1",
+            "message": "The 'id' \"nextjs-dev-tools-menu\" specified for the ARIA property 'aria-controls' value is not valid",
+            "messageArgs": [
+                "nextjs-dev-tools-menu",
+                "aria-controls",
+                "button"
+            ],
+            "apiArgs": [],
+            "bounds": {
+                "left": 22,
+                "top": 1026,
+                "height": 32,
+                "width": 32
+            },
+            "snippet": "<button data-nextjs-dev-tools-button=\"true\" aria-label=\"Open Next.js Dev Tools\" aria-controls=\"nextjs-dev-tools-menu\" aria-expanded=\"false\" aria-haspopup=\"menu\" data-next-mark-loading=\"false\" data-next-mark=\"true\">",
+            "category": "Accessibility",
+            "level": "violation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_id_unique.html#%7B%22message%22%3A%22The%20'id'%20%5C%22nextjs-dev-tools-menu%5C%22%20specified%20for%20the%20ARIA%20property%20'aria-controls'%20value%20is%20not%20valid%22%2C%22snippet%22%3A%22%3Cbutton%20data-nextjs-dev-tools-button%3D%5C%22true%5C%22%20aria-label%3D%5C%22Open%20Next.js%20Dev%20Tools%5C%22%20aria-controls%3D%5C%22nextjs-dev-tools-menu%5C%22%20aria-expanded%3D%5C%22false%5C%22%20aria-haspopup%3D%5C%22menu%5C%22%20data-next-mark-loading%3D%5C%22false%5C%22%20data-next-mark%3D%5C%22true%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_id_unique%22%2C%22msgArgs%22%3A%5B%22nextjs-dev-tools-menu%22%2C%22aria-controls%22%2C%22button%22%5D%7D"
+        }
+    ]
+}

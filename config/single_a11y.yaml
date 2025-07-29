@@ -22,7 +22,12 @@ agent:
       {{problem_statement}}
       </pr_description>
 
- 
+      Note on problem format:
+      - `DOM Path` refers to the element's location in the HTML structure.
+      - `ARIA Path` refers to the element’s representation in the accessibility tree (how screen readers see it).
+      - `Code` provides the HTML or JSX snippet that contains the issue.
+      - Use these references to locate the faulty component in the codebase precisely.
+      
       <Accessibility Context>
       {{rag_knowledge_summary}}
       </Accessibility Context>
@@ -45,16 +50,6 @@ agent:
         - Do NOT use `grep -R /app` or other broad search commands, as they may time out.
         - Use DOM path or HTML snippet in the problem_statement for precision and locate the exact line number before editing.
         - fix all instances of missing accessible names, there may be multiple instances in the same file.
-        - If your `fuzzy_replace` call reports "Replaced 0 occurrence(s)", that means the pattern didn't match. You should try searching first using `search_file` or rechecking the pattern and file.
-      When proposing code changes, explicitly consider relevant WCAG techniques in "Technical Guidance from WCAG" if applicable. Use the examples in the guidance as reference patterns for your fix.
-
-      If you see any fuzzy_replace output like:"No replacement was performed" or "Replaced 0 occurrence(s)",
-      That likely means:
-      - You targeted the wrong file
-      - The pattern didn’t match
-      You should immediately:
-      - Run `search_file "<svg"` or `view <path>` to locate the correct line
-      - Then re-issue the correct fuzzy_replace command
       
       Follow this process to reason and act:
       1. First, identify the root cause of the accessibility failure (e.g., focus visibility, ARIA misuse, keyboard traps).

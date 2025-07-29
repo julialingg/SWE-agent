@@ -1,0 +1,268 @@
+- env:
+    deployment:
+      type: docker
+      image: a11y/typescript-website:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[6] Violation of rule `svg_graphics_labelled`: The SVG element has no accessible name\n        DOM Path: /html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]/section[3]/article[3]/ul[1]/li[6]/a[1]/span[1]/svg[1]\n        ARIA Path: /document[1]/contentinfo[1]/article[4]/list[1]/listitem[6]/link[1]/graphics-document[1]\n        Code: <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" viewBox=\"0 0 74 79\" height=\"12\" fill=\"none\">\n        messageArgs: []\n        apiArgs: []"
+    id: typescript-website-tools-06
+
+- env:
+    deployment:
+      type: docker
+      image: a11y/typescript-website:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[3] Violation of rule `svg_graphics_labelled`: The SVG element has no accessible name\n        DOM Path: /html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]/section[3]/article[3]/ul[1]/li[3]/a[1]/span[1]/svg[1]\n        ARIA Path: /document[1]/contentinfo[1]/article[4]/list[1]/listitem[3]/link[1]/graphics-document[1]\n        Code: <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" viewBox=\"0 0 12 12\" height=\"12\" fill=\"none\">\n        messageArgs: []\n        apiArgs: []"
+    id: typescript-website-tools-03
+
+- env:
+    deployment:
+      type: docker
+      image: a11y/typescript-website:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[1] Violation of rule `svg_graphics_labelled`: The SVG element has no accessible name\n        DOM Path: /html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]/section[3]/article[1]/svg[1]\n        ARIA Path: /document[1]/contentinfo[1]/article[2]/graphics-document[1]\n        Code: <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"26\" viewBox=\"0 0 26 26\" height=\"26\" fill=\"none\">\n        messageArgs: []\n        apiArgs: []"
+    id: typescript-website-tools-01
+
+- env:
+    deployment:
+      type: docker
+      image: a11y/typescript-website:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[20] Violation of rule `svg_graphics_labelled`: The SVG element has no accessible name\n        DOM Path: /html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]/section[3]/article[3]/ul[1]/li[3]/a[1]/span[1]/svg[1]\n        ARIA Path: /document[1]/contentinfo[1]/article[4]/list[1]/listitem[3]/link[1]/graphics-document[1]\n        Code: <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" viewBox=\"0 0 12 12\" height=\"12\" fill=\"none\">\n        messageArgs: []\n        apiArgs: []"
+    id: typescript-website-docs-handbook-20
+
+- env:
+    deployment:
+      type: docker
+      image: a11y/typescript-website:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[4] Violation of rule `label_name_visible`: Accessible name does not match or contain the visible label text\n        DOM Path: /html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[3]/div[2]/ul[1]/li[1]/a[1]\n        ARIA Path: /document[1]/main[1]/list[1]/listitem[1]/button[1]\n        Code: <a style=\"overflow: hidden; white-space: nowrap;\" aria-label=\"Select version of TypeScript, currently 5.8.3\" id=\"versions-button\" aria-controls=\"versions-dropdown\" aria-expanded=\"false\" aria-haspopup=\"menu\" role=\"button\" data-toggle=\"dropdown\" href=\"#\">\n        messageArgs: []\n        apiArgs: []"
+    id: typescript-website-play-04
+
+- env:
+    deployment:
+      type: docker
+      image: a11y/typescript-website:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[9] Violation of rule `svg_graphics_labelled`: The SVG element has no accessible name\n        DOM Path: /html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]/section[3]/article[3]/ul[1]/li[4]/a[1]/span[1]/svg[1]\n        ARIA Path: /document[1]/contentinfo[1]/article[4]/list[1]/listitem[4]/link[1]/graphics-document[1]\n        Code: <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"11\" viewBox=\"0 0 11 10\" height=\"10\" fill=\"none\">\n        messageArgs: []\n        apiArgs: []"
+    id: typescript-website-play-09
+
+
+- env:
+    deployment:
+      type: docker
+      image: a11y/typescript-website:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[7] Violation of rule `svg_graphics_labelled`: The SVG element has no accessible name\n        DOM Path: /html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]/section[3]/article[3]/ul[1]/li[4]/a[1]/span[1]/svg[1]\n        ARIA Path: /document[1]/contentinfo[1]/article[4]/list[1]/listitem[4]/link[1]/graphics-document[1]\n        Code: <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"11\" viewBox=\"0 0 11 10\" height=\"10\" fill=\"none\">\n        messageArgs: []\n        apiArgs: []"
+    id: typescript-website-community-07
+- env:
+    deployment:
+      type: docker
+      image: a11y/typescript-website:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[8] Violation of rule `svg_graphics_labelled`: The SVG element has no accessible name\n        DOM Path: /html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]/section[3]/article[3]/ul[1]/li[5]/a[1]/span[1]/svg[1]\n        ARIA Path: /document[1]/contentinfo[1]/article[4]/list[1]/listitem[5]/link[1]/graphics-document[1]\n        Code: <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"13\" viewBox=\"0 0 13 10\" height=\"10\" fill=\"none\">\n        messageArgs: []\n        apiArgs: []"
+    id: typescript-website-community-08
+
+
+- env:
+    deployment:
+      type: docker
+      image: a11y/typescript-website:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text:  
+      'Violation of rule `svg_graphics_labelled`: The SVG element has no accessible name
+      DOM Path: /html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]/section[1]/article[3]/ul[1]/li[3]/a[1]/span[1]/svg[1]
+      ARIA Path: /document[1]/contentinfo[1]/article[3]/list[1]/listitem[3]/link[1]/graphics-document[1]
+      Code: <svg xmlns="http://www.w3.org/2000/svg" width="12" viewBox="0 0 12 12" height="12" fill="none">
+      '
+    id: typescript-website-homepage-26
+
+- env:
+    deployment:
+      type: docker
+      image: a11y/typescript-website:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text:  
+      'Violation of rule `svg_graphics_labelled`: The SVG element has no accessible name
+      DOM Path: /html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]/section[1]/article[3]/ul[1]/li[5]/a[1]/span[1]/svg[1]
+      ARIA Path: /document[1]/contentinfo[1]/article[3]/list[1]/listitem[5]/link[1]/graphics-document[1]
+      Code: <svg xmlns="http://www.w3.org/2000/svg" width="13" viewBox="0 0 13 10" height="10" fill="none">
+      '
+    id: typescript-website-homepage-28
+
+# - env:
+#     deployment:
+#       type: docker
+#       image: a11y/typescript-website:latest
+#     repo:
+#       type: preexisting
+#       repo_name: app
+#   problem_statement:
+#     type: text
+#     text:  
+#       'Violation of rule `aria_role_valid`: The ARIA role "combobox" is not valid for the element <input>
+#       DOM Path: /html[1]/body[1]/div[1]/div[1]/div[1]/header[1]/div[1]/div[2]/div[1]/div[2]/form[1]/span[1]/span[1]/input[1]
+#       ARIA Path: /document[1]/banner[1]/search[1]/combobox[1]
+#       Code: <input style="position: relative; vertical-align: top;" dir="auto" aria-owns="algolia-autocomplete-listbox-0" aria-expanded="false" aria-autocomplete="list" role="combobox" spellcheck="false" autocomplete="off" class="ds-input" aria-label="Search the TypeScript site" placeholder="Search Docs" type="search" id="search-box-top">
+#       messageArgs: ["combobox", "input"]   
+#       '
+#     id: typescript-website-homepage-03
+
+
+# - env:
+#     deployment:
+#       type: docker
+#       image: a11y/typescript-website:latest
+#     repo:
+#       type: preexisting
+#       repo_name: app
+#   problem_statement:
+#     type: text
+#     text:  
+#       'Violation of rule `svg_graphics_labelled`: The SVG element has no accessible name
+#       DOM Path: /html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[4]/div[1]/div[1]/div[2]/a[1]/div[2]/svg[1]
+#       ARIA Path: /document[1]/main[1]/link[4]/graphics-document[1]
+#       Code: <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 23" height="23" width="14">
+#       '
+#     id: typescript-website-homepage-07
+
+
+# - env:
+#     deployment:
+#       type: docker
+#       image: a11y/typescript-website:latest
+#     repo:
+#       type: preexisting
+#       repo_name: app
+#   problem_statement:
+#     type: text
+#     text:  
+#       ' Violation of rule `element_orientation_unlocked`: The element <svg> is restricted to either landscape or portrait orientation using CSS transform property
+#       DOM Path: /html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/svg[1]
+#       ARIA Path: /document[1]/main[1]/graphics-document[1]
+#       Code: <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 40 40" height="40" width="40" style="transform: translateX(5px) translateY(-2px) rotate(40deg);">
+#       messageArgs: ["svg"]
+#       '
+#     id: typescript-website-homepage-10
+
+
+# - env:
+#     deployment:
+#       type: docker
+#       image: a11y/typescript-website:latest
+#     repo:
+#       type: preexisting
+#       repo_name: app
+#   problem_statement:
+#     type: text
+#     text:  
+#       'Violation of rule `svg_graphics_labelled`: The SVG element has no accessible name
+#       DOM Path: /html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]/section[1]/article[3]/ul[1]/li[8]/a[1]/span[1]/svg[1]
+#       ARIA Path: /document[1]/contentinfo[1]/article[3]/list[1]/listitem[8]/link[1]/graphics-document[1]
+#       Code: <svg xmlns="http://www.w3.org/2000/svg" width="12" viewBox="0 0 12 12" height="12" fill="none">
+#       '
+#     id: typescript-website-homepage-31
+
+
+# - env:
+#     deployment:
+#       type: docker
+#       image: a11y/typescript-website:latest
+#     repo:
+#       type: preexisting
+#       repo_name: app
+#   problem_statement:
+#     type: text
+#     text: "[7] Violation of rule `svg_graphics_labelled`: The SVG element has no accessible name\n        DOM Path: /html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]/section[3]/article[3]/ul[1]/li[7]/a[1]/span[1]/svg[1]\n        ARIA Path: /document[1]/contentinfo[1]/article[4]/list[1]/listitem[7]/link[1]/graphics-document[1]\n        Code: <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" viewBox=\"0 0 12 16\" height=\"16\" fill=\"none\">\n        messageArgs: []\n        apiArgs: []"
+#     id: typescript-website-download-07
+
+
+# - env:
+#     deployment:
+#       type: docker
+#       image: a11y/typescript-website:latest
+#     repo:
+#       type: preexisting
+#       repo_name: app
+#   problem_statement:
+#     type: text
+#     text: "[5] Violation of rule `aria_widget_labelled`: Interactive component with ARIA role 'tabpanel' does not have a programmatically associated name\n        DOM Path: /html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[5]/div[2]\n        ARIA Path: /document[1]/main[1]/tabpanel[1]\n        Code: <div class=\"playground-plugin-container\" role=\"tabpanel\">\n        messageArgs: ['tabpanel']\n        apiArgs: []"
+#     id: typescript-website-play-05
+
+
+
+# - env:
+#     deployment:
+#       type: docker
+#       image: a11y/typescript-website:latest
+#     repo:
+#       type: preexisting
+#       repo_name: app
+#   problem_statement:
+#     type: text
+#     text: "[25] Violation of rule `svg_graphics_labelled`: The SVG element has no accessible name\n        DOM Path: /html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]/section[3]/article[3]/ul[1]/li[8]/a[1]/span[1]/svg[1]\n        ARIA Path: /document[1]/contentinfo[1]/article[4]/list[1]/listitem[8]/link[1]/graphics-document[1]\n        Code: <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" viewBox=\"0 0 12 12\" height=\"12\" fill=\"none\">\n        messageArgs: []\n        apiArgs: []"
+#     id: typescript-website-docs-handbook-25
+
+
+
+# - env:
+#     deployment:
+#       type: docker
+#       image: a11y/typescript-website:latest
+#     repo:
+#       type: preexisting
+#       repo_name: app
+#   problem_statement:
+#     type: text
+#     text: "[7] Violation of rule `svg_graphics_labelled`: The SVG element has no accessible name\n        DOM Path: /html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]/section[3]/article[3]/ul[1]/li[7]/a[1]/span[1]/svg[1]\n        ARIA Path: /document[1]/contentinfo[1]/article[4]/list[1]/listitem[7]/link[1]/graphics-document[1]\n        Code: <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" viewBox=\"0 0 12 16\" height=\"16\" fill=\"none\">\n        messageArgs: []\n        apiArgs: []"
+#     id: typescript-website-tools-07
+# - env:
+#     deployment:
+#       type: docker
+#       image: a11y/typescript-website:latest
+#     repo:
+#       type: preexisting
+#       repo_name: app
+#   problem_statement:
+#     type: text
+#     text: "[8] Violation of rule `svg_graphics_labelled`: The SVG element has no accessible name\n        DOM Path: /html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]/section[3]/article[3]/ul[1]/li[8]/a[1]/span[1]/svg[1]\n        ARIA Path: /document[1]/contentinfo[1]/article[4]/list[1]/listitem[8]/link[1]/graphics-document[1]\n        Code: <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" viewBox=\"0 0 12 12\" height=\"12\" fill=\"none\">\n        messageArgs: []\n        apiArgs: []"
+#     id: typescript-website-tools-08

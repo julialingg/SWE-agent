@@ -1,0 +1,88 @@
+# - env:
+#     deployment:
+#       type: docker
+#       image: a11y/typescript-website:latest
+#     repo:
+#       type: preexisting
+#       repo_name: app
+#   problem_statement:
+#     type: text
+#     text: "[1] Violation of rule `svg_graphics_labelled`: The SVG element has no accessible name\n        DOM Path: /html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]/section[3]/article[1]/svg[1]\n        ARIA Path: /document[1]/contentinfo[1]/article[2]/graphics-document[1]\n        Code: <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"26\" viewBox=\"0 0 26 26\" height=\"26\" fill=\"none\">\n        messageArgs: []\n        apiArgs: []"
+#     id: typescript-website-download-01
+# - env:
+#     deployment:
+#       type: docker
+#       image: a11y/typescript-website:latest
+#     repo:
+#       type: preexisting
+#       repo_name: app
+#   problem_statement:
+#     type: text
+#     text: "[2] Violation of rule `svg_graphics_labelled`: The SVG element has no accessible name\n        DOM Path: /html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]/section[3]/article[1]/svg[2]\n        ARIA Path: /document[1]/contentinfo[1]/article[2]/graphics-document[2]\n        Code: <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"105\" viewBox=\"0 0 105 25\" height=\"25\" fill=\"none\" class=\"typescript-long\">\n        messageArgs: []\n        apiArgs: []"
+#     id: typescript-website-download-02
+- env:
+    deployment:
+      type: docker
+      image: a11y/typescript-website:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[3] Violation of rule `svg_graphics_labelled`: The SVG element has no accessible name\n        DOM Path: /html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]/section[3]/article[3]/ul[1]/li[3]/a[1]/span[1]/svg[1]\n        ARIA Path: /document[1]/contentinfo[1]/article[4]/list[1]/listitem[3]/link[1]/graphics-document[1]\n        Code: <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" viewBox=\"0 0 12 12\" height=\"12\" fill=\"none\">\n        messageArgs: []\n        apiArgs: []"
+    id: typescript-website-download-03
+- env:
+    deployment:
+      type: docker
+      image: a11y/typescript-website:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[4] Violation of rule `svg_graphics_labelled`: The SVG element has no accessible name\n        DOM Path: /html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]/section[3]/article[3]/ul[1]/li[4]/a[1]/span[1]/svg[1]\n        ARIA Path: /document[1]/contentinfo[1]/article[4]/list[1]/listitem[4]/link[1]/graphics-document[1]\n        Code: <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"11\" viewBox=\"0 0 11 10\" height=\"10\" fill=\"none\">\n        messageArgs: []\n        apiArgs: []"
+    id: typescript-website-download-04
+- env:
+    deployment:
+      type: docker
+      image: a11y/typescript-website:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[5] Violation of rule `svg_graphics_labelled`: The SVG element has no accessible name\n        DOM Path: /html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]/section[3]/article[3]/ul[1]/li[5]/a[1]/span[1]/svg[1]\n        ARIA Path: /document[1]/contentinfo[1]/article[4]/list[1]/listitem[5]/link[1]/graphics-document[1]\n        Code: <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"13\" viewBox=\"0 0 13 10\" height=\"10\" fill=\"none\">\n        messageArgs: []\n        apiArgs: []"
+    id: typescript-website-download-05
+- env:
+    deployment:
+      type: docker
+      image: a11y/typescript-website:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[6] Violation of rule `svg_graphics_labelled`: The SVG element has no accessible name\n        DOM Path: /html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]/section[3]/article[3]/ul[1]/li[6]/a[1]/span[1]/svg[1]\n        ARIA Path: /document[1]/contentinfo[1]/article[4]/list[1]/listitem[6]/link[1]/graphics-document[1]\n        Code: <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" viewBox=\"0 0 74 79\" height=\"12\" fill=\"none\">\n        messageArgs: []\n        apiArgs: []"
+    id: typescript-website-download-06
+- env:
+    deployment:
+      type: docker
+      image: a11y/typescript-website:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[7] Violation of rule `svg_graphics_labelled`: The SVG element has no accessible name\n        DOM Path: /html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]/section[3]/article[3]/ul[1]/li[7]/a[1]/span[1]/svg[1]\n        ARIA Path: /document[1]/contentinfo[1]/article[4]/list[1]/listitem[7]/link[1]/graphics-document[1]\n        Code: <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" viewBox=\"0 0 12 16\" height=\"16\" fill=\"none\">\n        messageArgs: []\n        apiArgs: []"
+    id: typescript-website-download-07
+- env:
+    deployment:
+      type: docker
+      image: a11y/typescript-website:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[8] Violation of rule `svg_graphics_labelled`: The SVG element has no accessible name\n        DOM Path: /html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]/section[3]/article[3]/ul[1]/li[8]/a[1]/span[1]/svg[1]\n        ARIA Path: /document[1]/contentinfo[1]/article[4]/list[1]/listitem[8]/link[1]/graphics-document[1]\n        Code: <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" viewBox=\"0 0 12 12\" height=\"12\" fill=\"none\">\n        messageArgs: []\n        apiArgs: []"
+    id: typescript-website-download-08

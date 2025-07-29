@@ -1,0 +1,72 @@
+[1] Violation of rule `svg_graphics_labelled`: The SVG element has no accessible name
+  DOM Path: /html[1]/body[1]/div[1]/div[1]/div[1]/header[1]/div[1]/div[1]/a[1]/svg[1]
+  ARIA Path: /document[1]/banner[1]/link[2]/graphics-document[1]
+  Code: <svg xmlns="http://www.w3.org/2000/svg" width="27" viewBox="0 0 27 26" height="26" fill="none">
+  messageArgs: []
+  apiArgs: []
+  Learn more: https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/svg_graphics_labelled.html#%7B%22message%22%3A%22The%20SVG%20element%20has%20no%20accessible%20name%22%2C%22snippet%22%3A%22%3Csvg%20xmlns%3D%5C%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%5C%22%20width%3D%5C%2227%5C%22%20viewBox%3D%5C%220%200%2027%2026%5C%22%20height%3D%5C%2226%5C%22%20fill%3D%5C%22none%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_acc_name%22%2C%22ruleId%22%3A%22svg_graphics_labelled%22%2C%22msgArgs%22%3A%5B%5D%7D
+
+[2] Violation of rule `svg_graphics_labelled`: The SVG element has no accessible name
+  DOM Path: /html[1]/body[1]/div[1]/div[1]/div[1]/header[1]/div[1]/div[2]/div[1]/div[2]/form[1]/svg[1]
+  ARIA Path: /document[1]/banner[1]/search[1]/graphics-document[1]
+  Code: <svg xmlns="http://www.w3.org/2000/svg" width="16" viewBox="0 0 16 16" height="16" fill="none">
+  messageArgs: []
+  apiArgs: []
+  Learn more: https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/svg_graphics_labelled.html#%7B%22message%22%3A%22The%20SVG%20element%20has%20no%20accessible%20name%22%2C%22snippet%22%3A%22%3Csvg%20xmlns%3D%5C%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%5C%22%20width%3D%5C%2216%5C%22%20viewBox%3D%5C%220%200%2016%2016%5C%22%20height%3D%5C%2216%5C%22%20fill%3D%5C%22none%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_acc_name%22%2C%22ruleId%22%3A%22svg_graphics_labelled%22%2C%22msgArgs%22%3A%5B%5D%7D
+
+[3] Violation of rule `aria_role_valid`: The ARIA role 'combobox' is not valid for the element <input>
+  DOM Path: /html[1]/body[1]/div[1]/div[1]/div[1]/header[1]/div[1]/div[2]/div[1]/div[2]/form[1]/span[1]/span[1]/input[1]
+  ARIA Path: /document[1]/banner[1]/search[1]/combobox[1]
+  Code: <input style="position: relative; vertical-align: top;" dir="auto" aria-owns="algolia-autocomplete-listbox-0" aria-expanded="false" aria-autocomplete="list" role="combobox" spellcheck="false" autocomplete="off" class="ds-input" aria-label="Search the TypeScript site" placeholder="Search Docs" type="search" id="search-box-top">
+  messageArgs: ['combobox', 'input']
+  apiArgs: []
+  Learn more: https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_role_valid.html#%7B%22message%22%3A%22The%20ARIA%20role%20'combobox'%20is%20not%20valid%20for%20the%20element%20%3Cinput%3E%22%2C%22snippet%22%3A%22%3Cinput%20style%3D%5C%22position%3A%20relative%3B%20vertical-align%3A%20top%3B%5C%22%20dir%3D%5C%22auto%5C%22%20aria-owns%3D%5C%22algolia-autocomplete-listbox-0%5C%22%20aria-expanded%3D%5C%22false%5C%22%20aria-autocomplete%3D%5C%22list%5C%22%20role%3D%5C%22combobox%5C%22%20spellcheck%3D%5C%22false%5C%22%20autocomplete%3D%5C%22off%5C%22%20class%3D%5C%22ds-input%5C%22%20aria-label%3D%5C%22Search%20the%20TypeScript%20site%5C%22%20placeholder%3D%5C%22Search%20Docs%5C%22%20type%3D%5C%22search%5C%22%20id%3D%5C%22search-box-top%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_role_valid%22%2C%22msgArgs%22%3A%5B%22combobox%22%2C%22input%22%5D%7D
+
+[4] Violation of rule `svg_graphics_labelled`: The SVG element has no accessible name
+  DOM Path: /html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/section[1]/nav[1]/ul[1]/li[1]/button[1]/span[2]/svg[1]
+  ARIA Path: /document[1]/main[1]/navigation[1]/list[1]/listitem[1]/button[1]
+  Code: <svg xmlns="http://www.w3.org/2000/svg" width="9" viewBox="0 0 9 14" height="14" fill="none">
+  messageArgs: []
+  apiArgs: []
+  Learn more: https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/svg_graphics_labelled.html#%7B%22message%22%3A%22The%20SVG%20element%20has%20no%20accessible%20name%22%2C%22snippet%22%3A%22%3Csvg%20xmlns%3D%5C%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%5C%22%20width%3D%5C%229%5C%22%20viewBox%3D%5C%220%200%209%2014%5C%22%20height%3D%5C%2214%5C%22%20fill%3D%5C%22none%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_acc_name%22%2C%22ruleId%22%3A%22svg_graphics_labelled%22%2C%22msgArgs%22%3A%5B%5D%7D
+
+[5] Violation of rule `svg_graphics_labelled`: The SVG element has no accessible name
+  DOM Path: /html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/section[1]/nav[1]/ul[1]/li[2]/button[1]/span[1]/svg[1]
+  ARIA Path: /document[1]/main[1]/navigation[1]/list[1]/listitem[2]/button[1]
+  Code: <svg xmlns="http://www.w3.org/2000/svg" width="14" viewBox="0 0 14 9" height="9" fill="none">
+  messageArgs: []
+  apiArgs: []
+  Learn more: https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/svg_graphics_labelled.html#%7B%22message%22%3A%22The%20SVG%20element%20has%20no%20accessible%20name%22%2C%22snippet%22%3A%22%3Csvg%20xmlns%3D%5C%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%5C%22%20width%3D%5C%2214%5C%22%20viewBox%3D%5C%220%200%2014%209%5C%22%20height%3D%5C%229%5C%22%20fill%3D%5C%22none%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_acc_name%22%2C%22ruleId%22%3A%22svg_graphics_labelled%22%2C%22msgArgs%22%3A%5B%5D%7D
+
+[6] Violation of rule `svg_graphics_labelled`: The SVG element has no accessible name
+  DOM Path: /html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/section[1]/nav[1]/ul[1]/li[2]/ul[1]/li[7]/button[1]/span[2]/svg[1]
+  ARIA Path: /document[1]/main[1]/navigation[1]/list[1]/listitem[2]/list[1]/listitem[7]/button[1]
+  Code: <svg xmlns="http://www.w3.org/2000/svg" width="9" viewBox="0 0 9 14" height="14" fill="none">
+  messageArgs: []
+  apiArgs: []
+  Learn more: https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/svg_graphics_labelled.html#%7B%22message%22%3A%22The%20SVG%20element%20has%20no%20accessible%20name%22%2C%22snippet%22%3A%22%3Csvg%20xmlns%3D%5C%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%5C%22%20width%3D%5C%229%5C%22%20viewBox%3D%5C%220%200%209%2014%5C%22%20height%3D%5C%2214%5C%22%20fill%3D%5C%22none%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_acc_name%22%2C%22ruleId%22%3A%22svg_graphics_labelled%22%2C%22msgArgs%22%3A%5B%5D%7D
+
+
+[9] Violation of rule `svg_graphics_labelled`: The SVG element has no accessible name
+  DOM Path: /html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/section[1]/nav[1]/ul[1]/li[5]/button[1]/span[2]/svg[1]
+  ARIA Path: /document[1]/main[1]/navigation[1]/list[1]/listitem[5]/button[1]
+  Code: <svg xmlns="http://www.w3.org/2000/svg" width="9" viewBox="0 0 9 14" height="14" fill="none">
+  messageArgs: []
+  apiArgs: []
+  Learn more: https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/svg_graphics_labelled.html#%7B%22message%22%3A%22The%20SVG%20element%20has%20no%20accessible%20name%22%2C%22snippet%22%3A%22%3Csvg%20xmlns%3D%5C%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%5C%22%20width%3D%5C%229%5C%22%20viewBox%3D%5C%220%200%209%2014%5C%22%20height%3D%5C%2214%5C%22%20fill%3D%5C%22none%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_acc_name%22%2C%22ruleId%22%3A%22svg_graphics_labelled%22%2C%22msgArgs%22%3A%5B%5D%7D
+
+[10] Violation of rule `svg_graphics_labelled`: The SVG element has no accessible name
+  DOM Path: /html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/section[1]/nav[1]/ul[1]/li[6]/button[1]/span[2]/svg[1]
+  ARIA Path: /document[1]/main[1]/navigation[1]/list[1]/listitem[6]/button[1]
+  Code: <svg xmlns="http://www.w3.org/2000/svg" width="9" viewBox="0 0 9 14" height="14" fill="none">
+  messageArgs: []
+  apiArgs: []
+  Learn more: https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/svg_graphics_labelled.html#%7B%22message%22%3A%22The%20SVG%20element%20has%20no%20accessible%20name%22%2C%22snippet%22%3A%22%3Csvg%20xmlns%3D%5C%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%5C%22%20width%3D%5C%229%5C%22%20viewBox%3D%5C%220%200%209%2014%5C%22%20height%3D%5C%2214%5C%22%20fill%3D%5C%22none%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_acc_name%22%2C%22ruleId%22%3A%22svg_graphics_labelled%22%2C%22msgArgs%22%3A%5B%5D%7D
+
+[14] Violation of rule `aria_complementary_labelled`: Element with "complementary" role does not have a label
+  DOM Path: /html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/section[1]/div[2]/article[1]/aside[1]
+  ARIA Path: /document[1]/main[1]/article[1]/article[1]/complementary[1]
+  Code: <aside class="handbook-toc">
+  messageArgs: []
+  apiArgs: []
+  Learn more: https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/aria_complementary_labelled.html#%7B%22message%22%3A%22Element%20with%20%5C%22complementary%5C%22%20role%20does%20not%20have%20a%20label%22%2C%22snippet%22%3A%22%3Caside%20class%3D%5C%22handbook-toc%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_complementary_labelled%22%2C%22msgArgs%22%3A%5B%5D%7D

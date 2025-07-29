@@ -1,0 +1,63 @@
+[1] Violation of rule `svg_graphics_labelled`: The SVG element has no accessible name
+  DOM Path: /html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]/section[3]/article[1]/svg[1]
+  ARIA Path: /document[1]/contentinfo[1]/article[2]/graphics-document[1]
+  Code: <svg xmlns="http://www.w3.org/2000/svg" width="26" viewBox="0 0 26 26" height="26" fill="none">
+  messageArgs: []
+  apiArgs: []
+  Learn more: https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/svg_graphics_labelled.html#%7B%22message%22%3A%22The%20SVG%20element%20has%20no%20accessible%20name%22%2C%22snippet%22%3A%22%3Csvg%20xmlns%3D%5C%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%5C%22%20width%3D%5C%2226%5C%22%20viewBox%3D%5C%220%200%2026%2026%5C%22%20height%3D%5C%2226%5C%22%20fill%3D%5C%22none%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_acc_name%22%2C%22ruleId%22%3A%22svg_graphics_labelled%22%2C%22msgArgs%22%3A%5B%5D%7D
+
+[2] Violation of rule `svg_graphics_labelled`: The SVG element has no accessible name
+  DOM Path: /html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]/section[3]/article[1]/svg[2]
+  ARIA Path: /document[1]/contentinfo[1]/article[2]/graphics-document[2]
+  Code: <svg xmlns="http://www.w3.org/2000/svg" width="105" viewBox="0 0 105 25" height="25" fill="none" class="typescript-long">
+  messageArgs: []
+  apiArgs: []
+  Learn more: https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/svg_graphics_labelled.html#%7B%22message%22%3A%22The%20SVG%20element%20has%20no%20accessible%20name%22%2C%22snippet%22%3A%22%3Csvg%20xmlns%3D%5C%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%5C%22%20width%3D%5C%22105%5C%22%20viewBox%3D%5C%220%200%20105%2025%5C%22%20height%3D%5C%2225%5C%22%20fill%3D%5C%22none%5C%22%20class%3D%5C%22typescript-long%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_acc_name%22%2C%22ruleId%22%3A%22svg_graphics_labelled%22%2C%22msgArgs%22%3A%5B%5D%7D
+
+[3] Violation of rule `svg_graphics_labelled`: The SVG element has no accessible name
+  DOM Path: /html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]/section[3]/article[3]/ul[1]/li[3]/a[1]/span[1]/svg[1]
+  ARIA Path: /document[1]/contentinfo[1]/article[4]/list[1]/listitem[3]/link[1]/graphics-document[1]
+  Code: <svg xmlns="http://www.w3.org/2000/svg" width="12" viewBox="0 0 12 12" height="12" fill="none">
+  messageArgs: []
+  apiArgs: []
+  Learn more: https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/svg_graphics_labelled.html#%7B%22message%22%3A%22The%20SVG%20element%20has%20no%20accessible%20name%22%2C%22snippet%22%3A%22%3Csvg%20xmlns%3D%5C%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%5C%22%20width%3D%5C%2212%5C%22%20viewBox%3D%5C%220%200%2012%2012%5C%22%20height%3D%5C%2212%5C%22%20fill%3D%5C%22none%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_acc_name%22%2C%22ruleId%22%3A%22svg_graphics_labelled%22%2C%22msgArgs%22%3A%5B%5D%7D
+
+[4] Violation of rule `svg_graphics_labelled`: The SVG element has no accessible name
+  DOM Path: /html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]/section[3]/article[3]/ul[1]/li[4]/a[1]/span[1]/svg[1]
+  ARIA Path: /document[1]/contentinfo[1]/article[4]/list[1]/listitem[4]/link[1]/graphics-document[1]
+  Code: <svg xmlns="http://www.w3.org/2000/svg" width="11" viewBox="0 0 11 10" height="10" fill="none">
+  messageArgs: []
+  apiArgs: []
+  Learn more: https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/svg_graphics_labelled.html#%7B%22message%22%3A%22The%20SVG%20element%20has%20no%20accessible%20name%22%2C%22snippet%22%3A%22%3Csvg%20xmlns%3D%5C%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%5C%22%20width%3D%5C%2211%5C%22%20viewBox%3D%5C%220%200%2011%2010%5C%22%20height%3D%5C%2210%5C%22%20fill%3D%5C%22none%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_acc_name%22%2C%22ruleId%22%3A%22svg_graphics_labelled%22%2C%22msgArgs%22%3A%5B%5D%7D
+
+[5] Violation of rule `svg_graphics_labelled`: The SVG element has no accessible name
+  DOM Path: /html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]/section[3]/article[3]/ul[1]/li[5]/a[1]/span[1]/svg[1]
+  ARIA Path: /document[1]/contentinfo[1]/article[4]/list[1]/listitem[5]/link[1]/graphics-document[1]
+  Code: <svg xmlns="http://www.w3.org/2000/svg" width="13" viewBox="0 0 13 10" height="10" fill="none">
+  messageArgs: []
+  apiArgs: []
+  Learn more: https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/svg_graphics_labelled.html#%7B%22message%22%3A%22The%20SVG%20element%20has%20no%20accessible%20name%22%2C%22snippet%22%3A%22%3Csvg%20xmlns%3D%5C%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%5C%22%20width%3D%5C%2213%5C%22%20viewBox%3D%5C%220%200%2013%2010%5C%22%20height%3D%5C%2210%5C%22%20fill%3D%5C%22none%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_acc_name%22%2C%22ruleId%22%3A%22svg_graphics_labelled%22%2C%22msgArgs%22%3A%5B%5D%7D
+
+[6] Violation of rule `svg_graphics_labelled`: The SVG element has no accessible name
+  DOM Path: /html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]/section[3]/article[3]/ul[1]/li[6]/a[1]/span[1]/svg[1]
+  ARIA Path: /document[1]/contentinfo[1]/article[4]/list[1]/listitem[6]/link[1]/graphics-document[1]
+  Code: <svg xmlns="http://www.w3.org/2000/svg" width="12" viewBox="0 0 74 79" height="12" fill="none">
+  messageArgs: []
+  apiArgs: []
+  Learn more: https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/svg_graphics_labelled.html#%7B%22message%22%3A%22The%20SVG%20element%20has%20no%20accessible%20name%22%2C%22snippet%22%3A%22%3Csvg%20xmlns%3D%5C%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%5C%22%20width%3D%5C%2212%5C%22%20viewBox%3D%5C%220%200%2074%2079%5C%22%20height%3D%5C%2212%5C%22%20fill%3D%5C%22none%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_acc_name%22%2C%22ruleId%22%3A%22svg_graphics_labelled%22%2C%22msgArgs%22%3A%5B%5D%7D
+
+[7] Violation of rule `svg_graphics_labelled`: The SVG element has no accessible name
+  DOM Path: /html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]/section[3]/article[3]/ul[1]/li[7]/a[1]/span[1]/svg[1]
+  ARIA Path: /document[1]/contentinfo[1]/article[4]/list[1]/listitem[7]/link[1]/graphics-document[1]
+  Code: <svg xmlns="http://www.w3.org/2000/svg" width="12" viewBox="0 0 12 16" height="16" fill="none">
+  messageArgs: []
+  apiArgs: []
+  Learn more: https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/svg_graphics_labelled.html#%7B%22message%22%3A%22The%20SVG%20element%20has%20no%20accessible%20name%22%2C%22snippet%22%3A%22%3Csvg%20xmlns%3D%5C%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%5C%22%20width%3D%5C%2212%5C%22%20viewBox%3D%5C%220%200%2012%2016%5C%22%20height%3D%5C%2216%5C%22%20fill%3D%5C%22none%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_acc_name%22%2C%22ruleId%22%3A%22svg_graphics_labelled%22%2C%22msgArgs%22%3A%5B%5D%7D
+
+[8] Violation of rule `svg_graphics_labelled`: The SVG element has no accessible name
+  DOM Path: /html[1]/body[1]/div[1]/div[1]/div[1]/footer[1]/section[3]/article[3]/ul[1]/li[8]/a[1]/span[1]/svg[1]
+  ARIA Path: /document[1]/contentinfo[1]/article[4]/list[1]/listitem[8]/link[1]/graphics-document[1]
+  Code: <svg xmlns="http://www.w3.org/2000/svg" width="12" viewBox="0 0 12 12" height="12" fill="none">
+  messageArgs: []
+  apiArgs: []
+  Learn more: https://able.ibm.com/rules/archives/2025.06.26/doc/en-US/svg_graphics_labelled.html#%7B%22message%22%3A%22The%20SVG%20element%20has%20no%20accessible%20name%22%2C%22snippet%22%3A%22%3Csvg%20xmlns%3D%5C%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%5C%22%20width%3D%5C%2212%5C%22%20viewBox%3D%5C%220%200%2012%2012%5C%22%20height%3D%5C%2212%5C%22%20fill%3D%5C%22none%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_acc_name%22%2C%22ruleId%22%3A%22svg_graphics_labelled%22%2C%22msgArgs%22%3A%5B%5D%7D
