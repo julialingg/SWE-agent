@@ -1,0 +1,422 @@
+[1] Violation of rule `label_name_visible`: Accessible name does not match or contain the visible label text
+  DOM Path: /html[1]/body[1]/div[1]/nav[1]/div[1]/div[2]/div[3]/button[1]
+  ARIA Path: /document[1]/navigation[1]/button[6]
+  Code: <button aria-label="Search (Ctrl+K)" class="DocSearch DocSearch-Button" type="button">
+  messageArgs: []
+  apiArgs: []
+
+
+[2] Violation of rule `aria_complementary_labelled`: Element with "complementary" role does not have a label
+  DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/aside[1]
+  ARIA Path: /document[1]/complementary[1]
+  Code: <aside class="col col--3">
+  messageArgs: []
+  apiArgs: []
+
+
+[3] Violation of rule `img_alt_redundant`: Image 'alt' value within a link is repeated in link text of the link after
+  DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[1]/header[1]/div[2]/div[1]/div[1]/a[1]/img[1]
+  ARIA Path: /document[1]/main[1]/article[1]/link[1]/img[1]
+  Code: <img alt="georgexu99" src="https://github.com/georgexu99.png?size=96" class="avatar__photo authorImage_XqGP">
+  messageArgs: []
+  apiArgs: []
+
+
+[4] Violation of rule `img_alt_redundant`: Image 'alt' value within a link is repeated in link text of the link after
+  DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[1]/header[1]/div[2]/div[2]/div[1]/a[1]/img[1]
+  ARIA Path: /document[1]/main[1]/article[1]/link[3]/img[1]
+  Code: <img alt="VerteDinde" src="https://github.com/VerteDinde.png?size=96" class="avatar__photo authorImage_XqGP">
+  messageArgs: []
+  apiArgs: []
+
+
+[5] Violation of rule `img_alt_redundant`: Image 'alt' value within a link is repeated in link text of the link after
+  DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[2]/header[1]/div[2]/div[1]/div[1]/a[1]/img[1]
+  ARIA Path: /document[1]/main[1]/article[2]/link[1]/img[1]
+  Code: <img alt="georgexu99" src="https://github.com/georgexu99.png?size=96" class="avatar__photo authorImage_XqGP">
+  messageArgs: []
+  apiArgs: []
+
+
+[6] Violation of rule `element_id_unique`: The <h2> element has the id "notable-changes" that is already in use
+  DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[2]/div[1]/h2[1]
+  ARIA Path: /document[1]/main[1]/article[2]/heading[2]
+  Code: <h2 id="notable-changes" class="anchor anchorWithStickyNavbar_LWe7">
+  messageArgs: ['h2', 'notable-changes']
+  apiArgs: []
+
+
+[7] Violation of rule `element_id_unique`: The <h3> element has the id "stack-changes" that is already in use
+  DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[2]/div[1]/h3[2]
+  ARIA Path: /document[1]/main[1]/article[2]/heading[4]
+  Code: <h3 id="stack-changes" class="anchor anchorWithStickyNavbar_LWe7">
+  messageArgs: ['h3', 'stack-changes']
+  apiArgs: []
+
+
+[8] Violation of rule `element_id_unique`: The <h3> element has the id "new-features-and-improvements" that is already in use
+  DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[2]/div[1]/h3[3]
+  ARIA Path: /document[1]/main[1]/article[2]/heading[5]
+  Code: <h3 id="new-features-and-improvements" class="anchor anchorWithStickyNavbar_LWe7">
+  messageArgs: ['h3', 'new-features-and-improvements']
+  apiArgs: []
+
+
+[9] Violation of rule `element_id_unique`: The <h3> element has the id "breaking-changes" that is already in use
+  DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[2]/div[1]/h3[4]
+  ARIA Path: /document[1]/main[1]/article[2]/heading[6]
+  Code: <h3 id="breaking-changes" class="anchor anchorWithStickyNavbar_LWe7">
+  messageArgs: ['h3', 'breaking-changes']
+  apiArgs: []
+
+
+[10] Violation of rule `element_id_unique`: The <h2> element has the id "whats-next" that is already in use
+  DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[2]/div[1]/h2[3]
+  ARIA Path: /document[1]/main[1]/article[2]/heading[14]
+  Code: <h2 id="whats-next" class="anchor anchorWithStickyNavbar_LWe7">
+  messageArgs: ['h2', 'whats-next']
+  apiArgs: []
+
+
+[11] Violation of rule `img_alt_redundant`: Image 'alt' value within a link is repeated in link text of the link after
+  DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[3]/header[1]/div[2]/div[1]/div[1]/a[1]/img[1]
+  ARIA Path: /document[1]/main[1]/article[3]/link[1]/img[1]
+  Code: <img alt="georgexu99" src="https://github.com/georgexu99.png?size=96" class="avatar__photo authorImage_XqGP">
+  messageArgs: []
+  apiArgs: []
+
+
+[12] Violation of rule `img_alt_redundant`: Image 'alt' value within a link is repeated in link text of the link after
+  DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[3]/header[1]/div[2]/div[2]/div[1]/a[1]/img[1]
+  ARIA Path: /document[1]/main[1]/article[3]/link[3]/img[1]
+  Code: <img alt="VerteDinde" src="https://github.com/VerteDinde.png?size=96" class="avatar__photo authorImage_XqGP">
+  messageArgs: []
+  apiArgs: []
+
+
+[13] Violation of rule `element_id_unique`: The <h2> element has the id "notable-changes" that is already in use
+  DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[3]/div[1]/h2[1]
+  ARIA Path: /document[1]/main[1]/article[3]/heading[2]
+  Code: <h2 id="notable-changes" class="anchor anchorWithStickyNavbar_LWe7">
+  messageArgs: ['h2', 'notable-changes']
+  apiArgs: []
+
+
+[14] Violation of rule `element_id_unique`: The <h3> element has the id "stack-changes" that is already in use
+  DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[3]/div[1]/h3[2]
+  ARIA Path: /document[1]/main[1]/article[3]/heading[4]
+  Code: <h3 id="stack-changes" class="anchor anchorWithStickyNavbar_LWe7">
+  messageArgs: ['h3', 'stack-changes']
+  apiArgs: []
+
+
+[15] Violation of rule `element_id_unique`: The <h2> element has the id "breaking-changes" that is already in use
+  DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[3]/div[1]/h2[2]
+  ARIA Path: /document[1]/main[1]/article[3]/heading[6]
+  Code: <h2 id="breaking-changes" class="anchor anchorWithStickyNavbar_LWe7">
+  messageArgs: ['h2', 'breaking-changes']
+  apiArgs: []
+
+
+[16] Violation of rule `element_id_unique`: The <h2> element has the id "whats-next" that is already in use
+  DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[3]/div[1]/h2[4]
+  ARIA Path: /document[1]/main[1]/article[3]/heading[14]
+  Code: <h2 id="whats-next" class="anchor anchorWithStickyNavbar_LWe7">
+  messageArgs: ['h2', 'whats-next']
+  apiArgs: []
+
+
+[17] Violation of rule `img_alt_redundant`: Image 'alt' value within a link is repeated in link text of the link after
+  DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[4]/header[1]/div[2]/div[1]/div[1]/a[1]/img[1]
+  ARIA Path: /document[1]/main[1]/article[4]/link[1]/img[1]
+  Code: <img alt="erickzhao" src="https://github.com/erickzhao.png?size=96" class="avatar__photo authorImage_XqGP">
+  messageArgs: []
+  apiArgs: []
+
+
+[18] Violation of rule `img_alt_redundant`: Image 'alt' value within a link is repeated in link text of the link after
+  DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[4]/header[1]/div[2]/div[2]/div[1]/a[1]/img[1]
+  ARIA Path: /document[1]/main[1]/article[4]/link[3]/img[1]
+  Code: <img alt="VerteDinde" src="https://github.com/VerteDinde.png?size=96" class="avatar__photo authorImage_XqGP">
+  messageArgs: []
+  apiArgs: []
+
+
+[19] Violation of rule `img_alt_redundant`: Image 'alt' value within a link is repeated in link text of the link after
+  DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[4]/header[1]/div[2]/div[3]/div[1]/a[1]/img[1]
+  ARIA Path: /document[1]/main[1]/article[4]/link[5]/img[1]
+  Code: <img alt="dsanders11" src="https://github.com/dsanders11.png?size=96" class="avatar__photo authorImage_XqGP">
+  messageArgs: []
+  apiArgs: []
+
+
+[20] Violation of rule `img_alt_redundant`: Image 'alt' value within a link is repeated in link text of the link after
+  DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[5]/header[1]/div[2]/div[1]/div[1]/a[1]/img[1]
+  ARIA Path: /document[1]/main[1]/article[5]/link[1]/img[1]
+  Code: <img alt="VerteDinde" src="https://github.com/VerteDinde.png?size=96" class="avatar__photo authorImage_XqGP">
+  messageArgs: []
+  apiArgs: []
+
+
+[21] Violation of rule `element_id_unique`: The <h2> element has the id "notable-changes" that is already in use
+  DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[5]/div[1]/h2[1]
+  ARIA Path: /document[1]/main[1]/article[5]/heading[2]
+  Code: <h2 id="notable-changes" class="anchor anchorWithStickyNavbar_LWe7">
+  messageArgs: ['h2', 'notable-changes']
+  apiArgs: []
+
+
+[22] Violation of rule `element_id_unique`: The <h3> element has the id "stack-changes" that is already in use
+  DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[5]/div[1]/h3[3]
+  ARIA Path: /document[1]/main[1]/article[5]/heading[5]
+  Code: <h3 id="stack-changes" class="anchor anchorWithStickyNavbar_LWe7">
+  messageArgs: ['h3', 'stack-changes']
+  apiArgs: []
+
+
+[23] Violation of rule `element_id_unique`: The <h3> element has the id "new-features" that is already in use
+  DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[5]/div[1]/h3[4]
+  ARIA Path: /document[1]/main[1]/article[5]/heading[6]
+  Code: <h3 id="new-features" class="anchor anchorWithStickyNavbar_LWe7">
+  messageArgs: ['h3', 'new-features']
+  apiArgs: []
+
+
+[24] Violation of rule `element_id_unique`: The <h3> element has the id "breaking-changes" that is already in use
+  DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[5]/div[1]/h3[5]
+  ARIA Path: /document[1]/main[1]/article[5]/heading[7]
+  Code: <h3 id="breaking-changes" class="anchor anchorWithStickyNavbar_LWe7">
+  messageArgs: ['h3', 'breaking-changes']
+  apiArgs: []
+
+
+[25] Violation of rule `element_id_unique`: The <h2> element has the id "whats-next" that is already in use
+  DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[5]/div[1]/h2[3]
+  ARIA Path: /document[1]/main[1]/article[5]/heading[10]
+  Code: <h2 id="whats-next" class="anchor anchorWithStickyNavbar_LWe7">
+  messageArgs: ['h2', 'whats-next']
+  apiArgs: []
+
+
+[26] Violation of rule `img_alt_redundant`: Image 'alt' value within a link is repeated in link text of the link after
+  DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[6]/header[1]/div[2]/div[1]/div[1]/a[1]/img[1]
+  ARIA Path: /document[1]/main[1]/article[6]/link[1]/img[1]
+  Code: <img alt="VerteDinde" src="https://github.com/VerteDinde.png?size=96" class="avatar__photo authorImage_XqGP">
+  messageArgs: []
+  apiArgs: []
+
+
+[27] Violation of rule `element_id_unique`: The <h3> element has the id "whats-next" that is already in use
+  DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[6]/div[1]/h3[4]
+  ARIA Path: /document[1]/main[1]/article[6]/heading[5]
+  Code: <h3 id="whats-next" class="anchor anchorWithStickyNavbar_LWe7">
+  messageArgs: ['h3', 'whats-next']
+  apiArgs: []
+
+
+[28] Violation of rule `img_alt_redundant`: Image 'alt' value within a link is repeated in link text of the link after
+  DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[7]/header[1]/div[2]/div[1]/div[1]/a[1]/img[1]
+  ARIA Path: /document[1]/main[1]/article[7]/link[1]/img[1]
+  Code: <img alt="mlaurencin" src="https://github.com/mlaurencin.png?size=96" class="avatar__photo authorImage_XqGP">
+  messageArgs: []
+  apiArgs: []
+
+
+[29] Violation of rule `frame_title_exists`: Inline frame does not have a 'title' attribute
+  DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[7]/div[1]/div[1]/iframe[1]
+  ARIA Path: /document[1]/main[1]/article[7]
+  Code: <iframe style="position: absolute;" allowfullscreen="" class="giphy-embed" frameborder="0" height="100%" width="100%" src="https://giphy.com/embed/3otPoSDQczp1s9kVAQ">
+  messageArgs: []
+  apiArgs: []
+
+
+[30] Violation of rule `img_alt_redundant`: Image 'alt' value within a link is repeated in link text of the link after
+  DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[8]/header[1]/div[2]/div[1]/div[1]/a[1]/img[1]
+  ARIA Path: /document[1]/main[1]/article[8]/link[1]/img[1]
+  Code: <img alt="yangannyx" src="https://github.com/yangannyx.png?size=96" class="avatar__photo authorImage_XqGP">
+  messageArgs: []
+  apiArgs: []
+
+
+[31] Violation of rule `img_alt_redundant`: Image 'alt' value within a link is repeated in link text of the link after
+  DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[9]/header[1]/div[2]/div[1]/div[1]/a[1]/img[1]
+  ARIA Path: /document[1]/main[1]/article[9]/link[1]/img[1]
+  Code: <img alt="ckerr" src="https://github.com/ckerr.png?size=96" class="avatar__photo authorImage_XqGP">
+  messageArgs: []
+  apiArgs: []
+
+
+[32] Violation of rule `element_id_unique`: The <h2> element has the id "notable-changes" that is already in use
+  DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[9]/div[1]/h2[1]
+  ARIA Path: /document[1]/main[1]/article[9]/heading[2]
+  Code: <h2 id="notable-changes" class="anchor anchorWithStickyNavbar_LWe7">
+  messageArgs: ['h2', 'notable-changes']
+  apiArgs: []
+
+
+[33] Violation of rule `element_id_unique`: The <h3> element has the id "stack-changes" that is already in use
+  DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[9]/div[1]/h3[2]
+  ARIA Path: /document[1]/main[1]/article[9]/heading[4]
+  Code: <h3 id="stack-changes" class="anchor anchorWithStickyNavbar_LWe7">
+  messageArgs: ['h3', 'stack-changes']
+  apiArgs: []
+
+
+[34] Violation of rule `element_id_unique`: The <h3> element has the id "new-features" that is already in use
+  DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[9]/div[1]/h3[3]
+  ARIA Path: /document[1]/main[1]/article[9]/heading[5]
+  Code: <h3 id="new-features" class="anchor anchorWithStickyNavbar_LWe7">
+  messageArgs: ['h3', 'new-features']
+  apiArgs: []
+
+
+[35] Violation of rule `element_id_unique`: The <h3> element has the id "breaking-changes" that is already in use
+  DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[9]/div[1]/h3[4]
+  ARIA Path: /document[1]/main[1]/article[9]/heading[6]
+  Code: <h3 id="breaking-changes" class="anchor anchorWithStickyNavbar_LWe7">
+  messageArgs: ['h3', 'breaking-changes']
+  apiArgs: []
+
+
+[36] Violation of rule `element_id_unique`: The <h2> element has the id "whats-next" that is already in use
+  DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[9]/div[1]/h2[3]
+  ARIA Path: /document[1]/main[1]/article[9]/heading[14]
+  Code: <h2 id="whats-next" class="anchor anchorWithStickyNavbar_LWe7">
+  messageArgs: ['h2', 'whats-next']
+  apiArgs: []
+
+
+[37] Violation of rule `img_alt_redundant`: Image 'alt' value within a link is repeated in link text of the link after
+  DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[10]/header[1]/div[2]/div[1]/div[1]/a[1]/img[1]
+  ARIA Path: /document[1]/main[1]/article[10]/link[1]/img[1]
+  Code: <img alt="piotrpdev" src="https://github.com/piotrpdev.png?size=96" class="avatar__photo authorImage_XqGP">
+  messageArgs: []
+  apiArgs: []
+
+
+[38] Violation of rule `aria_banner_label_unique`: Multiple elements with "banner" role do not have unique labels
+  DOM Path: /html[1]/body[1]/div[1]/div[2]
+  ARIA Path: /document[1]/banner[1]
+  Code: <div style="background-color: rgb(159, 234, 249); color: rgb(27, 28, 38);" role="banner" class="theme-announcement-bar announcementBar_mb4j">
+  messageArgs: []
+  apiArgs: []
+
+
+[39] Violation of rule `aria_landmark_name_unique`: Multiple elements with "banner" landmarks within the same parent region are not distinguished from one another because they have the same "" label
+  DOM Path: /html[1]/body[1]/div[1]/div[2]
+  ARIA Path: /document[1]/banner[1]
+  Code: <div style="background-color: rgb(159, 234, 249); color: rgb(27, 28, 38);" role="banner" class="theme-announcement-bar announcementBar_mb4j">
+  messageArgs: ['banner', '']
+  apiArgs: []
+
+
+[40] Violation of rule `label_name_visible`: Accessible name does not match or contain the visible label text
+  DOM Path: /html[1]/body[1]/div[1]/nav[1]/div[1]/div[2]/div[3]/button[1]
+  ARIA Path: /document[1]/navigation[1]/button[6]
+  Code: <button aria-label="Search (Ctrl+K)" class="DocSearch DocSearch-Button" type="button">
+  messageArgs: []
+  apiArgs: []
+
+
+[41] Violation of rule `aria_banner_label_unique`: Multiple elements with "banner" role do not have unique labels
+  DOM Path: /html[1]/body[1]/div[1]/div[3]/header[1]
+  ARIA Path: /document[1]/banner[2]
+  Code: <header class="header_src-pages-fiddle-fiddle-module">
+  messageArgs: []
+  apiArgs: []
+
+
+[42] Violation of rule `aria_landmark_name_unique`: Multiple elements with "banner" landmarks within the same parent region are not distinguished from one another because they have the same "" label
+  DOM Path: /html[1]/body[1]/div[1]/div[3]/header[1]
+  ARIA Path: /document[1]/banner[2]
+  Code: <header class="header_src-pages-fiddle-fiddle-module">
+  messageArgs: ['banner', '']
+  apiArgs: []
+
+
+[43] Violation of rule `img_alt_valid`: The image has neither an accessible name nor is marked as decorative or redundant
+  DOM Path: /html[1]/body[1]/div[1]/div[3]/header[1]/img[1]
+  ARIA Path: /document[1]/banner[2]/img[1]
+  Code: <img src="/assets/fiddle/fiddle.png" class="fiddleHeroScreenshot_src-pages-fiddle-fiddle-module">
+  messageArgs: []
+  apiArgs: []
+
+
+[44] Violation of rule `img_alt_valid`: The image has neither an accessible name nor is marked as decorative or redundant
+  DOM Path: /html[1]/body[1]/div[1]/div[3]/main[1]/div[1]/div[2]/div[1]/img[1]
+  ARIA Path: /document[1]/main[1]/img[1]
+  Code: <img src="/assets/fiddle/explore.png" class="featureImage_src-pages-home-_components-Feature-module">
+  messageArgs: []
+  apiArgs: []
+
+
+[45] Violation of rule `img_alt_valid`: The image has neither an accessible name nor is marked as decorative or redundant
+  DOM Path: /html[1]/body[1]/div[1]/div[3]/main[1]/div[2]/div[2]/div[1]/img[1]
+  ARIA Path: /document[1]/main[1]/img[2]
+  Code: <img src="/assets/fiddle/npm.png" class="featureImage_src-pages-home-_components-Feature-module">
+  messageArgs: []
+  apiArgs: []
+
+
+[46] Violation of rule `img_alt_valid`: The image has neither an accessible name nor is marked as decorative or redundant
+  DOM Path: /html[1]/body[1]/div[1]/div[3]/main[1]/div[3]/div[2]/div[1]/img[1]
+  ARIA Path: /document[1]/main[1]/img[3]
+  Code: <img src="/assets/fiddle/types.png" class="featureImage_src-pages-home-_components-Feature-module">
+  messageArgs: []
+  apiArgs: []
+
+
+[47] Violation of rule `img_alt_valid`: The image has neither an accessible name nor is marked as decorative or redundant
+  DOM Path: /html[1]/body[1]/div[1]/div[3]/main[1]/div[4]/div[2]/div[1]/img[1]
+  ARIA Path: /document[1]/main[1]/img[4]
+  Code: <img src="/assets/fiddle/package.png" class="featureImage_src-pages-home-_components-Feature-module">
+  messageArgs: []
+  apiArgs: []
+
+
+[48] Violation of rule `img_alt_valid`: The image has neither an accessible name nor is marked as decorative or redundant
+  DOM Path: /html[1]/body[1]/div[1]/div[3]/main[1]/div[5]/div[2]/div[1]/img[1]
+  ARIA Path: /document[1]/main[1]/img[5]
+  Code: <img src="/assets/fiddle/export.png" class="featureImage_src-pages-home-_components-Feature-module">
+  messageArgs: []
+  apiArgs: []
+
+
+[49] Violation of rule `aria_banner_label_unique`: Multiple elements with "banner" role do not have unique labels
+  DOM Path: /html[1]/body[1]/div[1]/div[2]
+  ARIA Path: /document[1]/banner[1]
+  Code: <div style="background-color: rgb(159, 234, 249); color: rgb(27, 28, 38);" role="banner" class="theme-announcement-bar announcementBar_mb4j">
+  messageArgs: []
+  apiArgs: []
+
+
+[50] Violation of rule `aria_landmark_name_unique`: Multiple elements with "banner" landmarks within the same parent region are not distinguished from one another because they have the same "" label
+  DOM Path: /html[1]/body[1]/div[1]/div[2]
+  ARIA Path: /document[1]/banner[1]
+  Code: <div style="background-color: rgb(159, 234, 249); color: rgb(27, 28, 38);" role="banner" class="theme-announcement-bar announcementBar_mb4j">
+  messageArgs: ['banner', '']
+  apiArgs: []
+
+
+[51] Violation of rule `label_name_visible`: Accessible name does not match or contain the visible label text
+  DOM Path: /html[1]/body[1]/div[1]/nav[1]/div[1]/div[2]/div[3]/button[1]
+  ARIA Path: /document[1]/navigation[1]/button[6]
+  Code: <button aria-label="Search (Ctrl+K)" class="DocSearch DocSearch-Button" type="button">
+  messageArgs: []
+  apiArgs: []
+
+
+[52] Violation of rule `aria_banner_label_unique`: Multiple elements with "banner" role do not have unique labels
+  DOM Path: /html[1]/body[1]/div[1]/div[3]/header[1]
+  ARIA Path: /document[1]/banner[2]
+  Code: <header class="hero hero--primary heroElectron_src-pages-home-_index-module">
+  messageArgs: []
+  apiArgs: []
+
+
+[53] Violation of rule `aria_landmark_name_unique`: Multiple elements with "banner" landmarks within the same parent region are not distinguished from one another because they have the same "" label
+  DOM Path: /html[1]/body[1]/div[1]/div[3]/header[1]
+  ARIA Path: /document[1]/banner[2]
+  Code: <header class="hero hero--primary heroElectron_src-pages-home-_index-module">
+  messageArgs: ['banner', '']
+  apiArgs: []

@@ -1,0 +1,1437 @@
+{
+  "results": [
+    {
+      "ruleId": "aria_content_in_landmark",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[1]/h4[1]",
+        "aria": "/document[1]/heading[1]"
+      },
+      "ruleTime": 0,
+      "reasonId": "Fail_1",
+      "message": "Content is not within a landmark element",
+      "messageArgs": [],
+      "apiArgs": [],
+      "bounds": {
+        "left": 360,
+        "top": 146,
+        "height": 42,
+        "width": 1200
+      },
+      "snippet": "<h4 class=\"MuiTypography-root MuiTypography-h4\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Ch4%20class%3D%5C%22MuiTypography-root%20MuiTypography-h4%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+    },
+    {
+      "ruleId": "aria_content_in_landmark",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/a[1]",
+        "aria": "/document[1]/link[1]"
+      },
+      "ruleTime": 0,
+      "reasonId": "Fail_1",
+      "message": "Content is not within a landmark element",
+      "messageArgs": [],
+      "apiArgs": [],
+      "bounds": {
+        "left": 1322,
+        "top": 274,
+        "height": 37,
+        "width": 156
+      },
+      "snippet": "<a rel=\"noreferrer\" target=\"_blank\" href=\"https://github.com/TheAlgorithms/java/tree/master/src/main/java/com/thealgorithms/bitmanipulation/GenerateSubsets.java\" aria-disabled=\"false\" tabindex=\"0\" class=\"MuiButtonBase-root MuiButton-root MuiButton-text\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Ca%20rel%3D%5C%22noreferrer%5C%22%20target%3D%5C%22_blank%5C%22%20href%3D%5C%22https%3A%2F%2Fgithub.com%2FTheAlgorithms%2Fjava%2Ftree%2Fmaster%2Fsrc%2Fmain%2Fjava%2Fcom%2Fthealgorithms%2Fbitmanipulation%2FGenerateSubsets.java%5C%22%20aria-disabled%3D%5C%22false%5C%22%20tabindex%3D%5C%220%5C%22%20class%3D%5C%22MuiButtonBase-root%20MuiButton-root%20MuiButton-text%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+    },
+    {
+      "ruleId": "input_label_exists",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/button[1]",
+        "aria": "/document[1]/button[1]"
+      },
+      "ruleTime": 0,
+      "reasonId": "Fail_1",
+      "message": "Form control element <button> has no associated label",
+      "messageArgs": [
+        "button"
+      ],
+      "apiArgs": [],
+      "bounds": {
+        "left": 1487,
+        "top": 268,
+        "height": 48,
+        "width": 48
+      },
+      "snippet": "<button style=\"background-color:#3f51b5;color:white\" type=\"button\" tabindex=\"0\" class=\"MuiButtonBase-root MuiIconButton-root style_fullscreen__SGvLq\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/input_label_exists.html#%7B%22message%22%3A%22Form%20control%20element%20%3Cbutton%3E%20has%20no%20associated%20label%22%2C%22snippet%22%3A%22%3Cbutton%20style%3D%5C%22background-color%3A%233f51b5%3Bcolor%3Awhite%5C%22%20type%3D%5C%22button%5C%22%20tabindex%3D%5C%220%5C%22%20class%3D%5C%22MuiButtonBase-root%20MuiIconButton-root%20style_fullscreen__SGvLq%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22input_label_exists%22%2C%22msgArgs%22%3A%5B%22button%22%5D%7D"
+    },
+    {
+      "ruleId": "aria_content_in_landmark",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[3]/a[1]",
+        "aria": "/document[1]/link[2]"
+      },
+      "ruleTime": 0,
+      "reasonId": "Fail_1",
+      "message": "Content is not within a landmark element",
+      "messageArgs": [],
+      "apiArgs": [],
+      "bounds": {
+        "left": 1384,
+        "top": 850,
+        "height": 37,
+        "width": 162
+      },
+      "snippet": "<a href=\"/playground?algorithm=generate-sub-sets&language=java\" aria-disabled=\"false\" tabindex=\"0\" class=\"MuiButtonBase-root MuiButton-root MuiButton-contained style_tryCode__ccF4H MuiButton-containedPrimary\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22%2Fplayground%3Falgorithm%3Dgenerate-sub-sets%26language%3Djava%5C%22%20aria-disabled%3D%5C%22false%5C%22%20tabindex%3D%5C%220%5C%22%20class%3D%5C%22MuiButtonBase-root%20MuiButton-root%20MuiButton-contained%20style_tryCode__ccF4H%20MuiButton-containedPrimary%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+    },
+    {
+      "ruleId": "aria_content_in_landmark",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[2]/div[1]/button[1]",
+        "aria": "/document[1]/button[2]"
+      },
+      "ruleTime": 0,
+      "reasonId": "Fail_1",
+      "message": "Content is not within a landmark element",
+      "messageArgs": [],
+      "apiArgs": [],
+      "bounds": {
+        "left": 360,
+        "top": 911,
+        "height": 48,
+        "width": 48
+      },
+      "snippet": "<button aria-label=\"Javascript Implementation\" rel=\"noreferrer\" target=\"_blank\" type=\"button\" tabindex=\"0\" class=\"MuiButtonBase-root MuiIconButton-root style_implementation__SzJxO\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Cbutton%20aria-label%3D%5C%22Javascript%20Implementation%5C%22%20rel%3D%5C%22noreferrer%5C%22%20target%3D%5C%22_blank%5C%22%20type%3D%5C%22button%5C%22%20tabindex%3D%5C%220%5C%22%20class%3D%5C%22MuiButtonBase-root%20MuiIconButton-root%20style_implementation__SzJxO%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+    },
+    {
+      "ruleId": "aria_content_in_landmark",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[2]/div[2]/button[1]",
+        "aria": "/document[1]/button[3]"
+      },
+      "ruleTime": 0,
+      "reasonId": "Fail_1",
+      "message": "Content is not within a landmark element",
+      "messageArgs": [],
+      "apiArgs": [],
+      "bounds": {
+        "left": 408,
+        "top": 911,
+        "height": 48,
+        "width": 48
+      },
+      "snippet": "<button aria-label=\"Java Implementation\" rel=\"noreferrer\" target=\"_blank\" type=\"button\" tabindex=\"0\" class=\"MuiButtonBase-root MuiIconButton-root style_implementation__SzJxO\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Cbutton%20aria-label%3D%5C%22Java%20Implementation%5C%22%20rel%3D%5C%22noreferrer%5C%22%20target%3D%5C%22_blank%5C%22%20type%3D%5C%22button%5C%22%20tabindex%3D%5C%220%5C%22%20class%3D%5C%22MuiButtonBase-root%20MuiIconButton-root%20style_implementation__SzJxO%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+    },
+    {
+      "ruleId": "aria_content_in_landmark",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[1]/div[3]/button[1]",
+        "aria": "/document[1]/button[4]"
+      },
+      "ruleTime": 0,
+      "reasonId": "Fail_1",
+      "message": "Content is not within a landmark element",
+      "messageArgs": [],
+      "apiArgs": [],
+      "bounds": {
+        "left": 1178,
+        "top": 994,
+        "height": 37,
+        "width": 170
+      },
+      "snippet": "<button type=\"button\" tabindex=\"0\" class=\"MuiButtonBase-root MuiButton-root MuiButton-text style_button__UpGFj\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Cbutton%20type%3D%5C%22button%5C%22%20tabindex%3D%5C%220%5C%22%20class%3D%5C%22MuiButtonBase-root%20MuiButton-root%20MuiButton-text%20style_button__UpGFj%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+    },
+    {
+      "ruleId": "aria_content_in_landmark",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[2]/div[1]/p[1]",
+        "aria": "/document[1]/paragraph[1]"
+      },
+      "ruleTime": 0,
+      "reasonId": "Fail_1",
+      "message": "Content is not within a landmark element",
+      "messageArgs": [],
+      "apiArgs": [],
+      "bounds": {
+        "left": 871,
+        "top": 1141,
+        "height": 35,
+        "width": 300
+      },
+      "snippet": "<p class=\"MuiTypography-root style_name__sHBp_ MuiTypography-body1\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Cp%20class%3D%5C%22MuiTypography-root%20style_name__sHBp_%20MuiTypography-body1%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+    },
+    {
+      "ruleId": "aria_content_in_landmark",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/a[1]",
+        "aria": "/document[1]/link[3]"
+      },
+      "ruleTime": 0,
+      "reasonId": "Fail_1",
+      "message": "Content is not within a landmark element",
+      "messageArgs": [],
+      "apiArgs": [],
+      "bounds": {
+        "left": 871,
+        "top": 1176,
+        "height": 21,
+        "width": 163
+      },
+      "snippet": "<a href=\"/#about\" class=\"MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22%2F%23about%5C%22%20class%3D%5C%22MuiTypography-root%20MuiLink-root%20MuiLink-underlineHover%20MuiTypography-colorPrimary%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+    },
+    {
+      "ruleId": "aria_content_in_landmark",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[2]/a[1]",
+        "aria": "/document[1]/link[8]"
+      },
+      "ruleTime": 0,
+      "reasonId": "Fail_1",
+      "message": "Content is not within a landmark element",
+      "messageArgs": [],
+      "apiArgs": [],
+      "bounds": {
+        "left": 1063,
+        "top": 1176,
+        "height": 21,
+        "width": 78
+      },
+      "snippet": "<a rel=\"noreferrer\" target=\"_blank\" href=\"https://github.com/TheAlgorithms/\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Ca%20rel%3D%5C%22noreferrer%5C%22%20target%3D%5C%22_blank%5C%22%20href%3D%5C%22https%3A%2F%2Fgithub.com%2FTheAlgorithms%2F%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+    },
+    {
+      "ruleId": "aria_content_in_landmark",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/p[1]",
+        "aria": "/document[1]/paragraph[1]"
+      },
+      "ruleTime": 1,
+      "reasonId": "Fail_1",
+      "message": "Content is not within a landmark element",
+      "messageArgs": [],
+      "apiArgs": [],
+      "bounds": {
+        "left": 360,
+        "top": 205,
+        "height": 42,
+        "width": 1200
+      },
+      "snippet": "<p class=\"MuiTypography-root-143 style_h2__28B6h MuiTypography-body1-145\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Cp%20class%3D%5C%22MuiTypography-root-143%20style_h2__28B6h%20MuiTypography-body1-145%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+    },
+    {
+      "ruleId": "input_label_exists",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/div[1]/div[1]/input[1]",
+        "aria": "/document[1]/form[1]/textbox[1]"
+      },
+      "ruleTime": 0,
+      "reasonId": "Fail_1",
+      "message": "Form control element <input> has no associated label",
+      "messageArgs": [
+        "input"
+      ],
+      "apiArgs": [],
+      "bounds": {
+        "left": 360,
+        "top": 297,
+        "height": 56,
+        "width": 344
+      },
+      "snippet": "<input class=\"MuiInputBase-input-210 MuiFilledInput-input-196 MuiInputBase-inputAdornedEnd-215 MuiFilledInput-inputAdornedEnd-201\" value=\"\" name=\"q\" id=\"search\" aria-invalid=\"false\" type=\"text\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/input_label_exists.html#%7B%22message%22%3A%22Form%20control%20element%20%3Cinput%3E%20has%20no%20associated%20label%22%2C%22snippet%22%3A%22%3Cinput%20class%3D%5C%22MuiInputBase-input-210%20MuiFilledInput-input-196%20MuiInputBase-inputAdornedEnd-215%20MuiFilledInput-inputAdornedEnd-201%5C%22%20value%3D%5C%22%5C%22%20name%3D%5C%22q%5C%22%20id%3D%5C%22search%5C%22%20aria-invalid%3D%5C%22false%5C%22%20type%3D%5C%22text%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22input_label_exists%22%2C%22msgArgs%22%3A%5B%22input%22%5D%7D"
+    },
+    {
+      "ruleId": "aria_content_in_landmark",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[2]/div[1]/h4[1]",
+        "aria": "/document[1]/heading[1]"
+      },
+      "ruleTime": 0,
+      "reasonId": "Fail_1",
+      "message": "Content is not within a landmark element",
+      "messageArgs": [],
+      "apiArgs": [],
+      "bounds": {
+        "left": 360,
+        "top": 453,
+        "height": 42,
+        "width": 1200
+      },
+      "snippet": "<h4 class=\"MuiTypography-root style_title__E2XS1 MuiTypography-h4\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Ch4%20class%3D%5C%22MuiTypography-root%20style_title__E2XS1%20MuiTypography-h4%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+    },
+    {
+      "ruleId": "aria_landmark_name_unique",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]",
+        "aria": "/document[1]/navigation[1]"
+      },
+      "ruleTime": 0,
+      "reasonId": "fail_label_not_unique",
+      "message": "Multiple elements with \"navigation\" landmarks within the same parent region are not distinguished from one another because they have the same \"\" label",
+      "messageArgs": [
+        "navigation",
+        ""
+      ],
+      "apiArgs": [],
+      "bounds": {
+        "left": 376,
+        "top": 531,
+        "height": 23,
+        "width": 355
+      },
+      "snippet": "<nav class=\"MuiTypography-root MuiBreadcrumbs-root style_breadcrumbs__xiHv5 MuiTypography-body1 MuiTypography-colorTextSecondary\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/aria_landmark_name_unique.html#%7B%22message%22%3A%22Multiple%20elements%20with%20%5C%22navigation%5C%22%20landmarks%20within%20the%20same%20parent%20region%20are%20not%20distinguished%20from%20one%20another%20because%20they%20have%20the%20same%20%5C%22%5C%22%20label%22%2C%22snippet%22%3A%22%3Cnav%20class%3D%5C%22MuiTypography-root%20MuiBreadcrumbs-root%20style_breadcrumbs__xiHv5%20MuiTypography-body1%20MuiTypography-colorTextSecondary%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_label_not_unique%22%2C%22ruleId%22%3A%22aria_landmark_name_unique%22%2C%22msgArgs%22%3A%5B%22navigation%22%2C%22%22%5D%7D"
+    },
+    {
+      "ruleId": "aria_navigation_label_unique",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]",
+        "aria": "/document[1]/navigation[1]"
+      },
+      "ruleTime": 0,
+      "reasonId": "fail_label_not_unique",
+      "message": "Multiple elements with \"navigation\" role do not have unique labels",
+      "messageArgs": [],
+      "apiArgs": [],
+      "bounds": {
+        "left": 376,
+        "top": 531,
+        "height": 23,
+        "width": 355
+      },
+      "snippet": "<nav class=\"MuiTypography-root MuiBreadcrumbs-root style_breadcrumbs__xiHv5 MuiTypography-body1 MuiTypography-colorTextSecondary\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/aria_navigation_label_unique.html#%7B%22message%22%3A%22Multiple%20elements%20with%20%5C%22navigation%5C%22%20role%20do%20not%20have%20unique%20labels%22%2C%22snippet%22%3A%22%3Cnav%20class%3D%5C%22MuiTypography-root%20MuiBreadcrumbs-root%20style_breadcrumbs__xiHv5%20MuiTypography-body1%20MuiTypography-colorTextSecondary%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_label_not_unique%22%2C%22ruleId%22%3A%22aria_navigation_label_unique%22%2C%22msgArgs%22%3A%5B%5D%7D"
+    },
+    {
+      "ruleId": "aria_content_in_landmark",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/h2[1]",
+        "aria": "/document[1]/heading[2]"
+      },
+      "ruleTime": 1,
+      "reasonId": "Fail_1",
+      "message": "Content is not within a landmark element",
+      "messageArgs": [],
+      "apiArgs": [],
+      "bounds": {
+        "left": 376,
+        "top": 553,
+        "height": 33,
+        "width": 355
+      },
+      "snippet": "<h2 class=\"MuiTypography-root style_title__PlAjk MuiTypography-h5\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Ch2%20class%3D%5C%22MuiTypography-root%20style_title__PlAjk%20MuiTypography-h5%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+    },
+    {
+      "ruleId": "aria_content_in_landmark",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/p[1]",
+        "aria": "/document[1]/paragraph[2]"
+      },
+      "ruleTime": 0,
+      "reasonId": "Fail_1",
+      "message": "Content is not within a landmark element",
+      "messageArgs": [],
+      "apiArgs": [],
+      "bounds": {
+        "left": 582,
+        "top": 610,
+        "height": 35,
+        "width": 28
+      },
+      "snippet": "<p title=\"And 15 more\" class=\"MuiTypography-root style_more__fAu8e MuiTypography-body1 MuiTypography-colorTextSecondary\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Cp%20title%3D%5C%22And%2015%20more%5C%22%20class%3D%5C%22MuiTypography-root%20style_more__fAu8e%20MuiTypography-body1%20MuiTypography-colorTextSecondary%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+    },
+    {
+      "ruleId": "aria_content_in_landmark",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/a[1]",
+        "aria": "/document[1]/link[1]"
+      },
+      "ruleTime": 0,
+      "reasonId": "Fail_1",
+      "message": "Content is not within a landmark element",
+      "messageArgs": [],
+      "apiArgs": [],
+      "bounds": {
+        "left": 675,
+        "top": 609,
+        "height": 37,
+        "width": 64
+      },
+      "snippet": "<a href=\"/algorithm/binary-search\" aria-label=\"View Binary Search\" aria-disabled=\"false\" tabindex=\"0\" class=\"MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22%2Falgorithm%2Fbinary-search%5C%22%20aria-label%3D%5C%22View%20Binary%20Search%5C%22%20aria-disabled%3D%5C%22false%5C%22%20tabindex%3D%5C%220%5C%22%20class%3D%5C%22MuiButtonBase-root%20MuiButton-root%20MuiButton-text%20MuiButton-textPrimary%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+    },
+    {
+      "ruleId": "label_name_visible",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/a[1]",
+        "aria": "/document[1]/link[1]"
+      },
+      "ruleTime": 0,
+      "reasonId": "Fail_1",
+      "message": "Accessible name does not match or contain the visible label text",
+      "messageArgs": [],
+      "apiArgs": [],
+      "bounds": {
+        "left": 675,
+        "top": 609,
+        "height": 37,
+        "width": 64
+      },
+      "snippet": "<a href=\"/algorithm/binary-search\" aria-label=\"View Binary Search\" aria-disabled=\"false\" tabindex=\"0\" class=\"MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/label_name_visible.html#%7B%22message%22%3A%22Accessible%20name%20does%20not%20match%20or%20contain%20the%20visible%20label%20text%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22%2Falgorithm%2Fbinary-search%5C%22%20aria-label%3D%5C%22View%20Binary%20Search%5C%22%20aria-disabled%3D%5C%22false%5C%22%20tabindex%3D%5C%220%5C%22%20class%3D%5C%22MuiButtonBase-root%20MuiButton-root%20MuiButton-text%20MuiButton-textPrimary%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22label_name_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+    },
+    {
+      "ruleId": "aria_landmark_name_unique",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/nav[1]",
+        "aria": "/document[1]/navigation[2]"
+      },
+      "ruleTime": 0,
+      "reasonId": "fail_label_not_unique",
+      "message": "Multiple elements with \"navigation\" landmarks within the same parent region are not distinguished from one another because they have the same \"\" label",
+      "messageArgs": [
+        "navigation",
+        ""
+      ],
+      "apiArgs": [],
+      "bounds": {
+        "left": 783,
+        "top": 531,
+        "height": 23,
+        "width": 355
+      },
+      "snippet": "<nav class=\"MuiTypography-root MuiBreadcrumbs-root style_breadcrumbs__xiHv5 MuiTypography-body1 MuiTypography-colorTextSecondary\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/aria_landmark_name_unique.html#%7B%22message%22%3A%22Multiple%20elements%20with%20%5C%22navigation%5C%22%20landmarks%20within%20the%20same%20parent%20region%20are%20not%20distinguished%20from%20one%20another%20because%20they%20have%20the%20same%20%5C%22%5C%22%20label%22%2C%22snippet%22%3A%22%3Cnav%20class%3D%5C%22MuiTypography-root%20MuiBreadcrumbs-root%20style_breadcrumbs__xiHv5%20MuiTypography-body1%20MuiTypography-colorTextSecondary%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_label_not_unique%22%2C%22ruleId%22%3A%22aria_landmark_name_unique%22%2C%22msgArgs%22%3A%5B%22navigation%22%2C%22%22%5D%7D"
+    },
+    {
+      "ruleId": "aria_navigation_label_unique",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/nav[1]",
+        "aria": "/document[1]/navigation[2]"
+      },
+      "ruleTime": 0,
+      "reasonId": "fail_label_not_unique",
+      "message": "Multiple elements with \"navigation\" role do not have unique labels",
+      "messageArgs": [],
+      "apiArgs": [],
+      "bounds": {
+        "left": 783,
+        "top": 531,
+        "height": 23,
+        "width": 355
+      },
+      "snippet": "<nav class=\"MuiTypography-root MuiBreadcrumbs-root style_breadcrumbs__xiHv5 MuiTypography-body1 MuiTypography-colorTextSecondary\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/aria_navigation_label_unique.html#%7B%22message%22%3A%22Multiple%20elements%20with%20%5C%22navigation%5C%22%20role%20do%20not%20have%20unique%20labels%22%2C%22snippet%22%3A%22%3Cnav%20class%3D%5C%22MuiTypography-root%20MuiBreadcrumbs-root%20style_breadcrumbs__xiHv5%20MuiTypography-body1%20MuiTypography-colorTextSecondary%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_label_not_unique%22%2C%22ruleId%22%3A%22aria_navigation_label_unique%22%2C%22msgArgs%22%3A%5B%5D%7D"
+    },
+    {
+      "ruleId": "aria_content_in_landmark",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/h2[1]",
+        "aria": "/document[1]/heading[3]"
+      },
+      "ruleTime": 0,
+      "reasonId": "Fail_1",
+      "message": "Content is not within a landmark element",
+      "messageArgs": [],
+      "apiArgs": [],
+      "bounds": {
+        "left": 783,
+        "top": 553,
+        "height": 33,
+        "width": 355
+      },
+      "snippet": "<h2 class=\"MuiTypography-root style_title__PlAjk MuiTypography-h5\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Ch2%20class%3D%5C%22MuiTypography-root%20style_title__PlAjk%20MuiTypography-h5%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+    },
+    {
+      "ruleId": "aria_content_in_landmark",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/p[1]",
+        "aria": "/document[1]/paragraph[3]"
+      },
+      "ruleTime": 0,
+      "reasonId": "Fail_1",
+      "message": "Content is not within a landmark element",
+      "messageArgs": [],
+      "apiArgs": [],
+      "bounds": {
+        "left": 989,
+        "top": 610,
+        "height": 35,
+        "width": 28
+      },
+      "snippet": "<p title=\"And 19 more\" class=\"MuiTypography-root style_more__fAu8e MuiTypography-body1 MuiTypography-colorTextSecondary\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Cp%20title%3D%5C%22And%2019%20more%5C%22%20class%3D%5C%22MuiTypography-root%20style_more__fAu8e%20MuiTypography-body1%20MuiTypography-colorTextSecondary%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+    },
+    {
+      "ruleId": "aria_content_in_landmark",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/a[1]",
+        "aria": "/document[1]/link[2]"
+      },
+      "ruleTime": 0,
+      "reasonId": "Fail_1",
+      "message": "Content is not within a landmark element",
+      "messageArgs": [],
+      "apiArgs": [],
+      "bounds": {
+        "left": 1082,
+        "top": 609,
+        "height": 37,
+        "width": 64
+      },
+      "snippet": "<a href=\"/algorithm/quick-sort\" aria-label=\"View Quick Sort\" aria-disabled=\"false\" tabindex=\"0\" class=\"MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22%2Falgorithm%2Fquick-sort%5C%22%20aria-label%3D%5C%22View%20Quick%20Sort%5C%22%20aria-disabled%3D%5C%22false%5C%22%20tabindex%3D%5C%220%5C%22%20class%3D%5C%22MuiButtonBase-root%20MuiButton-root%20MuiButton-text%20MuiButton-textPrimary%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+    },
+    {
+      "ruleId": "label_name_visible",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/a[1]",
+        "aria": "/document[1]/link[2]"
+      },
+      "ruleTime": 0,
+      "reasonId": "Fail_1",
+      "message": "Accessible name does not match or contain the visible label text",
+      "messageArgs": [],
+      "apiArgs": [],
+      "bounds": {
+        "left": 1082,
+        "top": 609,
+        "height": 37,
+        "width": 64
+      },
+      "snippet": "<a href=\"/algorithm/quick-sort\" aria-label=\"View Quick Sort\" aria-disabled=\"false\" tabindex=\"0\" class=\"MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/label_name_visible.html#%7B%22message%22%3A%22Accessible%20name%20does%20not%20match%20or%20contain%20the%20visible%20label%20text%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22%2Falgorithm%2Fquick-sort%5C%22%20aria-label%3D%5C%22View%20Quick%20Sort%5C%22%20aria-disabled%3D%5C%22false%5C%22%20tabindex%3D%5C%220%5C%22%20class%3D%5C%22MuiButtonBase-root%20MuiButton-root%20MuiButton-text%20MuiButton-textPrimary%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22label_name_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+    },
+    {
+      "ruleId": "aria_landmark_name_unique",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/nav[1]",
+        "aria": "/document[1]/navigation[3]"
+      },
+      "ruleTime": 0,
+      "reasonId": "fail_label_not_unique",
+      "message": "Multiple elements with \"navigation\" landmarks within the same parent region are not distinguished from one another because they have the same \"\" label",
+      "messageArgs": [
+        "navigation",
+        ""
+      ],
+      "apiArgs": [],
+      "bounds": {
+        "left": 1190,
+        "top": 531,
+        "height": 23,
+        "width": 355
+      },
+      "snippet": "<nav class=\"MuiTypography-root MuiBreadcrumbs-root style_breadcrumbs__xiHv5 MuiTypography-body1 MuiTypography-colorTextSecondary\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/aria_landmark_name_unique.html#%7B%22message%22%3A%22Multiple%20elements%20with%20%5C%22navigation%5C%22%20landmarks%20within%20the%20same%20parent%20region%20are%20not%20distinguished%20from%20one%20another%20because%20they%20have%20the%20same%20%5C%22%5C%22%20label%22%2C%22snippet%22%3A%22%3Cnav%20class%3D%5C%22MuiTypography-root%20MuiBreadcrumbs-root%20style_breadcrumbs__xiHv5%20MuiTypography-body1%20MuiTypography-colorTextSecondary%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_label_not_unique%22%2C%22ruleId%22%3A%22aria_landmark_name_unique%22%2C%22msgArgs%22%3A%5B%22navigation%22%2C%22%22%5D%7D"
+    },
+    {
+      "ruleId": "aria_navigation_label_unique",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/nav[1]",
+        "aria": "/document[1]/navigation[3]"
+      },
+      "ruleTime": 0,
+      "reasonId": "fail_label_not_unique",
+      "message": "Multiple elements with \"navigation\" role do not have unique labels",
+      "messageArgs": [],
+      "apiArgs": [],
+      "bounds": {
+        "left": 1190,
+        "top": 531,
+        "height": 23,
+        "width": 355
+      },
+      "snippet": "<nav class=\"MuiTypography-root MuiBreadcrumbs-root style_breadcrumbs__xiHv5 MuiTypography-body1 MuiTypography-colorTextSecondary\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/aria_navigation_label_unique.html#%7B%22message%22%3A%22Multiple%20elements%20with%20%5C%22navigation%5C%22%20role%20do%20not%20have%20unique%20labels%22%2C%22snippet%22%3A%22%3Cnav%20class%3D%5C%22MuiTypography-root%20MuiBreadcrumbs-root%20style_breadcrumbs__xiHv5%20MuiTypography-body1%20MuiTypography-colorTextSecondary%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_label_not_unique%22%2C%22ruleId%22%3A%22aria_navigation_label_unique%22%2C%22msgArgs%22%3A%5B%5D%7D"
+    },
+    {
+      "ruleId": "aria_content_in_landmark",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/h2[1]",
+        "aria": "/document[1]/heading[4]"
+      },
+      "ruleTime": 0,
+      "reasonId": "Fail_1",
+      "message": "Content is not within a landmark element",
+      "messageArgs": [],
+      "apiArgs": [],
+      "bounds": {
+        "left": 1190,
+        "top": 553,
+        "height": 33,
+        "width": 355
+      },
+      "snippet": "<h2 class=\"MuiTypography-root style_title__PlAjk MuiTypography-h5\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/aria_content_in_landmark.html#%7B%22message%22%3A%22Content%20is%20not%20within%20a%20landmark%20element%22%2C%22snippet%22%3A%22%3Ch2%20class%3D%5C%22MuiTypography-root%20style_title__PlAjk%20MuiTypography-h5%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_content_in_landmark%22%2C%22msgArgs%22%3A%5B%5D%7D"
+    },
+    {
+      "ruleId": "label_name_visible",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[2]/a[1]",
+        "aria": "/document[1]/link[3]"
+      },
+      "ruleTime": 0,
+      "reasonId": "Fail_1",
+      "message": "Accessible name does not match or contain the visible label text",
+      "messageArgs": [],
+      "apiArgs": [],
+      "bounds": {
+        "left": 1488,
+        "top": 609,
+        "height": 37,
+        "width": 64
+      },
+      "snippet": "<a href=\"/algorithm/fibonacci-numbers\" aria-label=\"View Fibonacci Numbers\" aria-disabled=\"false\" tabindex=\"0\" class=\"MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/label_name_visible.html#%7B%22message%22%3A%22Accessible%20name%20does%20not%20match%20or%20contain%20the%20visible%20label%20text%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22%2Falgorithm%2Ffibonacci-numbers%5C%22%20aria-label%3D%5C%22View%20Fibonacci%20Numbers%5C%22%20aria-disabled%3D%5C%22false%5C%22%20tabindex%3D%5C%220%5C%22%20class%3D%5C%22MuiButtonBase-root%20MuiButton-root%20MuiButton-text%20MuiButton-textPrimary%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22label_name_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+    },
+    {
+      "ruleId": "aria_landmark_name_unique",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]",
+        "aria": "/document[1]/navigation[4]"
+      },
+      "ruleTime": 0,
+      "reasonId": "fail_label_not_unique",
+      "message": "Multiple elements with \"navigation\" landmarks within the same parent region are not distinguished from one another because they have the same \"\" label",
+      "messageArgs": [
+        "navigation",
+        ""
+      ],
+      "apiArgs": [],
+      "bounds": {
+        "left": 376,
+        "top": 1225,
+        "height": 23,
+        "width": 355
+      },
+      "snippet": "<nav class=\"MuiTypography-root MuiBreadcrumbs-root style_breadcrumbs__xiHv5 MuiTypography-body1 MuiTypography-colorTextSecondary\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/aria_landmark_name_unique.html#%7B%22message%22%3A%22Multiple%20elements%20with%20%5C%22navigation%5C%22%20landmarks%20within%20the%20same%20parent%20region%20are%20not%20distinguished%20from%20one%20another%20because%20they%20have%20the%20same%20%5C%22%5C%22%20label%22%2C%22snippet%22%3A%22%3Cnav%20class%3D%5C%22MuiTypography-root%20MuiBreadcrumbs-root%20style_breadcrumbs__xiHv5%20MuiTypography-body1%20MuiTypography-colorTextSecondary%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_label_not_unique%22%2C%22ruleId%22%3A%22aria_landmark_name_unique%22%2C%22msgArgs%22%3A%5B%22navigation%22%2C%22%22%5D%7D"
+    },
+    {
+      "ruleId": "aria_navigation_label_unique",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]",
+        "aria": "/document[1]/navigation[4]"
+      },
+      "ruleTime": 0,
+      "reasonId": "fail_label_not_unique",
+      "message": "Multiple elements with \"navigation\" role do not have unique labels",
+      "messageArgs": [],
+      "apiArgs": [],
+      "bounds": {
+        "left": 376,
+        "top": 1225,
+        "height": 23,
+        "width": 355
+      },
+      "snippet": "<nav class=\"MuiTypography-root MuiBreadcrumbs-root style_breadcrumbs__xiHv5 MuiTypography-body1 MuiTypography-colorTextSecondary\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/aria_navigation_label_unique.html#%7B%22message%22%3A%22Multiple%20elements%20with%20%5C%22navigation%5C%22%20role%20do%20not%20have%20unique%20labels%22%2C%22snippet%22%3A%22%3Cnav%20class%3D%5C%22MuiTypography-root%20MuiBreadcrumbs-root%20style_breadcrumbs__xiHv5%20MuiTypography-body1%20MuiTypography-colorTextSecondary%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_label_not_unique%22%2C%22ruleId%22%3A%22aria_navigation_label_unique%22%2C%22msgArgs%22%3A%5B%5D%7D"
+    },
+    {
+      "ruleId": "label_name_visible",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/a[1]",
+        "aria": "/document[1]/link[4]"
+      },
+      "ruleTime": 0,
+      "reasonId": "Fail_1",
+      "message": "Accessible name does not match or contain the visible label text",
+      "messageArgs": [],
+      "apiArgs": [],
+      "bounds": {
+        "left": 675,
+        "top": 1304,
+        "height": 37,
+        "width": 64
+      },
+      "snippet": "<a href=\"/algorithm/coin-change\" aria-label=\"View Coin Change\" aria-disabled=\"false\" tabindex=\"0\" class=\"MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/label_name_visible.html#%7B%22message%22%3A%22Accessible%20name%20does%20not%20match%20or%20contain%20the%20visible%20label%20text%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22%2Falgorithm%2Fcoin-change%5C%22%20aria-label%3D%5C%22View%20Coin%20Change%5C%22%20aria-disabled%3D%5C%22false%5C%22%20tabindex%3D%5C%220%5C%22%20class%3D%5C%22MuiButtonBase-root%20MuiButton-root%20MuiButton-text%20MuiButton-textPrimary%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22label_name_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+    },
+    {
+      "ruleId": "aria_landmark_name_unique",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[4]/div[1]/div[1]/div[2]/div[1]/div[1]/nav[1]",
+        "aria": "/document[1]/navigation[5]"
+      },
+      "ruleTime": 0,
+      "reasonId": "fail_label_not_unique",
+      "message": "Multiple elements with \"navigation\" landmarks within the same parent region are not distinguished from one another because they have the same \"\" label",
+      "messageArgs": [
+        "navigation",
+        ""
+      ],
+      "apiArgs": [],
+      "bounds": {
+        "left": 783,
+        "top": 1225,
+        "height": 23,
+        "width": 355
+      },
+      "snippet": "<nav class=\"MuiTypography-root MuiBreadcrumbs-root style_breadcrumbs__xiHv5 MuiTypography-body1 MuiTypography-colorTextSecondary\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/aria_landmark_name_unique.html#%7B%22message%22%3A%22Multiple%20elements%20with%20%5C%22navigation%5C%22%20landmarks%20within%20the%20same%20parent%20region%20are%20not%20distinguished%20from%20one%20another%20because%20they%20have%20the%20same%20%5C%22%5C%22%20label%22%2C%22snippet%22%3A%22%3Cnav%20class%3D%5C%22MuiTypography-root%20MuiBreadcrumbs-root%20style_breadcrumbs__xiHv5%20MuiTypography-body1%20MuiTypography-colorTextSecondary%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_label_not_unique%22%2C%22ruleId%22%3A%22aria_landmark_name_unique%22%2C%22msgArgs%22%3A%5B%22navigation%22%2C%22%22%5D%7D"
+    },
+    {
+      "ruleId": "aria_navigation_label_unique",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[4]/div[1]/div[1]/div[2]/div[1]/div[1]/nav[1]",
+        "aria": "/document[1]/navigation[5]"
+      },
+      "ruleTime": 0,
+      "reasonId": "fail_label_not_unique",
+      "message": "Multiple elements with \"navigation\" role do not have unique labels",
+      "messageArgs": [],
+      "apiArgs": [],
+      "bounds": {
+        "left": 783,
+        "top": 1225,
+        "height": 23,
+        "width": 355
+      },
+      "snippet": "<nav class=\"MuiTypography-root MuiBreadcrumbs-root style_breadcrumbs__xiHv5 MuiTypography-body1 MuiTypography-colorTextSecondary\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/aria_navigation_label_unique.html#%7B%22message%22%3A%22Multiple%20elements%20with%20%5C%22navigation%5C%22%20role%20do%20not%20have%20unique%20labels%22%2C%22snippet%22%3A%22%3Cnav%20class%3D%5C%22MuiTypography-root%20MuiBreadcrumbs-root%20style_breadcrumbs__xiHv5%20MuiTypography-body1%20MuiTypography-colorTextSecondary%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_label_not_unique%22%2C%22ruleId%22%3A%22aria_navigation_label_unique%22%2C%22msgArgs%22%3A%5B%5D%7D"
+    },
+    {
+      "ruleId": "label_name_visible",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[4]/div[1]/div[1]/div[2]/div[1]/div[2]/a[1]",
+        "aria": "/document[1]/link[5]"
+      },
+      "ruleTime": 0,
+      "reasonId": "Fail_1",
+      "message": "Accessible name does not match or contain the visible label text",
+      "messageArgs": [],
+      "apiArgs": [],
+      "bounds": {
+        "left": 1082,
+        "top": 1304,
+        "height": 37,
+        "width": 64
+      },
+      "snippet": "<a href=\"/algorithm/logistic-regression\" aria-label=\"View Logistic Regression\" aria-disabled=\"false\" tabindex=\"0\" class=\"MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/label_name_visible.html#%7B%22message%22%3A%22Accessible%20name%20does%20not%20match%20or%20contain%20the%20visible%20label%20text%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22%2Falgorithm%2Flogistic-regression%5C%22%20aria-label%3D%5C%22View%20Logistic%20Regression%5C%22%20aria-disabled%3D%5C%22false%5C%22%20tabindex%3D%5C%220%5C%22%20class%3D%5C%22MuiButtonBase-root%20MuiButton-root%20MuiButton-text%20MuiButton-textPrimary%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22label_name_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+    },
+    {
+      "ruleId": "aria_landmark_name_unique",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[4]/div[1]/div[1]/div[3]/div[1]/div[1]/nav[1]",
+        "aria": "/document[1]/navigation[6]"
+      },
+      "ruleTime": 0,
+      "reasonId": "fail_label_not_unique",
+      "message": "Multiple elements with \"navigation\" landmarks within the same parent region are not distinguished from one another because they have the same \"\" label",
+      "messageArgs": [
+        "navigation",
+        ""
+      ],
+      "apiArgs": [],
+      "bounds": {
+        "left": 1190,
+        "top": 1225,
+        "height": 23,
+        "width": 355
+      },
+      "snippet": "<nav class=\"MuiTypography-root MuiBreadcrumbs-root style_breadcrumbs__xiHv5 MuiTypography-body1 MuiTypography-colorTextSecondary\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/aria_landmark_name_unique.html#%7B%22message%22%3A%22Multiple%20elements%20with%20%5C%22navigation%5C%22%20landmarks%20within%20the%20same%20parent%20region%20are%20not%20distinguished%20from%20one%20another%20because%20they%20have%20the%20same%20%5C%22%5C%22%20label%22%2C%22snippet%22%3A%22%3Cnav%20class%3D%5C%22MuiTypography-root%20MuiBreadcrumbs-root%20style_breadcrumbs__xiHv5%20MuiTypography-body1%20MuiTypography-colorTextSecondary%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_label_not_unique%22%2C%22ruleId%22%3A%22aria_landmark_name_unique%22%2C%22msgArgs%22%3A%5B%22navigation%22%2C%22%22%5D%7D"
+    },
+    {
+      "ruleId": "aria_navigation_label_unique",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[4]/div[1]/div[1]/div[3]/div[1]/div[1]/nav[1]",
+        "aria": "/document[1]/navigation[6]"
+      },
+      "ruleTime": 0,
+      "reasonId": "fail_label_not_unique",
+      "message": "Multiple elements with \"navigation\" role do not have unique labels",
+      "messageArgs": [],
+      "apiArgs": [],
+      "bounds": {
+        "left": 1190,
+        "top": 1225,
+        "height": 23,
+        "width": 355
+      },
+      "snippet": "<nav class=\"MuiTypography-root MuiBreadcrumbs-root style_breadcrumbs__xiHv5 MuiTypography-body1 MuiTypography-colorTextSecondary\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/aria_navigation_label_unique.html#%7B%22message%22%3A%22Multiple%20elements%20with%20%5C%22navigation%5C%22%20role%20do%20not%20have%20unique%20labels%22%2C%22snippet%22%3A%22%3Cnav%20class%3D%5C%22MuiTypography-root%20MuiBreadcrumbs-root%20style_breadcrumbs__xiHv5%20MuiTypography-body1%20MuiTypography-colorTextSecondary%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_label_not_unique%22%2C%22ruleId%22%3A%22aria_navigation_label_unique%22%2C%22msgArgs%22%3A%5B%5D%7D"
+    },
+    {
+      "ruleId": "label_name_visible",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[4]/div[1]/div[1]/div[3]/div[1]/div[2]/a[1]",
+        "aria": "/document[1]/link[6]"
+      },
+      "ruleTime": 0,
+      "reasonId": "Fail_1",
+      "message": "Accessible name does not match or contain the visible label text",
+      "messageArgs": [],
+      "apiArgs": [],
+      "bounds": {
+        "left": 1488,
+        "top": 1304,
+        "height": 37,
+        "width": 64
+      },
+      "snippet": "<a href=\"/algorithm/caesar-cipher\" aria-label=\"View Caesar Cipher\" aria-disabled=\"false\" tabindex=\"0\" class=\"MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/label_name_visible.html#%7B%22message%22%3A%22Accessible%20name%20does%20not%20match%20or%20contain%20the%20visible%20label%20text%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22%2Falgorithm%2Fcaesar-cipher%5C%22%20aria-label%3D%5C%22View%20Caesar%20Cipher%5C%22%20aria-disabled%3D%5C%22false%5C%22%20tabindex%3D%5C%220%5C%22%20class%3D%5C%22MuiButtonBase-root%20MuiButton-root%20MuiButton-text%20MuiButton-textPrimary%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22label_name_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+    },
+    {
+      "ruleId": "aria_landmark_name_unique",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[4]/div[1]/div[1]/div[4]/div[1]/div[1]/nav[1]",
+        "aria": "/document[1]/navigation[7]"
+      },
+      "ruleTime": 1,
+      "reasonId": "fail_label_not_unique",
+      "message": "Multiple elements with \"navigation\" landmarks within the same parent region are not distinguished from one another because they have the same \"\" label",
+      "messageArgs": [
+        "navigation",
+        ""
+      ],
+      "apiArgs": [],
+      "bounds": {
+        "left": 376,
+        "top": 1384,
+        "height": 23,
+        "width": 355
+      },
+      "snippet": "<nav class=\"MuiTypography-root MuiBreadcrumbs-root style_breadcrumbs__xiHv5 MuiTypography-body1 MuiTypography-colorTextSecondary\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/aria_landmark_name_unique.html#%7B%22message%22%3A%22Multiple%20elements%20with%20%5C%22navigation%5C%22%20landmarks%20within%20the%20same%20parent%20region%20are%20not%20distinguished%20from%20one%20another%20because%20they%20have%20the%20same%20%5C%22%5C%22%20label%22%2C%22snippet%22%3A%22%3Cnav%20class%3D%5C%22MuiTypography-root%20MuiBreadcrumbs-root%20style_breadcrumbs__xiHv5%20MuiTypography-body1%20MuiTypography-colorTextSecondary%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_label_not_unique%22%2C%22ruleId%22%3A%22aria_landmark_name_unique%22%2C%22msgArgs%22%3A%5B%22navigation%22%2C%22%22%5D%7D"
+    },
+    {
+      "ruleId": "aria_navigation_label_unique",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[4]/div[1]/div[1]/div[4]/div[1]/div[1]/nav[1]",
+        "aria": "/document[1]/navigation[7]"
+      },
+      "ruleTime": 0,
+      "reasonId": "fail_label_not_unique",
+      "message": "Multiple elements with \"navigation\" role do not have unique labels",
+      "messageArgs": [],
+      "apiArgs": [],
+      "bounds": {
+        "left": 376,
+        "top": 1384,
+        "height": 23,
+        "width": 355
+      },
+      "snippet": "<nav class=\"MuiTypography-root MuiBreadcrumbs-root style_breadcrumbs__xiHv5 MuiTypography-body1 MuiTypography-colorTextSecondary\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/aria_navigation_label_unique.html#%7B%22message%22%3A%22Multiple%20elements%20with%20%5C%22navigation%5C%22%20role%20do%20not%20have%20unique%20labels%22%2C%22snippet%22%3A%22%3Cnav%20class%3D%5C%22MuiTypography-root%20MuiBreadcrumbs-root%20style_breadcrumbs__xiHv5%20MuiTypography-body1%20MuiTypography-colorTextSecondary%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_label_not_unique%22%2C%22ruleId%22%3A%22aria_navigation_label_unique%22%2C%22msgArgs%22%3A%5B%5D%7D"
+    },
+    {
+      "ruleId": "label_name_visible",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[4]/div[1]/div[1]/div[4]/div[1]/div[2]/a[1]",
+        "aria": "/document[1]/link[7]"
+      },
+      "ruleTime": 1,
+      "reasonId": "Fail_1",
+      "message": "Accessible name does not match or contain the visible label text",
+      "messageArgs": [],
+      "apiArgs": [],
+      "bounds": {
+        "left": 675,
+        "top": 1463,
+        "height": 37,
+        "width": 64
+      },
+      "snippet": "<a href=\"/algorithm/a-simple-gan\" aria-label=\"View A-Simple-GAN\" aria-disabled=\"false\" tabindex=\"0\" class=\"MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/label_name_visible.html#%7B%22message%22%3A%22Accessible%20name%20does%20not%20match%20or%20contain%20the%20visible%20label%20text%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22%2Falgorithm%2Fa-simple-gan%5C%22%20aria-label%3D%5C%22View%20A-Simple-GAN%5C%22%20aria-disabled%3D%5C%22false%5C%22%20tabindex%3D%5C%220%5C%22%20class%3D%5C%22MuiButtonBase-root%20MuiButton-root%20MuiButton-text%20MuiButton-textPrimary%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22label_name_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+    },
+    {
+      "ruleId": "aria_landmark_name_unique",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[4]/div[1]/div[1]/div[5]/div[1]/div[1]/nav[1]",
+        "aria": "/document[1]/navigation[8]"
+      },
+      "ruleTime": 0,
+      "reasonId": "fail_label_not_unique",
+      "message": "Multiple elements with \"navigation\" landmarks within the same parent region are not distinguished from one another because they have the same \"\" label",
+      "messageArgs": [
+        "navigation",
+        ""
+      ],
+      "apiArgs": [],
+      "bounds": {
+        "left": 783,
+        "top": 1384,
+        "height": 23,
+        "width": 355
+      },
+      "snippet": "<nav class=\"MuiTypography-root MuiBreadcrumbs-root style_breadcrumbs__xiHv5 MuiTypography-body1 MuiTypography-colorTextSecondary\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/aria_landmark_name_unique.html#%7B%22message%22%3A%22Multiple%20elements%20with%20%5C%22navigation%5C%22%20landmarks%20within%20the%20same%20parent%20region%20are%20not%20distinguished%20from%20one%20another%20because%20they%20have%20the%20same%20%5C%22%5C%22%20label%22%2C%22snippet%22%3A%22%3Cnav%20class%3D%5C%22MuiTypography-root%20MuiBreadcrumbs-root%20style_breadcrumbs__xiHv5%20MuiTypography-body1%20MuiTypography-colorTextSecondary%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_label_not_unique%22%2C%22ruleId%22%3A%22aria_landmark_name_unique%22%2C%22msgArgs%22%3A%5B%22navigation%22%2C%22%22%5D%7D"
+    },
+    {
+      "ruleId": "aria_navigation_label_unique",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[4]/div[1]/div[1]/div[5]/div[1]/div[1]/nav[1]",
+        "aria": "/document[1]/navigation[8]"
+      },
+      "ruleTime": 0,
+      "reasonId": "fail_label_not_unique",
+      "message": "Multiple elements with \"navigation\" role do not have unique labels",
+      "messageArgs": [],
+      "apiArgs": [],
+      "bounds": {
+        "left": 783,
+        "top": 1384,
+        "height": 23,
+        "width": 355
+      },
+      "snippet": "<nav class=\"MuiTypography-root MuiBreadcrumbs-root style_breadcrumbs__xiHv5 MuiTypography-body1 MuiTypography-colorTextSecondary\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/aria_navigation_label_unique.html#%7B%22message%22%3A%22Multiple%20elements%20with%20%5C%22navigation%5C%22%20role%20do%20not%20have%20unique%20labels%22%2C%22snippet%22%3A%22%3Cnav%20class%3D%5C%22MuiTypography-root%20MuiBreadcrumbs-root%20style_breadcrumbs__xiHv5%20MuiTypography-body1%20MuiTypography-colorTextSecondary%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_label_not_unique%22%2C%22ruleId%22%3A%22aria_navigation_label_unique%22%2C%22msgArgs%22%3A%5B%5D%7D"
+    },
+    {
+      "ruleId": "label_name_visible",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[4]/div[1]/div[1]/div[5]/div[1]/div[2]/a[1]",
+        "aria": "/document[1]/link[8]"
+      },
+      "ruleTime": 0,
+      "reasonId": "Fail_1",
+      "message": "Accessible name does not match or contain the visible label text",
+      "messageArgs": [],
+      "apiArgs": [],
+      "bounds": {
+        "left": 1082,
+        "top": 1463,
+        "height": 37,
+        "width": 64
+      },
+      "snippet": "<a href=\"/algorithm/bellman-ford\" aria-label=\"View Bellman Ford\" aria-disabled=\"false\" tabindex=\"0\" class=\"MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/label_name_visible.html#%7B%22message%22%3A%22Accessible%20name%20does%20not%20match%20or%20contain%20the%20visible%20label%20text%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22%2Falgorithm%2Fbellman-ford%5C%22%20aria-label%3D%5C%22View%20Bellman%20Ford%5C%22%20aria-disabled%3D%5C%22false%5C%22%20tabindex%3D%5C%220%5C%22%20class%3D%5C%22MuiButtonBase-root%20MuiButton-root%20MuiButton-text%20MuiButton-textPrimary%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22label_name_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+    },
+    {
+      "ruleId": "aria_landmark_name_unique",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[4]/div[1]/div[1]/div[6]/div[1]/div[1]/nav[1]",
+        "aria": "/document[1]/navigation[9]"
+      },
+      "ruleTime": 0,
+      "reasonId": "fail_label_not_unique",
+      "message": "Multiple elements with \"navigation\" landmarks within the same parent region are not distinguished from one another because they have the same \"\" label",
+      "messageArgs": [
+        "navigation",
+        ""
+      ],
+      "apiArgs": [],
+      "bounds": {
+        "left": 1190,
+        "top": 1384,
+        "height": 23,
+        "width": 355
+      },
+      "snippet": "<nav class=\"MuiTypography-root MuiBreadcrumbs-root style_breadcrumbs__xiHv5 MuiTypography-body1 MuiTypography-colorTextSecondary\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/aria_landmark_name_unique.html#%7B%22message%22%3A%22Multiple%20elements%20with%20%5C%22navigation%5C%22%20landmarks%20within%20the%20same%20parent%20region%20are%20not%20distinguished%20from%20one%20another%20because%20they%20have%20the%20same%20%5C%22%5C%22%20label%22%2C%22snippet%22%3A%22%3Cnav%20class%3D%5C%22MuiTypography-root%20MuiBreadcrumbs-root%20style_breadcrumbs__xiHv5%20MuiTypography-body1%20MuiTypography-colorTextSecondary%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_label_not_unique%22%2C%22ruleId%22%3A%22aria_landmark_name_unique%22%2C%22msgArgs%22%3A%5B%22navigation%22%2C%22%22%5D%7D"
+    },
+    {
+      "ruleId": "aria_navigation_label_unique",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[4]/div[1]/div[1]/div[6]/div[1]/div[1]/nav[1]",
+        "aria": "/document[1]/navigation[9]"
+      },
+      "ruleTime": 0,
+      "reasonId": "fail_label_not_unique",
+      "message": "Multiple elements with \"navigation\" role do not have unique labels",
+      "messageArgs": [],
+      "apiArgs": [],
+      "bounds": {
+        "left": 1190,
+        "top": 1384,
+        "height": 23,
+        "width": 355
+      },
+      "snippet": "<nav class=\"MuiTypography-root MuiBreadcrumbs-root style_breadcrumbs__xiHv5 MuiTypography-body1 MuiTypography-colorTextSecondary\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/aria_navigation_label_unique.html#%7B%22message%22%3A%22Multiple%20elements%20with%20%5C%22navigation%5C%22%20role%20do%20not%20have%20unique%20labels%22%2C%22snippet%22%3A%22%3Cnav%20class%3D%5C%22MuiTypography-root%20MuiBreadcrumbs-root%20style_breadcrumbs__xiHv5%20MuiTypography-body1%20MuiTypography-colorTextSecondary%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_label_not_unique%22%2C%22ruleId%22%3A%22aria_navigation_label_unique%22%2C%22msgArgs%22%3A%5B%5D%7D"
+    },
+    {
+      "ruleId": "label_name_visible",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[4]/div[1]/div[1]/div[6]/div[1]/div[2]/a[1]",
+        "aria": "/document[1]/link[9]"
+      },
+      "ruleTime": 0,
+      "reasonId": "Fail_1",
+      "message": "Accessible name does not match or contain the visible label text",
+      "messageArgs": [],
+      "apiArgs": [],
+      "bounds": {
+        "left": 1488,
+        "top": 1463,
+        "height": 37,
+        "width": 64
+      },
+      "snippet": "<a href=\"/algorithm/bogo-sort\" aria-label=\"View Bogo Sort\" aria-disabled=\"false\" tabindex=\"0\" class=\"MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/label_name_visible.html#%7B%22message%22%3A%22Accessible%20name%20does%20not%20match%20or%20contain%20the%20visible%20label%20text%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22%2Falgorithm%2Fbogo-sort%5C%22%20aria-label%3D%5C%22View%20Bogo%20Sort%5C%22%20aria-disabled%3D%5C%22false%5C%22%20tabindex%3D%5C%220%5C%22%20class%3D%5C%22MuiButtonBase-root%20MuiButton-root%20MuiButton-text%20MuiButton-textPrimary%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22label_name_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+    },
+    {
+      "ruleId": "input_label_exists",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[6]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]",
+        "aria": "/document[1]/button[1]"
+      },
+      "ruleTime": 0,
+      "reasonId": "Fail_1",
+      "message": "Form control element <button> has no associated label",
+      "messageArgs": [
+        "button"
+      ],
+      "apiArgs": [],
+      "bounds": {
+        "left": 885,
+        "top": 2112,
+        "height": 48,
+        "width": 48
+      },
+      "snippet": "<button type=\"button\" tabindex=\"0\" class=\"MuiButtonBase-root MuiIconButton-root style_sort__1N61i\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/input_label_exists.html#%7B%22message%22%3A%22Form%20control%20element%20%3Cbutton%3E%20has%20no%20associated%20label%22%2C%22snippet%22%3A%22%3Cbutton%20type%3D%5C%22button%5C%22%20tabindex%3D%5C%220%5C%22%20class%3D%5C%22MuiButtonBase-root%20MuiIconButton-root%20style_sort__1N61i%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22input_label_exists%22%2C%22msgArgs%22%3A%5B%22button%22%5D%7D"
+    },
+    {
+      "ruleId": "a_text_purpose",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[6]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/a[1]",
+        "aria": "/document[1]/link[46]"
+      },
+      "ruleTime": 0,
+      "reasonId": "fail_acc_name",
+      "message": "Hyperlink has no link text, label or image with a text alternative",
+      "messageArgs": [],
+      "apiArgs": [],
+      "bounds": {
+        "left": 1153,
+        "top": 2094,
+        "height": 19,
+        "width": 0
+      },
+      "snippet": "<a href=\"https://hosted.weblate.org/engage/TheAlgorithms/?utm_source=widget\" class=\"MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/a_text_purpose.html#%7B%22message%22%3A%22Hyperlink%20has%20no%20link%20text%2C%20label%20or%20image%20with%20a%20text%20alternative%22%2C%22snippet%22%3A%22%3Ca%20href%3D%5C%22https%3A%2F%2Fhosted.weblate.org%2Fengage%2FTheAlgorithms%2F%3Futm_source%3Dwidget%5C%22%20class%3D%5C%22MuiTypography-root%20MuiLink-root%20MuiLink-underlineHover%20MuiTypography-colorPrimary%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_acc_name%22%2C%22ruleId%22%3A%22a_text_purpose%22%2C%22msgArgs%22%3A%5B%5D%7D"
+    }
+  ],
+  "numExecuted": 1456,
+  "ruleTime": 107,
+  "nls": {
+    "html_skipnav_exists": {
+      "0": "Provide a way to bypass blocks of content that are repeated on multiple Web pages",
+      "Potential_1": "Verify there is a way to bypass blocks of content that are repeated on multiple Web pages"
+    },
+    "aria_content_in_landmark": {
+      "0": "All content must reside within an element with a landmark role",
+      "Fail_1": "Content is not within a landmark element"
+    },
+    "style_color_misuse": {
+      "0": "Combine color and descriptive markup to convey information",
+      "Potential_1": "Verify color is not used as the only visual means of conveying information"
+    },
+    "style_focus_visible": {
+      "0": "The keyboard focus indicator should be visible when default border or outline is modified by CSS",
+      "potential_focus_not_visible": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'"
+    },
+    "target_spacing_sufficient": {
+      "0": "The target must be sufficiently sized or spaced from other targets",
+      "potential_overlap": "Ensure the overlapped target \"{0}\" meets a minimum target size or has sufficient spacing from the overlapping target \"{1}\""
+    },
+    "text_block_heading": {
+      "0": "Heading text should use a heading element or role",
+      "potential_heading": "Confirm this text '{0}' is used as a heading and if so, modify to use a heading element or role"
+    },
+    "text_contrast_sufficient": {
+      "0": "The contrast ratio of text with its background must meet WCAG AA requirements",
+      "fail_contrast": "Text contrast of {0} with its background is less than the WCAG AA minimum requirements for text of size {1}px and weight of {2}"
+    },
+    "form_submit_button_exists": {
+      "0": "A <form> element should have a submit button or an image button",
+      "Potential_1": "Verify the <form> element has a submit button or an image button"
+    },
+    "input_label_exists": {
+      "0": "Each form control must have an associated label",
+      "Fail_1": "Form control element <{0}> has no associated label"
+    },
+    "input_label_visible": {
+      "0": "An input element must have an associated visible label",
+      "potential_placeholder_only": "The ‘placeholder’ is the only visible label",
+      "potential_no_label": "The input element does not have an associated visible label"
+    },
+    "svg_graphics_labelled": {
+      "0": "A non-decorative SVG element must have an accessible name",
+      "fail_acc_name": "The SVG element has no accessible name"
+    }
+  },
+  "summary": {
+    "counts": {
+      "ignored": 0,
+      "elements": 51,
+      "elementsViolation": 30,
+      "elementsViolationReview": 46,
+      "violation": 30,
+      "potentialviolation": 25,
+      "recommendation": 0,
+      "potentialrecommendation": 9,
+      "manual": 1,
+      "pass": 1391
+    },
+    "scanTime": 434,
+    "ruleArchive": "Latest Deployment (latest)",
+    "policies": [
+      "IBM_Accessibility"
+    ],
+    "reportLevels": [
+      "violation",
+      "potentialviolation"
+    ],
+    "startScan": 1753811403375,
+    "URL": "http://localhost:3000/algorithm/generate-sub-sets?lang=java"
+  },
+  "scanID": "65680f34-2e40-4da8-8ca0-63cf0184dd0a",
+  "toolID": "undefined-vundefined",
+  "label": "http://localhost:3000/algorithm/generate-sub-sets?lang=java"
+}

@@ -1,0 +1,390 @@
+[1] Violation of rule `aria_content_in_landmark`: Content is not within a landmark element
+  DOM Path: /html[1]/body[1]/div[1]/div[1]/h4[1]
+  ARIA Path: /document[1]/heading[1]
+  Code: <h4 class="MuiTypography-root MuiTypography-h4">
+  messageArgs: []
+  apiArgs: []
+
+
+[2] Violation of rule `aria_content_in_landmark`: Content is not within a landmark element
+  DOM Path: /html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/a[1]
+  ARIA Path: /document[1]/link[1]
+  Code: <a rel="noreferrer" target="_blank" href="https://github.com/TheAlgorithms/java/tree/master/src/main/java/com/thealgorithms/bitmanipulation/GenerateSubsets.java" aria-disabled="false" tabindex="0" class="MuiButtonBase-root MuiButton-root MuiButton-text">
+  messageArgs: []
+  apiArgs: []
+
+
+[3] Violation of rule `input_label_exists`: Form control element <button> has no associated label
+  DOM Path: /html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/button[1]
+  ARIA Path: /document[1]/button[1]
+  Code: <button style="background-color:#3f51b5;color:white" type="button" tabindex="0" class="MuiButtonBase-root MuiIconButton-root style_fullscreen__SGvLq">
+  messageArgs: ['button']
+  apiArgs: []
+
+
+[4] Violation of rule `aria_content_in_landmark`: Content is not within a landmark element
+  DOM Path: /html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[3]/a[1]
+  ARIA Path: /document[1]/link[2]
+  Code: <a href="/playground?algorithm=generate-sub-sets&language=java" aria-disabled="false" tabindex="0" class="MuiButtonBase-root MuiButton-root MuiButton-contained style_tryCode__ccF4H MuiButton-containedPrimary">
+  messageArgs: []
+  apiArgs: []
+
+
+[5] Violation of rule `aria_content_in_landmark`: Content is not within a landmark element
+  DOM Path: /html[1]/body[1]/div[1]/div[1]/div[2]/div[2]/div[1]/button[1]
+  ARIA Path: /document[1]/button[2]
+  Code: <button aria-label="Javascript Implementation" rel="noreferrer" target="_blank" type="button" tabindex="0" class="MuiButtonBase-root MuiIconButton-root style_implementation__SzJxO">
+  messageArgs: []
+  apiArgs: []
+
+
+[6] Violation of rule `aria_content_in_landmark`: Content is not within a landmark element
+  DOM Path: /html[1]/body[1]/div[1]/div[1]/div[2]/div[2]/div[2]/button[1]
+  ARIA Path: /document[1]/button[3]
+  Code: <button aria-label="Java Implementation" rel="noreferrer" target="_blank" type="button" tabindex="0" class="MuiButtonBase-root MuiIconButton-root style_implementation__SzJxO">
+  messageArgs: []
+  apiArgs: []
+
+
+[7] Violation of rule `aria_content_in_landmark`: Content is not within a landmark element
+  DOM Path: /html[1]/body[1]/div[1]/div[1]/div[3]/button[1]
+  ARIA Path: /document[1]/button[4]
+  Code: <button type="button" tabindex="0" class="MuiButtonBase-root MuiButton-root MuiButton-text style_button__UpGFj">
+  messageArgs: []
+  apiArgs: []
+
+
+[8] Violation of rule `aria_content_in_landmark`: Content is not within a landmark element
+  DOM Path: /html[1]/body[1]/div[1]/div[2]/div[1]/p[1]
+  ARIA Path: /document[1]/paragraph[1]
+  Code: <p class="MuiTypography-root style_name__sHBp_ MuiTypography-body1">
+  messageArgs: []
+  apiArgs: []
+
+
+[9] Violation of rule `aria_content_in_landmark`: Content is not within a landmark element
+  DOM Path: /html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/a[1]
+  ARIA Path: /document[1]/link[3]
+  Code: <a href="/#about" class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary">
+  messageArgs: []
+  apiArgs: []
+
+
+[10] Violation of rule `aria_content_in_landmark`: Content is not within a landmark element
+  DOM Path: /html[1]/body[1]/div[1]/div[2]/div[1]/div[2]/a[1]
+  ARIA Path: /document[1]/link[8]
+  Code: <a rel="noreferrer" target="_blank" href="https://github.com/TheAlgorithms/">
+  messageArgs: []
+  apiArgs: []
+
+
+[11] Violation of rule `aria_content_in_landmark`: Content is not within a landmark element
+  DOM Path: /html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/p[1]
+  ARIA Path: /document[1]/paragraph[1]
+  Code: <p class="MuiTypography-root-143 style_h2__28B6h MuiTypography-body1-145">
+  messageArgs: []
+  apiArgs: []
+
+
+[12] Violation of rule `input_label_exists`: Form control element <input> has no associated label
+  DOM Path: /html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/div[1]/div[1]/input[1]
+  ARIA Path: /document[1]/form[1]/textbox[1]
+  Code: <input class="MuiInputBase-input-210 MuiFilledInput-input-196 MuiInputBase-inputAdornedEnd-215 MuiFilledInput-inputAdornedEnd-201" value="" name="q" id="search" aria-invalid="false" type="text">
+  messageArgs: ['input']
+  apiArgs: []
+
+
+[13] Violation of rule `aria_content_in_landmark`: Content is not within a landmark element
+  DOM Path: /html[1]/body[1]/div[1]/div[2]/div[1]/h4[1]
+  ARIA Path: /document[1]/heading[1]
+  Code: <h4 class="MuiTypography-root style_title__E2XS1 MuiTypography-h4">
+  messageArgs: []
+  apiArgs: []
+
+
+[14] Violation of rule `aria_landmark_name_unique`: Multiple elements with "navigation" landmarks within the same parent region are not distinguished from one another because they have the same "" label
+  DOM Path: /html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]
+  ARIA Path: /document[1]/navigation[1]
+  Code: <nav class="MuiTypography-root MuiBreadcrumbs-root style_breadcrumbs__xiHv5 MuiTypography-body1 MuiTypography-colorTextSecondary">
+  messageArgs: ['navigation', '']
+  apiArgs: []
+
+
+[15] Violation of rule `aria_navigation_label_unique`: Multiple elements with "navigation" role do not have unique labels
+  DOM Path: /html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]
+  ARIA Path: /document[1]/navigation[1]
+  Code: <nav class="MuiTypography-root MuiBreadcrumbs-root style_breadcrumbs__xiHv5 MuiTypography-body1 MuiTypography-colorTextSecondary">
+  messageArgs: []
+  apiArgs: []
+
+
+[16] Violation of rule `aria_content_in_landmark`: Content is not within a landmark element
+  DOM Path: /html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/h2[1]
+  ARIA Path: /document[1]/heading[2]
+  Code: <h2 class="MuiTypography-root style_title__PlAjk MuiTypography-h5">
+  messageArgs: []
+  apiArgs: []
+
+
+[17] Violation of rule `aria_content_in_landmark`: Content is not within a landmark element
+  DOM Path: /html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/p[1]
+  ARIA Path: /document[1]/paragraph[2]
+  Code: <p title="And 15 more" class="MuiTypography-root style_more__fAu8e MuiTypography-body1 MuiTypography-colorTextSecondary">
+  messageArgs: []
+  apiArgs: []
+
+
+[18] Violation of rule `aria_content_in_landmark`: Content is not within a landmark element
+  DOM Path: /html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/a[1]
+  ARIA Path: /document[1]/link[1]
+  Code: <a href="/algorithm/binary-search" aria-label="View Binary Search" aria-disabled="false" tabindex="0" class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary">
+  messageArgs: []
+  apiArgs: []
+
+
+[19] Violation of rule `label_name_visible`: Accessible name does not match or contain the visible label text
+  DOM Path: /html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/a[1]
+  ARIA Path: /document[1]/link[1]
+  Code: <a href="/algorithm/binary-search" aria-label="View Binary Search" aria-disabled="false" tabindex="0" class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary">
+  messageArgs: []
+  apiArgs: []
+
+
+[20] Violation of rule `aria_landmark_name_unique`: Multiple elements with "navigation" landmarks within the same parent region are not distinguished from one another because they have the same "" label
+  DOM Path: /html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/nav[1]
+  ARIA Path: /document[1]/navigation[2]
+  Code: <nav class="MuiTypography-root MuiBreadcrumbs-root style_breadcrumbs__xiHv5 MuiTypography-body1 MuiTypography-colorTextSecondary">
+  messageArgs: ['navigation', '']
+  apiArgs: []
+
+
+[21] Violation of rule `aria_navigation_label_unique`: Multiple elements with "navigation" role do not have unique labels
+  DOM Path: /html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/nav[1]
+  ARIA Path: /document[1]/navigation[2]
+  Code: <nav class="MuiTypography-root MuiBreadcrumbs-root style_breadcrumbs__xiHv5 MuiTypography-body1 MuiTypography-colorTextSecondary">
+  messageArgs: []
+  apiArgs: []
+
+
+[22] Violation of rule `aria_content_in_landmark`: Content is not within a landmark element
+  DOM Path: /html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/h2[1]
+  ARIA Path: /document[1]/heading[3]
+  Code: <h2 class="MuiTypography-root style_title__PlAjk MuiTypography-h5">
+  messageArgs: []
+  apiArgs: []
+
+
+[23] Violation of rule `aria_content_in_landmark`: Content is not within a landmark element
+  DOM Path: /html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/p[1]
+  ARIA Path: /document[1]/paragraph[3]
+  Code: <p title="And 19 more" class="MuiTypography-root style_more__fAu8e MuiTypography-body1 MuiTypography-colorTextSecondary">
+  messageArgs: []
+  apiArgs: []
+
+
+[24] Violation of rule `aria_content_in_landmark`: Content is not within a landmark element
+  DOM Path: /html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/a[1]
+  ARIA Path: /document[1]/link[2]
+  Code: <a href="/algorithm/quick-sort" aria-label="View Quick Sort" aria-disabled="false" tabindex="0" class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary">
+  messageArgs: []
+  apiArgs: []
+
+
+[25] Violation of rule `label_name_visible`: Accessible name does not match or contain the visible label text
+  DOM Path: /html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/a[1]
+  ARIA Path: /document[1]/link[2]
+  Code: <a href="/algorithm/quick-sort" aria-label="View Quick Sort" aria-disabled="false" tabindex="0" class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary">
+  messageArgs: []
+  apiArgs: []
+
+
+[26] Violation of rule `aria_landmark_name_unique`: Multiple elements with "navigation" landmarks within the same parent region are not distinguished from one another because they have the same "" label
+  DOM Path: /html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/nav[1]
+  ARIA Path: /document[1]/navigation[3]
+  Code: <nav class="MuiTypography-root MuiBreadcrumbs-root style_breadcrumbs__xiHv5 MuiTypography-body1 MuiTypography-colorTextSecondary">
+  messageArgs: ['navigation', '']
+  apiArgs: []
+
+
+[27] Violation of rule `aria_navigation_label_unique`: Multiple elements with "navigation" role do not have unique labels
+  DOM Path: /html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/nav[1]
+  ARIA Path: /document[1]/navigation[3]
+  Code: <nav class="MuiTypography-root MuiBreadcrumbs-root style_breadcrumbs__xiHv5 MuiTypography-body1 MuiTypography-colorTextSecondary">
+  messageArgs: []
+  apiArgs: []
+
+
+[28] Violation of rule `aria_content_in_landmark`: Content is not within a landmark element
+  DOM Path: /html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/h2[1]
+  ARIA Path: /document[1]/heading[4]
+  Code: <h2 class="MuiTypography-root style_title__PlAjk MuiTypography-h5">
+  messageArgs: []
+  apiArgs: []
+
+
+[29] Violation of rule `label_name_visible`: Accessible name does not match or contain the visible label text
+  DOM Path: /html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[2]/a[1]
+  ARIA Path: /document[1]/link[3]
+  Code: <a href="/algorithm/fibonacci-numbers" aria-label="View Fibonacci Numbers" aria-disabled="false" tabindex="0" class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary">
+  messageArgs: []
+  apiArgs: []
+
+
+[30] Violation of rule `aria_landmark_name_unique`: Multiple elements with "navigation" landmarks within the same parent region are not distinguished from one another because they have the same "" label
+  DOM Path: /html[1]/body[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]
+  ARIA Path: /document[1]/navigation[4]
+  Code: <nav class="MuiTypography-root MuiBreadcrumbs-root style_breadcrumbs__xiHv5 MuiTypography-body1 MuiTypography-colorTextSecondary">
+  messageArgs: ['navigation', '']
+  apiArgs: []
+
+
+[31] Violation of rule `aria_navigation_label_unique`: Multiple elements with "navigation" role do not have unique labels
+  DOM Path: /html[1]/body[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]
+  ARIA Path: /document[1]/navigation[4]
+  Code: <nav class="MuiTypography-root MuiBreadcrumbs-root style_breadcrumbs__xiHv5 MuiTypography-body1 MuiTypography-colorTextSecondary">
+  messageArgs: []
+  apiArgs: []
+
+
+[32] Violation of rule `label_name_visible`: Accessible name does not match or contain the visible label text
+  DOM Path: /html[1]/body[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/a[1]
+  ARIA Path: /document[1]/link[4]
+  Code: <a href="/algorithm/coin-change" aria-label="View Coin Change" aria-disabled="false" tabindex="0" class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary">
+  messageArgs: []
+  apiArgs: []
+
+
+[33] Violation of rule `aria_landmark_name_unique`: Multiple elements with "navigation" landmarks within the same parent region are not distinguished from one another because they have the same "" label
+  DOM Path: /html[1]/body[1]/div[1]/div[4]/div[1]/div[1]/div[2]/div[1]/div[1]/nav[1]
+  ARIA Path: /document[1]/navigation[5]
+  Code: <nav class="MuiTypography-root MuiBreadcrumbs-root style_breadcrumbs__xiHv5 MuiTypography-body1 MuiTypography-colorTextSecondary">
+  messageArgs: ['navigation', '']
+  apiArgs: []
+
+
+[34] Violation of rule `aria_navigation_label_unique`: Multiple elements with "navigation" role do not have unique labels
+  DOM Path: /html[1]/body[1]/div[1]/div[4]/div[1]/div[1]/div[2]/div[1]/div[1]/nav[1]
+  ARIA Path: /document[1]/navigation[5]
+  Code: <nav class="MuiTypography-root MuiBreadcrumbs-root style_breadcrumbs__xiHv5 MuiTypography-body1 MuiTypography-colorTextSecondary">
+  messageArgs: []
+  apiArgs: []
+
+
+[35] Violation of rule `label_name_visible`: Accessible name does not match or contain the visible label text
+  DOM Path: /html[1]/body[1]/div[1]/div[4]/div[1]/div[1]/div[2]/div[1]/div[2]/a[1]
+  ARIA Path: /document[1]/link[5]
+  Code: <a href="/algorithm/logistic-regression" aria-label="View Logistic Regression" aria-disabled="false" tabindex="0" class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary">
+  messageArgs: []
+  apiArgs: []
+
+
+[36] Violation of rule `aria_landmark_name_unique`: Multiple elements with "navigation" landmarks within the same parent region are not distinguished from one another because they have the same "" label
+  DOM Path: /html[1]/body[1]/div[1]/div[4]/div[1]/div[1]/div[3]/div[1]/div[1]/nav[1]
+  ARIA Path: /document[1]/navigation[6]
+  Code: <nav class="MuiTypography-root MuiBreadcrumbs-root style_breadcrumbs__xiHv5 MuiTypography-body1 MuiTypography-colorTextSecondary">
+  messageArgs: ['navigation', '']
+  apiArgs: []
+
+
+[37] Violation of rule `aria_navigation_label_unique`: Multiple elements with "navigation" role do not have unique labels
+  DOM Path: /html[1]/body[1]/div[1]/div[4]/div[1]/div[1]/div[3]/div[1]/div[1]/nav[1]
+  ARIA Path: /document[1]/navigation[6]
+  Code: <nav class="MuiTypography-root MuiBreadcrumbs-root style_breadcrumbs__xiHv5 MuiTypography-body1 MuiTypography-colorTextSecondary">
+  messageArgs: []
+  apiArgs: []
+
+
+[38] Violation of rule `label_name_visible`: Accessible name does not match or contain the visible label text
+  DOM Path: /html[1]/body[1]/div[1]/div[4]/div[1]/div[1]/div[3]/div[1]/div[2]/a[1]
+  ARIA Path: /document[1]/link[6]
+  Code: <a href="/algorithm/caesar-cipher" aria-label="View Caesar Cipher" aria-disabled="false" tabindex="0" class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary">
+  messageArgs: []
+  apiArgs: []
+
+
+[39] Violation of rule `aria_landmark_name_unique`: Multiple elements with "navigation" landmarks within the same parent region are not distinguished from one another because they have the same "" label
+  DOM Path: /html[1]/body[1]/div[1]/div[4]/div[1]/div[1]/div[4]/div[1]/div[1]/nav[1]
+  ARIA Path: /document[1]/navigation[7]
+  Code: <nav class="MuiTypography-root MuiBreadcrumbs-root style_breadcrumbs__xiHv5 MuiTypography-body1 MuiTypography-colorTextSecondary">
+  messageArgs: ['navigation', '']
+  apiArgs: []
+
+
+[40] Violation of rule `aria_navigation_label_unique`: Multiple elements with "navigation" role do not have unique labels
+  DOM Path: /html[1]/body[1]/div[1]/div[4]/div[1]/div[1]/div[4]/div[1]/div[1]/nav[1]
+  ARIA Path: /document[1]/navigation[7]
+  Code: <nav class="MuiTypography-root MuiBreadcrumbs-root style_breadcrumbs__xiHv5 MuiTypography-body1 MuiTypography-colorTextSecondary">
+  messageArgs: []
+  apiArgs: []
+
+
+[41] Violation of rule `label_name_visible`: Accessible name does not match or contain the visible label text
+  DOM Path: /html[1]/body[1]/div[1]/div[4]/div[1]/div[1]/div[4]/div[1]/div[2]/a[1]
+  ARIA Path: /document[1]/link[7]
+  Code: <a href="/algorithm/a-simple-gan" aria-label="View A-Simple-GAN" aria-disabled="false" tabindex="0" class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary">
+  messageArgs: []
+  apiArgs: []
+
+
+[42] Violation of rule `aria_landmark_name_unique`: Multiple elements with "navigation" landmarks within the same parent region are not distinguished from one another because they have the same "" label
+  DOM Path: /html[1]/body[1]/div[1]/div[4]/div[1]/div[1]/div[5]/div[1]/div[1]/nav[1]
+  ARIA Path: /document[1]/navigation[8]
+  Code: <nav class="MuiTypography-root MuiBreadcrumbs-root style_breadcrumbs__xiHv5 MuiTypography-body1 MuiTypography-colorTextSecondary">
+  messageArgs: ['navigation', '']
+  apiArgs: []
+
+
+[43] Violation of rule `aria_navigation_label_unique`: Multiple elements with "navigation" role do not have unique labels
+  DOM Path: /html[1]/body[1]/div[1]/div[4]/div[1]/div[1]/div[5]/div[1]/div[1]/nav[1]
+  ARIA Path: /document[1]/navigation[8]
+  Code: <nav class="MuiTypography-root MuiBreadcrumbs-root style_breadcrumbs__xiHv5 MuiTypography-body1 MuiTypography-colorTextSecondary">
+  messageArgs: []
+  apiArgs: []
+
+
+[44] Violation of rule `label_name_visible`: Accessible name does not match or contain the visible label text
+  DOM Path: /html[1]/body[1]/div[1]/div[4]/div[1]/div[1]/div[5]/div[1]/div[2]/a[1]
+  ARIA Path: /document[1]/link[8]
+  Code: <a href="/algorithm/bellman-ford" aria-label="View Bellman Ford" aria-disabled="false" tabindex="0" class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary">
+  messageArgs: []
+  apiArgs: []
+
+
+[45] Violation of rule `aria_landmark_name_unique`: Multiple elements with "navigation" landmarks within the same parent region are not distinguished from one another because they have the same "" label
+  DOM Path: /html[1]/body[1]/div[1]/div[4]/div[1]/div[1]/div[6]/div[1]/div[1]/nav[1]
+  ARIA Path: /document[1]/navigation[9]
+  Code: <nav class="MuiTypography-root MuiBreadcrumbs-root style_breadcrumbs__xiHv5 MuiTypography-body1 MuiTypography-colorTextSecondary">
+  messageArgs: ['navigation', '']
+  apiArgs: []
+
+
+[46] Violation of rule `aria_navigation_label_unique`: Multiple elements with "navigation" role do not have unique labels
+  DOM Path: /html[1]/body[1]/div[1]/div[4]/div[1]/div[1]/div[6]/div[1]/div[1]/nav[1]
+  ARIA Path: /document[1]/navigation[9]
+  Code: <nav class="MuiTypography-root MuiBreadcrumbs-root style_breadcrumbs__xiHv5 MuiTypography-body1 MuiTypography-colorTextSecondary">
+  messageArgs: []
+  apiArgs: []
+
+
+[47] Violation of rule `label_name_visible`: Accessible name does not match or contain the visible label text
+  DOM Path: /html[1]/body[1]/div[1]/div[4]/div[1]/div[1]/div[6]/div[1]/div[2]/a[1]
+  ARIA Path: /document[1]/link[9]
+  Code: <a href="/algorithm/bogo-sort" aria-label="View Bogo Sort" aria-disabled="false" tabindex="0" class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary">
+  messageArgs: []
+  apiArgs: []
+
+
+[48] Violation of rule `input_label_exists`: Form control element <button> has no associated label
+  DOM Path: /html[1]/body[1]/div[1]/div[6]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]
+  ARIA Path: /document[1]/button[1]
+  Code: <button type="button" tabindex="0" class="MuiButtonBase-root MuiIconButton-root style_sort__1N61i">
+  messageArgs: ['button']
+  apiArgs: []
+
+
+[49] Violation of rule `a_text_purpose`: Hyperlink has no link text, label or image with a text alternative
+  DOM Path: /html[1]/body[1]/div[1]/div[6]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/a[1]
+  ARIA Path: /document[1]/link[46]
+  Code: <a href="https://hosted.weblate.org/engage/TheAlgorithms/?utm_source=widget" class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary">
+  messageArgs: []
+  apiArgs: []

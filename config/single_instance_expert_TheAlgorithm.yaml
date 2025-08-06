@@ -1,0 +1,539 @@
+- env:
+    deployment:
+      type: docker
+      image: a11y/thealgorithm:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[1] Violation of rule `aria_content_in_landmark`: Content is not within a landmark element\n        DOM Path: /html[1]/body[1]/div[1]/div[1]/h4[1]\n        ARIA Path: /document[1]/heading[1]\n        Code: <h4 class=\"MuiTypography-root MuiTypography-h4\">\n        messageArgs: []\n        apiArgs: []"
+    id: TheAlgorithm-01
+- env:
+    deployment:
+      type: docker
+      image: a11y/thealgorithm:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[2] Violation of rule `aria_content_in_landmark`: Content is not within a landmark element\n        DOM Path: /html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/a[1]\n        ARIA Path: /document[1]/link[1]\n        Code: <a rel=\"noreferrer\" target=\"_blank\" href=\"https://github.com/TheAlgorithms/java/tree/master/src/main/java/com/thealgorithms/bitmanipulation/GenerateSubsets.java\" aria-disabled=\"false\" tabindex=\"0\" class=\"MuiButtonBase-root MuiButton-root MuiButton-text\">\n        messageArgs: []\n        apiArgs: []"
+    id: TheAlgorithm-02
+- env:
+    deployment:
+      type: docker
+      image: a11y/thealgorithm:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[3] Violation of rule `input_label_exists`: Form control element <button> has no associated label\n        DOM Path: /html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/button[1]\n        ARIA Path: /document[1]/button[1]\n        Code: <button style=\"background-color:#3f51b5;color:white\" type=\"button\" tabindex=\"0\" class=\"MuiButtonBase-root MuiIconButton-root style_fullscreen__SGvLq\">\n        messageArgs: ['button']\n        apiArgs: []"
+    id: TheAlgorithm-03
+- env:
+    deployment:
+      type: docker
+      image: a11y/thealgorithm:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[4] Violation of rule `aria_content_in_landmark`: Content is not within a landmark element\n        DOM Path: /html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[3]/a[1]\n        ARIA Path: /document[1]/link[2]\n        Code: <a href=\"/playground?algorithm=generate-sub-sets&language=java\" aria-disabled=\"false\" tabindex=\"0\" class=\"MuiButtonBase-root MuiButton-root MuiButton-contained style_tryCode__ccF4H MuiButton-containedPrimary\">\n        messageArgs: []\n        apiArgs: []"
+    id: TheAlgorithm-04
+- env:
+    deployment:
+      type: docker
+      image: a11y/thealgorithm:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[5] Violation of rule `aria_content_in_landmark`: Content is not within a landmark element\n        DOM Path: /html[1]/body[1]/div[1]/div[1]/div[2]/div[2]/div[1]/button[1]\n        ARIA Path: /document[1]/button[2]\n        Code: <button aria-label=\"Javascript Implementation\" rel=\"noreferrer\" target=\"_blank\" type=\"button\" tabindex=\"0\" class=\"MuiButtonBase-root MuiIconButton-root style_implementation__SzJxO\">\n        messageArgs: []\n        apiArgs: []"
+    id: TheAlgorithm-05
+- env:
+    deployment:
+      type: docker
+      image: a11y/thealgorithm:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[6] Violation of rule `aria_content_in_landmark`: Content is not within a landmark element\n        DOM Path: /html[1]/body[1]/div[1]/div[1]/div[2]/div[2]/div[2]/button[1]\n        ARIA Path: /document[1]/button[3]\n        Code: <button aria-label=\"Java Implementation\" rel=\"noreferrer\" target=\"_blank\" type=\"button\" tabindex=\"0\" class=\"MuiButtonBase-root MuiIconButton-root style_implementation__SzJxO\">\n        messageArgs: []\n        apiArgs: []"
+    id: TheAlgorithm-06
+- env:
+    deployment:
+      type: docker
+      image: a11y/thealgorithm:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[7] Violation of rule `aria_content_in_landmark`: Content is not within a landmark element\n        DOM Path: /html[1]/body[1]/div[1]/div[1]/div[3]/button[1]\n        ARIA Path: /document[1]/button[4]\n        Code: <button type=\"button\" tabindex=\"0\" class=\"MuiButtonBase-root MuiButton-root MuiButton-text style_button__UpGFj\">\n        messageArgs: []\n        apiArgs: []"
+    id: TheAlgorithm-07
+- env:
+    deployment:
+      type: docker
+      image: a11y/thealgorithm:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[8] Violation of rule `aria_content_in_landmark`: Content is not within a landmark element\n        DOM Path: /html[1]/body[1]/div[1]/div[2]/div[1]/p[1]\n        ARIA Path: /document[1]/paragraph[1]\n        Code: <p class=\"MuiTypography-root style_name__sHBp_ MuiTypography-body1\">\n        messageArgs: []\n        apiArgs: []"
+    id: TheAlgorithm-08
+- env:
+    deployment:
+      type: docker
+      image: a11y/thealgorithm:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[9] Violation of rule `aria_content_in_landmark`: Content is not within a landmark element\n        DOM Path: /html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/a[1]\n        ARIA Path: /document[1]/link[3]\n        Code: <a href=\"/#about\" class=\"MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary\">\n        messageArgs: []\n        apiArgs: []"
+    id: TheAlgorithm-09
+- env:
+    deployment:
+      type: docker
+      image: a11y/thealgorithm:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[10] Violation of rule `aria_content_in_landmark`: Content is not within a landmark element\n        DOM Path: /html[1]/body[1]/div[1]/div[2]/div[1]/div[2]/a[1]\n        ARIA Path: /document[1]/link[8]\n        Code: <a rel=\"noreferrer\" target=\"_blank\" href=\"https://github.com/TheAlgorithms/\">\n        messageArgs: []\n        apiArgs: []"
+    id: TheAlgorithm-10
+- env:
+    deployment:
+      type: docker
+      image: a11y/thealgorithm:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[11] Violation of rule `aria_content_in_landmark`: Content is not within a landmark element\n        DOM Path: /html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/p[1]\n        ARIA Path: /document[1]/paragraph[1]\n        Code: <p class=\"MuiTypography-root-143 style_h2__28B6h MuiTypography-body1-145\">\n        messageArgs: []\n        apiArgs: []"
+    id: TheAlgorithm-11
+- env:
+    deployment:
+      type: docker
+      image: a11y/thealgorithm:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[12] Violation of rule `input_label_exists`: Form control element <input> has no associated label\n        DOM Path: /html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/div[1]/div[1]/input[1]\n        ARIA Path: /document[1]/form[1]/textbox[1]\n        Code: <input class=\"MuiInputBase-input-210 MuiFilledInput-input-196 MuiInputBase-inputAdornedEnd-215 MuiFilledInput-inputAdornedEnd-201\" value=\"\" name=\"q\" id=\"search\" aria-invalid=\"false\" type=\"text\">\n        messageArgs: ['input']\n        apiArgs: []"
+    id: TheAlgorithm-12
+- env:
+    deployment:
+      type: docker
+      image: a11y/thealgorithm:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[13] Violation of rule `aria_content_in_landmark`: Content is not within a landmark element\n        DOM Path: /html[1]/body[1]/div[1]/div[2]/div[1]/h4[1]\n        ARIA Path: /document[1]/heading[1]\n        Code: <h4 class=\"MuiTypography-root style_title__E2XS1 MuiTypography-h4\">\n        messageArgs: []\n        apiArgs: []"
+    id: TheAlgorithm-13
+- env:
+    deployment:
+      type: docker
+      image: a11y/thealgorithm:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[14] Violation of rule `aria_landmark_name_unique`: Multiple elements with \"navigation\" landmarks within the same parent region are not distinguished from one another because they have the same \"\" label\n        DOM Path: /html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]\n        ARIA Path: /document[1]/navigation[1]\n        Code: <nav class=\"MuiTypography-root MuiBreadcrumbs-root style_breadcrumbs__xiHv5 MuiTypography-body1 MuiTypography-colorTextSecondary\">\n        messageArgs: ['navigation', '']\n        apiArgs: []"
+    id: TheAlgorithm-14
+- env:
+    deployment:
+      type: docker
+      image: a11y/thealgorithm:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[15] Violation of rule `aria_navigation_label_unique`: Multiple elements with \"navigation\" role do not have unique labels\n        DOM Path: /html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]\n        ARIA Path: /document[1]/navigation[1]\n        Code: <nav class=\"MuiTypography-root MuiBreadcrumbs-root style_breadcrumbs__xiHv5 MuiTypography-body1 MuiTypography-colorTextSecondary\">\n        messageArgs: []\n        apiArgs: []"
+    id: TheAlgorithm-15
+- env:
+    deployment:
+      type: docker
+      image: a11y/thealgorithm:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[16] Violation of rule `aria_content_in_landmark`: Content is not within a landmark element\n        DOM Path: /html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/h2[1]\n        ARIA Path: /document[1]/heading[2]\n        Code: <h2 class=\"MuiTypography-root style_title__PlAjk MuiTypography-h5\">\n        messageArgs: []\n        apiArgs: []"
+    id: TheAlgorithm-16
+- env:
+    deployment:
+      type: docker
+      image: a11y/thealgorithm:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[17] Violation of rule `aria_content_in_landmark`: Content is not within a landmark element\n        DOM Path: /html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/p[1]\n        ARIA Path: /document[1]/paragraph[2]\n        Code: <p title=\"And 15 more\" class=\"MuiTypography-root style_more__fAu8e MuiTypography-body1 MuiTypography-colorTextSecondary\">\n        messageArgs: []\n        apiArgs: []"
+    id: TheAlgorithm-17
+- env:
+    deployment:
+      type: docker
+      image: a11y/thealgorithm:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[18] Violation of rule `aria_content_in_landmark`: Content is not within a landmark element\n        DOM Path: /html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/a[1]\n        ARIA Path: /document[1]/link[1]\n        Code: <a href=\"/algorithm/binary-search\" aria-label=\"View Binary Search\" aria-disabled=\"false\" tabindex=\"0\" class=\"MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary\">\n        messageArgs: []\n        apiArgs: []"
+    id: TheAlgorithm-18
+- env:
+    deployment:
+      type: docker
+      image: a11y/thealgorithm:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[19] Violation of rule `label_name_visible`: Accessible name does not match or contain the visible label text\n        DOM Path: /html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/a[1]\n        ARIA Path: /document[1]/link[1]\n        Code: <a href=\"/algorithm/binary-search\" aria-label=\"View Binary Search\" aria-disabled=\"false\" tabindex=\"0\" class=\"MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary\">\n        messageArgs: []\n        apiArgs: []"
+    id: TheAlgorithm-19
+- env:
+    deployment:
+      type: docker
+      image: a11y/thealgorithm:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[20] Violation of rule `aria_landmark_name_unique`: Multiple elements with \"navigation\" landmarks within the same parent region are not distinguished from one another because they have the same \"\" label\n        DOM Path: /html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/nav[1]\n        ARIA Path: /document[1]/navigation[2]\n        Code: <nav class=\"MuiTypography-root MuiBreadcrumbs-root style_breadcrumbs__xiHv5 MuiTypography-body1 MuiTypography-colorTextSecondary\">\n        messageArgs: ['navigation', '']\n        apiArgs: []"
+    id: TheAlgorithm-20
+- env:
+    deployment:
+      type: docker
+      image: a11y/thealgorithm:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[21] Violation of rule `aria_navigation_label_unique`: Multiple elements with \"navigation\" role do not have unique labels\n        DOM Path: /html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/nav[1]\n        ARIA Path: /document[1]/navigation[2]\n        Code: <nav class=\"MuiTypography-root MuiBreadcrumbs-root style_breadcrumbs__xiHv5 MuiTypography-body1 MuiTypography-colorTextSecondary\">\n        messageArgs: []\n        apiArgs: []"
+    id: TheAlgorithm-21
+- env:
+    deployment:
+      type: docker
+      image: a11y/thealgorithm:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[22] Violation of rule `aria_content_in_landmark`: Content is not within a landmark element\n        DOM Path: /html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/h2[1]\n        ARIA Path: /document[1]/heading[3]\n        Code: <h2 class=\"MuiTypography-root style_title__PlAjk MuiTypography-h5\">\n        messageArgs: []\n        apiArgs: []"
+    id: TheAlgorithm-22
+- env:
+    deployment:
+      type: docker
+      image: a11y/thealgorithm:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[23] Violation of rule `aria_content_in_landmark`: Content is not within a landmark element\n        DOM Path: /html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/p[1]\n        ARIA Path: /document[1]/paragraph[3]\n        Code: <p title=\"And 19 more\" class=\"MuiTypography-root style_more__fAu8e MuiTypography-body1 MuiTypography-colorTextSecondary\">\n        messageArgs: []\n        apiArgs: []"
+    id: TheAlgorithm-23
+- env:
+    deployment:
+      type: docker
+      image: a11y/thealgorithm:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[24] Violation of rule `aria_content_in_landmark`: Content is not within a landmark element\n        DOM Path: /html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/a[1]\n        ARIA Path: /document[1]/link[2]\n        Code: <a href=\"/algorithm/quick-sort\" aria-label=\"View Quick Sort\" aria-disabled=\"false\" tabindex=\"0\" class=\"MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary\">\n        messageArgs: []\n        apiArgs: []"
+    id: TheAlgorithm-24
+- env:
+    deployment:
+      type: docker
+      image: a11y/thealgorithm:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[25] Violation of rule `label_name_visible`: Accessible name does not match or contain the visible label text\n        DOM Path: /html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/a[1]\n        ARIA Path: /document[1]/link[2]\n        Code: <a href=\"/algorithm/quick-sort\" aria-label=\"View Quick Sort\" aria-disabled=\"false\" tabindex=\"0\" class=\"MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary\">\n        messageArgs: []\n        apiArgs: []"
+    id: TheAlgorithm-25
+- env:
+    deployment:
+      type: docker
+      image: a11y/thealgorithm:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[26] Violation of rule `aria_landmark_name_unique`: Multiple elements with \"navigation\" landmarks within the same parent region are not distinguished from one another because they have the same \"\" label\n        DOM Path: /html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/nav[1]\n        ARIA Path: /document[1]/navigation[3]\n        Code: <nav class=\"MuiTypography-root MuiBreadcrumbs-root style_breadcrumbs__xiHv5 MuiTypography-body1 MuiTypography-colorTextSecondary\">\n        messageArgs: ['navigation', '']\n        apiArgs: []"
+    id: TheAlgorithm-26
+- env:
+    deployment:
+      type: docker
+      image: a11y/thealgorithm:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[27] Violation of rule `aria_navigation_label_unique`: Multiple elements with \"navigation\" role do not have unique labels\n        DOM Path: /html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/nav[1]\n        ARIA Path: /document[1]/navigation[3]\n        Code: <nav class=\"MuiTypography-root MuiBreadcrumbs-root style_breadcrumbs__xiHv5 MuiTypography-body1 MuiTypography-colorTextSecondary\">\n        messageArgs: []\n        apiArgs: []"
+    id: TheAlgorithm-27
+- env:
+    deployment:
+      type: docker
+      image: a11y/thealgorithm:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[28] Violation of rule `aria_content_in_landmark`: Content is not within a landmark element\n        DOM Path: /html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/h2[1]\n        ARIA Path: /document[1]/heading[4]\n        Code: <h2 class=\"MuiTypography-root style_title__PlAjk MuiTypography-h5\">\n        messageArgs: []\n        apiArgs: []"
+    id: TheAlgorithm-28
+- env:
+    deployment:
+      type: docker
+      image: a11y/thealgorithm:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[29] Violation of rule `label_name_visible`: Accessible name does not match or contain the visible label text\n        DOM Path: /html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[2]/a[1]\n        ARIA Path: /document[1]/link[3]\n        Code: <a href=\"/algorithm/fibonacci-numbers\" aria-label=\"View Fibonacci Numbers\" aria-disabled=\"false\" tabindex=\"0\" class=\"MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary\">\n        messageArgs: []\n        apiArgs: []"
+    id: TheAlgorithm-29
+- env:
+    deployment:
+      type: docker
+      image: a11y/thealgorithm:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[30] Violation of rule `aria_landmark_name_unique`: Multiple elements with \"navigation\" landmarks within the same parent region are not distinguished from one another because they have the same \"\" label\n        DOM Path: /html[1]/body[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]\n        ARIA Path: /document[1]/navigation[4]\n        Code: <nav class=\"MuiTypography-root MuiBreadcrumbs-root style_breadcrumbs__xiHv5 MuiTypography-body1 MuiTypography-colorTextSecondary\">\n        messageArgs: ['navigation', '']\n        apiArgs: []"
+    id: TheAlgorithm-30
+- env:
+    deployment:
+      type: docker
+      image: a11y/thealgorithm:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[31] Violation of rule `aria_navigation_label_unique`: Multiple elements with \"navigation\" role do not have unique labels\n        DOM Path: /html[1]/body[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]\n        ARIA Path: /document[1]/navigation[4]\n        Code: <nav class=\"MuiTypography-root MuiBreadcrumbs-root style_breadcrumbs__xiHv5 MuiTypography-body1 MuiTypography-colorTextSecondary\">\n        messageArgs: []\n        apiArgs: []"
+    id: TheAlgorithm-31
+- env:
+    deployment:
+      type: docker
+      image: a11y/thealgorithm:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[32] Violation of rule `label_name_visible`: Accessible name does not match or contain the visible label text\n        DOM Path: /html[1]/body[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/a[1]\n        ARIA Path: /document[1]/link[4]\n        Code: <a href=\"/algorithm/coin-change\" aria-label=\"View Coin Change\" aria-disabled=\"false\" tabindex=\"0\" class=\"MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary\">\n        messageArgs: []\n        apiArgs: []"
+    id: TheAlgorithm-32
+- env:
+    deployment:
+      type: docker
+      image: a11y/thealgorithm:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[33] Violation of rule `aria_landmark_name_unique`: Multiple elements with \"navigation\" landmarks within the same parent region are not distinguished from one another because they have the same \"\" label\n        DOM Path: /html[1]/body[1]/div[1]/div[4]/div[1]/div[1]/div[2]/div[1]/div[1]/nav[1]\n        ARIA Path: /document[1]/navigation[5]\n        Code: <nav class=\"MuiTypography-root MuiBreadcrumbs-root style_breadcrumbs__xiHv5 MuiTypography-body1 MuiTypography-colorTextSecondary\">\n        messageArgs: ['navigation', '']\n        apiArgs: []"
+    id: TheAlgorithm-33
+- env:
+    deployment:
+      type: docker
+      image: a11y/thealgorithm:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[34] Violation of rule `aria_navigation_label_unique`: Multiple elements with \"navigation\" role do not have unique labels\n        DOM Path: /html[1]/body[1]/div[1]/div[4]/div[1]/div[1]/div[2]/div[1]/div[1]/nav[1]\n        ARIA Path: /document[1]/navigation[5]\n        Code: <nav class=\"MuiTypography-root MuiBreadcrumbs-root style_breadcrumbs__xiHv5 MuiTypography-body1 MuiTypography-colorTextSecondary\">\n        messageArgs: []\n        apiArgs: []"
+    id: TheAlgorithm-34
+- env:
+    deployment:
+      type: docker
+      image: a11y/thealgorithm:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[35] Violation of rule `label_name_visible`: Accessible name does not match or contain the visible label text\n        DOM Path: /html[1]/body[1]/div[1]/div[4]/div[1]/div[1]/div[2]/div[1]/div[2]/a[1]\n        ARIA Path: /document[1]/link[5]\n        Code: <a href=\"/algorithm/logistic-regression\" aria-label=\"View Logistic Regression\" aria-disabled=\"false\" tabindex=\"0\" class=\"MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary\">\n        messageArgs: []\n        apiArgs: []"
+    id: TheAlgorithm-35
+- env:
+    deployment:
+      type: docker
+      image: a11y/thealgorithm:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[36] Violation of rule `aria_landmark_name_unique`: Multiple elements with \"navigation\" landmarks within the same parent region are not distinguished from one another because they have the same \"\" label\n        DOM Path: /html[1]/body[1]/div[1]/div[4]/div[1]/div[1]/div[3]/div[1]/div[1]/nav[1]\n        ARIA Path: /document[1]/navigation[6]\n        Code: <nav class=\"MuiTypography-root MuiBreadcrumbs-root style_breadcrumbs__xiHv5 MuiTypography-body1 MuiTypography-colorTextSecondary\">\n        messageArgs: ['navigation', '']\n        apiArgs: []"
+    id: TheAlgorithm-36
+- env:
+    deployment:
+      type: docker
+      image: a11y/thealgorithm:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[37] Violation of rule `aria_navigation_label_unique`: Multiple elements with \"navigation\" role do not have unique labels\n        DOM Path: /html[1]/body[1]/div[1]/div[4]/div[1]/div[1]/div[3]/div[1]/div[1]/nav[1]\n        ARIA Path: /document[1]/navigation[6]\n        Code: <nav class=\"MuiTypography-root MuiBreadcrumbs-root style_breadcrumbs__xiHv5 MuiTypography-body1 MuiTypography-colorTextSecondary\">\n        messageArgs: []\n        apiArgs: []"
+    id: TheAlgorithm-37
+- env:
+    deployment:
+      type: docker
+      image: a11y/thealgorithm:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[38] Violation of rule `label_name_visible`: Accessible name does not match or contain the visible label text\n        DOM Path: /html[1]/body[1]/div[1]/div[4]/div[1]/div[1]/div[3]/div[1]/div[2]/a[1]\n        ARIA Path: /document[1]/link[6]\n        Code: <a href=\"/algorithm/caesar-cipher\" aria-label=\"View Caesar Cipher\" aria-disabled=\"false\" tabindex=\"0\" class=\"MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary\">\n        messageArgs: []\n        apiArgs: []"
+    id: TheAlgorithm-38
+- env:
+    deployment:
+      type: docker
+      image: a11y/thealgorithm:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[39] Violation of rule `aria_landmark_name_unique`: Multiple elements with \"navigation\" landmarks within the same parent region are not distinguished from one another because they have the same \"\" label\n        DOM Path: /html[1]/body[1]/div[1]/div[4]/div[1]/div[1]/div[4]/div[1]/div[1]/nav[1]\n        ARIA Path: /document[1]/navigation[7]\n        Code: <nav class=\"MuiTypography-root MuiBreadcrumbs-root style_breadcrumbs__xiHv5 MuiTypography-body1 MuiTypography-colorTextSecondary\">\n        messageArgs: ['navigation', '']\n        apiArgs: []"
+    id: TheAlgorithm-39
+- env:
+    deployment:
+      type: docker
+      image: a11y/thealgorithm:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[40] Violation of rule `aria_navigation_label_unique`: Multiple elements with \"navigation\" role do not have unique labels\n        DOM Path: /html[1]/body[1]/div[1]/div[4]/div[1]/div[1]/div[4]/div[1]/div[1]/nav[1]\n        ARIA Path: /document[1]/navigation[7]\n        Code: <nav class=\"MuiTypography-root MuiBreadcrumbs-root style_breadcrumbs__xiHv5 MuiTypography-body1 MuiTypography-colorTextSecondary\">\n        messageArgs: []\n        apiArgs: []"
+    id: TheAlgorithm-40
+- env:
+    deployment:
+      type: docker
+      image: a11y/thealgorithm:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[41] Violation of rule `label_name_visible`: Accessible name does not match or contain the visible label text\n        DOM Path: /html[1]/body[1]/div[1]/div[4]/div[1]/div[1]/div[4]/div[1]/div[2]/a[1]\n        ARIA Path: /document[1]/link[7]\n        Code: <a href=\"/algorithm/a-simple-gan\" aria-label=\"View A-Simple-GAN\" aria-disabled=\"false\" tabindex=\"0\" class=\"MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary\">\n        messageArgs: []\n        apiArgs: []"
+    id: TheAlgorithm-41
+- env:
+    deployment:
+      type: docker
+      image: a11y/thealgorithm:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[42] Violation of rule `aria_landmark_name_unique`: Multiple elements with \"navigation\" landmarks within the same parent region are not distinguished from one another because they have the same \"\" label\n        DOM Path: /html[1]/body[1]/div[1]/div[4]/div[1]/div[1]/div[5]/div[1]/div[1]/nav[1]\n        ARIA Path: /document[1]/navigation[8]\n        Code: <nav class=\"MuiTypography-root MuiBreadcrumbs-root style_breadcrumbs__xiHv5 MuiTypography-body1 MuiTypography-colorTextSecondary\">\n        messageArgs: ['navigation', '']\n        apiArgs: []"
+    id: TheAlgorithm-42
+- env:
+    deployment:
+      type: docker
+      image: a11y/thealgorithm:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[43] Violation of rule `aria_navigation_label_unique`: Multiple elements with \"navigation\" role do not have unique labels\n        DOM Path: /html[1]/body[1]/div[1]/div[4]/div[1]/div[1]/div[5]/div[1]/div[1]/nav[1]\n        ARIA Path: /document[1]/navigation[8]\n        Code: <nav class=\"MuiTypography-root MuiBreadcrumbs-root style_breadcrumbs__xiHv5 MuiTypography-body1 MuiTypography-colorTextSecondary\">\n        messageArgs: []\n        apiArgs: []"
+    id: TheAlgorithm-43
+- env:
+    deployment:
+      type: docker
+      image: a11y/thealgorithm:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[44] Violation of rule `label_name_visible`: Accessible name does not match or contain the visible label text\n        DOM Path: /html[1]/body[1]/div[1]/div[4]/div[1]/div[1]/div[5]/div[1]/div[2]/a[1]\n        ARIA Path: /document[1]/link[8]\n        Code: <a href=\"/algorithm/bellman-ford\" aria-label=\"View Bellman Ford\" aria-disabled=\"false\" tabindex=\"0\" class=\"MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary\">\n        messageArgs: []\n        apiArgs: []"
+    id: TheAlgorithm-44
+- env:
+    deployment:
+      type: docker
+      image: a11y/thealgorithm:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[45] Violation of rule `aria_landmark_name_unique`: Multiple elements with \"navigation\" landmarks within the same parent region are not distinguished from one another because they have the same \"\" label\n        DOM Path: /html[1]/body[1]/div[1]/div[4]/div[1]/div[1]/div[6]/div[1]/div[1]/nav[1]\n        ARIA Path: /document[1]/navigation[9]\n        Code: <nav class=\"MuiTypography-root MuiBreadcrumbs-root style_breadcrumbs__xiHv5 MuiTypography-body1 MuiTypography-colorTextSecondary\">\n        messageArgs: ['navigation', '']\n        apiArgs: []"
+    id: TheAlgorithm-45
+- env:
+    deployment:
+      type: docker
+      image: a11y/thealgorithm:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[46] Violation of rule `aria_navigation_label_unique`: Multiple elements with \"navigation\" role do not have unique labels\n        DOM Path: /html[1]/body[1]/div[1]/div[4]/div[1]/div[1]/div[6]/div[1]/div[1]/nav[1]\n        ARIA Path: /document[1]/navigation[9]\n        Code: <nav class=\"MuiTypography-root MuiBreadcrumbs-root style_breadcrumbs__xiHv5 MuiTypography-body1 MuiTypography-colorTextSecondary\">\n        messageArgs: []\n        apiArgs: []"
+    id: TheAlgorithm-46
+- env:
+    deployment:
+      type: docker
+      image: a11y/thealgorithm:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[47] Violation of rule `label_name_visible`: Accessible name does not match or contain the visible label text\n        DOM Path: /html[1]/body[1]/div[1]/div[4]/div[1]/div[1]/div[6]/div[1]/div[2]/a[1]\n        ARIA Path: /document[1]/link[9]\n        Code: <a href=\"/algorithm/bogo-sort\" aria-label=\"View Bogo Sort\" aria-disabled=\"false\" tabindex=\"0\" class=\"MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary\">\n        messageArgs: []\n        apiArgs: []"
+    id: TheAlgorithm-47
+- env:
+    deployment:
+      type: docker
+      image: a11y/thealgorithm:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[48] Violation of rule `input_label_exists`: Form control element <button> has no associated label\n        DOM Path: /html[1]/body[1]/div[1]/div[6]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]\n        ARIA Path: /document[1]/button[1]\n        Code: <button type=\"button\" tabindex=\"0\" class=\"MuiButtonBase-root MuiIconButton-root style_sort__1N61i\">\n        messageArgs: ['button']\n        apiArgs: []"
+    id: TheAlgorithm-48
+- env:
+    deployment:
+      type: docker
+      image: a11y/thealgorithm:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[49] Violation of rule `a_text_purpose`: Hyperlink has no link text, label or image with a text alternative\n        DOM Path: /html[1]/body[1]/div[1]/div[6]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/a[1]\n        ARIA Path: /document[1]/link[46]\n        Code: <a href=\"https://hosted.weblate.org/engage/TheAlgorithms/?utm_source=widget\" class=\"MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary\">\n        messageArgs: []\n        apiArgs: []"
+    id: TheAlgorithm-49

@@ -1,0 +1,1608 @@
+{
+  "results": [
+    {
+      "ruleId": "label_name_visible",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/nav[1]/div[1]/div[2]/div[3]/button[1]",
+        "aria": "/document[1]/navigation[1]/button[6]"
+      },
+      "ruleTime": 0,
+      "reasonId": "Fail_1",
+      "message": "Accessible name does not match or contain the visible label text",
+      "messageArgs": [],
+      "apiArgs": [],
+      "bounds": {
+        "left": 1500,
+        "top": 15853,
+        "height": 36,
+        "width": 161
+      },
+      "snippet": "<button aria-label=\"Search (Ctrl+K)\" class=\"DocSearch DocSearch-Button\" type=\"button\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/label_name_visible.html#%7B%22message%22%3A%22Accessible%20name%20does%20not%20match%20or%20contain%20the%20visible%20label%20text%22%2C%22snippet%22%3A%22%3Cbutton%20aria-label%3D%5C%22Search%20(Ctrl%2BK)%5C%22%20class%3D%5C%22DocSearch%20DocSearch-Button%5C%22%20type%3D%5C%22button%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22label_name_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+    },
+    {
+      "ruleId": "aria_complementary_labelled",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/aside[1]",
+        "aria": "/document[1]/complementary[1]"
+      },
+      "ruleTime": 0,
+      "reasonId": "Fail_1",
+      "message": "Element with \"complementary\" role does not have a label",
+      "messageArgs": [],
+      "apiArgs": [],
+      "bounds": {
+        "left": 390,
+        "top": 132,
+        "height": 36304,
+        "width": 285
+      },
+      "snippet": "<aside class=\"col col--3\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/aria_complementary_labelled.html#%7B%22message%22%3A%22Element%20with%20%5C%22complementary%5C%22%20role%20does%20not%20have%20a%20label%22%2C%22snippet%22%3A%22%3Caside%20class%3D%5C%22col%20col--3%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_complementary_labelled%22%2C%22msgArgs%22%3A%5B%5D%7D"
+    },
+    {
+      "ruleId": "img_alt_redundant",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[1]/header[1]/div[2]/div[1]/div[1]/a[1]/img[1]",
+        "aria": "/document[1]/main[1]/article[1]/link[1]/img[1]"
+      },
+      "ruleTime": 0,
+      "reasonId": "Fail_3",
+      "message": "Image 'alt' value within a link is repeated in link text of the link after",
+      "messageArgs": [],
+      "apiArgs": [],
+      "bounds": {
+        "left": 691,
+        "top": 248,
+        "height": 58,
+        "width": 58
+      },
+      "snippet": "<img alt=\"georgexu99\" src=\"https://github.com/georgexu99.png?size=96\" class=\"avatar__photo authorImage_XqGP\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/img_alt_redundant.html#%7B%22message%22%3A%22Image%20'alt'%20value%20within%20a%20link%20is%20repeated%20in%20link%20text%20of%20the%20link%20after%22%2C%22snippet%22%3A%22%3Cimg%20alt%3D%5C%22georgexu99%5C%22%20src%3D%5C%22https%3A%2F%2Fgithub.com%2Fgeorgexu99.png%3Fsize%3D96%5C%22%20class%3D%5C%22avatar__photo%20authorImage_XqGP%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_3%22%2C%22ruleId%22%3A%22img_alt_redundant%22%2C%22msgArgs%22%3A%5B%5D%7D"
+    },
+    {
+      "ruleId": "img_alt_redundant",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[1]/header[1]/div[2]/div[2]/div[1]/a[1]/img[1]",
+        "aria": "/document[1]/main[1]/article[1]/link[3]/img[1]"
+      },
+      "ruleTime": 0,
+      "reasonId": "Fail_3",
+      "message": "Image 'alt' value within a link is repeated in link text of the link after",
+      "messageArgs": [],
+      "apiArgs": [],
+      "bounds": {
+        "left": 1024,
+        "top": 248,
+        "height": 58,
+        "width": 58
+      },
+      "snippet": "<img alt=\"VerteDinde\" src=\"https://github.com/VerteDinde.png?size=96\" class=\"avatar__photo authorImage_XqGP\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/img_alt_redundant.html#%7B%22message%22%3A%22Image%20'alt'%20value%20within%20a%20link%20is%20repeated%20in%20link%20text%20of%20the%20link%20after%22%2C%22snippet%22%3A%22%3Cimg%20alt%3D%5C%22VerteDinde%5C%22%20src%3D%5C%22https%3A%2F%2Fgithub.com%2FVerteDinde.png%3Fsize%3D96%5C%22%20class%3D%5C%22avatar__photo%20authorImage_XqGP%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_3%22%2C%22ruleId%22%3A%22img_alt_redundant%22%2C%22msgArgs%22%3A%5B%5D%7D"
+    },
+    {
+      "ruleId": "img_alt_redundant",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[2]/header[1]/div[2]/div[1]/div[1]/a[1]/img[1]",
+        "aria": "/document[1]/main[1]/article[2]/link[1]/img[1]"
+      },
+      "ruleTime": 0,
+      "reasonId": "Fail_3",
+      "message": "Image 'alt' value within a link is repeated in link text of the link after",
+      "messageArgs": [],
+      "apiArgs": [],
+      "bounds": {
+        "left": 691,
+        "top": 5833,
+        "height": 58,
+        "width": 58
+      },
+      "snippet": "<img alt=\"georgexu99\" src=\"https://github.com/georgexu99.png?size=96\" class=\"avatar__photo authorImage_XqGP\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/img_alt_redundant.html#%7B%22message%22%3A%22Image%20'alt'%20value%20within%20a%20link%20is%20repeated%20in%20link%20text%20of%20the%20link%20after%22%2C%22snippet%22%3A%22%3Cimg%20alt%3D%5C%22georgexu99%5C%22%20src%3D%5C%22https%3A%2F%2Fgithub.com%2Fgeorgexu99.png%3Fsize%3D96%5C%22%20class%3D%5C%22avatar__photo%20authorImage_XqGP%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_3%22%2C%22ruleId%22%3A%22img_alt_redundant%22%2C%22msgArgs%22%3A%5B%5D%7D"
+    },
+    {
+      "ruleId": "element_id_unique",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[2]/div[1]/h2[1]",
+        "aria": "/document[1]/main[1]/article[2]/heading[2]"
+      },
+      "ruleTime": 0,
+      "reasonId": "Fail_2",
+      "message": "The <h2> element has the id \"notable-changes\" that is already in use",
+      "messageArgs": [
+        "h2",
+        "notable-changes"
+      ],
+      "apiArgs": [],
+      "bounds": {
+        "left": 691,
+        "top": 6246,
+        "height": 32,
+        "width": 633
+      },
+      "snippet": "<h2 id=\"notable-changes\" class=\"anchor anchorWithStickyNavbar_LWe7\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/element_id_unique.html#%7B%22message%22%3A%22The%20%3Ch2%3E%20element%20has%20the%20id%20%5C%22notable-changes%5C%22%20that%20is%20already%20in%20use%22%2C%22snippet%22%3A%22%3Ch2%20id%3D%5C%22notable-changes%5C%22%20class%3D%5C%22anchor%20anchorWithStickyNavbar_LWe7%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_2%22%2C%22ruleId%22%3A%22element_id_unique%22%2C%22msgArgs%22%3A%5B%22h2%22%2C%22notable-changes%22%5D%7D"
+    },
+    {
+      "ruleId": "element_id_unique",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[2]/div[1]/h3[2]",
+        "aria": "/document[1]/main[1]/article[2]/heading[4]"
+      },
+      "ruleTime": 0,
+      "reasonId": "Fail_2",
+      "message": "The <h3> element has the id \"stack-changes\" that is already in use",
+      "messageArgs": [
+        "h3",
+        "stack-changes"
+      ],
+      "apiArgs": [],
+      "bounds": {
+        "left": 691,
+        "top": 6769,
+        "height": 24,
+        "width": 633
+      },
+      "snippet": "<h3 id=\"stack-changes\" class=\"anchor anchorWithStickyNavbar_LWe7\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/element_id_unique.html#%7B%22message%22%3A%22The%20%3Ch3%3E%20element%20has%20the%20id%20%5C%22stack-changes%5C%22%20that%20is%20already%20in%20use%22%2C%22snippet%22%3A%22%3Ch3%20id%3D%5C%22stack-changes%5C%22%20class%3D%5C%22anchor%20anchorWithStickyNavbar_LWe7%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_2%22%2C%22ruleId%22%3A%22element_id_unique%22%2C%22msgArgs%22%3A%5B%22h3%22%2C%22stack-changes%22%5D%7D"
+    },
+    {
+      "ruleId": "element_id_unique",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[2]/div[1]/h3[3]",
+        "aria": "/document[1]/main[1]/article[2]/heading[5]"
+      },
+      "ruleTime": 0,
+      "reasonId": "Fail_2",
+      "message": "The <h3> element has the id \"new-features-and-improvements\" that is already in use",
+      "messageArgs": [
+        "h3",
+        "new-features-and-improvements"
+      ],
+      "apiArgs": [],
+      "bounds": {
+        "left": 691,
+        "top": 7091,
+        "height": 24,
+        "width": 633
+      },
+      "snippet": "<h3 id=\"new-features-and-improvements\" class=\"anchor anchorWithStickyNavbar_LWe7\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/element_id_unique.html#%7B%22message%22%3A%22The%20%3Ch3%3E%20element%20has%20the%20id%20%5C%22new-features-and-improvements%5C%22%20that%20is%20already%20in%20use%22%2C%22snippet%22%3A%22%3Ch3%20id%3D%5C%22new-features-and-improvements%5C%22%20class%3D%5C%22anchor%20anchorWithStickyNavbar_LWe7%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_2%22%2C%22ruleId%22%3A%22element_id_unique%22%2C%22msgArgs%22%3A%5B%22h3%22%2C%22new-features-and-improvements%22%5D%7D"
+    },
+    {
+      "ruleId": "element_id_unique",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[2]/div[1]/h3[4]",
+        "aria": "/document[1]/main[1]/article[2]/heading[6]"
+      },
+      "ruleTime": 0,
+      "reasonId": "Fail_2",
+      "message": "The <h3> element has the id \"breaking-changes\" that is already in use",
+      "messageArgs": [
+        "h3",
+        "breaking-changes"
+      ],
+      "apiArgs": [],
+      "bounds": {
+        "left": 691,
+        "top": 7654,
+        "height": 24,
+        "width": 633
+      },
+      "snippet": "<h3 id=\"breaking-changes\" class=\"anchor anchorWithStickyNavbar_LWe7\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/element_id_unique.html#%7B%22message%22%3A%22The%20%3Ch3%3E%20element%20has%20the%20id%20%5C%22breaking-changes%5C%22%20that%20is%20already%20in%20use%22%2C%22snippet%22%3A%22%3Ch3%20id%3D%5C%22breaking-changes%5C%22%20class%3D%5C%22anchor%20anchorWithStickyNavbar_LWe7%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_2%22%2C%22ruleId%22%3A%22element_id_unique%22%2C%22msgArgs%22%3A%5B%22h3%22%2C%22breaking-changes%22%5D%7D"
+    },
+    {
+      "ruleId": "element_id_unique",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[2]/div[1]/h2[3]",
+        "aria": "/document[1]/main[1]/article[2]/heading[14]"
+      },
+      "ruleTime": 0,
+      "reasonId": "Fail_2",
+      "message": "The <h2> element has the id \"whats-next\" that is already in use",
+      "messageArgs": [
+        "h2",
+        "whats-next"
+      ],
+      "apiArgs": [],
+      "bounds": {
+        "left": 691,
+        "top": 9665,
+        "height": 32,
+        "width": 633
+      },
+      "snippet": "<h2 id=\"whats-next\" class=\"anchor anchorWithStickyNavbar_LWe7\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/element_id_unique.html#%7B%22message%22%3A%22The%20%3Ch2%3E%20element%20has%20the%20id%20%5C%22whats-next%5C%22%20that%20is%20already%20in%20use%22%2C%22snippet%22%3A%22%3Ch2%20id%3D%5C%22whats-next%5C%22%20class%3D%5C%22anchor%20anchorWithStickyNavbar_LWe7%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_2%22%2C%22ruleId%22%3A%22element_id_unique%22%2C%22msgArgs%22%3A%5B%22h2%22%2C%22whats-next%22%5D%7D"
+    },
+    {
+      "ruleId": "img_alt_redundant",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[3]/header[1]/div[2]/div[1]/div[1]/a[1]/img[1]",
+        "aria": "/document[1]/main[1]/article[3]/link[1]/img[1]"
+      },
+      "ruleTime": 0,
+      "reasonId": "Fail_3",
+      "message": "Image 'alt' value within a link is repeated in link text of the link after",
+      "messageArgs": [],
+      "apiArgs": [],
+      "bounds": {
+        "left": 691,
+        "top": 10208,
+        "height": 58,
+        "width": 58
+      },
+      "snippet": "<img alt=\"georgexu99\" src=\"https://github.com/georgexu99.png?size=96\" class=\"avatar__photo authorImage_XqGP\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/img_alt_redundant.html#%7B%22message%22%3A%22Image%20'alt'%20value%20within%20a%20link%20is%20repeated%20in%20link%20text%20of%20the%20link%20after%22%2C%22snippet%22%3A%22%3Cimg%20alt%3D%5C%22georgexu99%5C%22%20src%3D%5C%22https%3A%2F%2Fgithub.com%2Fgeorgexu99.png%3Fsize%3D96%5C%22%20class%3D%5C%22avatar__photo%20authorImage_XqGP%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_3%22%2C%22ruleId%22%3A%22img_alt_redundant%22%2C%22msgArgs%22%3A%5B%5D%7D"
+    },
+    {
+      "ruleId": "img_alt_redundant",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[3]/header[1]/div[2]/div[2]/div[1]/a[1]/img[1]",
+        "aria": "/document[1]/main[1]/article[3]/link[3]/img[1]"
+      },
+      "ruleTime": 0,
+      "reasonId": "Fail_3",
+      "message": "Image 'alt' value within a link is repeated in link text of the link after",
+      "messageArgs": [],
+      "apiArgs": [],
+      "bounds": {
+        "left": 1024,
+        "top": 10208,
+        "height": 58,
+        "width": 58
+      },
+      "snippet": "<img alt=\"VerteDinde\" src=\"https://github.com/VerteDinde.png?size=96\" class=\"avatar__photo authorImage_XqGP\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/img_alt_redundant.html#%7B%22message%22%3A%22Image%20'alt'%20value%20within%20a%20link%20is%20repeated%20in%20link%20text%20of%20the%20link%20after%22%2C%22snippet%22%3A%22%3Cimg%20alt%3D%5C%22VerteDinde%5C%22%20src%3D%5C%22https%3A%2F%2Fgithub.com%2FVerteDinde.png%3Fsize%3D96%5C%22%20class%3D%5C%22avatar__photo%20authorImage_XqGP%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_3%22%2C%22ruleId%22%3A%22img_alt_redundant%22%2C%22msgArgs%22%3A%5B%5D%7D"
+    },
+    {
+      "ruleId": "element_id_unique",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[3]/div[1]/h2[1]",
+        "aria": "/document[1]/main[1]/article[3]/heading[2]"
+      },
+      "ruleTime": 0,
+      "reasonId": "Fail_2",
+      "message": "The <h2> element has the id \"notable-changes\" that is already in use",
+      "messageArgs": [
+        "h2",
+        "notable-changes"
+      ],
+      "apiArgs": [],
+      "bounds": {
+        "left": 691,
+        "top": 10621,
+        "height": 32,
+        "width": 633
+      },
+      "snippet": "<h2 id=\"notable-changes\" class=\"anchor anchorWithStickyNavbar_LWe7\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/element_id_unique.html#%7B%22message%22%3A%22The%20%3Ch2%3E%20element%20has%20the%20id%20%5C%22notable-changes%5C%22%20that%20is%20already%20in%20use%22%2C%22snippet%22%3A%22%3Ch2%20id%3D%5C%22notable-changes%5C%22%20class%3D%5C%22anchor%20anchorWithStickyNavbar_LWe7%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_2%22%2C%22ruleId%22%3A%22element_id_unique%22%2C%22msgArgs%22%3A%5B%22h2%22%2C%22notable-changes%22%5D%7D"
+    },
+    {
+      "ruleId": "element_id_unique",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[3]/div[1]/h3[2]",
+        "aria": "/document[1]/main[1]/article[3]/heading[4]"
+      },
+      "ruleTime": 0,
+      "reasonId": "Fail_2",
+      "message": "The <h3> element has the id \"stack-changes\" that is already in use",
+      "messageArgs": [
+        "h3",
+        "stack-changes"
+      ],
+      "apiArgs": [],
+      "bounds": {
+        "left": 691,
+        "top": 11684,
+        "height": 24,
+        "width": 633
+      },
+      "snippet": "<h3 id=\"stack-changes\" class=\"anchor anchorWithStickyNavbar_LWe7\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/element_id_unique.html#%7B%22message%22%3A%22The%20%3Ch3%3E%20element%20has%20the%20id%20%5C%22stack-changes%5C%22%20that%20is%20already%20in%20use%22%2C%22snippet%22%3A%22%3Ch3%20id%3D%5C%22stack-changes%5C%22%20class%3D%5C%22anchor%20anchorWithStickyNavbar_LWe7%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_2%22%2C%22ruleId%22%3A%22element_id_unique%22%2C%22msgArgs%22%3A%5B%22h3%22%2C%22stack-changes%22%5D%7D"
+    },
+    {
+      "ruleId": "element_id_unique",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[3]/div[1]/h2[2]",
+        "aria": "/document[1]/main[1]/article[3]/heading[6]"
+      },
+      "ruleTime": 0,
+      "reasonId": "Fail_2",
+      "message": "The <h2> element has the id \"breaking-changes\" that is already in use",
+      "messageArgs": [
+        "h2",
+        "breaking-changes"
+      ],
+      "apiArgs": [],
+      "bounds": {
+        "left": 691,
+        "top": 12861,
+        "height": 32,
+        "width": 633
+      },
+      "snippet": "<h2 id=\"breaking-changes\" class=\"anchor anchorWithStickyNavbar_LWe7\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/element_id_unique.html#%7B%22message%22%3A%22The%20%3Ch2%3E%20element%20has%20the%20id%20%5C%22breaking-changes%5C%22%20that%20is%20already%20in%20use%22%2C%22snippet%22%3A%22%3Ch2%20id%3D%5C%22breaking-changes%5C%22%20class%3D%5C%22anchor%20anchorWithStickyNavbar_LWe7%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_2%22%2C%22ruleId%22%3A%22element_id_unique%22%2C%22msgArgs%22%3A%5B%22h2%22%2C%22breaking-changes%22%5D%7D"
+    },
+    {
+      "ruleId": "element_id_unique",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[3]/div[1]/h2[4]",
+        "aria": "/document[1]/main[1]/article[3]/heading[14]"
+      },
+      "ruleTime": 0,
+      "reasonId": "Fail_2",
+      "message": "The <h2> element has the id \"whats-next\" that is already in use",
+      "messageArgs": [
+        "h2",
+        "whats-next"
+      ],
+      "apiArgs": [],
+      "bounds": {
+        "left": 691,
+        "top": 15577,
+        "height": 32,
+        "width": 633
+      },
+      "snippet": "<h2 id=\"whats-next\" class=\"anchor anchorWithStickyNavbar_LWe7\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/element_id_unique.html#%7B%22message%22%3A%22The%20%3Ch2%3E%20element%20has%20the%20id%20%5C%22whats-next%5C%22%20that%20is%20already%20in%20use%22%2C%22snippet%22%3A%22%3Ch2%20id%3D%5C%22whats-next%5C%22%20class%3D%5C%22anchor%20anchorWithStickyNavbar_LWe7%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_2%22%2C%22ruleId%22%3A%22element_id_unique%22%2C%22msgArgs%22%3A%5B%22h2%22%2C%22whats-next%22%5D%7D"
+    },
+    {
+      "ruleId": "img_alt_redundant",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[4]/header[1]/div[2]/div[1]/div[1]/a[1]/img[1]",
+        "aria": "/document[1]/main[1]/article[4]/link[1]/img[1]"
+      },
+      "ruleTime": 0,
+      "reasonId": "Fail_3",
+      "message": "Image 'alt' value within a link is repeated in link text of the link after",
+      "messageArgs": [],
+      "apiArgs": [],
+      "bounds": {
+        "left": 691,
+        "top": 16180,
+        "height": 58,
+        "width": 58
+      },
+      "snippet": "<img alt=\"erickzhao\" src=\"https://github.com/erickzhao.png?size=96\" class=\"avatar__photo authorImage_XqGP\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/img_alt_redundant.html#%7B%22message%22%3A%22Image%20'alt'%20value%20within%20a%20link%20is%20repeated%20in%20link%20text%20of%20the%20link%20after%22%2C%22snippet%22%3A%22%3Cimg%20alt%3D%5C%22erickzhao%5C%22%20src%3D%5C%22https%3A%2F%2Fgithub.com%2Ferickzhao.png%3Fsize%3D96%5C%22%20class%3D%5C%22avatar__photo%20authorImage_XqGP%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_3%22%2C%22ruleId%22%3A%22img_alt_redundant%22%2C%22msgArgs%22%3A%5B%5D%7D"
+    },
+    {
+      "ruleId": "img_alt_redundant",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[4]/header[1]/div[2]/div[2]/div[1]/a[1]/img[1]",
+        "aria": "/document[1]/main[1]/article[4]/link[3]/img[1]"
+      },
+      "ruleTime": 0,
+      "reasonId": "Fail_3",
+      "message": "Image 'alt' value within a link is repeated in link text of the link after",
+      "messageArgs": [],
+      "apiArgs": [],
+      "bounds": {
+        "left": 1024,
+        "top": 16180,
+        "height": 58,
+        "width": 58
+      },
+      "snippet": "<img alt=\"VerteDinde\" src=\"https://github.com/VerteDinde.png?size=96\" class=\"avatar__photo authorImage_XqGP\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/img_alt_redundant.html#%7B%22message%22%3A%22Image%20'alt'%20value%20within%20a%20link%20is%20repeated%20in%20link%20text%20of%20the%20link%20after%22%2C%22snippet%22%3A%22%3Cimg%20alt%3D%5C%22VerteDinde%5C%22%20src%3D%5C%22https%3A%2F%2Fgithub.com%2FVerteDinde.png%3Fsize%3D96%5C%22%20class%3D%5C%22avatar__photo%20authorImage_XqGP%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_3%22%2C%22ruleId%22%3A%22img_alt_redundant%22%2C%22msgArgs%22%3A%5B%5D%7D"
+    },
+    {
+      "ruleId": "img_alt_redundant",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[4]/header[1]/div[2]/div[3]/div[1]/a[1]/img[1]",
+        "aria": "/document[1]/main[1]/article[4]/link[5]/img[1]"
+      },
+      "ruleTime": 0,
+      "reasonId": "Fail_3",
+      "message": "Image 'alt' value within a link is repeated in link text of the link after",
+      "messageArgs": [],
+      "apiArgs": [],
+      "bounds": {
+        "left": 691,
+        "top": 16245,
+        "height": 58,
+        "width": 58
+      },
+      "snippet": "<img alt=\"dsanders11\" src=\"https://github.com/dsanders11.png?size=96\" class=\"avatar__photo authorImage_XqGP\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/img_alt_redundant.html#%7B%22message%22%3A%22Image%20'alt'%20value%20within%20a%20link%20is%20repeated%20in%20link%20text%20of%20the%20link%20after%22%2C%22snippet%22%3A%22%3Cimg%20alt%3D%5C%22dsanders11%5C%22%20src%3D%5C%22https%3A%2F%2Fgithub.com%2Fdsanders11.png%3Fsize%3D96%5C%22%20class%3D%5C%22avatar__photo%20authorImage_XqGP%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_3%22%2C%22ruleId%22%3A%22img_alt_redundant%22%2C%22msgArgs%22%3A%5B%5D%7D"
+    },
+    {
+      "ruleId": "img_alt_redundant",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[5]/header[1]/div[2]/div[1]/div[1]/a[1]/img[1]",
+        "aria": "/document[1]/main[1]/article[5]/link[1]/img[1]"
+      },
+      "ruleTime": 1,
+      "reasonId": "Fail_3",
+      "message": "Image 'alt' value within a link is repeated in link text of the link after",
+      "messageArgs": [],
+      "apiArgs": [],
+      "bounds": {
+        "left": 691,
+        "top": 20319,
+        "height": 58,
+        "width": 58
+      },
+      "snippet": "<img alt=\"VerteDinde\" src=\"https://github.com/VerteDinde.png?size=96\" class=\"avatar__photo authorImage_XqGP\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/img_alt_redundant.html#%7B%22message%22%3A%22Image%20'alt'%20value%20within%20a%20link%20is%20repeated%20in%20link%20text%20of%20the%20link%20after%22%2C%22snippet%22%3A%22%3Cimg%20alt%3D%5C%22VerteDinde%5C%22%20src%3D%5C%22https%3A%2F%2Fgithub.com%2FVerteDinde.png%3Fsize%3D96%5C%22%20class%3D%5C%22avatar__photo%20authorImage_XqGP%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_3%22%2C%22ruleId%22%3A%22img_alt_redundant%22%2C%22msgArgs%22%3A%5B%5D%7D"
+    },
+    {
+      "ruleId": "element_id_unique",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[5]/div[1]/h2[1]",
+        "aria": "/document[1]/main[1]/article[5]/heading[2]"
+      },
+      "ruleTime": 0,
+      "reasonId": "Fail_2",
+      "message": "The <h2> element has the id \"notable-changes\" that is already in use",
+      "messageArgs": [
+        "h2",
+        "notable-changes"
+      ],
+      "apiArgs": [],
+      "bounds": {
+        "left": 691,
+        "top": 20731,
+        "height": 32,
+        "width": 633
+      },
+      "snippet": "<h2 id=\"notable-changes\" class=\"anchor anchorWithStickyNavbar_LWe7\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/element_id_unique.html#%7B%22message%22%3A%22The%20%3Ch2%3E%20element%20has%20the%20id%20%5C%22notable-changes%5C%22%20that%20is%20already%20in%20use%22%2C%22snippet%22%3A%22%3Ch2%20id%3D%5C%22notable-changes%5C%22%20class%3D%5C%22anchor%20anchorWithStickyNavbar_LWe7%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_2%22%2C%22ruleId%22%3A%22element_id_unique%22%2C%22msgArgs%22%3A%5B%22h2%22%2C%22notable-changes%22%5D%7D"
+    },
+    {
+      "ruleId": "element_id_unique",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[5]/div[1]/h3[3]",
+        "aria": "/document[1]/main[1]/article[5]/heading[5]"
+      },
+      "ruleTime": 0,
+      "reasonId": "Fail_2",
+      "message": "The <h3> element has the id \"stack-changes\" that is already in use",
+      "messageArgs": [
+        "h3",
+        "stack-changes"
+      ],
+      "apiArgs": [],
+      "bounds": {
+        "left": 691,
+        "top": 22180,
+        "height": 24,
+        "width": 633
+      },
+      "snippet": "<h3 id=\"stack-changes\" class=\"anchor anchorWithStickyNavbar_LWe7\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/element_id_unique.html#%7B%22message%22%3A%22The%20%3Ch3%3E%20element%20has%20the%20id%20%5C%22stack-changes%5C%22%20that%20is%20already%20in%20use%22%2C%22snippet%22%3A%22%3Ch3%20id%3D%5C%22stack-changes%5C%22%20class%3D%5C%22anchor%20anchorWithStickyNavbar_LWe7%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_2%22%2C%22ruleId%22%3A%22element_id_unique%22%2C%22msgArgs%22%3A%5B%22h3%22%2C%22stack-changes%22%5D%7D"
+    },
+    {
+      "ruleId": "element_id_unique",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[5]/div[1]/h3[4]",
+        "aria": "/document[1]/main[1]/article[5]/heading[6]"
+      },
+      "ruleTime": 0,
+      "reasonId": "Fail_2",
+      "message": "The <h3> element has the id \"new-features\" that is already in use",
+      "messageArgs": [
+        "h3",
+        "new-features"
+      ],
+      "apiArgs": [],
+      "bounds": {
+        "left": 691,
+        "top": 22502,
+        "height": 24,
+        "width": 633
+      },
+      "snippet": "<h3 id=\"new-features\" class=\"anchor anchorWithStickyNavbar_LWe7\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/element_id_unique.html#%7B%22message%22%3A%22The%20%3Ch3%3E%20element%20has%20the%20id%20%5C%22new-features%5C%22%20that%20is%20already%20in%20use%22%2C%22snippet%22%3A%22%3Ch3%20id%3D%5C%22new-features%5C%22%20class%3D%5C%22anchor%20anchorWithStickyNavbar_LWe7%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_2%22%2C%22ruleId%22%3A%22element_id_unique%22%2C%22msgArgs%22%3A%5B%22h3%22%2C%22new-features%22%5D%7D"
+    },
+    {
+      "ruleId": "element_id_unique",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[5]/div[1]/h3[5]",
+        "aria": "/document[1]/main[1]/article[5]/heading[7]"
+      },
+      "ruleTime": 0,
+      "reasonId": "Fail_2",
+      "message": "The <h3> element has the id \"breaking-changes\" that is already in use",
+      "messageArgs": [
+        "h3",
+        "breaking-changes"
+      ],
+      "apiArgs": [],
+      "bounds": {
+        "left": 691,
+        "top": 23071,
+        "height": 24,
+        "width": 633
+      },
+      "snippet": "<h3 id=\"breaking-changes\" class=\"anchor anchorWithStickyNavbar_LWe7\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/element_id_unique.html#%7B%22message%22%3A%22The%20%3Ch3%3E%20element%20has%20the%20id%20%5C%22breaking-changes%5C%22%20that%20is%20already%20in%20use%22%2C%22snippet%22%3A%22%3Ch3%20id%3D%5C%22breaking-changes%5C%22%20class%3D%5C%22anchor%20anchorWithStickyNavbar_LWe7%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_2%22%2C%22ruleId%22%3A%22element_id_unique%22%2C%22msgArgs%22%3A%5B%22h3%22%2C%22breaking-changes%22%5D%7D"
+    },
+    {
+      "ruleId": "element_id_unique",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[5]/div[1]/h2[3]",
+        "aria": "/document[1]/main[1]/article[5]/heading[10]"
+      },
+      "ruleTime": 0,
+      "reasonId": "Fail_2",
+      "message": "The <h2> element has the id \"whats-next\" that is already in use",
+      "messageArgs": [
+        "h2",
+        "whats-next"
+      ],
+      "apiArgs": [],
+      "bounds": {
+        "left": 691,
+        "top": 23803,
+        "height": 32,
+        "width": 633
+      },
+      "snippet": "<h2 id=\"whats-next\" class=\"anchor anchorWithStickyNavbar_LWe7\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/element_id_unique.html#%7B%22message%22%3A%22The%20%3Ch2%3E%20element%20has%20the%20id%20%5C%22whats-next%5C%22%20that%20is%20already%20in%20use%22%2C%22snippet%22%3A%22%3Ch2%20id%3D%5C%22whats-next%5C%22%20class%3D%5C%22anchor%20anchorWithStickyNavbar_LWe7%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_2%22%2C%22ruleId%22%3A%22element_id_unique%22%2C%22msgArgs%22%3A%5B%22h2%22%2C%22whats-next%22%5D%7D"
+    },
+    {
+      "ruleId": "img_alt_redundant",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[6]/header[1]/div[2]/div[1]/div[1]/a[1]/img[1]",
+        "aria": "/document[1]/main[1]/article[6]/link[1]/img[1]"
+      },
+      "ruleTime": 0,
+      "reasonId": "Fail_3",
+      "message": "Image 'alt' value within a link is repeated in link text of the link after",
+      "messageArgs": [],
+      "apiArgs": [],
+      "bounds": {
+        "left": 691,
+        "top": 24406,
+        "height": 58,
+        "width": 58
+      },
+      "snippet": "<img alt=\"VerteDinde\" src=\"https://github.com/VerteDinde.png?size=96\" class=\"avatar__photo authorImage_XqGP\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/img_alt_redundant.html#%7B%22message%22%3A%22Image%20'alt'%20value%20within%20a%20link%20is%20repeated%20in%20link%20text%20of%20the%20link%20after%22%2C%22snippet%22%3A%22%3Cimg%20alt%3D%5C%22VerteDinde%5C%22%20src%3D%5C%22https%3A%2F%2Fgithub.com%2FVerteDinde.png%3Fsize%3D96%5C%22%20class%3D%5C%22avatar__photo%20authorImage_XqGP%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_3%22%2C%22ruleId%22%3A%22img_alt_redundant%22%2C%22msgArgs%22%3A%5B%5D%7D"
+    },
+    {
+      "ruleId": "element_id_unique",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[6]/div[1]/h3[4]",
+        "aria": "/document[1]/main[1]/article[6]/heading[5]"
+      },
+      "ruleTime": 0,
+      "reasonId": "Fail_2",
+      "message": "The <h3> element has the id \"whats-next\" that is already in use",
+      "messageArgs": [
+        "h3",
+        "whats-next"
+      ],
+      "apiArgs": [],
+      "bounds": {
+        "left": 691,
+        "top": 25799,
+        "height": 24,
+        "width": 633
+      },
+      "snippet": "<h3 id=\"whats-next\" class=\"anchor anchorWithStickyNavbar_LWe7\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/element_id_unique.html#%7B%22message%22%3A%22The%20%3Ch3%3E%20element%20has%20the%20id%20%5C%22whats-next%5C%22%20that%20is%20already%20in%20use%22%2C%22snippet%22%3A%22%3Ch3%20id%3D%5C%22whats-next%5C%22%20class%3D%5C%22anchor%20anchorWithStickyNavbar_LWe7%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_2%22%2C%22ruleId%22%3A%22element_id_unique%22%2C%22msgArgs%22%3A%5B%22h3%22%2C%22whats-next%22%5D%7D"
+    },
+    {
+      "ruleId": "img_alt_redundant",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[7]/header[1]/div[2]/div[1]/div[1]/a[1]/img[1]",
+        "aria": "/document[1]/main[1]/article[7]/link[1]/img[1]"
+      },
+      "ruleTime": 0,
+      "reasonId": "Fail_3",
+      "message": "Image 'alt' value within a link is repeated in link text of the link after",
+      "messageArgs": [],
+      "apiArgs": [],
+      "bounds": {
+        "left": 691,
+        "top": 26268,
+        "height": 58,
+        "width": 58
+      },
+      "snippet": "<img alt=\"mlaurencin\" src=\"https://github.com/mlaurencin.png?size=96\" class=\"avatar__photo authorImage_XqGP\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/img_alt_redundant.html#%7B%22message%22%3A%22Image%20'alt'%20value%20within%20a%20link%20is%20repeated%20in%20link%20text%20of%20the%20link%20after%22%2C%22snippet%22%3A%22%3Cimg%20alt%3D%5C%22mlaurencin%5C%22%20src%3D%5C%22https%3A%2F%2Fgithub.com%2Fmlaurencin.png%3Fsize%3D96%5C%22%20class%3D%5C%22avatar__photo%20authorImage_XqGP%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_3%22%2C%22ruleId%22%3A%22img_alt_redundant%22%2C%22msgArgs%22%3A%5B%5D%7D"
+    },
+    {
+      "ruleId": "frame_title_exists",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[7]/div[1]/div[1]/iframe[1]",
+        "aria": "/document[1]/main[1]/article[7]"
+      },
+      "ruleTime": 0,
+      "reasonId": "Fail_1",
+      "message": "Inline frame does not have a 'title' attribute",
+      "messageArgs": [],
+      "apiArgs": [],
+      "bounds": {
+        "left": 691,
+        "top": 26419,
+        "height": 342,
+        "width": 633
+      },
+      "snippet": "<iframe style=\"position: absolute;\" allowfullscreen=\"\" class=\"giphy-embed\" frameborder=\"0\" height=\"100%\" width=\"100%\" src=\"https://giphy.com/embed/3otPoSDQczp1s9kVAQ\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/frame_title_exists.html#%7B%22message%22%3A%22Inline%20frame%20does%20not%20have%20a%20'title'%20attribute%22%2C%22snippet%22%3A%22%3Ciframe%20style%3D%5C%22position%3A%20absolute%3B%5C%22%20allowfullscreen%3D%5C%22%5C%22%20class%3D%5C%22giphy-embed%5C%22%20frameborder%3D%5C%220%5C%22%20height%3D%5C%22100%25%5C%22%20width%3D%5C%22100%25%5C%22%20src%3D%5C%22https%3A%2F%2Fgiphy.com%2Fembed%2F3otPoSDQczp1s9kVAQ%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22frame_title_exists%22%2C%22msgArgs%22%3A%5B%5D%7D"
+    },
+    {
+      "ruleId": "img_alt_redundant",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[8]/header[1]/div[2]/div[1]/div[1]/a[1]/img[1]",
+        "aria": "/document[1]/main[1]/article[8]/link[1]/img[1]"
+      },
+      "ruleTime": 0,
+      "reasonId": "Fail_3",
+      "message": "Image 'alt' value within a link is repeated in link text of the link after",
+      "messageArgs": [],
+      "apiArgs": [],
+      "bounds": {
+        "left": 691,
+        "top": 27756,
+        "height": 58,
+        "width": 58
+      },
+      "snippet": "<img alt=\"yangannyx\" src=\"https://github.com/yangannyx.png?size=96\" class=\"avatar__photo authorImage_XqGP\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/img_alt_redundant.html#%7B%22message%22%3A%22Image%20'alt'%20value%20within%20a%20link%20is%20repeated%20in%20link%20text%20of%20the%20link%20after%22%2C%22snippet%22%3A%22%3Cimg%20alt%3D%5C%22yangannyx%5C%22%20src%3D%5C%22https%3A%2F%2Fgithub.com%2Fyangannyx.png%3Fsize%3D96%5C%22%20class%3D%5C%22avatar__photo%20authorImage_XqGP%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_3%22%2C%22ruleId%22%3A%22img_alt_redundant%22%2C%22msgArgs%22%3A%5B%5D%7D"
+    },
+    {
+      "ruleId": "img_alt_redundant",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[9]/header[1]/div[2]/div[1]/div[1]/a[1]/img[1]",
+        "aria": "/document[1]/main[1]/article[9]/link[1]/img[1]"
+      },
+      "ruleTime": 0,
+      "reasonId": "Fail_3",
+      "message": "Image 'alt' value within a link is repeated in link text of the link after",
+      "messageArgs": [],
+      "apiArgs": [],
+      "bounds": {
+        "left": 691,
+        "top": 31384,
+        "height": 58,
+        "width": 58
+      },
+      "snippet": "<img alt=\"ckerr\" src=\"https://github.com/ckerr.png?size=96\" class=\"avatar__photo authorImage_XqGP\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/img_alt_redundant.html#%7B%22message%22%3A%22Image%20'alt'%20value%20within%20a%20link%20is%20repeated%20in%20link%20text%20of%20the%20link%20after%22%2C%22snippet%22%3A%22%3Cimg%20alt%3D%5C%22ckerr%5C%22%20src%3D%5C%22https%3A%2F%2Fgithub.com%2Fckerr.png%3Fsize%3D96%5C%22%20class%3D%5C%22avatar__photo%20authorImage_XqGP%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_3%22%2C%22ruleId%22%3A%22img_alt_redundant%22%2C%22msgArgs%22%3A%5B%5D%7D"
+    },
+    {
+      "ruleId": "element_id_unique",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[9]/div[1]/h2[1]",
+        "aria": "/document[1]/main[1]/article[9]/heading[2]"
+      },
+      "ruleTime": 0,
+      "reasonId": "Fail_2",
+      "message": "The <h2> element has the id \"notable-changes\" that is already in use",
+      "messageArgs": [
+        "h2",
+        "notable-changes"
+      ],
+      "apiArgs": [],
+      "bounds": {
+        "left": 691,
+        "top": 31797,
+        "height": 32,
+        "width": 633
+      },
+      "snippet": "<h2 id=\"notable-changes\" class=\"anchor anchorWithStickyNavbar_LWe7\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/element_id_unique.html#%7B%22message%22%3A%22The%20%3Ch2%3E%20element%20has%20the%20id%20%5C%22notable-changes%5C%22%20that%20is%20already%20in%20use%22%2C%22snippet%22%3A%22%3Ch2%20id%3D%5C%22notable-changes%5C%22%20class%3D%5C%22anchor%20anchorWithStickyNavbar_LWe7%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_2%22%2C%22ruleId%22%3A%22element_id_unique%22%2C%22msgArgs%22%3A%5B%22h2%22%2C%22notable-changes%22%5D%7D"
+    },
+    {
+      "ruleId": "element_id_unique",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[9]/div[1]/h3[2]",
+        "aria": "/document[1]/main[1]/article[9]/heading[4]"
+      },
+      "ruleTime": 0,
+      "reasonId": "Fail_2",
+      "message": "The <h3> element has the id \"stack-changes\" that is already in use",
+      "messageArgs": [
+        "h3",
+        "stack-changes"
+      ],
+      "apiArgs": [],
+      "bounds": {
+        "left": 691,
+        "top": 32073,
+        "height": 24,
+        "width": 633
+      },
+      "snippet": "<h3 id=\"stack-changes\" class=\"anchor anchorWithStickyNavbar_LWe7\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/element_id_unique.html#%7B%22message%22%3A%22The%20%3Ch3%3E%20element%20has%20the%20id%20%5C%22stack-changes%5C%22%20that%20is%20already%20in%20use%22%2C%22snippet%22%3A%22%3Ch3%20id%3D%5C%22stack-changes%5C%22%20class%3D%5C%22anchor%20anchorWithStickyNavbar_LWe7%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_2%22%2C%22ruleId%22%3A%22element_id_unique%22%2C%22msgArgs%22%3A%5B%22h3%22%2C%22stack-changes%22%5D%7D"
+    },
+    {
+      "ruleId": "element_id_unique",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[9]/div[1]/h3[3]",
+        "aria": "/document[1]/main[1]/article[9]/heading[5]"
+      },
+      "ruleTime": 0,
+      "reasonId": "Fail_2",
+      "message": "The <h3> element has the id \"new-features\" that is already in use",
+      "messageArgs": [
+        "h3",
+        "new-features"
+      ],
+      "apiArgs": [],
+      "bounds": {
+        "left": 691,
+        "top": 32425,
+        "height": 24,
+        "width": 633
+      },
+      "snippet": "<h3 id=\"new-features\" class=\"anchor anchorWithStickyNavbar_LWe7\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/element_id_unique.html#%7B%22message%22%3A%22The%20%3Ch3%3E%20element%20has%20the%20id%20%5C%22new-features%5C%22%20that%20is%20already%20in%20use%22%2C%22snippet%22%3A%22%3Ch3%20id%3D%5C%22new-features%5C%22%20class%3D%5C%22anchor%20anchorWithStickyNavbar_LWe7%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_2%22%2C%22ruleId%22%3A%22element_id_unique%22%2C%22msgArgs%22%3A%5B%22h3%22%2C%22new-features%22%5D%7D"
+    },
+    {
+      "ruleId": "element_id_unique",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[9]/div[1]/h3[4]",
+        "aria": "/document[1]/main[1]/article[9]/heading[6]"
+      },
+      "ruleTime": 0,
+      "reasonId": "Fail_2",
+      "message": "The <h3> element has the id \"breaking-changes\" that is already in use",
+      "messageArgs": [
+        "h3",
+        "breaking-changes"
+      ],
+      "apiArgs": [],
+      "bounds": {
+        "left": 691,
+        "top": 32722,
+        "height": 24,
+        "width": 633
+      },
+      "snippet": "<h3 id=\"breaking-changes\" class=\"anchor anchorWithStickyNavbar_LWe7\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/element_id_unique.html#%7B%22message%22%3A%22The%20%3Ch3%3E%20element%20has%20the%20id%20%5C%22breaking-changes%5C%22%20that%20is%20already%20in%20use%22%2C%22snippet%22%3A%22%3Ch3%20id%3D%5C%22breaking-changes%5C%22%20class%3D%5C%22anchor%20anchorWithStickyNavbar_LWe7%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_2%22%2C%22ruleId%22%3A%22element_id_unique%22%2C%22msgArgs%22%3A%5B%22h3%22%2C%22breaking-changes%22%5D%7D"
+    },
+    {
+      "ruleId": "element_id_unique",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[9]/div[1]/h2[3]",
+        "aria": "/document[1]/main[1]/article[9]/heading[14]"
+      },
+      "ruleTime": 0,
+      "reasonId": "Fail_2",
+      "message": "The <h2> element has the id \"whats-next\" that is already in use",
+      "messageArgs": [
+        "h2",
+        "whats-next"
+      ],
+      "apiArgs": [],
+      "bounds": {
+        "left": 691,
+        "top": 35244,
+        "height": 32,
+        "width": 633
+      },
+      "snippet": "<h2 id=\"whats-next\" class=\"anchor anchorWithStickyNavbar_LWe7\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/element_id_unique.html#%7B%22message%22%3A%22The%20%3Ch2%3E%20element%20has%20the%20id%20%5C%22whats-next%5C%22%20that%20is%20already%20in%20use%22%2C%22snippet%22%3A%22%3Ch2%20id%3D%5C%22whats-next%5C%22%20class%3D%5C%22anchor%20anchorWithStickyNavbar_LWe7%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_2%22%2C%22ruleId%22%3A%22element_id_unique%22%2C%22msgArgs%22%3A%5B%22h2%22%2C%22whats-next%22%5D%7D"
+    },
+    {
+      "ruleId": "img_alt_redundant",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[10]/header[1]/div[2]/div[1]/div[1]/a[1]/img[1]",
+        "aria": "/document[1]/main[1]/article[10]/link[1]/img[1]"
+      },
+      "ruleTime": 0,
+      "reasonId": "Fail_3",
+      "message": "Image 'alt' value within a link is repeated in link text of the link after",
+      "messageArgs": [],
+      "apiArgs": [],
+      "bounds": {
+        "left": 691,
+        "top": 35847,
+        "height": 58,
+        "width": 58
+      },
+      "snippet": "<img alt=\"piotrpdev\" src=\"https://github.com/piotrpdev.png?size=96\" class=\"avatar__photo authorImage_XqGP\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/img_alt_redundant.html#%7B%22message%22%3A%22Image%20'alt'%20value%20within%20a%20link%20is%20repeated%20in%20link%20text%20of%20the%20link%20after%22%2C%22snippet%22%3A%22%3Cimg%20alt%3D%5C%22piotrpdev%5C%22%20src%3D%5C%22https%3A%2F%2Fgithub.com%2Fpiotrpdev.png%3Fsize%3D96%5C%22%20class%3D%5C%22avatar__photo%20authorImage_XqGP%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_3%22%2C%22ruleId%22%3A%22img_alt_redundant%22%2C%22msgArgs%22%3A%5B%5D%7D"
+    },
+    {
+      "ruleId": "aria_banner_label_unique",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[2]",
+        "aria": "/document[1]/banner[1]"
+      },
+      "ruleTime": 0,
+      "reasonId": "fail_label_not_unique",
+      "message": "Multiple elements with \"banner\" role do not have unique labels",
+      "messageArgs": [],
+      "apiArgs": [],
+      "bounds": {
+        "left": 0,
+        "top": 0,
+        "height": 30,
+        "width": 1920
+      },
+      "snippet": "<div style=\"background-color: rgb(159, 234, 249); color: rgb(27, 28, 38);\" role=\"banner\" class=\"theme-announcement-bar announcementBar_mb4j\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/aria_banner_label_unique.html#%7B%22message%22%3A%22Multiple%20elements%20with%20%5C%22banner%5C%22%20role%20do%20not%20have%20unique%20labels%22%2C%22snippet%22%3A%22%3Cdiv%20style%3D%5C%22background-color%3A%20rgb(159%2C%20234%2C%20249)%3B%20color%3A%20rgb(27%2C%2028%2C%2038)%3B%5C%22%20role%3D%5C%22banner%5C%22%20class%3D%5C%22theme-announcement-bar%20announcementBar_mb4j%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_label_not_unique%22%2C%22ruleId%22%3A%22aria_banner_label_unique%22%2C%22msgArgs%22%3A%5B%5D%7D"
+    },
+    {
+      "ruleId": "aria_landmark_name_unique",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[2]",
+        "aria": "/document[1]/banner[1]"
+      },
+      "ruleTime": 0,
+      "reasonId": "fail_label_not_unique",
+      "message": "Multiple elements with \"banner\" landmarks within the same parent region are not distinguished from one another because they have the same \"\" label",
+      "messageArgs": [
+        "banner",
+        ""
+      ],
+      "apiArgs": [],
+      "bounds": {
+        "left": 0,
+        "top": 0,
+        "height": 30,
+        "width": 1920
+      },
+      "snippet": "<div style=\"background-color: rgb(159, 234, 249); color: rgb(27, 28, 38);\" role=\"banner\" class=\"theme-announcement-bar announcementBar_mb4j\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/aria_landmark_name_unique.html#%7B%22message%22%3A%22Multiple%20elements%20with%20%5C%22banner%5C%22%20landmarks%20within%20the%20same%20parent%20region%20are%20not%20distinguished%20from%20one%20another%20because%20they%20have%20the%20same%20%5C%22%5C%22%20label%22%2C%22snippet%22%3A%22%3Cdiv%20style%3D%5C%22background-color%3A%20rgb(159%2C%20234%2C%20249)%3B%20color%3A%20rgb(27%2C%2028%2C%2038)%3B%5C%22%20role%3D%5C%22banner%5C%22%20class%3D%5C%22theme-announcement-bar%20announcementBar_mb4j%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_label_not_unique%22%2C%22ruleId%22%3A%22aria_landmark_name_unique%22%2C%22msgArgs%22%3A%5B%22banner%22%2C%22%22%5D%7D"
+    },
+    {
+      "ruleId": "label_name_visible",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/nav[1]/div[1]/div[2]/div[3]/button[1]",
+        "aria": "/document[1]/navigation[1]/button[6]"
+      },
+      "ruleTime": 0,
+      "reasonId": "Fail_1",
+      "message": "Accessible name does not match or contain the visible label text",
+      "messageArgs": [],
+      "apiArgs": [],
+      "bounds": {
+        "left": 1500,
+        "top": 47,
+        "height": 36,
+        "width": 161
+      },
+      "snippet": "<button aria-label=\"Search (Ctrl+K)\" class=\"DocSearch DocSearch-Button\" type=\"button\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/label_name_visible.html#%7B%22message%22%3A%22Accessible%20name%20does%20not%20match%20or%20contain%20the%20visible%20label%20text%22%2C%22snippet%22%3A%22%3Cbutton%20aria-label%3D%5C%22Search%20(Ctrl%2BK)%5C%22%20class%3D%5C%22DocSearch%20DocSearch-Button%5C%22%20type%3D%5C%22button%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22label_name_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+    },
+    {
+      "ruleId": "aria_banner_label_unique",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[3]/header[1]",
+        "aria": "/document[1]/banner[2]"
+      },
+      "ruleTime": 0,
+      "reasonId": "fail_label_not_unique",
+      "message": "Multiple elements with \"banner\" role do not have unique labels",
+      "messageArgs": [],
+      "apiArgs": [],
+      "bounds": {
+        "left": 0,
+        "top": 100,
+        "height": 864,
+        "width": 1920
+      },
+      "snippet": "<header class=\"header_src-pages-fiddle-fiddle-module\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/aria_banner_label_unique.html#%7B%22message%22%3A%22Multiple%20elements%20with%20%5C%22banner%5C%22%20role%20do%20not%20have%20unique%20labels%22%2C%22snippet%22%3A%22%3Cheader%20class%3D%5C%22header_src-pages-fiddle-fiddle-module%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_label_not_unique%22%2C%22ruleId%22%3A%22aria_banner_label_unique%22%2C%22msgArgs%22%3A%5B%5D%7D"
+    },
+    {
+      "ruleId": "aria_landmark_name_unique",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[3]/header[1]",
+        "aria": "/document[1]/banner[2]"
+      },
+      "ruleTime": 0,
+      "reasonId": "fail_label_not_unique",
+      "message": "Multiple elements with \"banner\" landmarks within the same parent region are not distinguished from one another because they have the same \"\" label",
+      "messageArgs": [
+        "banner",
+        ""
+      ],
+      "apiArgs": [],
+      "bounds": {
+        "left": 0,
+        "top": 100,
+        "height": 864,
+        "width": 1920
+      },
+      "snippet": "<header class=\"header_src-pages-fiddle-fiddle-module\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/aria_landmark_name_unique.html#%7B%22message%22%3A%22Multiple%20elements%20with%20%5C%22banner%5C%22%20landmarks%20within%20the%20same%20parent%20region%20are%20not%20distinguished%20from%20one%20another%20because%20they%20have%20the%20same%20%5C%22%5C%22%20label%22%2C%22snippet%22%3A%22%3Cheader%20class%3D%5C%22header_src-pages-fiddle-fiddle-module%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_label_not_unique%22%2C%22ruleId%22%3A%22aria_landmark_name_unique%22%2C%22msgArgs%22%3A%5B%22banner%22%2C%22%22%5D%7D"
+    },
+    {
+      "ruleId": "img_alt_valid",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[3]/header[1]/img[1]",
+        "aria": "/document[1]/banner[2]/img[1]"
+      },
+      "ruleTime": 0,
+      "reasonId": "fail_no_alt",
+      "message": "The image has neither an accessible name nor is marked as decorative or redundant",
+      "messageArgs": [],
+      "apiArgs": [],
+      "bounds": {
+        "left": 561,
+        "top": 551,
+        "height": 536,
+        "width": 800
+      },
+      "snippet": "<img src=\"/assets/fiddle/fiddle.png\" class=\"fiddleHeroScreenshot_src-pages-fiddle-fiddle-module\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/img_alt_valid.html#%7B%22message%22%3A%22The%20image%20has%20neither%20an%20accessible%20name%20nor%20is%20marked%20as%20decorative%20or%20redundant%22%2C%22snippet%22%3A%22%3Cimg%20src%3D%5C%22%2Fassets%2Ffiddle%2Ffiddle.png%5C%22%20class%3D%5C%22fiddleHeroScreenshot_src-pages-fiddle-fiddle-module%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_no_alt%22%2C%22ruleId%22%3A%22img_alt_valid%22%2C%22msgArgs%22%3A%5B%5D%7D"
+    },
+    {
+      "ruleId": "img_alt_valid",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[3]/main[1]/div[1]/div[2]/div[1]/img[1]",
+        "aria": "/document[1]/main[1]/img[1]"
+      },
+      "ruleTime": 0,
+      "reasonId": "fail_no_alt",
+      "message": "The image has neither an accessible name nor is marked as decorative or redundant",
+      "messageArgs": [],
+      "apiArgs": [],
+      "bounds": {
+        "left": 1045,
+        "top": 1334,
+        "height": 300,
+        "width": 400
+      },
+      "snippet": "<img src=\"/assets/fiddle/explore.png\" class=\"featureImage_src-pages-home-_components-Feature-module\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/img_alt_valid.html#%7B%22message%22%3A%22The%20image%20has%20neither%20an%20accessible%20name%20nor%20is%20marked%20as%20decorative%20or%20redundant%22%2C%22snippet%22%3A%22%3Cimg%20src%3D%5C%22%2Fassets%2Ffiddle%2Fexplore.png%5C%22%20class%3D%5C%22featureImage_src-pages-home-_components-Feature-module%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_no_alt%22%2C%22ruleId%22%3A%22img_alt_valid%22%2C%22msgArgs%22%3A%5B%5D%7D"
+    },
+    {
+      "ruleId": "img_alt_valid",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[3]/main[1]/div[2]/div[2]/div[1]/img[1]",
+        "aria": "/document[1]/main[1]/img[2]"
+      },
+      "ruleTime": 0,
+      "reasonId": "fail_no_alt",
+      "message": "The image has neither an accessible name nor is marked as decorative or redundant",
+      "messageArgs": [],
+      "apiArgs": [],
+      "bounds": {
+        "left": 475,
+        "top": 1682,
+        "height": 300,
+        "width": 400
+      },
+      "snippet": "<img src=\"/assets/fiddle/npm.png\" class=\"featureImage_src-pages-home-_components-Feature-module\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/img_alt_valid.html#%7B%22message%22%3A%22The%20image%20has%20neither%20an%20accessible%20name%20nor%20is%20marked%20as%20decorative%20or%20redundant%22%2C%22snippet%22%3A%22%3Cimg%20src%3D%5C%22%2Fassets%2Ffiddle%2Fnpm.png%5C%22%20class%3D%5C%22featureImage_src-pages-home-_components-Feature-module%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_no_alt%22%2C%22ruleId%22%3A%22img_alt_valid%22%2C%22msgArgs%22%3A%5B%5D%7D"
+    },
+    {
+      "ruleId": "img_alt_valid",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[3]/main[1]/div[3]/div[2]/div[1]/img[1]",
+        "aria": "/document[1]/main[1]/img[3]"
+      },
+      "ruleTime": 0,
+      "reasonId": "fail_no_alt",
+      "message": "The image has neither an accessible name nor is marked as decorative or redundant",
+      "messageArgs": [],
+      "apiArgs": [],
+      "bounds": {
+        "left": 1045,
+        "top": 2030,
+        "height": 300,
+        "width": 400
+      },
+      "snippet": "<img src=\"/assets/fiddle/types.png\" class=\"featureImage_src-pages-home-_components-Feature-module\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/img_alt_valid.html#%7B%22message%22%3A%22The%20image%20has%20neither%20an%20accessible%20name%20nor%20is%20marked%20as%20decorative%20or%20redundant%22%2C%22snippet%22%3A%22%3Cimg%20src%3D%5C%22%2Fassets%2Ffiddle%2Ftypes.png%5C%22%20class%3D%5C%22featureImage_src-pages-home-_components-Feature-module%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_no_alt%22%2C%22ruleId%22%3A%22img_alt_valid%22%2C%22msgArgs%22%3A%5B%5D%7D"
+    },
+    {
+      "ruleId": "img_alt_valid",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[3]/main[1]/div[4]/div[2]/div[1]/img[1]",
+        "aria": "/document[1]/main[1]/img[4]"
+      },
+      "ruleTime": 0,
+      "reasonId": "fail_no_alt",
+      "message": "The image has neither an accessible name nor is marked as decorative or redundant",
+      "messageArgs": [],
+      "apiArgs": [],
+      "bounds": {
+        "left": 475,
+        "top": 2378,
+        "height": 300,
+        "width": 400
+      },
+      "snippet": "<img src=\"/assets/fiddle/package.png\" class=\"featureImage_src-pages-home-_components-Feature-module\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/img_alt_valid.html#%7B%22message%22%3A%22The%20image%20has%20neither%20an%20accessible%20name%20nor%20is%20marked%20as%20decorative%20or%20redundant%22%2C%22snippet%22%3A%22%3Cimg%20src%3D%5C%22%2Fassets%2Ffiddle%2Fpackage.png%5C%22%20class%3D%5C%22featureImage_src-pages-home-_components-Feature-module%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_no_alt%22%2C%22ruleId%22%3A%22img_alt_valid%22%2C%22msgArgs%22%3A%5B%5D%7D"
+    },
+    {
+      "ruleId": "img_alt_valid",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[3]/main[1]/div[5]/div[2]/div[1]/img[1]",
+        "aria": "/document[1]/main[1]/img[5]"
+      },
+      "ruleTime": 0,
+      "reasonId": "fail_no_alt",
+      "message": "The image has neither an accessible name nor is marked as decorative or redundant",
+      "messageArgs": [],
+      "apiArgs": [],
+      "bounds": {
+        "left": 1045,
+        "top": 2726,
+        "height": 300,
+        "width": 400
+      },
+      "snippet": "<img src=\"/assets/fiddle/export.png\" class=\"featureImage_src-pages-home-_components-Feature-module\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/img_alt_valid.html#%7B%22message%22%3A%22The%20image%20has%20neither%20an%20accessible%20name%20nor%20is%20marked%20as%20decorative%20or%20redundant%22%2C%22snippet%22%3A%22%3Cimg%20src%3D%5C%22%2Fassets%2Ffiddle%2Fexport.png%5C%22%20class%3D%5C%22featureImage_src-pages-home-_components-Feature-module%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_no_alt%22%2C%22ruleId%22%3A%22img_alt_valid%22%2C%22msgArgs%22%3A%5B%5D%7D"
+    },
+    {
+      "ruleId": "aria_banner_label_unique",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[2]",
+        "aria": "/document[1]/banner[1]"
+      },
+      "ruleTime": 0,
+      "reasonId": "fail_label_not_unique",
+      "message": "Multiple elements with \"banner\" role do not have unique labels",
+      "messageArgs": [],
+      "apiArgs": [],
+      "bounds": {
+        "left": 0,
+        "top": 0,
+        "height": 30,
+        "width": 1920
+      },
+      "snippet": "<div style=\"background-color: rgb(159, 234, 249); color: rgb(27, 28, 38);\" role=\"banner\" class=\"theme-announcement-bar announcementBar_mb4j\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/aria_banner_label_unique.html#%7B%22message%22%3A%22Multiple%20elements%20with%20%5C%22banner%5C%22%20role%20do%20not%20have%20unique%20labels%22%2C%22snippet%22%3A%22%3Cdiv%20style%3D%5C%22background-color%3A%20rgb(159%2C%20234%2C%20249)%3B%20color%3A%20rgb(27%2C%2028%2C%2038)%3B%5C%22%20role%3D%5C%22banner%5C%22%20class%3D%5C%22theme-announcement-bar%20announcementBar_mb4j%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_label_not_unique%22%2C%22ruleId%22%3A%22aria_banner_label_unique%22%2C%22msgArgs%22%3A%5B%5D%7D"
+    },
+    {
+      "ruleId": "aria_landmark_name_unique",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[2]",
+        "aria": "/document[1]/banner[1]"
+      },
+      "ruleTime": 0,
+      "reasonId": "fail_label_not_unique",
+      "message": "Multiple elements with \"banner\" landmarks within the same parent region are not distinguished from one another because they have the same \"\" label",
+      "messageArgs": [
+        "banner",
+        ""
+      ],
+      "apiArgs": [],
+      "bounds": {
+        "left": 0,
+        "top": 0,
+        "height": 30,
+        "width": 1920
+      },
+      "snippet": "<div style=\"background-color: rgb(159, 234, 249); color: rgb(27, 28, 38);\" role=\"banner\" class=\"theme-announcement-bar announcementBar_mb4j\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/aria_landmark_name_unique.html#%7B%22message%22%3A%22Multiple%20elements%20with%20%5C%22banner%5C%22%20landmarks%20within%20the%20same%20parent%20region%20are%20not%20distinguished%20from%20one%20another%20because%20they%20have%20the%20same%20%5C%22%5C%22%20label%22%2C%22snippet%22%3A%22%3Cdiv%20style%3D%5C%22background-color%3A%20rgb(159%2C%20234%2C%20249)%3B%20color%3A%20rgb(27%2C%2028%2C%2038)%3B%5C%22%20role%3D%5C%22banner%5C%22%20class%3D%5C%22theme-announcement-bar%20announcementBar_mb4j%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_label_not_unique%22%2C%22ruleId%22%3A%22aria_landmark_name_unique%22%2C%22msgArgs%22%3A%5B%22banner%22%2C%22%22%5D%7D"
+    },
+    {
+      "ruleId": "label_name_visible",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/nav[1]/div[1]/div[2]/div[3]/button[1]",
+        "aria": "/document[1]/navigation[1]/button[6]"
+      },
+      "ruleTime": 0,
+      "reasonId": "Fail_1",
+      "message": "Accessible name does not match or contain the visible label text",
+      "messageArgs": [],
+      "apiArgs": [],
+      "bounds": {
+        "left": 1500,
+        "top": 47,
+        "height": 36,
+        "width": 161
+      },
+      "snippet": "<button aria-label=\"Search (Ctrl+K)\" class=\"DocSearch DocSearch-Button\" type=\"button\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/label_name_visible.html#%7B%22message%22%3A%22Accessible%20name%20does%20not%20match%20or%20contain%20the%20visible%20label%20text%22%2C%22snippet%22%3A%22%3Cbutton%20aria-label%3D%5C%22Search%20(Ctrl%2BK)%5C%22%20class%3D%5C%22DocSearch%20DocSearch-Button%5C%22%20type%3D%5C%22button%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22label_name_visible%22%2C%22msgArgs%22%3A%5B%5D%7D"
+    },
+    {
+      "ruleId": "aria_banner_label_unique",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[3]/header[1]",
+        "aria": "/document[1]/banner[2]"
+      },
+      "ruleTime": 0,
+      "reasonId": "fail_label_not_unique",
+      "message": "Multiple elements with \"banner\" role do not have unique labels",
+      "messageArgs": [],
+      "apiArgs": [],
+      "bounds": {
+        "left": 0,
+        "top": 100,
+        "height": 411,
+        "width": 1920
+      },
+      "snippet": "<header class=\"hero hero--primary heroElectron_src-pages-home-_index-module\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/aria_banner_label_unique.html#%7B%22message%22%3A%22Multiple%20elements%20with%20%5C%22banner%5C%22%20role%20do%20not%20have%20unique%20labels%22%2C%22snippet%22%3A%22%3Cheader%20class%3D%5C%22hero%20hero--primary%20heroElectron_src-pages-home-_index-module%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_label_not_unique%22%2C%22ruleId%22%3A%22aria_banner_label_unique%22%2C%22msgArgs%22%3A%5B%5D%7D"
+    },
+    {
+      "ruleId": "aria_landmark_name_unique",
+      "value": [
+        "VIOLATION",
+        "FAIL"
+      ],
+      "path": {
+        "dom": "/html[1]/body[1]/div[1]/div[3]/header[1]",
+        "aria": "/document[1]/banner[2]"
+      },
+      "ruleTime": 0,
+      "reasonId": "fail_label_not_unique",
+      "message": "Multiple elements with \"banner\" landmarks within the same parent region are not distinguished from one another because they have the same \"\" label",
+      "messageArgs": [
+        "banner",
+        ""
+      ],
+      "apiArgs": [],
+      "bounds": {
+        "left": 0,
+        "top": 100,
+        "height": 411,
+        "width": 1920
+      },
+      "snippet": "<header class=\"hero hero--primary heroElectron_src-pages-home-_index-module\">",
+      "category": "Accessibility",
+      "level": "violation",
+      "ignored": false,
+      "help": "https://able.ibm.com/rules/archives/2025.07.24/doc/en-US/aria_landmark_name_unique.html#%7B%22message%22%3A%22Multiple%20elements%20with%20%5C%22banner%5C%22%20landmarks%20within%20the%20same%20parent%20region%20are%20not%20distinguished%20from%20one%20another%20because%20they%20have%20the%20same%20%5C%22%5C%22%20label%22%2C%22snippet%22%3A%22%3Cheader%20class%3D%5C%22hero%20hero--primary%20heroElectron_src-pages-home-_index-module%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_label_not_unique%22%2C%22ruleId%22%3A%22aria_landmark_name_unique%22%2C%22msgArgs%22%3A%5B%22banner%22%2C%22%22%5D%7D"
+    }
+  ],
+  "numExecuted": 20935,
+  "ruleTime": 7085,
+  "nls": {
+    "style_color_misuse": {
+      "0": "Combine color and descriptive markup to convey information",
+      "Potential_1": "Verify color is not used as the only visual means of conveying information"
+    },
+    "style_viewport_resizable": {
+      "0": "Text must scale up to 200% without loss of content or functionality",
+      "Potential_1": "Verify that text sized using viewport units can be resized up to 200%"
+    },
+    "text_quoted_correctly": {
+      "0": "Quotations should be marked with <q> or <blockquote> elements",
+      "Potential_1": "If the following text is a quotation, mark it as a <q> or <blockquote> element: {0}"
+    },
+    "element_id_unique": {
+      "0": "Element 'id' attribute values must be unique within a document",
+      "Fail_2": "The <{0}> element has the id \"{1}\" that is already in use"
+    },
+    "element_tabbable_unobscured": {
+      "0": "When an element receives focus, it is not entirely covered by other content",
+      "potential_obscured": "Confirm that when the element receives focus, it is not covered or, if covered by user action, can be uncovered without moving focus"
+    },
+    "text_contrast_sufficient": {
+      "0": "The contrast ratio of text with its background must meet WCAG AA requirements",
+      "fail_contrast": "Text contrast of {0} with its background is less than the WCAG AA minimum requirements for text of size {1}px and weight of {2}"
+    },
+    "input_label_visible": {
+      "0": "An input element must have an associated visible label",
+      "potential_no_label": "The input element does not have an associated visible label"
+    },
+    "label_name_visible": {
+      "0": "Accessible name must match or contain the visible label text",
+      "Fail_1": "Accessible name does not match or contain the visible label text"
+    },
+    "svg_graphics_labelled": {
+      "0": "A non-decorative SVG element must have an accessible name",
+      "fail_acc_name": "The SVG element has no accessible name"
+    },
+    "aria_complementary_labelled": {
+      "0": "Each element with \"complementary\" role must have a label that describes its purpose",
+      "Fail_1": "Element with \"complementary\" role does not have a label"
+    },
+    "text_block_heading": {
+      "0": "Heading text should use a heading element or role",
+      "potential_heading": "Confirm this text '{0}' is used as a heading and if so, modify to use a heading element or role"
+    },
+    "img_alt_redundant": {
+      "0": "The text alternative for an image within a link should not repeat the link text or adjacent link text",
+      "Fail_3": "Image 'alt' value within a link is repeated in link text of the link after"
+    },
+    "element_tabbable_role_valid": {
+      "0": "A tabbable element must have a valid widget role",
+      "fail_no_valid_role": "The tabbable element does not have a valid widget role"
+    },
+    "text_sensory_misuse": {
+      "0": "Instructions should be meaningful without relying solely on shape, size, or location words",
+      "potential_other": "Confirm the user instruction is still understandable without the word(s) '{0}'",
+      "potential_position": "Confirm the word(s) '{0}' of the user instruction is used to indicate a logical rather than visual position"
+    },
+    "frame_src_valid": {
+      "0": "A <frame> containing non-HTML content must be made accessible",
+      "Potential_1": "Verify <frame> content is accessible"
+    },
+    "frame_title_exists": {
+      "0": "Inline frames must have a unique, non-empty 'title' attribute",
+      "Fail_1": "Inline frame does not have a 'title' attribute"
+    },
+    "list_markup_review": {
+      "0": "Proper HTML elements should be used to create a list",
+      "potential_list": "Verify this is a list and if so, modify to use proper HTML elements for the list"
+    }
+  },
+  "summary": {
+    "counts": {
+      "ignored": 0,
+      "elements": 539,
+      "elementsViolation": 422,
+      "elementsViolationReview": 480,
+      "violation": 422,
+      "potentialviolation": 61,
+      "recommendation": 1,
+      "potentialrecommendation": 260,
+      "manual": 3,
+      "pass": 20188
+    },
+    "scanTime": 13474,
+    "ruleArchive": "Latest Deployment (latest)",
+    "policies": [
+      "IBM_Accessibility"
+    ],
+    "reportLevels": [
+      "violation",
+      "potentialviolation"
+    ],
+    "startScan": 1753811679090,
+    "URL": "http://localhost:3000/blog"
+  },
+  "scanID": "1b1c2983-ddb8-4c37-ad01-6204e59c0527",
+  "toolID": "undefined-vundefined",
+  "label": "http://localhost:3000/blog"
+}

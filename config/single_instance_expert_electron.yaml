@@ -1,0 +1,583 @@
+- env:
+    deployment:
+      type: docker
+      image: a11y/electron:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[1] Violation of rule `label_name_visible`: Accessible name does not match or contain the visible label text\n        DOM Path: /html[1]/body[1]/div[1]/nav[1]/div[1]/div[2]/div[3]/button[1]\n        ARIA Path: /document[1]/navigation[1]/button[6]\n        Code: <button aria-label=\"Search (Ctrl+K)\" class=\"DocSearch DocSearch-Button\" type=\"button\">\n        messageArgs: []\n        apiArgs: []"
+    id: electron-01
+- env:
+    deployment:
+      type: docker
+      image: a11y/electron:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[2] Violation of rule `aria_complementary_labelled`: Element with \"complementary\" role does not have a label\n        DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/aside[1]\n        ARIA Path: /document[1]/complementary[1]\n        Code: <aside class=\"col col--3\">\n        messageArgs: []\n        apiArgs: []"
+    id: electron-02
+- env:
+    deployment:
+      type: docker
+      image: a11y/electron:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[3] Violation of rule `img_alt_redundant`: Image 'alt' value within a link is repeated in link text of the link after\n        DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[1]/header[1]/div[2]/div[1]/div[1]/a[1]/img[1]\n        ARIA Path: /document[1]/main[1]/article[1]/link[1]/img[1]\n        Code: <img alt=\"georgexu99\" src=\"https://github.com/georgexu99.png?size=96\" class=\"avatar__photo authorImage_XqGP\">\n        messageArgs: []\n        apiArgs: []"
+    id: electron-03
+- env:
+    deployment:
+      type: docker
+      image: a11y/electron:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[4] Violation of rule `img_alt_redundant`: Image 'alt' value within a link is repeated in link text of the link after\n        DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[1]/header[1]/div[2]/div[2]/div[1]/a[1]/img[1]\n        ARIA Path: /document[1]/main[1]/article[1]/link[3]/img[1]\n        Code: <img alt=\"VerteDinde\" src=\"https://github.com/VerteDinde.png?size=96\" class=\"avatar__photo authorImage_XqGP\">\n        messageArgs: []\n        apiArgs: []"
+    id: electron-04
+- env:
+    deployment:
+      type: docker
+      image: a11y/electron:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[5] Violation of rule `img_alt_redundant`: Image 'alt' value within a link is repeated in link text of the link after\n        DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[2]/header[1]/div[2]/div[1]/div[1]/a[1]/img[1]\n        ARIA Path: /document[1]/main[1]/article[2]/link[1]/img[1]\n        Code: <img alt=\"georgexu99\" src=\"https://github.com/georgexu99.png?size=96\" class=\"avatar__photo authorImage_XqGP\">\n        messageArgs: []\n        apiArgs: []"
+    id: electron-05
+- env:
+    deployment:
+      type: docker
+      image: a11y/electron:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[6] Violation of rule `element_id_unique`: The <h2> element has the id \"notable-changes\" that is already in use\n        DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[2]/div[1]/h2[1]\n        ARIA Path: /document[1]/main[1]/article[2]/heading[2]\n        Code: <h2 id=\"notable-changes\" class=\"anchor anchorWithStickyNavbar_LWe7\">\n        messageArgs: ['h2', 'notable-changes']\n        apiArgs: []"
+    id: electron-06
+- env:
+    deployment:
+      type: docker
+      image: a11y/electron:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[7] Violation of rule `element_id_unique`: The <h3> element has the id \"stack-changes\" that is already in use\n        DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[2]/div[1]/h3[2]\n        ARIA Path: /document[1]/main[1]/article[2]/heading[4]\n        Code: <h3 id=\"stack-changes\" class=\"anchor anchorWithStickyNavbar_LWe7\">\n        messageArgs: ['h3', 'stack-changes']\n        apiArgs: []"
+    id: electron-07
+- env:
+    deployment:
+      type: docker
+      image: a11y/electron:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[8] Violation of rule `element_id_unique`: The <h3> element has the id \"new-features-and-improvements\" that is already in use\n        DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[2]/div[1]/h3[3]\n        ARIA Path: /document[1]/main[1]/article[2]/heading[5]\n        Code: <h3 id=\"new-features-and-improvements\" class=\"anchor anchorWithStickyNavbar_LWe7\">\n        messageArgs: ['h3', 'new-features-and-improvements']\n        apiArgs: []"
+    id: electron-08
+- env:
+    deployment:
+      type: docker
+      image: a11y/electron:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[9] Violation of rule `element_id_unique`: The <h3> element has the id \"breaking-changes\" that is already in use\n        DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[2]/div[1]/h3[4]\n        ARIA Path: /document[1]/main[1]/article[2]/heading[6]\n        Code: <h3 id=\"breaking-changes\" class=\"anchor anchorWithStickyNavbar_LWe7\">\n        messageArgs: ['h3', 'breaking-changes']\n        apiArgs: []"
+    id: electron-09
+- env:
+    deployment:
+      type: docker
+      image: a11y/electron:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[10] Violation of rule `element_id_unique`: The <h2> element has the id \"whats-next\" that is already in use\n        DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[2]/div[1]/h2[3]\n        ARIA Path: /document[1]/main[1]/article[2]/heading[14]\n        Code: <h2 id=\"whats-next\" class=\"anchor anchorWithStickyNavbar_LWe7\">\n        messageArgs: ['h2', 'whats-next']\n        apiArgs: []"
+    id: electron-10
+- env:
+    deployment:
+      type: docker
+      image: a11y/electron:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[11] Violation of rule `img_alt_redundant`: Image 'alt' value within a link is repeated in link text of the link after\n        DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[3]/header[1]/div[2]/div[1]/div[1]/a[1]/img[1]\n        ARIA Path: /document[1]/main[1]/article[3]/link[1]/img[1]\n        Code: <img alt=\"georgexu99\" src=\"https://github.com/georgexu99.png?size=96\" class=\"avatar__photo authorImage_XqGP\">\n        messageArgs: []\n        apiArgs: []"
+    id: electron-11
+- env:
+    deployment:
+      type: docker
+      image: a11y/electron:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[12] Violation of rule `img_alt_redundant`: Image 'alt' value within a link is repeated in link text of the link after\n        DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[3]/header[1]/div[2]/div[2]/div[1]/a[1]/img[1]\n        ARIA Path: /document[1]/main[1]/article[3]/link[3]/img[1]\n        Code: <img alt=\"VerteDinde\" src=\"https://github.com/VerteDinde.png?size=96\" class=\"avatar__photo authorImage_XqGP\">\n        messageArgs: []\n        apiArgs: []"
+    id: electron-12
+- env:
+    deployment:
+      type: docker
+      image: a11y/electron:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[13] Violation of rule `element_id_unique`: The <h2> element has the id \"notable-changes\" that is already in use\n        DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[3]/div[1]/h2[1]\n        ARIA Path: /document[1]/main[1]/article[3]/heading[2]\n        Code: <h2 id=\"notable-changes\" class=\"anchor anchorWithStickyNavbar_LWe7\">\n        messageArgs: ['h2', 'notable-changes']\n        apiArgs: []"
+    id: electron-13
+- env:
+    deployment:
+      type: docker
+      image: a11y/electron:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[14] Violation of rule `element_id_unique`: The <h3> element has the id \"stack-changes\" that is already in use\n        DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[3]/div[1]/h3[2]\n        ARIA Path: /document[1]/main[1]/article[3]/heading[4]\n        Code: <h3 id=\"stack-changes\" class=\"anchor anchorWithStickyNavbar_LWe7\">\n        messageArgs: ['h3', 'stack-changes']\n        apiArgs: []"
+    id: electron-14
+- env:
+    deployment:
+      type: docker
+      image: a11y/electron:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[15] Violation of rule `element_id_unique`: The <h2> element has the id \"breaking-changes\" that is already in use\n        DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[3]/div[1]/h2[2]\n        ARIA Path: /document[1]/main[1]/article[3]/heading[6]\n        Code: <h2 id=\"breaking-changes\" class=\"anchor anchorWithStickyNavbar_LWe7\">\n        messageArgs: ['h2', 'breaking-changes']\n        apiArgs: []"
+    id: electron-15
+- env:
+    deployment:
+      type: docker
+      image: a11y/electron:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[16] Violation of rule `element_id_unique`: The <h2> element has the id \"whats-next\" that is already in use\n        DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[3]/div[1]/h2[4]\n        ARIA Path: /document[1]/main[1]/article[3]/heading[14]\n        Code: <h2 id=\"whats-next\" class=\"anchor anchorWithStickyNavbar_LWe7\">\n        messageArgs: ['h2', 'whats-next']\n        apiArgs: []"
+    id: electron-16
+- env:
+    deployment:
+      type: docker
+      image: a11y/electron:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[17] Violation of rule `img_alt_redundant`: Image 'alt' value within a link is repeated in link text of the link after\n        DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[4]/header[1]/div[2]/div[1]/div[1]/a[1]/img[1]\n        ARIA Path: /document[1]/main[1]/article[4]/link[1]/img[1]\n        Code: <img alt=\"erickzhao\" src=\"https://github.com/erickzhao.png?size=96\" class=\"avatar__photo authorImage_XqGP\">\n        messageArgs: []\n        apiArgs: []"
+    id: electron-17
+- env:
+    deployment:
+      type: docker
+      image: a11y/electron:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[18] Violation of rule `img_alt_redundant`: Image 'alt' value within a link is repeated in link text of the link after\n        DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[4]/header[1]/div[2]/div[2]/div[1]/a[1]/img[1]\n        ARIA Path: /document[1]/main[1]/article[4]/link[3]/img[1]\n        Code: <img alt=\"VerteDinde\" src=\"https://github.com/VerteDinde.png?size=96\" class=\"avatar__photo authorImage_XqGP\">\n        messageArgs: []\n        apiArgs: []"
+    id: electron-18
+- env:
+    deployment:
+      type: docker
+      image: a11y/electron:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[19] Violation of rule `img_alt_redundant`: Image 'alt' value within a link is repeated in link text of the link after\n        DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[4]/header[1]/div[2]/div[3]/div[1]/a[1]/img[1]\n        ARIA Path: /document[1]/main[1]/article[4]/link[5]/img[1]\n        Code: <img alt=\"dsanders11\" src=\"https://github.com/dsanders11.png?size=96\" class=\"avatar__photo authorImage_XqGP\">\n        messageArgs: []\n        apiArgs: []"
+    id: electron-19
+- env:
+    deployment:
+      type: docker
+      image: a11y/electron:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[20] Violation of rule `img_alt_redundant`: Image 'alt' value within a link is repeated in link text of the link after\n        DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[5]/header[1]/div[2]/div[1]/div[1]/a[1]/img[1]\n        ARIA Path: /document[1]/main[1]/article[5]/link[1]/img[1]\n        Code: <img alt=\"VerteDinde\" src=\"https://github.com/VerteDinde.png?size=96\" class=\"avatar__photo authorImage_XqGP\">\n        messageArgs: []\n        apiArgs: []"
+    id: electron-20
+- env:
+    deployment:
+      type: docker
+      image: a11y/electron:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[21] Violation of rule `element_id_unique`: The <h2> element has the id \"notable-changes\" that is already in use\n        DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[5]/div[1]/h2[1]\n        ARIA Path: /document[1]/main[1]/article[5]/heading[2]\n        Code: <h2 id=\"notable-changes\" class=\"anchor anchorWithStickyNavbar_LWe7\">\n        messageArgs: ['h2', 'notable-changes']\n        apiArgs: []"
+    id: electron-21
+- env:
+    deployment:
+      type: docker
+      image: a11y/electron:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[22] Violation of rule `element_id_unique`: The <h3> element has the id \"stack-changes\" that is already in use\n        DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[5]/div[1]/h3[3]\n        ARIA Path: /document[1]/main[1]/article[5]/heading[5]\n        Code: <h3 id=\"stack-changes\" class=\"anchor anchorWithStickyNavbar_LWe7\">\n        messageArgs: ['h3', 'stack-changes']\n        apiArgs: []"
+    id: electron-22
+- env:
+    deployment:
+      type: docker
+      image: a11y/electron:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[23] Violation of rule `element_id_unique`: The <h3> element has the id \"new-features\" that is already in use\n        DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[5]/div[1]/h3[4]\n        ARIA Path: /document[1]/main[1]/article[5]/heading[6]\n        Code: <h3 id=\"new-features\" class=\"anchor anchorWithStickyNavbar_LWe7\">\n        messageArgs: ['h3', 'new-features']\n        apiArgs: []"
+    id: electron-23
+- env:
+    deployment:
+      type: docker
+      image: a11y/electron:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[24] Violation of rule `element_id_unique`: The <h3> element has the id \"breaking-changes\" that is already in use\n        DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[5]/div[1]/h3[5]\n        ARIA Path: /document[1]/main[1]/article[5]/heading[7]\n        Code: <h3 id=\"breaking-changes\" class=\"anchor anchorWithStickyNavbar_LWe7\">\n        messageArgs: ['h3', 'breaking-changes']\n        apiArgs: []"
+    id: electron-24
+- env:
+    deployment:
+      type: docker
+      image: a11y/electron:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[25] Violation of rule `element_id_unique`: The <h2> element has the id \"whats-next\" that is already in use\n        DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[5]/div[1]/h2[3]\n        ARIA Path: /document[1]/main[1]/article[5]/heading[10]\n        Code: <h2 id=\"whats-next\" class=\"anchor anchorWithStickyNavbar_LWe7\">\n        messageArgs: ['h2', 'whats-next']\n        apiArgs: []"
+    id: electron-25
+- env:
+    deployment:
+      type: docker
+      image: a11y/electron:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[26] Violation of rule `img_alt_redundant`: Image 'alt' value within a link is repeated in link text of the link after\n        DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[6]/header[1]/div[2]/div[1]/div[1]/a[1]/img[1]\n        ARIA Path: /document[1]/main[1]/article[6]/link[1]/img[1]\n        Code: <img alt=\"VerteDinde\" src=\"https://github.com/VerteDinde.png?size=96\" class=\"avatar__photo authorImage_XqGP\">\n        messageArgs: []\n        apiArgs: []"
+    id: electron-26
+- env:
+    deployment:
+      type: docker
+      image: a11y/electron:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[27] Violation of rule `element_id_unique`: The <h3> element has the id \"whats-next\" that is already in use\n        DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[6]/div[1]/h3[4]\n        ARIA Path: /document[1]/main[1]/article[6]/heading[5]\n        Code: <h3 id=\"whats-next\" class=\"anchor anchorWithStickyNavbar_LWe7\">\n        messageArgs: ['h3', 'whats-next']\n        apiArgs: []"
+    id: electron-27
+- env:
+    deployment:
+      type: docker
+      image: a11y/electron:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[28] Violation of rule `img_alt_redundant`: Image 'alt' value within a link is repeated in link text of the link after\n        DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[7]/header[1]/div[2]/div[1]/div[1]/a[1]/img[1]\n        ARIA Path: /document[1]/main[1]/article[7]/link[1]/img[1]\n        Code: <img alt=\"mlaurencin\" src=\"https://github.com/mlaurencin.png?size=96\" class=\"avatar__photo authorImage_XqGP\">\n        messageArgs: []\n        apiArgs: []"
+    id: electron-28
+- env:
+    deployment:
+      type: docker
+      image: a11y/electron:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[29] Violation of rule `frame_title_exists`: Inline frame does not have a 'title' attribute\n        DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[7]/div[1]/div[1]/iframe[1]\n        ARIA Path: /document[1]/main[1]/article[7]\n        Code: <iframe style=\"position: absolute;\" allowfullscreen=\"\" class=\"giphy-embed\" frameborder=\"0\" height=\"100%\" width=\"100%\" src=\"https://giphy.com/embed/3otPoSDQczp1s9kVAQ\">\n        messageArgs: []\n        apiArgs: []"
+    id: electron-29
+- env:
+    deployment:
+      type: docker
+      image: a11y/electron:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[30] Violation of rule `img_alt_redundant`: Image 'alt' value within a link is repeated in link text of the link after\n        DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[8]/header[1]/div[2]/div[1]/div[1]/a[1]/img[1]\n        ARIA Path: /document[1]/main[1]/article[8]/link[1]/img[1]\n        Code: <img alt=\"yangannyx\" src=\"https://github.com/yangannyx.png?size=96\" class=\"avatar__photo authorImage_XqGP\">\n        messageArgs: []\n        apiArgs: []"
+    id: electron-30
+- env:
+    deployment:
+      type: docker
+      image: a11y/electron:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[31] Violation of rule `img_alt_redundant`: Image 'alt' value within a link is repeated in link text of the link after\n        DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[9]/header[1]/div[2]/div[1]/div[1]/a[1]/img[1]\n        ARIA Path: /document[1]/main[1]/article[9]/link[1]/img[1]\n        Code: <img alt=\"ckerr\" src=\"https://github.com/ckerr.png?size=96\" class=\"avatar__photo authorImage_XqGP\">\n        messageArgs: []\n        apiArgs: []"
+    id: electron-31
+- env:
+    deployment:
+      type: docker
+      image: a11y/electron:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[32] Violation of rule `element_id_unique`: The <h2> element has the id \"notable-changes\" that is already in use\n        DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[9]/div[1]/h2[1]\n        ARIA Path: /document[1]/main[1]/article[9]/heading[2]\n        Code: <h2 id=\"notable-changes\" class=\"anchor anchorWithStickyNavbar_LWe7\">\n        messageArgs: ['h2', 'notable-changes']\n        apiArgs: []"
+    id: electron-32
+- env:
+    deployment:
+      type: docker
+      image: a11y/electron:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[33] Violation of rule `element_id_unique`: The <h3> element has the id \"stack-changes\" that is already in use\n        DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[9]/div[1]/h3[2]\n        ARIA Path: /document[1]/main[1]/article[9]/heading[4]\n        Code: <h3 id=\"stack-changes\" class=\"anchor anchorWithStickyNavbar_LWe7\">\n        messageArgs: ['h3', 'stack-changes']\n        apiArgs: []"
+    id: electron-33
+- env:
+    deployment:
+      type: docker
+      image: a11y/electron:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[34] Violation of rule `element_id_unique`: The <h3> element has the id \"new-features\" that is already in use\n        DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[9]/div[1]/h3[3]\n        ARIA Path: /document[1]/main[1]/article[9]/heading[5]\n        Code: <h3 id=\"new-features\" class=\"anchor anchorWithStickyNavbar_LWe7\">\n        messageArgs: ['h3', 'new-features']\n        apiArgs: []"
+    id: electron-34
+- env:
+    deployment:
+      type: docker
+      image: a11y/electron:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[35] Violation of rule `element_id_unique`: The <h3> element has the id \"breaking-changes\" that is already in use\n        DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[9]/div[1]/h3[4]\n        ARIA Path: /document[1]/main[1]/article[9]/heading[6]\n        Code: <h3 id=\"breaking-changes\" class=\"anchor anchorWithStickyNavbar_LWe7\">\n        messageArgs: ['h3', 'breaking-changes']\n        apiArgs: []"
+    id: electron-35
+- env:
+    deployment:
+      type: docker
+      image: a11y/electron:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[36] Violation of rule `element_id_unique`: The <h2> element has the id \"whats-next\" that is already in use\n        DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[9]/div[1]/h2[3]\n        ARIA Path: /document[1]/main[1]/article[9]/heading[14]\n        Code: <h2 id=\"whats-next\" class=\"anchor anchorWithStickyNavbar_LWe7\">\n        messageArgs: ['h2', 'whats-next']\n        apiArgs: []"
+    id: electron-36
+- env:
+    deployment:
+      type: docker
+      image: a11y/electron:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[37] Violation of rule `img_alt_redundant`: Image 'alt' value within a link is repeated in link text of the link after\n        DOM Path: /html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/main[1]/article[10]/header[1]/div[2]/div[1]/div[1]/a[1]/img[1]\n        ARIA Path: /document[1]/main[1]/article[10]/link[1]/img[1]\n        Code: <img alt=\"piotrpdev\" src=\"https://github.com/piotrpdev.png?size=96\" class=\"avatar__photo authorImage_XqGP\">\n        messageArgs: []\n        apiArgs: []"
+    id: electron-37
+- env:
+    deployment:
+      type: docker
+      image: a11y/electron:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[38] Violation of rule `aria_banner_label_unique`: Multiple elements with \"banner\" role do not have unique labels\n        DOM Path: /html[1]/body[1]/div[1]/div[2]\n        ARIA Path: /document[1]/banner[1]\n        Code: <div style=\"background-color: rgb(159, 234, 249); color: rgb(27, 28, 38);\" role=\"banner\" class=\"theme-announcement-bar announcementBar_mb4j\">\n        messageArgs: []\n        apiArgs: []"
+    id: electron-38
+- env:
+    deployment:
+      type: docker
+      image: a11y/electron:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[39] Violation of rule `aria_landmark_name_unique`: Multiple elements with \"banner\" landmarks within the same parent region are not distinguished from one another because they have the same \"\" label\n        DOM Path: /html[1]/body[1]/div[1]/div[2]\n        ARIA Path: /document[1]/banner[1]\n        Code: <div style=\"background-color: rgb(159, 234, 249); color: rgb(27, 28, 38);\" role=\"banner\" class=\"theme-announcement-bar announcementBar_mb4j\">\n        messageArgs: ['banner', '']\n        apiArgs: []"
+    id: electron-39
+- env:
+    deployment:
+      type: docker
+      image: a11y/electron:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[40] Violation of rule `label_name_visible`: Accessible name does not match or contain the visible label text\n        DOM Path: /html[1]/body[1]/div[1]/nav[1]/div[1]/div[2]/div[3]/button[1]\n        ARIA Path: /document[1]/navigation[1]/button[6]\n        Code: <button aria-label=\"Search (Ctrl+K)\" class=\"DocSearch DocSearch-Button\" type=\"button\">\n        messageArgs: []\n        apiArgs: []"
+    id: electron-40
+- env:
+    deployment:
+      type: docker
+      image: a11y/electron:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[41] Violation of rule `aria_banner_label_unique`: Multiple elements with \"banner\" role do not have unique labels\n        DOM Path: /html[1]/body[1]/div[1]/div[3]/header[1]\n        ARIA Path: /document[1]/banner[2]\n        Code: <header class=\"header_src-pages-fiddle-fiddle-module\">\n        messageArgs: []\n        apiArgs: []"
+    id: electron-41
+- env:
+    deployment:
+      type: docker
+      image: a11y/electron:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[42] Violation of rule `aria_landmark_name_unique`: Multiple elements with \"banner\" landmarks within the same parent region are not distinguished from one another because they have the same \"\" label\n        DOM Path: /html[1]/body[1]/div[1]/div[3]/header[1]\n        ARIA Path: /document[1]/banner[2]\n        Code: <header class=\"header_src-pages-fiddle-fiddle-module\">\n        messageArgs: ['banner', '']\n        apiArgs: []"
+    id: electron-42
+- env:
+    deployment:
+      type: docker
+      image: a11y/electron:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[43] Violation of rule `img_alt_valid`: The image has neither an accessible name nor is marked as decorative or redundant\n        DOM Path: /html[1]/body[1]/div[1]/div[3]/header[1]/img[1]\n        ARIA Path: /document[1]/banner[2]/img[1]\n        Code: <img src=\"/assets/fiddle/fiddle.png\" class=\"fiddleHeroScreenshot_src-pages-fiddle-fiddle-module\">\n        messageArgs: []\n        apiArgs: []"
+    id: electron-43
+- env:
+    deployment:
+      type: docker
+      image: a11y/electron:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[44] Violation of rule `img_alt_valid`: The image has neither an accessible name nor is marked as decorative or redundant\n        DOM Path: /html[1]/body[1]/div[1]/div[3]/main[1]/div[1]/div[2]/div[1]/img[1]\n        ARIA Path: /document[1]/main[1]/img[1]\n        Code: <img src=\"/assets/fiddle/explore.png\" class=\"featureImage_src-pages-home-_components-Feature-module\">\n        messageArgs: []\n        apiArgs: []"
+    id: electron-44
+- env:
+    deployment:
+      type: docker
+      image: a11y/electron:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[45] Violation of rule `img_alt_valid`: The image has neither an accessible name nor is marked as decorative or redundant\n        DOM Path: /html[1]/body[1]/div[1]/div[3]/main[1]/div[2]/div[2]/div[1]/img[1]\n        ARIA Path: /document[1]/main[1]/img[2]\n        Code: <img src=\"/assets/fiddle/npm.png\" class=\"featureImage_src-pages-home-_components-Feature-module\">\n        messageArgs: []\n        apiArgs: []"
+    id: electron-45
+- env:
+    deployment:
+      type: docker
+      image: a11y/electron:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[46] Violation of rule `img_alt_valid`: The image has neither an accessible name nor is marked as decorative or redundant\n        DOM Path: /html[1]/body[1]/div[1]/div[3]/main[1]/div[3]/div[2]/div[1]/img[1]\n        ARIA Path: /document[1]/main[1]/img[3]\n        Code: <img src=\"/assets/fiddle/types.png\" class=\"featureImage_src-pages-home-_components-Feature-module\">\n        messageArgs: []\n        apiArgs: []"
+    id: electron-46
+- env:
+    deployment:
+      type: docker
+      image: a11y/electron:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[47] Violation of rule `img_alt_valid`: The image has neither an accessible name nor is marked as decorative or redundant\n        DOM Path: /html[1]/body[1]/div[1]/div[3]/main[1]/div[4]/div[2]/div[1]/img[1]\n        ARIA Path: /document[1]/main[1]/img[4]\n        Code: <img src=\"/assets/fiddle/package.png\" class=\"featureImage_src-pages-home-_components-Feature-module\">\n        messageArgs: []\n        apiArgs: []"
+    id: electron-47
+- env:
+    deployment:
+      type: docker
+      image: a11y/electron:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[48] Violation of rule `img_alt_valid`: The image has neither an accessible name nor is marked as decorative or redundant\n        DOM Path: /html[1]/body[1]/div[1]/div[3]/main[1]/div[5]/div[2]/div[1]/img[1]\n        ARIA Path: /document[1]/main[1]/img[5]\n        Code: <img src=\"/assets/fiddle/export.png\" class=\"featureImage_src-pages-home-_components-Feature-module\">\n        messageArgs: []\n        apiArgs: []"
+    id: electron-48
+- env:
+    deployment:
+      type: docker
+      image: a11y/electron:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[49] Violation of rule `aria_banner_label_unique`: Multiple elements with \"banner\" role do not have unique labels\n        DOM Path: /html[1]/body[1]/div[1]/div[2]\n        ARIA Path: /document[1]/banner[1]\n        Code: <div style=\"background-color: rgb(159, 234, 249); color: rgb(27, 28, 38);\" role=\"banner\" class=\"theme-announcement-bar announcementBar_mb4j\">\n        messageArgs: []\n        apiArgs: []"
+    id: electron-49
+- env:
+    deployment:
+      type: docker
+      image: a11y/electron:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[50] Violation of rule `aria_landmark_name_unique`: Multiple elements with \"banner\" landmarks within the same parent region are not distinguished from one another because they have the same \"\" label\n        DOM Path: /html[1]/body[1]/div[1]/div[2]\n        ARIA Path: /document[1]/banner[1]\n        Code: <div style=\"background-color: rgb(159, 234, 249); color: rgb(27, 28, 38);\" role=\"banner\" class=\"theme-announcement-bar announcementBar_mb4j\">\n        messageArgs: ['banner', '']\n        apiArgs: []"
+    id: electron-50
+- env:
+    deployment:
+      type: docker
+      image: a11y/electron:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[51] Violation of rule `label_name_visible`: Accessible name does not match or contain the visible label text\n        DOM Path: /html[1]/body[1]/div[1]/nav[1]/div[1]/div[2]/div[3]/button[1]\n        ARIA Path: /document[1]/navigation[1]/button[6]\n        Code: <button aria-label=\"Search (Ctrl+K)\" class=\"DocSearch DocSearch-Button\" type=\"button\">\n        messageArgs: []\n        apiArgs: []"
+    id: electron-51
+- env:
+    deployment:
+      type: docker
+      image: a11y/electron:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[52] Violation of rule `aria_banner_label_unique`: Multiple elements with \"banner\" role do not have unique labels\n        DOM Path: /html[1]/body[1]/div[1]/div[3]/header[1]\n        ARIA Path: /document[1]/banner[2]\n        Code: <header class=\"hero hero--primary heroElectron_src-pages-home-_index-module\">\n        messageArgs: []\n        apiArgs: []"
+    id: electron-52
+- env:
+    deployment:
+      type: docker
+      image: a11y/electron:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[53] Violation of rule `aria_landmark_name_unique`: Multiple elements with \"banner\" landmarks within the same parent region are not distinguished from one another because they have the same \"\" label\n        DOM Path: /html[1]/body[1]/div[1]/div[3]/header[1]\n        ARIA Path: /document[1]/banner[2]\n        Code: <header class=\"hero hero--primary heroElectron_src-pages-home-_index-module\">\n        messageArgs: ['banner', '']\n        apiArgs: []"
+    id: electron-53
