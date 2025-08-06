@@ -20,7 +20,7 @@ def convert_txt_to_structured_yaml(input_path, output_path):
             'env': {
                 'deployment': {
                     'type': 'docker',
-                    'image': 'a11y/typescript-website:latest'
+                    'image': 'a11y/tailwindcss:latest'
                 },
                 'repo': {
                     'type': 'preexisting',
@@ -30,7 +30,7 @@ def convert_txt_to_structured_yaml(input_path, output_path):
             'problem_statement': {
                 'type': 'text',
                 'text': f"{formatted_text}",
-                'id': f"typescript-website-tools-{idx:02d}"
+                'id': f"tailwindcss-{idx:02d}"
             }
         }
         output_data.append(item)
@@ -51,6 +51,6 @@ def convert_txt_to_structured_yaml(input_path, output_path):
 
 
 convert_txt_to_structured_yaml(
-    input_path="./problem_statement_typescript_tools.txt",
-    output_path="single_instance_expert_typescript_tools.yaml"
+    input_path="./problem_statement_tailwindcss.txt",
+    output_path="single_instance_expert_tailwindcss.yaml"
 )

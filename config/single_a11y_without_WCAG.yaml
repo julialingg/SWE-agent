@@ -19,7 +19,7 @@ agent:
 
       Note on problem format:
       - `DOM Path` refers to the element's location in the HTML structure.
-      - `ARIA Path` refers to the element’s representation in the accessibility tree (how screen readers see it).
+      - `ARIA Path` refers to the element's representation in the accessibility tree (how screen readers see it).
       - `Code` provides the HTML or JSX snippet that contains the issue.
       - Use these references to locate the faulty component in the codebase precisely.
 
@@ -28,7 +28,7 @@ agent:
 
 
       Can you help me implement the necessary changes to the frontend codebase so that the accessibility issue described in the <pr_description> are properly fixed?
-      You DON'T need to modify any test files, even if they are mentioned in the <pr_description>. Your task is to make the **minimal but sufficient changes** to the non-test files in the `{{working_dir}}` directory to ensure the described accessibility requirements are satisfied.
+      You DON'T need to modify any test files or any files in node_modules, even if they are mentioned in the <pr_description>. Your task is to make the **minimal but sufficient changes** to the non-test files in the `{{working_dir}}` directory to ensure the described accessibility requirements are satisfied.
       Keep in mind that fully resolving the accessibility issue may require changes across multiple files, not just a single file in one component.
       
       Follow this process to reason and act:

@@ -1,0 +1,382 @@
+[1] Violation of rule `svg_graphics_labelled`: The SVG element has no accessible name
+  DOM Path: /html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/svg[1]
+  ARIA Path: /document[1]/link[1]/graphics-document[1]
+  Code: <svg class="h-5 text-black dark:text-white" fill="none" viewBox="0 0 167 21">
+  messageArgs: []
+  apiArgs: []
+
+
+[2] Violation of rule `svg_graphics_labelled`: The SVG element has no accessible name
+  DOM Path: /html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/button[1]/svg[1]
+  ARIA Path: /document[1]/button[2]
+  Code: <svg class="-ml-0.5 size-4 fill-gray-600 dark:fill-gray-500" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+  messageArgs: []
+  apiArgs: []
+
+
+[3] Violation of rule `svg_graphics_labelled`: The SVG element has no accessible name
+  DOM Path: /html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/a[5]/svg[1]
+  ARIA Path: /document[1]/link[6]/graphics-document[1]
+  Code: <svg class="absolute top-[-2px] left-[-2px] fill-sky-300 dark:fill-sky-300/50" viewBox="0 0 5 5" height="5" width="5">
+  messageArgs: []
+  apiArgs: []
+
+
+[4] Violation of rule `svg_graphics_labelled`: The SVG element has no accessible name
+  DOM Path: /html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/a[5]/svg[2]
+  ARIA Path: /document[1]/link[6]/graphics-document[2]
+  Code: <svg class="absolute top-[-2px] right-[-2px] fill-sky-300 dark:fill-sky-300/50" viewBox="0 0 5 5" height="5" width="5">
+  messageArgs: []
+  apiArgs: []
+
+
+[5] Violation of rule `svg_graphics_labelled`: The SVG element has no accessible name
+  DOM Path: /html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/a[5]/svg[3]
+  ARIA Path: /document[1]/link[6]/graphics-document[3]
+  Code: <svg class="absolute bottom-[-2px] left-[-2px] fill-sky-300 dark:fill-sky-300/50" viewBox="0 0 5 5" height="5" width="5">
+  messageArgs: []
+  apiArgs: []
+
+
+[6] Violation of rule `svg_graphics_labelled`: The SVG element has no accessible name
+  DOM Path: /html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/a[5]/svg[4]
+  ARIA Path: /document[1]/link[6]/graphics-document[4]
+  Code: <svg class="absolute right-[-2px] bottom-[-2px] fill-sky-300 dark:fill-sky-300/50" viewBox="0 0 5 5" height="5" width="5">
+  messageArgs: []
+  apiArgs: []
+
+
+[7] Violation of rule `svg_graphics_labelled`: The SVG element has no accessible name
+  DOM Path: /html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/a[6]/svg[1]
+  ARIA Path: /document[1]/link[7]/graphics-document[1]
+  Code: <svg class="size-5 fill-black/40 dark:fill-gray-400" viewBox="0 0 20 20">
+  messageArgs: []
+  apiArgs: []
+
+
+[8] Violation of rule `aria_id_unique`: The 'id' "nextjs-dev-tools-menu" specified for the ARIA property 'aria-controls' value is not valid
+  DOM Path: /html[1]/body[1]/nextjs-portal[1]/#document-fragment[1]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]
+  ARIA Path: /document[1]/button[5]
+  Code: <button data-nextjs-dev-tools-button="true" aria-label="Open Next.js Dev Tools" aria-controls="nextjs-dev-tools-menu" aria-expanded="false" aria-haspopup="menu" data-next-mark-loading="false" data-next-mark="true">
+  messageArgs: ['nextjs-dev-tools-menu', 'aria-controls', 'button']
+  apiArgs: []
+
+
+[9] Violation of rule `aria_id_unique`: The 'id' "nextjs-dev-tools-menu" specified for the ARIA property 'aria-controls' value is not valid
+  DOM Path: /html[1]/body[1]/nextjs-portal[1]/#document-fragment[1]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]
+  ARIA Path: /document[1]/button[6]
+  Code: <button data-nextjs-dev-tools-button="true" aria-label="Open Next.js Dev Tools" aria-controls="nextjs-dev-tools-menu" aria-expanded="false" aria-haspopup="menu" data-next-mark-loading="false" data-next-mark="true">
+  messageArgs: ['nextjs-dev-tools-menu', 'aria-controls', 'button']
+  apiArgs: []
+
+
+[10] Violation of rule `a_text_purpose`: Hyperlink has no link text, label or image with a text alternative
+  DOM Path: /html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[1]/div[4]/div[2]/a[1]
+  ARIA Path: /document[1]/link[9]
+  Code: <a class="absolute inset-0 z-10" rel="noopener noreferrer" target="_blank" href="https://polar.sh">
+  messageArgs: []
+  apiArgs: []
+
+
+[11] Violation of rule `a_text_purpose`: Hyperlink has no link text, label or image with a text alternative
+  DOM Path: /html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[1]/div[4]/div[3]/a[1]
+  ARIA Path: /document[1]/link[10]
+  Code: <a class="absolute inset-0 z-10" rel="noopener noreferrer" target="_blank" href="https://cal.com">
+  messageArgs: []
+  apiArgs: []
+
+
+[12] Violation of rule `a_text_purpose`: Hyperlink has no link text, label or image with a text alternative
+  DOM Path: /html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[1]/div[4]/div[4]/a[1]
+  ARIA Path: /document[1]/link[11]
+  Code: <a class="absolute inset-0 z-10" rel="noopener noreferrer" target="_blank" href="https://namespace.so/">
+  messageArgs: []
+  apiArgs: []
+
+
+[13] Violation of rule `a_text_purpose`: Hyperlink has no link text, label or image with a text alternative
+  DOM Path: /html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[1]/div[4]/div[5]/a[1]
+  ARIA Path: /document[1]/link[12]
+  Code: <a class="absolute inset-0 z-10" rel="noopener noreferrer" target="_blank" href="https://tiptap.dev">
+  messageArgs: []
+  apiArgs: []
+
+
+[14] Violation of rule `a_text_purpose`: Hyperlink has no link text, label or image with a text alternative
+  DOM Path: /html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[1]/div[4]/div[6]/a[1]
+  ARIA Path: /document[1]/link[13]
+  Code: <a class="absolute inset-0 z-10" rel="noopener noreferrer" target="_blank" href="https://mux.com/">
+  messageArgs: []
+  apiArgs: []
+
+
+[15] Violation of rule `a_text_purpose`: Hyperlink has no link text, label or image with a text alternative
+  DOM Path: /html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[1]/div[4]/div[7]/a[1]
+  ARIA Path: /document[1]/link[14]
+  Code: <a class="absolute inset-0 z-10" rel="noopener noreferrer" target="_blank" href="https://bentonow.com/">
+  messageArgs: []
+  apiArgs: []
+
+
+[16] Violation of rule `a_text_purpose`: Hyperlink has no link text, label or image with a text alternative
+  DOM Path: /html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[1]/div[4]/div[8]/a[1]
+  ARIA Path: /document[1]/link[15]
+  Code: <a class="absolute inset-0 z-10" rel="noopener noreferrer" target="_blank" href="https://openai.com">
+  messageArgs: []
+  apiArgs: []
+
+
+[17] Violation of rule `a_text_purpose`: Hyperlink has no link text, label or image with a text alternative
+  DOM Path: /html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[1]/div[4]/div[9]/a[1]
+  ARIA Path: /document[1]/link[16]
+  Code: <a class="absolute inset-0 z-10" rel="noopener noreferrer" target="_blank" href="https://shopify.com">
+  messageArgs: []
+  apiArgs: []
+
+
+[18] Violation of rule `a_text_purpose`: Hyperlink has no link text, label or image with a text alternative
+  DOM Path: /html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[1]/div[4]/div[10]/a[1]
+  ARIA Path: /document[1]/link[17]
+  Code: <a class="absolute inset-0 z-10" rel="noopener noreferrer" target="_blank" href="https://wealthfront.com">
+  messageArgs: []
+  apiArgs: []
+
+
+[19] Violation of rule `a_text_purpose`: Hyperlink has no link text, label or image with a text alternative
+  DOM Path: /html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[1]/div[4]/div[11]/a[1]
+  ARIA Path: /document[1]/link[18]
+  Code: <a class="absolute inset-0 z-10" rel="noopener noreferrer" target="_blank" href="https://www.loom.com">
+  messageArgs: []
+  apiArgs: []
+
+
+[20] Violation of rule `a_text_purpose`: Hyperlink has no link text, label or image with a text alternative
+  DOM Path: /html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[1]/div[4]/div[12]/a[1]
+  ARIA Path: /document[1]/link[19]
+  Code: <a class="absolute inset-0 z-10" rel="noopener noreferrer" target="_blank" href="https://www.theverge.com">
+  messageArgs: []
+  apiArgs: []
+
+
+[21] Violation of rule `a_text_purpose`: Hyperlink has no link text, label or image with a text alternative
+  DOM Path: /html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[1]/div[4]/div[13]/a[1]
+  ARIA Path: /document[1]/link[20]
+  Code: <a class="absolute inset-0 z-10" rel="noopener noreferrer" target="_blank" href="https://laracon.us">
+  messageArgs: []
+  apiArgs: []
+
+
+[22] Violation of rule `a_text_purpose`: Hyperlink has no link text, label or image with a text alternative
+  DOM Path: /html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[1]/div[4]/div[14]/a[1]
+  ARIA Path: /document[1]/link[21]
+  Code: <a class="absolute inset-0 z-10" rel="noopener noreferrer" target="_blank" href="https://turbo.build">
+  messageArgs: []
+  apiArgs: []
+
+
+[23] Violation of rule `a_text_purpose`: Hyperlink has no link text, label or image with a text alternative
+  DOM Path: /html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[1]/div[4]/div[15]/a[1]
+  ARIA Path: /document[1]/link[22]
+  Code: <a class="absolute inset-0 z-10" rel="noopener noreferrer" target="_blank" href="https://candycode.com">
+  messageArgs: []
+  apiArgs: []
+
+
+[24] Violation of rule `aria_attribute_valid`: The ARIA attributes "aria-label" are not valid for the element <p> with implicit ARIA role "paragraph"
+  DOM Path: /html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[1]/div[4]/div[27]/div[2]/div[1]/p[1]
+  ARIA Path: /document[1]/paragraph[28]
+  Code: <p class="ml-2 rounded-full border border-transparent bg-sky-100 px-1.5 text-[0.6875rem] leading-5 font-semibold text-sky-500 dark:bg-gray-600/50 dark:text-gray-200 dark:group-hover:bg-sky-500 dark:group-hover:text-white" aria-label="This site is a Tailwind Plus template">
+  messageArgs: ['aria-label', 'p', 'paragraph']
+  apiArgs: []
+
+
+[25] Violation of rule `aria_attribute_valid`: The ARIA attributes "aria-label" are not valid for the element <p> with implicit ARIA role "paragraph"
+  DOM Path: /html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[1]/div[4]/div[30]/div[2]/div[1]/p[1]
+  ARIA Path: /document[1]/paragraph[32]
+  Code: <p class="ml-2 rounded-full border border-transparent bg-sky-100 px-1.5 text-[0.6875rem] leading-5 font-semibold text-sky-500 dark:bg-gray-600/50 dark:text-gray-200 dark:group-hover:bg-sky-500 dark:group-hover:text-white" aria-label="This site is a Tailwind Plus template">
+  messageArgs: ['aria-label', 'p', 'paragraph']
+  apiArgs: []
+
+
+[26] Violation of rule `aria_attribute_valid`: The ARIA attributes "aria-label" are not valid for the element <p> with implicit ARIA role "paragraph"
+  DOM Path: /html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[1]/div[4]/div[32]/div[2]/div[1]/p[1]
+  ARIA Path: /document[1]/paragraph[35]
+  Code: <p class="ml-2 rounded-full border border-transparent bg-sky-100 px-1.5 text-[0.6875rem] leading-5 font-semibold text-sky-500 dark:bg-gray-600/50 dark:text-gray-200 dark:group-hover:bg-sky-500 dark:group-hover:text-white" aria-label="This site is a Tailwind Plus template">
+  messageArgs: ['aria-label', 'p', 'paragraph']
+  apiArgs: []
+
+
+[27] Violation of rule `aria_attribute_valid`: The ARIA attributes "aria-label" are not valid for the element <p> with implicit ARIA role "paragraph"
+  DOM Path: /html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[1]/div[4]/div[34]/div[2]/div[1]/p[1]
+  ARIA Path: /document[1]/paragraph[38]
+  Code: <p class="ml-2 rounded-full border border-transparent bg-sky-100 px-1.5 text-[0.6875rem] leading-5 font-semibold text-sky-500 dark:bg-gray-600/50 dark:text-gray-200 dark:group-hover:bg-sky-500 dark:group-hover:text-white" aria-label="This site is a Tailwind Plus template">
+  messageArgs: ['aria-label', 'p', 'paragraph']
+  apiArgs: []
+
+
+[28] Violation of rule `aria_attribute_valid`: The ARIA attributes "aria-label" are not valid for the element <p> with implicit ARIA role "paragraph"
+  DOM Path: /html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[1]/div[4]/div[36]/div[2]/div[1]/p[1]
+  ARIA Path: /document[1]/paragraph[41]
+  Code: <p class="ml-2 rounded-full border border-transparent bg-sky-100 px-1.5 text-[0.6875rem] leading-5 font-semibold text-sky-500 dark:bg-gray-600/50 dark:text-gray-200 dark:group-hover:bg-sky-500 dark:group-hover:text-white" aria-label="This site is a Tailwind Plus template">
+  messageArgs: ['aria-label', 'p', 'paragraph']
+  apiArgs: []
+
+
+[29] Violation of rule `aria_attribute_valid`: The ARIA attributes "aria-label" are not valid for the element <p> with implicit ARIA role "paragraph"
+  DOM Path: /html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[1]/div[4]/div[38]/div[2]/div[1]/p[1]
+  ARIA Path: /document[1]/paragraph[44]
+  Code: <p class="ml-2 rounded-full border border-transparent bg-sky-100 px-1.5 text-[0.6875rem] leading-5 font-semibold text-sky-500 dark:bg-gray-600/50 dark:text-gray-200 dark:group-hover:bg-sky-500 dark:group-hover:text-white" aria-label="This site is a Tailwind Plus template">
+  messageArgs: ['aria-label', 'p', 'paragraph']
+  apiArgs: []
+
+
+[30] Violation of rule `aria_attribute_valid`: The ARIA attributes "aria-label" are not valid for the element <p> with implicit ARIA role "paragraph"
+  DOM Path: /html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[1]/div[4]/div[41]/div[2]/div[1]/p[1]
+  ARIA Path: /document[1]/paragraph[48]
+  Code: <p class="ml-2 rounded-full border border-transparent bg-sky-100 px-1.5 text-[0.6875rem] leading-5 font-semibold text-sky-500 dark:bg-gray-600/50 dark:text-gray-200 dark:group-hover:bg-sky-500 dark:group-hover:text-white" aria-label="This site is a Tailwind Plus template">
+  messageArgs: ['aria-label', 'p', 'paragraph']
+  apiArgs: []
+
+
+[31] Violation of rule `aria_id_unique`: The 'id' "nextjs-dev-tools-menu" specified for the ARIA property 'aria-controls' value is not valid
+  DOM Path: /html[1]/body[1]/nextjs-portal[1]/#document-fragment[1]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]
+  ARIA Path: /document[1]/button[5]
+  Code: <button data-nextjs-dev-tools-button="true" aria-label="Open Next.js Dev Tools" aria-controls="nextjs-dev-tools-menu" aria-expanded="false" aria-haspopup="menu" data-next-mark-loading="false" data-next-mark="true">
+  messageArgs: ['nextjs-dev-tools-menu', 'aria-controls', 'button']
+  apiArgs: []
+
+
+[32] Violation of rule `skip_main_exists`: The page does not provide a way to quickly navigate to the main content (ARIA "main" landmark or a skip link)
+  DOM Path: /html[1]/body[1]
+  ARIA Path: /document[1]
+  Code: <body>
+  messageArgs: []
+  apiArgs: []
+
+
+[33] Violation of rule `text_contrast_sufficient`: Text contrast of 2.94 with its background is less than the WCAG AA minimum requirements for text of size 12px and weight of 500
+  DOM Path: /html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[1]/div[2]/div[3]/div[2]/p[1]
+  ARIA Path: /document[1]/paragraph[13]
+  Code: <p class="absolute right-4 bottom-4 flex items-center gap-2 rounded-full border border-white/20 bg-black/80 pr-4 pl-2 font-mono text-xs/7 font-medium text-white outline outline-black backdrop-blur-sm lg:right-6 lg:bottom-6">
+  messageArgs: ['2.94', 12, 500, '#ffffff', '#f66969', False, False]
+  apiArgs: []
+
+
+[34] Violation of rule `aria_id_unique`: The 'id' "nextjs-dev-tools-menu" specified for the ARIA property 'aria-controls' value is not valid
+  DOM Path: /html[1]/body[1]/nextjs-portal[1]/#document-fragment[1]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]
+  ARIA Path: /document[1]/button[5]
+  Code: <button data-nextjs-dev-tools-button="true" aria-label="Open Next.js Dev Tools" aria-controls="nextjs-dev-tools-menu" aria-expanded="false" aria-haspopup="menu" data-next-mark-loading="false" data-next-mark="true">
+  messageArgs: ['nextjs-dev-tools-menu', 'aria-controls', 'button']
+  apiArgs: []
+
+
+[35] Violation of rule `aria_attribute_valid`: The ARIA attributes "aria-label" are not valid for the element <div> with implicit ARIA role "generic"
+  DOM Path: /html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[4]/div[6]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]
+  ARIA Path: /document[1]/generic[8]
+  Code: <div data-scroll-anchor="true" class="isolate flex flex-col overflow-hidden rounded-lg bg-white/10 dark:bg-white/5 inset-ring inset-ring-white/5 min-h-0 flex-1 max-lg:max-h-76" aria-label="panel, HTML editor, animated">
+  messageArgs: ['aria-label', 'div', 'generic']
+  apiArgs: []
+
+
+[36] Violation of rule `aria_attribute_valid`: The ARIA attributes "aria-label" are not valid for the element <div> with ARIA role "presentation"
+  DOM Path: /html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[4]/div[6]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]
+  ARIA Path: /document[1]/generic[8]
+  Code: <div aria-label="Tab Bar" role="presentation" class="sticky top-0 left-0 z-10 col-start-1 row-start-1 mb-px flex items-center gap-2 border-b border-b-white/5 bg-white/2.5 bg-clip-padding p-1 text-white backdrop-blur-lg">
+  messageArgs: ['aria-label', 'div', 'presentation']
+  apiArgs: []
+
+
+[37] Violation of rule `aria_role_valid`: The ARIA role 'presentation' is not valid for the element <button> and may be ignored by the browser since the element is focusable
+  DOM Path: /html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[4]/div[6]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/button[1]
+  ARIA Path: /document[1]/generic[8]/button[1]
+  Code: <button aria-selected="true" role="presentation" class="isolate rounded-sm px-2 py-1 text-xs/5 text-white inset-ring-white/5 hover:bg-white/10 aria-selected:bg-white/10 aria-selected:inset-ring group-data-modified:italic">
+  messageArgs: ['presentation', 'button']
+  apiArgs: []
+
+
+[38] Violation of rule `aria_role_valid`: The ARIA role 'presentation' is not valid for the element <button> and may be ignored by the browser since the element is focusable
+  DOM Path: /html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[4]/div[6]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/button[2]
+  ARIA Path: /document[1]/generic[8]/button[2]
+  Code: <button role="presentation" class="isolate rounded-sm px-2 py-1 text-xs/5 text-white inset-ring-white/5 hover:bg-white/10 aria-selected:bg-white/10 aria-selected:inset-ring">
+  messageArgs: ['presentation', 'button']
+  apiArgs: []
+
+
+[39] Violation of rule `aria_role_valid`: The ARIA role 'presentation' is not valid for the element <button> and may be ignored by the browser since the element is focusable
+  DOM Path: /html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[4]/div[6]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/button[3]
+  ARIA Path: /document[1]/generic[8]/button[3]
+  Code: <button role="presentation" class="isolate rounded-sm px-2 py-1 text-xs/5 text-white inset-ring-white/5 hover:bg-white/10 aria-selected:bg-white/10 aria-selected:inset-ring italic">
+  messageArgs: ['presentation', 'button']
+  apiArgs: []
+
+
+[40] Violation of rule `aria_attribute_valid`: The ARIA attributes "aria-label" are not valid for the element <div> with implicit ARIA role "generic"
+  DOM Path: /html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[4]/div[6]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]
+  ARIA Path: /document[1]/generic[8]/generic[1]
+  Code: <div class="*:flex *:*:max-w-none *:*:shrink-0 *:*:grow *:rounded-lg *:px-3 *:py-2 **:[.line]:isolate **:[.line]:block **:[.line]:not-last:min-h-[1lh] **:[code]:pr-4 **:[code]:w-full **:[pre]:w-full **:[pre]:whitespace-pre-wrap text-[0.8125rem]/[1.5rem] with-line-numbers" aria-label="editor, readonly, html file">
+  messageArgs: ['aria-label', 'div', 'generic']
+  apiArgs: []
+
+
+[41] Violation of rule `aria_attribute_valid`: The ARIA attributes "aria-label" are not valid for the element <div> with implicit ARIA role "generic"
+  DOM Path: /html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[4]/div[6]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]
+  ARIA Path: /document[1]/generic[9]
+  Code: <div data-scroll-anchor="true" class="isolate flex flex-col overflow-hidden rounded-lg bg-white/10 dark:bg-white/5 inset-ring inset-ring-white/5 h-32 shrink-0 lg:h-46" aria-label="panel, terminal, animated">
+  messageArgs: ['aria-label', 'div', 'generic']
+  apiArgs: []
+
+
+[42] Violation of rule `aria_attribute_valid`: The ARIA attributes "aria-label" are not valid for the element <div> with ARIA role "presentation"
+  DOM Path: /html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[4]/div[6]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]
+  ARIA Path: /document[1]/generic[9]
+  Code: <div aria-label="Tab Bar" role="presentation" class="sticky top-0 left-0 z-10 col-start-1 row-start-1 mb-px flex items-center gap-2 border-b border-b-white/5 bg-white/2.5 bg-clip-padding p-1 text-white backdrop-blur-lg">
+  messageArgs: ['aria-label', 'div', 'presentation']
+  apiArgs: []
+
+
+[43] Violation of rule `aria_role_valid`: The ARIA role 'presentation' is not valid for the element <button> and may be ignored by the browser since the element is focusable
+  DOM Path: /html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[4]/div[6]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/button[1]
+  ARIA Path: /document[1]/generic[9]/button[1]
+  Code: <button aria-selected="true" role="presentation" class="isolate rounded-sm px-2 py-1 text-xs/5 text-white inset-ring-white/5 hover:bg-white/10 aria-selected:bg-white/10 aria-selected:inset-ring">
+  messageArgs: ['presentation', 'button']
+  apiArgs: []
+
+
+[44] Violation of rule `aria_attribute_valid`: The ARIA attributes "aria-label" are not valid for the element <div> with implicit ARIA role "generic"
+  DOM Path: /html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[4]/div[6]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]
+  ARIA Path: /document[1]/generic[10]
+  Code: <div data-scroll-anchor="true" class="isolate flex flex-col overflow-hidden rounded-lg bg-white/10 dark:bg-white/5 inset-ring inset-ring-white/5 h-full" aria-label="panel, built CSS, animated">
+  messageArgs: ['aria-label', 'div', 'generic']
+  apiArgs: []
+
+
+[45] Violation of rule `aria_attribute_valid`: The ARIA attributes "aria-label" are not valid for the element <div> with ARIA role "presentation"
+  DOM Path: /html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[4]/div[6]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]
+  ARIA Path: /document[1]/generic[10]
+  Code: <div aria-label="Tab Bar" role="presentation" class="sticky top-0 left-0 z-10 col-start-1 row-start-1 mb-px flex items-center gap-2 border-b border-b-white/5 bg-white/2.5 bg-clip-padding p-1 text-white backdrop-blur-lg">
+  messageArgs: ['aria-label', 'div', 'presentation']
+  apiArgs: []
+
+
+[46] Violation of rule `aria_role_valid`: The ARIA role 'presentation' is not valid for the element <button> and may be ignored by the browser since the element is focusable
+  DOM Path: /html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[4]/div[6]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/button[1]
+  ARIA Path: /document[1]/generic[10]/button[1]
+  Code: <button aria-selected="true" role="presentation" class="isolate rounded-sm px-2 py-1 text-xs/5 text-white inset-ring-white/5 hover:bg-white/10 aria-selected:bg-white/10 aria-selected:inset-ring">
+  messageArgs: ['presentation', 'button']
+  apiArgs: []
+
+
+[47] Violation of rule `aria_attribute_valid`: The ARIA attributes "aria-label" are not valid for the element <div> with implicit ARIA role "generic"
+  DOM Path: /html[1]/body[1]/div[2]/div[1]/div[2]/div[2]/div[4]/div[6]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[2]
+  ARIA Path: /document[1]/generic[10]/generic[1]
+  Code: <div class="opacity-0 group-data-finished:opacity-100 group-data-running:opacity-100 *:flex *:*:max-w-none *:*:shrink-0 *:*:grow *:rounded-lg *:px-4 *:py-2 **:[.line]:isolate **:[.line]:block **:[.line]:not-last:min-h-[1lh] **:[code]:pr-4 **:[code]:w-full **:[pre]:w-full **:[pre]:whitespace-pre-wrap text-[0.8125rem]/[1.5rem] with-line-numbers" aria-label="editor, readonly, built CSS">
+  messageArgs: ['aria-label', 'div', 'generic']
+  apiArgs: []
+
+
+[48] Violation of rule `aria_id_unique`: The 'id' "nextjs-dev-tools-menu" specified for the ARIA property 'aria-controls' value is not valid
+  DOM Path: /html[1]/body[1]/nextjs-portal[1]/#document-fragment[1]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]
+  ARIA Path: /document[1]/button[8]
+  Code: <button data-nextjs-dev-tools-button="true" aria-label="Open Next.js Dev Tools" aria-controls="nextjs-dev-tools-menu" aria-expanded="false" aria-haspopup="menu" data-next-mark-loading="false" data-next-mark="true">
+  messageArgs: ['nextjs-dev-tools-menu', 'aria-controls', 'button']
+  apiArgs: []

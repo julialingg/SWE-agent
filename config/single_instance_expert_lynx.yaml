@@ -1,0 +1,320 @@
+- env:
+    deployment:
+      type: docker
+      image: a11y/lynx:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[1] Violation of rule `input_label_exists`: Form control element <button> has no associated label\n        DOM Path: /html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/button[1]\n        ARIA Path: /document[1]/button[1]\n        Code: <button data-state=\"closed\" aria-expanded=\"false\" aria-haspopup=\"menu\" id=\"radix-:r0:\" class=\"sh-flex sh-items-center sh-rounded-md sh-px-1.5 sh-py-2 sh-text-sm sh-text-foreground hover:sh-bg-accent -sh-ml-1 -sh-mb-1\" type=\"button\">\n        messageArgs: ['button']\n        apiArgs: []"
+    id: lynx-01
+- env:
+    deployment:
+      type: docker
+      image: a11y/lynx:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[2] Violation of rule `a_text_purpose`: Hyperlink has no link text, label or image with a text alternative\n        DOM Path: /html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[3]/div[3]/div[1]/a[1]\n        ARIA Path: /document[1]/link[8]\n        Code: <a class=\"social-links\" rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://github.com/lynx-family\">\n        messageArgs: []\n        apiArgs: []"
+    id: lynx-02
+- env:
+    deployment:
+      type: docker
+      image: a11y/lynx:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[3] Violation of rule `a_text_purpose`: Hyperlink has no link text, label or image with a text alternative\n        DOM Path: /html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[3]/div[3]/div[1]/a[2]\n        ARIA Path: /document[1]/link[9]\n        Code: <a class=\"social-links\" rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://discord.gg/mXk7jqdDXk\">\n        messageArgs: []\n        apiArgs: []"
+    id: lynx-03
+- env:
+    deployment:
+      type: docker
+      image: a11y/lynx:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[4] Violation of rule `a_text_purpose`: Hyperlink has no link text, label or image with a text alternative\n        DOM Path: /html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[3]/div[3]/div[1]/a[3]\n        ARIA Path: /document[1]/link[10]\n        Code: <a class=\"social-links\" rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://x.com/lynxjs_org\">\n        messageArgs: []\n        apiArgs: []"
+    id: lynx-04
+- env:
+    deployment:
+      type: docker
+      image: a11y/lynx:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[5] Violation of rule `aria_complementary_labelled`: Element with \"complementary\" role does not have a label\n        DOM Path: /html[1]/body[1]/div[1]/section[1]/div[1]/aside[1]\n        ARIA Path: /document[1]/complementary[1]\n        Code: <aside class=\"sidebar_dd719 rspress-sidebar \">\n        messageArgs: []\n        apiArgs: []"
+    id: lynx-05
+- env:
+    deployment:
+      type: docker
+      image: a11y/lynx:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[6] Violation of rule `element_id_unique`: The <img> element has the id \"logo\" that is already in use\n        DOM Path: /html[1]/body[1]/div[1]/section[1]/div[1]/aside[1]/div[1]/div[1]/a[1]/div[1]/img[1]\n        ARIA Path: /document[1]/complementary[1]/link[1]/img[1]\n        Code: <img class=\"rspress-logo dark:rp-hidden\" id=\"logo\" alt=\"logo\" src=\"https://lf-lynx.tiktok-cdns.com/obj/lynx-artifacts-oss-sg/lynx-website/assets/lynx-dark-logo.svg\">\n        messageArgs: ['img', 'logo']\n        apiArgs: []"
+    id: lynx-06
+- env:
+    deployment:
+      type: docker
+      image: a11y/lynx:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[7] Violation of rule `aria_navigation_label_unique`: Multiple elements with \"navigation\" role do not have unique labels\n        DOM Path: /html[1]/body[1]/div[1]/section[1]/div[1]/aside[1]/div[2]/nav[1]\n        ARIA Path: /document[1]/complementary[1]/navigation[1]\n        Code: <nav class=\"rp-pb-2\">\n        messageArgs: []\n        apiArgs: []"
+    id: lynx-07
+- env:
+    deployment:
+      type: docker
+      image: a11y/lynx:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[8] Violation of rule `aria_id_unique`: The 'id' \"radix-:r2:\" specified for the ARIA property 'aria-controls' value is not valid\n        DOM Path: /html[1]/body[1]/div[1]/section[1]/div[1]/aside[1]/div[2]/nav[1]/div[1]/div[2]/button[1]\n        ARIA Path: /document[1]/complementary[1]/navigation[1]/combobox[1]\n        Code: <button class=\"sh-flex sh-h-10 sh-w-full sh-items-center sh-justify-between sh-rounded-md sh-border sh-border-input sh-bg-background sh-px-3 sh-py-2 sh-text-sm sh-ring-offset-background placeholder:sh-text-muted-foreground focus:sh-outline-none focus:sh-ring-2 focus:sh-ring-ring focus:sh-ring-offset-2 disabled:sh-cursor-not-allowed disabled:sh-opacity-50 [&>span]:sh-line-clamp-1 sh-h-auto sh-border-0 sh-bg-transparent sh-px-4 sh-py-2 sh-shadow-none [&>span]:sh-flex [&>span]:sh-flex-1 sh-relative before:sh-pointer-events-none before:sh-absolute before:sh-inset-0 before:sh-size-full before:sh-rounded-md before:sh-p-[1px] before:sh-will-change-[background-position]\
+      \ before:sh-content-[''] before:sh-[-webkit-mask-composite:xor] before:sh-[mask-composite:exclude] before:sh-bg-shine before:sh-bg-[length:300%_300%] before:[mask:linear-gradient(white_0_0)_content-box,linear-gradient(white_0_0)] before:sh-opacity-0 hover:before:sh-opacity-100 before:sh-transition-opacity before:sh-duration-300 hover:motion-safe:before:sh-animate-shine sh-transition-all hover:sh-shadow-[0_0_12px_-3px_var(--rp-c-brand)] hover:sh-translate-y-[-1px]\" data-state=\"closed\" dir=\"ltr\" aria-autocomplete=\"none\" aria-expanded=\"false\" aria-controls=\"radix-:r2:\" role=\"combobox\" type=\"button\">\n        messageArgs: ['radix-:r2:', 'aria-controls', 'button']\n        apiArgs: []"
+    id: lynx-08
+- env:
+    deployment:
+      type: docker
+      image: a11y/lynx:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[9] Violation of rule `aria_hidden_nontabbable`: Element \"a\" should not be focusable within the subtree of an element with an 'aria-hidden' attribute with value 'true'\n        DOM Path: /html[1]/body[1]/div[1]/section[1]/div[1]/div[1]/div[2]/div[1]/div[1]/h1[1]/a[1]\n        ARIA Path: /document[1]/heading[1]/link[1]\n        Code: <a href=\"#cli\" aria-hidden=\"true\" class=\"link_a7cea header-anchor link_a9ef4 inline-link_f855c\">\n        messageArgs: ['a']\n        apiArgs: []"
+    id: lynx-09
+- env:
+    deployment:
+      type: docker
+      image: a11y/lynx:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[10] Violation of rule `aria_hidden_nontabbable`: Element \"a\" should not be focusable within the subtree of an element with an 'aria-hidden' attribute with value 'true'\n        DOM Path: /html[1]/body[1]/div[1]/section[1]/div[1]/div[1]/div[2]/div[1]/div[1]/h2[1]/a[1]\n        ARIA Path: /document[1]/heading[2]/link[1]\n        Code: <a href=\"#using-the-global-rspeedy-version\" aria-hidden=\"true\" class=\"link_a7cea header-anchor link_a9ef4 inline-link_f855c\">\n        messageArgs: ['a']\n        apiArgs: []"
+    id: lynx-10
+- env:
+    deployment:
+      type: docker
+      image: a11y/lynx:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[11] Violation of rule `element_tabbable_role_valid`: The tabbable element does not have a valid widget role\n        DOM Path: /html[1]/body[1]/div[1]/section[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/pre[1]\n        ARIA Path: /document[1]\n        Code: <pre style=\"background-color: var(--shiki-background); color: var(--shiki-foreground);\" tabindex=\"0\" class=\"shiki css-variables has-highlighted\">\n        messageArgs: []\n        apiArgs: []"
+    id: lynx-11
+- env:
+    deployment:
+      type: docker
+      image: a11y/lynx:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[12] Violation of rule `aria_hidden_nontabbable`: Element \"a\" should not be focusable within the subtree of an element with an 'aria-hidden' attribute with value 'true'\n        DOM Path: /html[1]/body[1]/div[1]/section[1]/div[1]/div[1]/div[2]/div[1]/div[1]/h2[2]/a[1]\n        ARIA Path: /document[1]/heading[3]/link[1]\n        Code: <a href=\"#using-nodejs-typescript-support\" aria-hidden=\"true\" class=\"link_a7cea header-anchor link_a9ef4 inline-link_f855c\">\n        messageArgs: ['a']\n        apiArgs: []"
+    id: lynx-12
+- env:
+    deployment:
+      type: docker
+      image: a11y/lynx:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[13] Violation of rule `element_tabbable_role_valid`: The tabbable element does not have a valid widget role\n        DOM Path: /html[1]/body[1]/div[1]/section[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[3]/div[2]/div[1]/pre[1]\n        ARIA Path: /document[1]\n        Code: <pre style=\"background-color: var(--shiki-background); color: var(--shiki-foreground);\" tabindex=\"0\" class=\"shiki css-variables has-highlighted\">\n        messageArgs: []\n        apiArgs: []"
+    id: lynx-13
+- env:
+    deployment:
+      type: docker
+      image: a11y/lynx:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[14] Violation of rule `aria_hidden_nontabbable`: Element \"a\" should not be focusable within the subtree of an element with an 'aria-hidden' attribute with value 'true'\n        DOM Path: /html[1]/body[1]/div[1]/section[1]/div[1]/div[1]/div[2]/div[1]/div[1]/h2[3]/a[1]\n        ARIA Path: /document[1]/heading[4]/link[1]\n        Code: <a href=\"#rspeedy--h\" aria-hidden=\"true\" class=\"link_a7cea header-anchor link_a9ef4 inline-link_f855c\">\n        messageArgs: ['a']\n        apiArgs: []"
+    id: lynx-14
+- env:
+    deployment:
+      type: docker
+      image: a11y/lynx:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[15] Violation of rule `element_tabbable_role_valid`: The tabbable element does not have a valid widget role\n        DOM Path: /html[1]/body[1]/div[1]/section[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/pre[1]\n        ARIA Path: /document[1]\n        Code: <pre style=\"background-color: var(--shiki-background); color: var(--shiki-foreground);\" tabindex=\"0\" class=\"shiki css-variables has-highlighted\">\n        messageArgs: []\n        apiArgs: []"
+    id: lynx-15
+- env:
+    deployment:
+      type: docker
+      image: a11y/lynx:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[16] Violation of rule `aria_hidden_nontabbable`: Element \"a\" should not be focusable within the subtree of an element with an 'aria-hidden' attribute with value 'true'\n        DOM Path: /html[1]/body[1]/div[1]/section[1]/div[1]/div[1]/div[2]/div[1]/div[1]/h2[4]/a[1]\n        ARIA Path: /document[1]/heading[5]/link[1]\n        Code: <a href=\"#rspeedy-dev\" aria-hidden=\"true\" class=\"link_a7cea header-anchor link_a9ef4 inline-link_f855c\">\n        messageArgs: ['a']\n        apiArgs: []"
+    id: lynx-16
+- env:
+    deployment:
+      type: docker
+      image: a11y/lynx:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[17] Violation of rule `element_tabbable_role_valid`: The tabbable element does not have a valid widget role\n        DOM Path: /html[1]/body[1]/div[1]/section[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]/pre[1]\n        ARIA Path: /document[1]\n        Code: <pre style=\"background-color: var(--shiki-background); color: var(--shiki-foreground);\" tabindex=\"0\" class=\"shiki css-variables has-highlighted\">\n        messageArgs: []\n        apiArgs: []"
+    id: lynx-17
+- env:
+    deployment:
+      type: docker
+      image: a11y/lynx:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[18] Violation of rule `aria_hidden_nontabbable`: Element \"a\" should not be focusable within the subtree of an element with an 'aria-hidden' attribute with value 'true'\n        DOM Path: /html[1]/body[1]/div[1]/section[1]/div[1]/div[1]/div[2]/div[1]/div[1]/h2[5]/a[1]\n        ARIA Path: /document[1]/heading[6]/link[1]\n        Code: <a href=\"#rspeedy-build\" aria-hidden=\"true\" class=\"link_a7cea header-anchor link_a9ef4 inline-link_f855c\">\n        messageArgs: ['a']\n        apiArgs: []"
+    id: lynx-18
+- env:
+    deployment:
+      type: docker
+      image: a11y/lynx:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[19] Violation of rule `element_tabbable_role_valid`: The tabbable element does not have a valid widget role\n        DOM Path: /html[1]/body[1]/div[1]/section[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]/pre[1]\n        ARIA Path: /document[1]\n        Code: <pre style=\"background-color: var(--shiki-background); color: var(--shiki-foreground);\" tabindex=\"0\" class=\"shiki css-variables has-highlighted\">\n        messageArgs: []\n        apiArgs: []"
+    id: lynx-19
+- env:
+    deployment:
+      type: docker
+      image: a11y/lynx:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[20] Violation of rule `aria_hidden_nontabbable`: Element \"a\" should not be focusable within the subtree of an element with an 'aria-hidden' attribute with value 'true'\n        DOM Path: /html[1]/body[1]/div[1]/section[1]/div[1]/div[1]/div[2]/div[1]/div[1]/h2[6]/a[1]\n        ARIA Path: /document[1]/heading[7]/link[1]\n        Code: <a href=\"#rspeedy-preview\" aria-hidden=\"true\" class=\"link_a7cea header-anchor link_a9ef4 inline-link_f855c\">\n        messageArgs: ['a']\n        apiArgs: []"
+    id: lynx-20
+- env:
+    deployment:
+      type: docker
+      image: a11y/lynx:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[21] Violation of rule `element_tabbable_role_valid`: The tabbable element does not have a valid widget role\n        DOM Path: /html[1]/body[1]/div[1]/section[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]/pre[1]\n        ARIA Path: /document[1]\n        Code: <pre style=\"background-color: var(--shiki-background); color: var(--shiki-foreground);\" tabindex=\"0\" class=\"shiki css-variables has-highlighted\">\n        messageArgs: []\n        apiArgs: []"
+    id: lynx-21
+- env:
+    deployment:
+      type: docker
+      image: a11y/lynx:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[22] Violation of rule `aria_hidden_nontabbable`: Element \"a\" should not be focusable within the subtree of an element with an 'aria-hidden' attribute with value 'true'\n        DOM Path: /html[1]/body[1]/div[1]/section[1]/div[1]/div[1]/div[2]/div[1]/div[1]/h2[7]/a[1]\n        ARIA Path: /document[1]/heading[8]/link[1]\n        Code: <a href=\"#rspeedy-inspect\" aria-hidden=\"true\" class=\"link_a7cea header-anchor link_a9ef4 inline-link_f855c\">\n        messageArgs: ['a']\n        apiArgs: []"
+    id: lynx-22
+- env:
+    deployment:
+      type: docker
+      image: a11y/lynx:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[23] Violation of rule `element_tabbable_role_valid`: The tabbable element does not have a valid widget role\n        DOM Path: /html[1]/body[1]/div[1]/section[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]/pre[1]\n        ARIA Path: /document[1]\n        Code: <pre style=\"background-color: var(--shiki-background); color: var(--shiki-foreground);\" tabindex=\"0\" class=\"shiki css-variables has-highlighted\">\n        messageArgs: []\n        apiArgs: []"
+    id: lynx-23
+- env:
+    deployment:
+      type: docker
+      image: a11y/lynx:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[24] Violation of rule `element_tabbable_role_valid`: The tabbable element does not have a valid widget role\n        DOM Path: /html[1]/body[1]/div[1]/section[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[11]/div[1]/div[1]/pre[1]\n        ARIA Path: /document[1]\n        Code: <pre style=\"background-color: var(--shiki-background); color: var(--shiki-foreground);\" tabindex=\"0\" class=\"shiki css-variables has-highlighted\">\n        messageArgs: []\n        apiArgs: []"
+    id: lynx-24
+- env:
+    deployment:
+      type: docker
+      image: a11y/lynx:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[25] Violation of rule `aria_hidden_nontabbable`: Element \"a\" should not be focusable within the subtree of an element with an 'aria-hidden' attribute with value 'true'\n        DOM Path: /html[1]/body[1]/div[1]/section[1]/div[1]/div[1]/div[2]/div[1]/div[1]/h3[1]/a[1]\n        ARIA Path: /document[1]/heading[9]/link[1]\n        Code: <a href=\"#specifying-mode\" aria-hidden=\"true\" class=\"link_a7cea header-anchor link_a9ef4 inline-link_f855c\">\n        messageArgs: ['a']\n        apiArgs: []"
+    id: lynx-25
+- env:
+    deployment:
+      type: docker
+      image: a11y/lynx:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[26] Violation of rule `element_tabbable_role_valid`: The tabbable element does not have a valid widget role\n        DOM Path: /html[1]/body[1]/div[1]/section[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[12]/div[1]/div[1]/pre[1]\n        ARIA Path: /document[1]\n        Code: <pre style=\"background-color: var(--shiki-background); color: var(--shiki-foreground);\" tabindex=\"0\" class=\"shiki css-variables has-highlighted\">\n        messageArgs: []\n        apiArgs: []"
+    id: lynx-26
+- env:
+    deployment:
+      type: docker
+      image: a11y/lynx:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[27] Violation of rule `aria_hidden_nontabbable`: Element \"a\" should not be focusable within the subtree of an element with an 'aria-hidden' attribute with value 'true'\n        DOM Path: /html[1]/body[1]/div[1]/section[1]/div[1]/div[1]/div[2]/div[1]/div[1]/h3[2]/a[1]\n        ARIA Path: /document[1]/heading[10]/link[1]\n        Code: <a href=\"#verbose-content\" aria-hidden=\"true\" class=\"link_a7cea header-anchor link_a9ef4 inline-link_f855c\">\n        messageArgs: ['a']\n        apiArgs: []"
+    id: lynx-27
+- env:
+    deployment:
+      type: docker
+      image: a11y/lynx:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[28] Violation of rule `element_tabbable_role_valid`: The tabbable element does not have a valid widget role\n        DOM Path: /html[1]/body[1]/div[1]/section[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[13]/div[1]/div[1]/pre[1]\n        ARIA Path: /document[1]\n        Code: <pre style=\"background-color: var(--shiki-background); color: var(--shiki-foreground);\" tabindex=\"0\" class=\"shiki css-variables has-highlighted\">\n        messageArgs: []\n        apiArgs: []"
+    id: lynx-28
+- env:
+    deployment:
+      type: docker
+      image: a11y/lynx:latest
+    repo:
+      type: preexisting
+      repo_name: app
+  problem_statement:
+    type: text
+    text: "[29] Violation of rule `aria_navigation_label_unique`: Multiple elements with \"navigation\" role do not have unique labels\n        DOM Path: /html[1]/body[1]/div[1]/section[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/nav[1]\n        ARIA Path: /document[1]/navigation[1]\n        Code: <nav class=\"rp-mt-1\">\n        messageArgs: []\n        apiArgs: []"
+    id: lynx-29

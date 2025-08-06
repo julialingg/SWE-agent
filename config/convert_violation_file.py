@@ -1,6 +1,6 @@
 import json
 
-with open("./config/typescript_localhost_8000_tools_violation.json") as f:
+with open("./config/filtered-tailwindcss.json") as f:
     data = json.load(f)
   
 description = []
@@ -9,7 +9,6 @@ for i, violation in enumerate(data["results"], 1):
     rule = violation.get("ruleId", "")
     msg = violation.get("message", "")
     snippet = violation.get("snippet", "").strip()
-    help_url = violation.get("help", "")
     path_dom = violation.get("path", {}).get("dom", "")
     path_aria = violation.get("path", {}).get("aria", "")
     message_args = violation.get("messageArgs", [])
@@ -22,10 +21,10 @@ for i, violation in enumerate(data["results"], 1):
         f"  Code: {snippet}\n"
         f"  messageArgs: {message_args}\n"
         f"  apiArgs: {api_args}\n"
-        f"  Learn more: {help_url}"
+    
     )
 
 final_text = "\n\n".join(description)
 
-with open("problem_statement_typescript_tools.txt", "w") as f:
+with open("problem_statement_tailwindcss.txt", "w") as f:
     f.write(final_text)

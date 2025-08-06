@@ -1,0 +1,230 @@
+[1] Violation of rule `input_label_exists`: Form control element <button> has no associated label
+  DOM Path: /html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/button[1]
+  ARIA Path: /document[1]/button[1]
+  Code: <button data-state="closed" aria-expanded="false" aria-haspopup="menu" id="radix-:r0:" class="sh-flex sh-items-center sh-rounded-md sh-px-1.5 sh-py-2 sh-text-sm sh-text-foreground hover:sh-bg-accent -sh-ml-1 -sh-mb-1" type="button">
+  messageArgs: ['button']
+  apiArgs: []
+
+
+[2] Violation of rule `a_text_purpose`: Hyperlink has no link text, label or image with a text alternative
+  DOM Path: /html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[3]/div[3]/div[1]/a[1]
+  ARIA Path: /document[1]/link[8]
+  Code: <a class="social-links" rel="noopener noreferrer" target="_blank" href="https://github.com/lynx-family">
+  messageArgs: []
+  apiArgs: []
+
+
+[3] Violation of rule `a_text_purpose`: Hyperlink has no link text, label or image with a text alternative
+  DOM Path: /html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[3]/div[3]/div[1]/a[2]
+  ARIA Path: /document[1]/link[9]
+  Code: <a class="social-links" rel="noopener noreferrer" target="_blank" href="https://discord.gg/mXk7jqdDXk">
+  messageArgs: []
+  apiArgs: []
+
+
+[4] Violation of rule `a_text_purpose`: Hyperlink has no link text, label or image with a text alternative
+  DOM Path: /html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[3]/div[3]/div[1]/a[3]
+  ARIA Path: /document[1]/link[10]
+  Code: <a class="social-links" rel="noopener noreferrer" target="_blank" href="https://x.com/lynxjs_org">
+  messageArgs: []
+  apiArgs: []
+
+
+[5] Violation of rule `aria_complementary_labelled`: Element with "complementary" role does not have a label
+  DOM Path: /html[1]/body[1]/div[1]/section[1]/div[1]/aside[1]
+  ARIA Path: /document[1]/complementary[1]
+  Code: <aside class="sidebar_dd719 rspress-sidebar ">
+  messageArgs: []
+  apiArgs: []
+
+
+[6] Violation of rule `element_id_unique`: The <img> element has the id "logo" that is already in use
+  DOM Path: /html[1]/body[1]/div[1]/section[1]/div[1]/aside[1]/div[1]/div[1]/a[1]/div[1]/img[1]
+  ARIA Path: /document[1]/complementary[1]/link[1]/img[1]
+  Code: <img class="rspress-logo dark:rp-hidden" id="logo" alt="logo" src="https://lf-lynx.tiktok-cdns.com/obj/lynx-artifacts-oss-sg/lynx-website/assets/lynx-dark-logo.svg">
+  messageArgs: ['img', 'logo']
+  apiArgs: []
+
+
+[7] Violation of rule `aria_navigation_label_unique`: Multiple elements with "navigation" role do not have unique labels
+  DOM Path: /html[1]/body[1]/div[1]/section[1]/div[1]/aside[1]/div[2]/nav[1]
+  ARIA Path: /document[1]/complementary[1]/navigation[1]
+  Code: <nav class="rp-pb-2">
+  messageArgs: []
+  apiArgs: []
+
+
+[8] Violation of rule `aria_id_unique`: The 'id' "radix-:r2:" specified for the ARIA property 'aria-controls' value is not valid
+  DOM Path: /html[1]/body[1]/div[1]/section[1]/div[1]/aside[1]/div[2]/nav[1]/div[1]/div[2]/button[1]
+  ARIA Path: /document[1]/complementary[1]/navigation[1]/combobox[1]
+  Code: <button class="sh-flex sh-h-10 sh-w-full sh-items-center sh-justify-between sh-rounded-md sh-border sh-border-input sh-bg-background sh-px-3 sh-py-2 sh-text-sm sh-ring-offset-background placeholder:sh-text-muted-foreground focus:sh-outline-none focus:sh-ring-2 focus:sh-ring-ring focus:sh-ring-offset-2 disabled:sh-cursor-not-allowed disabled:sh-opacity-50 [&>span]:sh-line-clamp-1 sh-h-auto sh-border-0 sh-bg-transparent sh-px-4 sh-py-2 sh-shadow-none [&>span]:sh-flex [&>span]:sh-flex-1 sh-relative before:sh-pointer-events-none before:sh-absolute before:sh-inset-0 before:sh-size-full before:sh-rounded-md before:sh-p-[1px] before:sh-will-change-[background-position] before:sh-content-[''] before:sh-[-webkit-mask-composite:xor] before:sh-[mask-composite:exclude] before:sh-bg-shine before:sh-bg-[length:300%_300%] before:[mask:linear-gradient(white_0_0)_content-box,linear-gradient(white_0_0)] before:sh-opacity-0 hover:before:sh-opacity-100 before:sh-transition-opacity before:sh-duration-300 hover:motion-safe:before:sh-animate-shine sh-transition-all hover:sh-shadow-[0_0_12px_-3px_var(--rp-c-brand)] hover:sh-translate-y-[-1px]" data-state="closed" dir="ltr" aria-autocomplete="none" aria-expanded="false" aria-controls="radix-:r2:" role="combobox" type="button">
+  messageArgs: ['radix-:r2:', 'aria-controls', 'button']
+  apiArgs: []
+
+
+[9] Violation of rule `aria_hidden_nontabbable`: Element "a" should not be focusable within the subtree of an element with an 'aria-hidden' attribute with value 'true'
+  DOM Path: /html[1]/body[1]/div[1]/section[1]/div[1]/div[1]/div[2]/div[1]/div[1]/h1[1]/a[1]
+  ARIA Path: /document[1]/heading[1]/link[1]
+  Code: <a href="#cli" aria-hidden="true" class="link_a7cea header-anchor link_a9ef4 inline-link_f855c">
+  messageArgs: ['a']
+  apiArgs: []
+
+
+[10] Violation of rule `aria_hidden_nontabbable`: Element "a" should not be focusable within the subtree of an element with an 'aria-hidden' attribute with value 'true'
+  DOM Path: /html[1]/body[1]/div[1]/section[1]/div[1]/div[1]/div[2]/div[1]/div[1]/h2[1]/a[1]
+  ARIA Path: /document[1]/heading[2]/link[1]
+  Code: <a href="#using-the-global-rspeedy-version" aria-hidden="true" class="link_a7cea header-anchor link_a9ef4 inline-link_f855c">
+  messageArgs: ['a']
+  apiArgs: []
+
+
+[11] Violation of rule `element_tabbable_role_valid`: The tabbable element does not have a valid widget role
+  DOM Path: /html[1]/body[1]/div[1]/section[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/pre[1]
+  ARIA Path: /document[1]
+  Code: <pre style="background-color: var(--shiki-background); color: var(--shiki-foreground);" tabindex="0" class="shiki css-variables has-highlighted">
+  messageArgs: []
+  apiArgs: []
+
+
+[12] Violation of rule `aria_hidden_nontabbable`: Element "a" should not be focusable within the subtree of an element with an 'aria-hidden' attribute with value 'true'
+  DOM Path: /html[1]/body[1]/div[1]/section[1]/div[1]/div[1]/div[2]/div[1]/div[1]/h2[2]/a[1]
+  ARIA Path: /document[1]/heading[3]/link[1]
+  Code: <a href="#using-nodejs-typescript-support" aria-hidden="true" class="link_a7cea header-anchor link_a9ef4 inline-link_f855c">
+  messageArgs: ['a']
+  apiArgs: []
+
+
+[13] Violation of rule `element_tabbable_role_valid`: The tabbable element does not have a valid widget role
+  DOM Path: /html[1]/body[1]/div[1]/section[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[3]/div[2]/div[1]/pre[1]
+  ARIA Path: /document[1]
+  Code: <pre style="background-color: var(--shiki-background); color: var(--shiki-foreground);" tabindex="0" class="shiki css-variables has-highlighted">
+  messageArgs: []
+  apiArgs: []
+
+
+[14] Violation of rule `aria_hidden_nontabbable`: Element "a" should not be focusable within the subtree of an element with an 'aria-hidden' attribute with value 'true'
+  DOM Path: /html[1]/body[1]/div[1]/section[1]/div[1]/div[1]/div[2]/div[1]/div[1]/h2[3]/a[1]
+  ARIA Path: /document[1]/heading[4]/link[1]
+  Code: <a href="#rspeedy--h" aria-hidden="true" class="link_a7cea header-anchor link_a9ef4 inline-link_f855c">
+  messageArgs: ['a']
+  apiArgs: []
+
+
+[15] Violation of rule `element_tabbable_role_valid`: The tabbable element does not have a valid widget role
+  DOM Path: /html[1]/body[1]/div[1]/section[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/pre[1]
+  ARIA Path: /document[1]
+  Code: <pre style="background-color: var(--shiki-background); color: var(--shiki-foreground);" tabindex="0" class="shiki css-variables has-highlighted">
+  messageArgs: []
+  apiArgs: []
+
+
+[16] Violation of rule `aria_hidden_nontabbable`: Element "a" should not be focusable within the subtree of an element with an 'aria-hidden' attribute with value 'true'
+  DOM Path: /html[1]/body[1]/div[1]/section[1]/div[1]/div[1]/div[2]/div[1]/div[1]/h2[4]/a[1]
+  ARIA Path: /document[1]/heading[5]/link[1]
+  Code: <a href="#rspeedy-dev" aria-hidden="true" class="link_a7cea header-anchor link_a9ef4 inline-link_f855c">
+  messageArgs: ['a']
+  apiArgs: []
+
+
+[17] Violation of rule `element_tabbable_role_valid`: The tabbable element does not have a valid widget role
+  DOM Path: /html[1]/body[1]/div[1]/section[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]/pre[1]
+  ARIA Path: /document[1]
+  Code: <pre style="background-color: var(--shiki-background); color: var(--shiki-foreground);" tabindex="0" class="shiki css-variables has-highlighted">
+  messageArgs: []
+  apiArgs: []
+
+
+[18] Violation of rule `aria_hidden_nontabbable`: Element "a" should not be focusable within the subtree of an element with an 'aria-hidden' attribute with value 'true'
+  DOM Path: /html[1]/body[1]/div[1]/section[1]/div[1]/div[1]/div[2]/div[1]/div[1]/h2[5]/a[1]
+  ARIA Path: /document[1]/heading[6]/link[1]
+  Code: <a href="#rspeedy-build" aria-hidden="true" class="link_a7cea header-anchor link_a9ef4 inline-link_f855c">
+  messageArgs: ['a']
+  apiArgs: []
+
+
+[19] Violation of rule `element_tabbable_role_valid`: The tabbable element does not have a valid widget role
+  DOM Path: /html[1]/body[1]/div[1]/section[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]/pre[1]
+  ARIA Path: /document[1]
+  Code: <pre style="background-color: var(--shiki-background); color: var(--shiki-foreground);" tabindex="0" class="shiki css-variables has-highlighted">
+  messageArgs: []
+  apiArgs: []
+
+
+[20] Violation of rule `aria_hidden_nontabbable`: Element "a" should not be focusable within the subtree of an element with an 'aria-hidden' attribute with value 'true'
+  DOM Path: /html[1]/body[1]/div[1]/section[1]/div[1]/div[1]/div[2]/div[1]/div[1]/h2[6]/a[1]
+  ARIA Path: /document[1]/heading[7]/link[1]
+  Code: <a href="#rspeedy-preview" aria-hidden="true" class="link_a7cea header-anchor link_a9ef4 inline-link_f855c">
+  messageArgs: ['a']
+  apiArgs: []
+
+
+[21] Violation of rule `element_tabbable_role_valid`: The tabbable element does not have a valid widget role
+  DOM Path: /html[1]/body[1]/div[1]/section[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]/pre[1]
+  ARIA Path: /document[1]
+  Code: <pre style="background-color: var(--shiki-background); color: var(--shiki-foreground);" tabindex="0" class="shiki css-variables has-highlighted">
+  messageArgs: []
+  apiArgs: []
+
+
+[22] Violation of rule `aria_hidden_nontabbable`: Element "a" should not be focusable within the subtree of an element with an 'aria-hidden' attribute with value 'true'
+  DOM Path: /html[1]/body[1]/div[1]/section[1]/div[1]/div[1]/div[2]/div[1]/div[1]/h2[7]/a[1]
+  ARIA Path: /document[1]/heading[8]/link[1]
+  Code: <a href="#rspeedy-inspect" aria-hidden="true" class="link_a7cea header-anchor link_a9ef4 inline-link_f855c">
+  messageArgs: ['a']
+  apiArgs: []
+
+
+[23] Violation of rule `element_tabbable_role_valid`: The tabbable element does not have a valid widget role
+  DOM Path: /html[1]/body[1]/div[1]/section[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]/pre[1]
+  ARIA Path: /document[1]
+  Code: <pre style="background-color: var(--shiki-background); color: var(--shiki-foreground);" tabindex="0" class="shiki css-variables has-highlighted">
+  messageArgs: []
+  apiArgs: []
+
+
+[24] Violation of rule `element_tabbable_role_valid`: The tabbable element does not have a valid widget role
+  DOM Path: /html[1]/body[1]/div[1]/section[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[11]/div[1]/div[1]/pre[1]
+  ARIA Path: /document[1]
+  Code: <pre style="background-color: var(--shiki-background); color: var(--shiki-foreground);" tabindex="0" class="shiki css-variables has-highlighted">
+  messageArgs: []
+  apiArgs: []
+
+
+[25] Violation of rule `aria_hidden_nontabbable`: Element "a" should not be focusable within the subtree of an element with an 'aria-hidden' attribute with value 'true'
+  DOM Path: /html[1]/body[1]/div[1]/section[1]/div[1]/div[1]/div[2]/div[1]/div[1]/h3[1]/a[1]
+  ARIA Path: /document[1]/heading[9]/link[1]
+  Code: <a href="#specifying-mode" aria-hidden="true" class="link_a7cea header-anchor link_a9ef4 inline-link_f855c">
+  messageArgs: ['a']
+  apiArgs: []
+
+
+[26] Violation of rule `element_tabbable_role_valid`: The tabbable element does not have a valid widget role
+  DOM Path: /html[1]/body[1]/div[1]/section[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[12]/div[1]/div[1]/pre[1]
+  ARIA Path: /document[1]
+  Code: <pre style="background-color: var(--shiki-background); color: var(--shiki-foreground);" tabindex="0" class="shiki css-variables has-highlighted">
+  messageArgs: []
+  apiArgs: []
+
+
+[27] Violation of rule `aria_hidden_nontabbable`: Element "a" should not be focusable within the subtree of an element with an 'aria-hidden' attribute with value 'true'
+  DOM Path: /html[1]/body[1]/div[1]/section[1]/div[1]/div[1]/div[2]/div[1]/div[1]/h3[2]/a[1]
+  ARIA Path: /document[1]/heading[10]/link[1]
+  Code: <a href="#verbose-content" aria-hidden="true" class="link_a7cea header-anchor link_a9ef4 inline-link_f855c">
+  messageArgs: ['a']
+  apiArgs: []
+
+
+[28] Violation of rule `element_tabbable_role_valid`: The tabbable element does not have a valid widget role
+  DOM Path: /html[1]/body[1]/div[1]/section[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[13]/div[1]/div[1]/pre[1]
+  ARIA Path: /document[1]
+  Code: <pre style="background-color: var(--shiki-background); color: var(--shiki-foreground);" tabindex="0" class="shiki css-variables has-highlighted">
+  messageArgs: []
+  apiArgs: []
+
+
+[29] Violation of rule `aria_navigation_label_unique`: Multiple elements with "navigation" role do not have unique labels
+  DOM Path: /html[1]/body[1]/div[1]/section[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/nav[1]
+  ARIA Path: /document[1]/navigation[1]
+  Code: <nav class="rp-mt-1">
+  messageArgs: []
+  apiArgs: []
